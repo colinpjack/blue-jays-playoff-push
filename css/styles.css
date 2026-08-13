@@ -699,13 +699,112 @@ footer {
 
 .tiny { font-size: 12px; }
 
+.term {
+  position: relative;
+  border-bottom: 1px dotted rgba(243, 193, 75, 0.75);
+  text-decoration: none;
+  cursor: help;
+  color: inherit;
+}
+
+.term:focus {
+  outline: 1px dashed var(--gold);
+  outline-offset: 2px;
+}
+
+.term:hover::after,
+.term:focus-visible::after {
+  content: attr(data-tip);
+  position: absolute;
+  z-index: 20;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  transform: translateX(-50%);
+  width: max(220px, 100%);
+  min-width: 220px;
+  max-width: 280px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: #f7f1e4;
+  color: #172033;
+  font-family: Outfit, system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 1.35;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+  white-space: normal;
+  pointer-events: none;
+}
+
+.kpi .term,
+.board .term,
+.statline .term,
+.meta .term,
+.compare .term,
+.section-head .term {
+  position: relative;
+}
+
+.trends {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.trend-card {
+  padding: 16px 18px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: rgba(12, 28, 51, 0.8);
+}
+
+.trend-card .label {
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.trend-card .value {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 36px;
+  line-height: 1;
+  margin: 8px 0 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trend-card.up { box-shadow: inset 3px 0 0 var(--win); }
+.trend-card.down { box-shadow: inset 3px 0 0 var(--loss); }
+
+.trend {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.trend.up { color: var(--win); }
+.trend.down { color: var(--loss); }
+.trend.flat { color: var(--muted); }
+
+.player-trend { margin-top: 4px; }
+
 @media (max-width: 900px) {
   .hero, .split, .kpis { grid-template-columns: 1fr; }
   .kpis { grid-template-columns: 1fr 1fr; }
+  .trends { grid-template-columns: 1fr 1fr; }
   h1 { font-size: 48px; }
 }
 
 @media (max-width: 560px) {
-  .kpis { grid-template-columns: 1fr; }
+  .kpis, .trends { grid-template-columns: 1fr; }
   .topbar { align-items: flex-start; flex-direction: column; }
 }

@@ -65,6 +65,14 @@
 
     <section class="panel">
       <div class="section-head">
+        <h3>Trendlines</h3>
+        <p>Where the Jays were a week ago, and whether the bats and arms are actually heating up.</p>
+      </div>
+      <div class="trends" id="trends"></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
         <h3>The cut line</h3>
         <p>Six AL clubs make October: three division winners, three wild cards. The Jays are fighting for one of those wild-card tickets.</p>
       </div>
@@ -77,15 +85,16 @@
         <table class="board" id="wildCardTable">
           <thead>
             <tr>
-              <th>WC</th>
+              <th><abbr class="term" title="Wild-card rank among American League teams that are not leading their division.">WC</abbr></th>
               <th>Team</th>
-              <th>W-L</th>
-              <th>Pct</th>
-              <th>GB</th>
-              <th>L10</th>
-              <th>Strk</th>
-              <th>Diff</th>
-              <th>Elim</th>
+              <th><abbr class="term" title="Wins and losses this season.">W-L</abbr></th>
+              <th><abbr class="term" title="Winning percentage: wins divided by games played.">Pct</abbr></th>
+              <th><abbr class="term" title="Games back of the last (3rd) American League wild-card spot. A plus number means the club is already in and has a cushion.">GB</abbr></th>
+              <th><abbr class="term" title="Change in wild-card gap over the past 7 days. Negative means they gained ground on the last playoff ticket.">7d</abbr></th>
+              <th><abbr class="term" title="Record over the last 10 games.">L10</abbr></th>
+              <th><abbr class="term" title="Current winning or losing streak.">Strk</abbr></th>
+              <th><abbr class="term" title="Season run differential: runs scored minus runs allowed.">Diff</abbr></th>
+              <th><abbr class="term" title="Wild-card elimination number: Jays losses plus rival wins that mathematically end Toronto's shot.">Elim</abbr></th>
               <th>Next</th>
             </tr>
           </thead>
@@ -107,8 +116,8 @@
                 <th>#</th>
                 <th>Team</th>
                 <th>W-L</th>
-                <th>GB</th>
-                <th>L10</th>
+                <th><abbr class="term" title="Games back of the American League East leader.">GB</abbr></th>
+                <th><abbr class="term" title="Record over the last 10 games.">L10</abbr></th>
                 <th>Home</th>
                 <th>Away</th>
               </tr>
@@ -129,7 +138,7 @@
     <section class="panel">
       <div class="section-head">
         <h3>How the bubble stacks up</h3>
-        <p>Same race, different engines. OPS, ERA, run differential, and last-10 form for every club in the hunt.</p>
+        <p>Same race, different engines. Hover any stat abbreviation for a plain-English definition.</p>
       </div>
       <div class="compare" id="compare"></div>
     </section>
@@ -172,14 +181,14 @@
       <section class="panel">
         <div class="section-head">
           <h3>The bats</h3>
-          <p>Qualified hitters and the names that still have to carry October.</p>
+          <p>Current 26-man roster only — season numbers plus last-10 form. Hover <abbr class="term" title="On-base Plus Slugging: on-base percentage plus slugging percentage. Around .700 is average; .800+ is excellent.">OPS</abbr> and friends for definitions.</p>
         </div>
         <div class="players" id="hitters"></div>
       </section>
       <section class="panel">
         <div class="section-head">
           <h3>The arms</h3>
-          <p>Starters and high-leverage pieces still on the active side of the ledger.</p>
+          <p>Pitchers on the active roster right now. Last-14-day <abbr class="term" title="Earned Run Average: earned runs allowed per nine innings. Lower is better.">ERA</abbr> shows who is actually rolling.</p>
         </div>
         <div class="players" id="pitchers"></div>
       </section>

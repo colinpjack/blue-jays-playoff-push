@@ -1,5 +1,58 @@
 const $ = (id) => document.getElementById(id);
 
+const TERMS = {
+  OPS: "On-base Plus Slugging: on-base percentage plus slugging percentage. Around .700 is average; .800+ is excellent.",
+  OBP: "On-base Percentage: times reaching base (hits, walks, HBP) divided by plate appearances.",
+  SLG: "Slugging Percentage: total bases divided by at-bats. Extra-base hits raise this number.",
+  AVG: "Batting average: hits divided by at-bats.",
+  ERA: "Earned Run Average: earned runs allowed per nine innings. Lower is better.",
+  WHIP: "Walks plus Hits per Inning Pitched. Lower is better. Under 1.20 is strong.",
+  GB: "Games back of the last (3rd) American League wild-card spot. A plus number means the club is already in.",
+  WC: "Wild card: the three extra AL playoff berths after the three division winners.",
+  L10: "Record over the last 10 games.",
+  PCT: "Winning percentage: wins divided by games played.",
+  RBI: "Runs Batted In: runs that score as a direct result of the batter's plate appearance.",
+  HR: "Home runs.",
+  SB: "Stolen bases.",
+  IP: "Innings pitched. One out is a third of an inning.",
+  "K/9": "Strikeouts per nine innings.",
+  "W-L": "Wins and losses.",
+  SV: "Saves.",
+  HLD: "Holds: a reliever keeps a lead without finishing the game.",
+  SP: "Starting pitcher.",
+  RP: "Relief pitcher.",
+  PA: "Plate appearances.",
+  Diff: "Season run differential: runs scored minus runs allowed.",
+  Elim: "Elimination number: Jays losses plus rival wins that mathematically end Toronto's shot.",
+  Pythag: "Pythagorean record: the W-L the run differential says the team 'should' have.",
+  BABIP: "Batting Average on Balls In Play. Extreme numbers often regress.",
+  IL: "Injured list.",
+  SOS: "Strength of remaining schedule, as opponents' winning percentage.",
+};
+
+function term(code, label = code) {
+  const def = TERMS[code];
+  if (!def) return esc(label);
+  return `<abbr class="term" tabindex="0" title="${esc(def)}" data-tip="${esc(def)}">${esc(label)}</abbr>`;
+}
+
+function trendBadge(direction, text) {
+  if (!direction || direction === "flat") {
+    return text ? `<span class="trend flat">${esc(text)}</span>` : "";
+  }
+  const arrow = direction === "up" ? "▲" : "▼";
+  return `<span class="trend ${esc(direction)}">${arrow} ${esc(text || "")}</span>`;
+}
+
+function gbTrendLabel(weekAgo) {
+  if (!weekAgo || weekAgo.gbDelta == null) return "—";
+  const delta = weekAgo.gbDelta;
+  const abs = Math.abs(delta).toFixed(1);
+  if (delta === 0) return "even";
+  const text = delta < 0 ? `−${abs}` : `+${abs}`;
+  return trendBadge(weekAgo.direction, text);
+}
+
 function esc(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -108,9 +161,20 @@ function renderHero(data) {
 function renderKpis(data) {
   $("kpis").innerHTML = (data.kpis || []).map((kpi) => `
     <article class="kpi">
-      <div class="label">${esc(kpi.label)}</div>
+      <div class="label">${kpi.stat ? term(kpi.stat, kpi.label) : esc(kpi.label)}</div>
       <div class="value">${esc(kpi.value)}</div>
-      <div class="hint">${esc(kpi.hint)}</div>
+      <div class="hint">${esc(kpi.hint)}${kpi.trend ? ` ${trendBadge(kpi.trend, "")}` : ""}</div>
+    </article>
+  `).join("");
+}
+
+function renderTrends(data) {
+  const cards = data.trends?.cards || [];
+  $("trends").innerHTML = cards.map((card) => `
+    <article class="trend-card ${esc(card.direction || "flat")}">
+      <div class="label">${card.stat ? term(card.stat, card.label) : esc(card.label)}</div>
+      <div class="value">${esc(card.value)} ${trendBadge(card.direction, "")}</div>
+      <div class="hint">${esc(card.detail)}</div>
     </article>
   `).join("");
 }
@@ -132,6 +196,7 @@ function renderWildCard(data) {
       <td>${esc(record(team))}</td>
       <td>${esc(team.pct)}</td>
       <td>${esc(gbDisplay(team.wildCardGamesBack))}</td>
+      <td>${gbTrendLabel(team.weekAgo)}</td>
       <td>${esc(team.lastTen)}</td>
       <td class="${streakClass(team.streak)}">${esc(team.streak)}</td>
       <td>${team.runDifferential > 0 ? "+" : ""}${esc(team.runDifferential)}</td>
@@ -175,8 +240,8 @@ function metricMax(rows, getter) {
 function renderCompare(data) {
   const race = data.race || [];
   const blocks = [
-    { title: "OPS", get: (t) => parseFloat(t.hitting?.ops || 0), format: (t) => t.hitting?.ops || "—" },
-    { title: "Staff ERA", get: (t) => 6 - parseFloat(t.pitching?.era || 6), format: (t) => t.pitching?.era || "—" },
+    { title: term("OPS"), get: (t) => parseFloat(t.hitting?.ops || 0), format: (t) => t.hitting?.ops || "—" },
+    { title: `Staff ${term("ERA")}`, get: (t) => 6 - parseFloat(t.pitching?.era || 6), format: (t) => t.pitching?.era || "—" },
     { title: "Run differential", get: (t) => Math.max(0, (t.runDifferential || 0) + 80), format: (t) => `${t.runDifferential > 0 ? "+" : ""}${t.runDifferential}` },
     { title: "Last 10 wins", get: (t) => t.lastTenWins || 0, format: (t) => t.lastTen || "—" },
   ];
@@ -190,7 +255,7 @@ function renderCompare(data) {
         <b>${esc(block.format(team))}</b>
       </div>`;
     }).join("");
-    return `<div><header>${esc(block.title)}</header>${rows}</div>`;
+        return `<div><header>${block.title}</header>${rows}</div>`;
   }).join("");
 }
 
@@ -262,26 +327,30 @@ function renderInjuries(data) {
 }
 
 function renderPlayers(data) {
-  $("hitters").innerHTML = (data.leaders?.hitting || []).map((p) => `
-    <article class="player">
+  $("hitters").innerHTML = (data.leaders?.hitting || []).map((p) => {
+    const hot = p.trend;
+    return `<article class="player">
       <img src="${esc(p.headshot)}" alt="" onerror="this.style.opacity='0.2'" />
       <div>
         <strong>${esc(p.name)}</strong>
-        <div class="meta">${esc(p.avg)} AVG · ${esc(p.hr)} HR · ${esc(p.rbi)} RBI · ${esc(p.sb)} SB</div>
+        <div class="meta">${esc(p.position || "")} · ${esc(p.avg)} ${term("AVG")} · ${esc(p.hr)} ${term("HR")} · ${esc(p.rbi)} ${term("RBI")} · ${esc(p.sb)} ${term("SB")}</div>
+        ${hot?.ops ? `<div class="player-trend">${trendBadge(hot.direction, `${hot.window} ${hot.ops} OPS`)}</div>` : ""}
       </div>
-      <div class="statline">${esc(p.ops)} OPS</div>
-    </article>
-  `).join("");
-  $("pitchers").innerHTML = (data.leaders?.pitching || []).map((p) => `
-    <article class="player">
+      <div class="statline">${esc(p.ops)} ${term("OPS")}</div>
+    </article>`;
+  }).join("");
+  $("pitchers").innerHTML = (data.leaders?.pitching || []).map((p) => {
+    const hot = p.trend;
+    return `<article class="player">
       <img src="${esc(p.headshot)}" alt="" onerror="this.style.opacity='0.2'" />
       <div>
         <strong>${esc(p.name)}</strong>
-        <div class="meta">${esc(p.role)} · ${esc(p.ip)} IP · ${esc(p.w)}-${esc(p.l)} · ${esc(p.so)} K${p.sv ? ` · ${p.sv} SV` : ""}</div>
+        <div class="meta">${term(p.role)} · ${esc(p.ip)} ${term("IP")} · ${esc(p.w)}-${esc(p.l)} · ${esc(p.so)} K${p.sv ? ` · ${p.sv} ${term("SV")}` : ""}</div>
+        ${hot?.era ? `<div class="player-trend">${trendBadge(hot.direction, `${hot.window} ${hot.era} ERA`)}</div>` : ""}
       </div>
-      <div class="statline">${esc(p.era)} ERA<br>${esc(p.whip)} WHIP</div>
-    </article>
-  `).join("");
+      <div class="statline">${esc(p.era)} ${term("ERA")}<br>${esc(p.whip)} ${term("WHIP")}</div>
+    </article>`;
+  }).join("");
 }
 
 async function boot() {
@@ -292,6 +361,7 @@ async function boot() {
     renderTicker(data);
     renderHero(data);
     renderKpis(data);
+    renderTrends(data);
     renderWildCard(data);
     renderEast(data);
     renderDivLeaders(data);
@@ -301,6 +371,9 @@ async function boot() {
     renderResults(data);
     renderInjuries(data);
     renderPlayers(data);
+    document.querySelectorAll("abbr.term[title]").forEach((el) => {
+      if (!el.dataset.tip) el.dataset.tip = el.getAttribute("title");
+    });
   } catch (err) {
     $("headline").textContent = "Dashboard needs a data refresh";
     $("blurb").textContent = "Run scripts/fetch_playoff_data.py, then push data.json to GitHub Pages.";

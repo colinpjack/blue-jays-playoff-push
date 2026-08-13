@@ -333,6 +333,236 @@ def injury_items(espn_team: dict | None, fallback: list[dict]) -> list[dict]:
     return fallback
 
 
+def splits_by_player(payload: dict) -> dict[int, dict]:
+    out: dict[int, dict] = {}
+    for split in (payload.get("stats") or [{}])[0].get("splits") or []:
+        pid = (split.get("player") or {}).get("id")
+        if pid:
+            out[int(pid)] = split
+    return out
+
+
+def first_split_stat(payload: dict) -> dict:
+    splits = (payload.get("stats") or [{}])[0].get("splits") or []
+    return (splits[0].get("stat") or {}) if splits else {}
+
+
+def headshot_url(player_id: int | None) -> str:
+    return (
+        "https://img.mlbstatic.com/mlb-photos/image/upload/"
+        "d_people:generic:headshot:67:current.png/w_180,q_auto:best/"
+        f"v1/people/{player_id}/headshot/67/current"
+    )
+
+
+def relative_to_cut(wcgb_raw) -> float | None:
+    if wcgb_raw in (None, ""):
+        return None
+    text = str(wcgb_raw)
+    if text == "-":
+        return 0.0
+    if text.startswith("+"):
+        return -float(text[1:] or 0)
+    try:
+        return float(text)
+    except ValueError:
+        return None
+
+
+def trend_dir(delta: float | None, *, invert: bool = False, deadzone: float = 0.0) -> str:
+    if delta is None:
+        return "flat"
+    value = -delta if invert else delta
+    if abs(value) <= deadzone:
+        return "flat"
+    return "up" if value > 0 else "down"
+
+
+def parse_ip(value) -> float:
+    text = str(value or "0")
+    if "." in text:
+        whole, frac = text.split(".", 1)
+        try:
+            return int(whole) + int(frac) / 3
+        except ValueError:
+            return 0.0
+    try:
+        return float(text)
+    except ValueError:
+        return 0.0
+
+
+def week_ago_map(standings: dict) -> dict[int, dict]:
+    out: dict[int, dict] = {}
+    for block in standings.get("records") or []:
+        if block.get("standingsType") and block.get("standingsType") != "wildCard":
+            continue
+        for rec in block.get("teamRecords") or []:
+            team = rec.get("team") or {}
+            tid = team.get("id")
+            if not tid:
+                continue
+            out[int(tid)] = {
+                "wildCardRank": int(rec.get("wildCardRank") or 0) or None,
+                "wildCardGamesBack": rec.get("wildCardGamesBack"),
+                "rel": relative_to_cut(rec.get("wildCardGamesBack")),
+                "wins": int(rec.get("wins") or 0),
+                "losses": int(rec.get("losses") or 0),
+            }
+    return out
+
+
+def apply_week_trends(teams: list[dict], prior: dict[int, dict]) -> None:
+    for team in teams:
+        prev = prior.get(team["id"])
+        if not prev:
+            continue
+        now_rel = relative_to_cut(team.get("wildCardGamesBack"))
+        then_rel = prev.get("rel")
+        gb_delta = None
+        if now_rel is not None and then_rel is not None:
+            gb_delta = round(now_rel - then_rel, 1)
+        rank_now = team.get("wildCardRank")
+        rank_then = prev.get("wildCardRank")
+        rank_delta = None
+        if rank_now and rank_then:
+            rank_delta = rank_now - rank_then
+        team["weekAgo"] = {
+            "wildCardRank": rank_then,
+            "wildCardGamesBack": prev.get("wildCardGamesBack"),
+            "wins": prev.get("wins"),
+            "losses": prev.get("losses"),
+            "gbDelta": gb_delta,
+            "rankDelta": rank_delta,
+            "direction": trend_dir(gb_delta, invert=True, deadzone=0.05),
+        }
+
+
+def active_roster_maps(roster_payload: dict) -> tuple[dict[int, dict], set[int], set[int]]:
+    by_id: dict[int, dict] = {}
+    hitters: set[int] = set()
+    pitchers: set[int] = set()
+    for entry in roster_payload.get("roster") or []:
+        person = entry.get("person") or {}
+        pid = person.get("id")
+        if not pid:
+            continue
+        pid = int(pid)
+        pos = (entry.get("position") or {}).get("abbreviation") or "DH"
+        item = {
+            "id": pid,
+            "name": person.get("fullName"),
+            "position": pos,
+            "status": (entry.get("status") or {}).get("description"),
+            "jersey": entry.get("jerseyNumber"),
+        }
+        by_id[pid] = item
+        if pos == "P":
+            pitchers.add(pid)
+        else:
+            hitters.add(pid)
+    return by_id, hitters, pitchers
+
+
+def build_hitters(season_payload: dict, l10_payload: dict, hitter_ids: set[int], roster: dict[int, dict]) -> list[dict]:
+    season = splits_by_player(season_payload)
+    last10 = splits_by_player(l10_payload)
+    rows = []
+    for pid in hitter_ids:
+        split = season.get(pid)
+        stat = (split or {}).get("stat") or {}
+        pa = int(stat.get("plateAppearances") or 0)
+        l10_stat = (last10.get(pid) or {}).get("stat") or {}
+        l10_pa = int(l10_stat.get("plateAppearances") or 0)
+        if pa < 15 and l10_pa < 10:
+            continue
+        info = roster[pid]
+        season_ops = float(stat.get("ops") or 0) if stat.get("ops") else None
+        hot_ops = float(l10_stat.get("ops") or 0) if l10_stat.get("ops") else None
+        delta = round(hot_ops - season_ops, 3) if season_ops is not None and hot_ops is not None else None
+        rows.append(
+            {
+                "id": pid,
+                "name": info["name"],
+                "position": info["position"],
+                "headshot": headshot_url(pid),
+                "avg": stat.get("avg"),
+                "obp": stat.get("obp"),
+                "slg": stat.get("slg"),
+                "ops": stat.get("ops"),
+                "hr": stat.get("homeRuns"),
+                "rbi": stat.get("rbi"),
+                "sb": stat.get("stolenBases"),
+                "hits": stat.get("hits"),
+                "pa": pa,
+                "games": stat.get("gamesPlayed"),
+                "trend": {
+                    "window": "L10",
+                    "avg": l10_stat.get("avg"),
+                    "ops": l10_stat.get("ops"),
+                    "hr": l10_stat.get("homeRuns"),
+                    "pa": l10_pa or None,
+                    "delta": delta,
+                    "direction": trend_dir(delta, deadzone=0.02),
+                } if l10_stat else None,
+            }
+        )
+    rows.sort(key=lambda r: (-(r["pa"] or 0), -float(r.get("ops") or 0)))
+    return rows
+
+
+def build_pitchers(season_payload: dict, l14_payload: dict, pitcher_ids: set[int], roster: dict[int, dict]) -> list[dict]:
+    season = splits_by_player(season_payload)
+    last14 = splits_by_player(l14_payload)
+    rows = []
+    for pid in pitcher_ids:
+        split = season.get(pid)
+        stat = (split or {}).get("stat") or {}
+        ip_val = parse_ip(stat.get("inningsPitched"))
+        l14_stat = (last14.get(pid) or {}).get("stat") or {}
+        l14_ip = parse_ip(l14_stat.get("inningsPitched"))
+        if ip_val < 3 and l14_ip < 2:
+            continue
+        info = roster[pid]
+        gs = int(stat.get("gamesStarted") or 0)
+        games = int(stat.get("gamesPitched") or stat.get("gamesPlayed") or 0)
+        season_era = float(stat.get("era") or 0) if stat.get("era") not in (None, "") else None
+        hot_era = float(l14_stat.get("era") or 0) if l14_stat.get("era") not in (None, "") else None
+        delta = round(hot_era - season_era, 2) if season_era is not None and hot_era is not None else None
+        role = "SP" if gs >= 5 and (games == 0 or gs / games >= 0.45) else "RP"
+        rows.append(
+            {
+                "id": pid,
+                "name": info["name"],
+                "position": info["position"],
+                "headshot": headshot_url(pid),
+                "era": stat.get("era"),
+                "whip": stat.get("whip"),
+                "ip": stat.get("inningsPitched"),
+                "w": stat.get("wins"),
+                "l": stat.get("losses"),
+                "so": stat.get("strikeOuts"),
+                "sv": stat.get("saves"),
+                "hld": stat.get("holds"),
+                "gs": gs,
+                "g": games,
+                "k9": stat.get("strikeoutsPer9Inn"),
+                "role": role,
+                "trend": {
+                    "window": "L14",
+                    "era": l14_stat.get("era"),
+                    "whip": l14_stat.get("whip"),
+                    "ip": l14_stat.get("inningsPitched"),
+                    "so": l14_stat.get("strikeOuts"),
+                    "delta": delta,
+                    "direction": trend_dir(delta, invert=True, deadzone=0.25),
+                } if l14_stat else None,
+            }
+        )
+    rows.sort(key=lambda r: (0 if r["role"] == "SP" else 1, -parse_ip(r.get("ip"))))
+    return rows
+
+
 def main() -> None:
     now = toronto_now()
     season = season_year(now)
@@ -363,6 +593,33 @@ def main() -> None:
     jays_pitchers = fetch_json(
         "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching"
         f"&season={season}&teamId={JAYS_ID}&sportIds=1&limit=50&playerPool=all"
+    )
+    jays_hitters_l10 = fetch_json(
+        "https://statsapi.mlb.com/api/v1/stats?stats=lastXGames&group=hitting"
+        f"&season={season}&teamId={JAYS_ID}&sportIds=1&limit=50&playerPool=all"
+    )
+    range_start = (today - timedelta(days=14)).isoformat()
+    range_end = today.isoformat()
+    jays_pitchers_l14 = fetch_json(
+        "https://statsapi.mlb.com/api/v1/stats?stats=byDateRange&group=pitching"
+        f"&season={season}&teamId={JAYS_ID}&sportIds=1&limit=50&playerPool=all"
+        f"&startDate={range_start}&endDate={range_end}"
+    )
+    team_hit_l14 = fetch_json(
+        f"https://statsapi.mlb.com/api/v1/teams/{JAYS_ID}/stats?season={season}"
+        f"&group=hitting&stats=byDateRange&startDate={range_start}&endDate={range_end}"
+    )
+    team_pitch_l14 = fetch_json(
+        f"https://statsapi.mlb.com/api/v1/teams/{JAYS_ID}/stats?season={season}"
+        f"&group=pitching&stats=byDateRange&startDate={range_start}&endDate={range_end}"
+    )
+    week_ago = (today - timedelta(days=7)).isoformat()
+    week_ago_standings = fetch_json(
+        "https://statsapi.mlb.com/api/v1/standings"
+        f"?leagueId={AL_ID}&season={season}&standingsTypes=wildCard&date={week_ago}&hydrate=team"
+    )
+    jays_active = fetch_json(
+        f"https://statsapi.mlb.com/api/v1/teams/{JAYS_ID}/roster?rosterType=active&season={season}"
     )
     jays_40man = fetch_json(
         f"https://statsapi.mlb.com/api/v1/teams/{JAYS_ID}/roster?rosterType=40Man&season={season}"
@@ -562,98 +819,119 @@ def main() -> None:
             rooting.append({**payload, "interest": interest, "note": note})
     rooting.sort(key=lambda g: g.get("gameDate") or "")
 
-    def leader_rows(payload: dict, group: str) -> list[dict]:
-        splits = (payload.get("stats") or [{}])[0].get("splits") or []
-        rows = []
-        for split in splits:
-            player = split.get("player") or {}
-            stat = split.get("stat") or {}
-            pid = player.get("id")
-            if group == "hitting":
-                pa = int(stat.get("plateAppearances") or 0)
-                if pa < 120:
-                    continue
-                rows.append(
-                    {
-                        "id": pid,
-                        "name": player.get("fullName"),
-                        "headshot": f"https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_180,q_auto:best/v1/people/{pid}/headshot/67/current",
-                        "avg": stat.get("avg"),
-                        "obp": stat.get("obp"),
-                        "slg": stat.get("slg"),
-                        "ops": stat.get("ops"),
-                        "hr": stat.get("homeRuns"),
-                        "rbi": stat.get("rbi"),
-                        "sb": stat.get("stolenBases"),
-                        "hits": stat.get("hits"),
-                        "pa": pa,
-                    }
-                )
-            else:
-                ip = str(stat.get("inningsPitched") or "0")
-                try:
-                    ip_val = float(ip)
-                except ValueError:
-                    ip_val = 0.0
-                gs = int(stat.get("gamesStarted") or 0)
-                if ip_val < 15 and int(stat.get("saves") or 0) < 5:
-                    continue
-                rows.append(
-                    {
-                        "id": pid,
-                        "name": player.get("fullName"),
-                        "headshot": f"https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_180,q_auto:best/v1/people/{pid}/headshot/67/current",
-                        "era": stat.get("era"),
-                        "whip": stat.get("whip"),
-                        "ip": stat.get("inningsPitched"),
-                        "w": stat.get("wins"),
-                        "l": stat.get("losses"),
-                        "so": stat.get("strikeOuts"),
-                        "sv": stat.get("saves"),
-                        "gs": gs,
-                        "k9": stat.get("strikeoutsPer9Inn"),
-                        "role": "SP" if gs >= 5 else "RP",
-                    }
-                )
-        injured_names = {item.get("name") for item in jays_injuries if item.get("name")}
-        rows = [row for row in rows if row.get("name") not in injured_names]
-        featured_hitters = {
-            "Vladimir Guerrero Jr.",
-            "George Springer",
-            "Kazuma Okamoto",
-            "Ernie Clement",
-            "Alejandro Kirk",
-            "Andrés Giménez",
-        }
-        featured_pitchers = {
-            "Dylan Cease",
-            "Kevin Gausman",
-            "Shane Bieber",
-            "Louis Varland",
-            "Tyler Rogers",
-        }
-        if group == "hitting":
-            rows.sort(key=lambda r: float(r.get("ops") or 0), reverse=True)
-            top = rows[:5]
-            have = {row.get("name") for row in top}
-            for row in rows:
-                if row.get("name") in featured_hitters and row.get("name") not in have:
-                    top.append(row)
-                    have.add(row.get("name"))
-                if len(top) >= 8:
-                    break
-            return top
-        rows.sort(key=lambda r: (0 if r["role"] == "SP" else 1, float(r.get("era") or 99)))
-        top = []
-        have = set()
-        for row in [r for r in rows if r.get("name") in featured_pitchers] + rows:
-            if row["id"] in have:
-                continue
-            have.add(row["id"])
-            top.append(row)
-            if len(top) >= 6:
-                break
-        return top
+    roster, hitter_ids, pitcher_ids = active_roster_maps(jays_active)
+    hitters = build_hitters(jays_hitters, jays_hitters_l10, hitter_ids, roster)
+    pitchers = build_pitchers(jays_pitchers, jays_pitchers_l14, pitcher_ids, roster)
+
+    prior = week_ago_map(week_ago_standings)
+    apply_week_trends(wild_card, prior)
+    apply_week_trends(race, prior)
+    apply_week_trends(al_east, prior)
+    apply_week_trends([jays], prior)
+
+    l14_hit = first_split_stat(team_hit_l14)
+    l14_pitch = first_split_stat(team_pitch_l14)
+    season_ops = float(jays.get("hitting", {}).get("ops") or 0) or None
+    season_era = float(jays.get("pitching", {}).get("era") or 0) or None
+    hot_ops = float(l14_hit.get("ops") or 0) if l14_hit.get("ops") else None
+    hot_era = float(l14_pitch.get("era") or 0) if l14_pitch.get("era") else None
+    ops_delta = round(hot_ops - season_ops, 3) if season_ops is not None and hot_ops is not None else None
+    era_delta = round(hot_era - season_era, 2) if season_era is not None and hot_era is not None else None
+
+    last10_rd = 0
+    last10_wins = 0
+    last10_losses = 0
+    for game in jays_recent:
+        us = game["home"]["score"] if game.get("isHome") else game["away"]["score"]
+        them = game["away"]["score"] if game.get("isHome") else game["home"]["score"]
+        if us is None or them is None:
+            continue
+        last10_rd += int(us) - int(them)
+        if game.get("result") == "W":
+            last10_wins += 1
+        elif game.get("result") == "L":
+            last10_losses += 1
+
+    week = jays.get("weekAgo") or {}
+    gb_delta = week.get("gbDelta")
+    rank_delta = week.get("rankDelta")
+    if gb_delta is not None and gb_delta < 0:
+        gb_hint = f"{abs(gb_delta):.1f} closer than 7 days ago"
+    elif gb_delta is not None and gb_delta > 0:
+        gb_hint = f"{gb_delta:.1f} further back than 7 days ago"
+    else:
+        gb_hint = "Gap to the 3rd AL wild card"
+
+    trends = {
+        "windowDays": 7,
+        "weekAgo": week,
+        "gbDelta": gb_delta,
+        "rankDelta": rank_delta,
+        "last14": {
+            "ops": l14_hit.get("ops"),
+            "avg": l14_hit.get("avg"),
+            "runs": l14_hit.get("runs"),
+            "homeRuns": l14_hit.get("homeRuns"),
+            "era": l14_pitch.get("era"),
+            "whip": l14_pitch.get("whip"),
+            "wins": l14_pitch.get("wins"),
+            "losses": l14_pitch.get("losses"),
+        },
+        "last10": {
+            "record": f"{last10_wins}-{last10_losses}",
+            "runDifferential": last10_rd,
+        },
+        "opsDelta": ops_delta,
+        "eraDelta": era_delta,
+        "opsDirection": trend_dir(ops_delta, deadzone=0.015),
+        "eraDirection": trend_dir(era_delta, invert=True, deadzone=0.15),
+        "cards": [
+            {
+                "label": "Wild-card gap",
+                "value": jays.get("wildCardGamesBack") or "—",
+                "detail": gb_hint,
+                "direction": week.get("direction") or "flat",
+            },
+            {
+                "label": "WC rank",
+                "value": f"#{jays.get('wildCardRank') or '—'}",
+                "detail": (
+                    f"Was #{week.get('wildCardRank')} a week ago"
+                    if week.get("wildCardRank")
+                    else "Among AL non-division leaders"
+                ),
+                "direction": trend_dir(rank_delta, invert=True, deadzone=0),
+            },
+            {
+                "label": "Last 14 days",
+                "value": f"{l14_pitch.get('wins', 0)}-{l14_pitch.get('losses', 0)}",
+                "detail": "Record over the past two weeks",
+                "direction": "up" if int(l14_pitch.get("wins") or 0) > int(l14_pitch.get("losses") or 0) else (
+                    "down" if int(l14_pitch.get("wins") or 0) < int(l14_pitch.get("losses") or 0) else "flat"
+                ),
+            },
+            {
+                "label": "L10 run diff",
+                "value": f"{last10_rd:+d}",
+                "detail": f"{last10_wins}-{last10_losses} in the last 10",
+                "direction": "up" if last10_rd > 0 else ("down" if last10_rd < 0 else "flat"),
+            },
+            {
+                "label": "Offense (14d)",
+                "value": l14_hit.get("ops") or "—",
+                "detail": f"Season OPS {jays.get('hitting', {}).get('ops') or '—'}",
+                "direction": trend_dir(ops_delta, deadzone=0.015),
+                "stat": "OPS",
+            },
+            {
+                "label": "Staff ERA (14d)",
+                "value": l14_pitch.get("era") or "—",
+                "detail": f"Season ERA {jays.get('pitching', {}).get('era') or '—'}",
+                "direction": trend_dir(era_delta, invert=True, deadzone=0.15),
+                "stat": "ERA",
+            },
+        ],
+    }
 
     cut_team = next((t for t in wild_card if t.get("wildCardRank") == 3), None)
     ahead = [t for t in wild_card if (t.get("wildCardRank") or 99) < (jays.get("wildCardRank") or 99)]
@@ -698,19 +976,24 @@ def main() -> None:
         },
         "rooting": rooting[:18],
         "injuries": jays_injuries,
-        "leaders": {
-            "hitting": leader_rows(jays_hitters, "hitting"),
-            "pitching": leader_rows(jays_pitchers, "pitching"),
+        "roster": {
+            "count": len(roster),
+            "asOf": today.isoformat(),
         },
+        "leaders": {
+            "hitting": hitters,
+            "pitching": pitchers,
+        },
+        "trends": trends,
         "kpis": [
-            {"label": "Wild Card GB", "value": jays.get("wildCardGamesBack") or "—", "hint": "Gap to the 3rd AL wild card"},
-            {"label": "WC Rank", "value": f"#{jays.get('wildCardRank') or '—'}", "hint": "Among AL non-division leaders"},
-            {"label": "Last 10", "value": jays.get("lastTen") or "—", "hint": "Are they getting hot?"},
+            {"label": "Wild Card GB", "value": jays.get("wildCardGamesBack") or "—", "hint": gb_hint, "trend": week.get("direction"), "stat": "GB"},
+            {"label": "WC Rank", "value": f"#{jays.get('wildCardRank') or '—'}", "hint": "Among AL non-division leaders", "trend": trend_dir(rank_delta, invert=True, deadzone=0), "stat": "WC"},
+            {"label": "Last 10", "value": jays.get("lastTen") or "—", "hint": "Are they getting hot?", "stat": "L10"},
             {"label": "Streak", "value": jays.get("streak") or "—", "hint": "Current run"},
-            {"label": "Run Diff", "value": f"{jays.get('runDifferential'):+d}", "hint": "Season scoring margin"},
-            {"label": "WC Elim #", "value": jays.get("wildCardEliminationNumber") or "—", "hint": "Combination of Jays losses + rival wins that ends it"},
+            {"label": "Run Diff", "value": f"{jays.get('runDifferential'):+d}", "hint": f"L10 margin {last10_rd:+d}", "trend": "up" if last10_rd > 0 else ("down" if last10_rd < 0 else "flat")},
+            {"label": "WC Elim #", "value": jays.get("wildCardEliminationNumber") or "—", "hint": "Jays losses + rival wins that ends it", "stat": "Elim"},
             {"label": "Games left", "value": str(jays.get("gamesRemaining") or len(remaining_games)), "hint": "Out of 162"},
-            {"label": "Pythag W-L", "value": f"{jays.get('pythagWins')}-{jays.get('pythagLosses')}", "hint": "Record the run differential expects"},
+            {"label": "Pythag W-L", "value": f"{jays.get('pythagWins')}-{jays.get('pythagLosses')}", "hint": "Record the run differential expects", "stat": "Pythag"},
         ],
     }
 
