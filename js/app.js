@@ -1,4 +1,5 @@
 const $ = (id) => document.getElementById(id);
+const JAYS_ID = 141;
 
 const TERMS = {
   OPS: "On-base Plus Slugging: on-base percentage plus slugging percentage. Around .700 is average; .800+ is excellent.",
@@ -210,7 +211,7 @@ function renderTrends(data) {
 function renderWildCard(data) {
   const body = document.querySelector("#wildCardTable tbody");
   body.innerHTML = (data.wildCard || []).map((team) => {
-    const isJays = team.id === 141;
+    const isJays = team.id === JAYS_ID;
     const inSpot = (team.wildCardRank || 99) <= 3;
     const classes = [
       inSpot ? "row-in" : "",
@@ -237,7 +238,7 @@ function renderWildCard(data) {
 function renderEast(data) {
   const body = document.querySelector("#eastTable tbody");
   body.innerHTML = (data.alEast || []).map((team) => `
-    <tr class="${team.id === 141 ? "row-jays" : ""}">
+    <tr class="${team.id === JAYS_ID ? "row-jays" : ""}">
       <td>${esc(team.divisionRank)}</td>
       <td>${teamCell(team)}</td>
       <td>${esc(record(team))}</td>
@@ -283,7 +284,7 @@ function compareBlock(race, block) {
     const pct = pctOfMax(block.get(team), max);
     return `<div class="compare-row">
       <div class="who"><img src="${esc(team.logo)}" alt="" />${esc(team.abbr)}</div>
-      <div class="bar ${team.id === 141 ? "jays" : ""}"><span style="width:${pct}%"></span></div>
+      <div class="bar ${team.id === JAYS_ID ? "jays" : ""}"><span style="width:${pct}%"></span></div>
       <b>${esc(block.format(team))}</b>
     </div>`;
   }).join("");
@@ -330,18 +331,78 @@ function renderSchedule(data) {
     const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Toronto", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
     const isToday = game.date === today;
     const live = game.abstractState === "Live";
+    const final = game.abstractState === "Final";
     const pitcher = game.isHome ? game.home?.probablePitcher : game.away?.probablePitcher;
     const theirs = game.isHome ? game.away?.probablePitcher : game.home?.probablePitcher;
-    const score = live || game.abstractState === "Final"
+    const score = live || final
       ? `${game.away?.abbr} ${game.away?.score ?? ""} @ ${game.home?.abbr} ${game.home?.score ?? ""}`
       : game.venue;
-    return `<article class="ticket${isToday ? " today" : ""}">
+    const lean = jaysGameLean(game);
+    const verdict = lean
+      ? `<span class="ticket-verdict ${esc(lean.lean)}">${esc(lean.label)}</span>`
+      : "";
+    return `<article class="ticket${isToday ? " today" : ""}${lean ? ` is-${lean.lean}` : ""}">
+      ${verdict}
       <div class="when">${live ? '<span class="live">LIVE</span> · ' : ""}${esc(fmtDate(game.gameDate || game.date, true))}</div>
       <h4>${game.isHome ? "vs" : "@"} ${esc(oppTeam.abbr || "TBD")}</h4>
       <div class="pitch">${esc(pitcher || "TBD")} vs ${esc(theirs || "TBD")}</div>
       <div class="venue">${esc(score || "")}</div>
     </article>`;
   }).join("");
+}
+
+function scoresReady(game) {
+  const away = game.away?.score;
+  const home = game.home?.score;
+  if (away == null || home == null) return false;
+  const state = game.abstractState;
+  return state === "Live" || state === "Final" || /delay|progress|challenge/i.test(game.status || "");
+}
+
+function jaysGameLean(game) {
+  if (!scoresReady(game)) return null;
+  if (game.home?.id !== JAYS_ID && game.away?.id !== JAYS_ID) return null;
+  const us = game.isHome || game.home?.id === JAYS_ID ? Number(game.home.score) : Number(game.away.score);
+  const them = game.isHome || game.home?.id === JAYS_ID ? Number(game.away.score) : Number(game.home.score);
+  if (Number.isNaN(us) || Number.isNaN(them)) return null;
+  if (us === them) return { lean: "mixed", label: "Tied" };
+  const live = game.abstractState === "Live";
+  if (us > them) return { lean: "good", label: live ? "Leading" : "Win" };
+  return { lean: "bad", label: live ? "Trailing" : "Loss" };
+}
+
+function wantWinner(game, race = []) {
+  if (game.home?.id === JAYS_ID || game.away?.id === JAYS_ID || game.interest === "Jays game") {
+    return JAYS_ID;
+  }
+  const rank = (id) => {
+    const team = race.find((t) => t.id === id);
+    return team?.wildCardRank || 99;
+  };
+  const homeId = game.home?.id;
+  const awayId = game.away?.id;
+  const homeIn = race.some((t) => t.id === homeId);
+  const awayIn = race.some((t) => t.id === awayId);
+  let rivalId;
+  if (game.interest === "Race game" || (homeIn && awayIn)) {
+    rivalId = rank(homeId) <= rank(awayId) ? homeId : awayId;
+  } else if (homeIn !== awayIn) {
+    rivalId = homeIn ? homeId : awayId;
+  } else {
+    rivalId = rank(homeId) <= rank(awayId) ? homeId : awayId;
+  }
+  return rivalId === homeId ? awayId : homeId;
+}
+
+function rootingVerdict(game, race = []) {
+  if (!scoresReady(game)) return null;
+  const away = Number(game.away.score);
+  const home = Number(game.home.score);
+  if (Number.isNaN(away) || Number.isNaN(home)) return null;
+  if (away === home) return { lean: "mixed", label: "Tied" };
+  const leaderId = away > home ? game.away.id : game.home.id;
+  const good = leaderId === wantWinner(game, race);
+  return { lean: good ? "good" : "bad", label: good ? "Helps TOR" : "Hurts TOR" };
 }
 
 function inningLabel(game) {
@@ -389,8 +450,12 @@ function renderRooting(data) {
     const live = state === "live";
     const score = rootingScore(game);
     const status = rootingStatus(game);
-    return `<article class="root-card${live ? " is-live" : ""}${state === "final" ? " is-final" : ""}">
-      <span class="tag ${tagClass[game.interest] || "race"}">${esc(game.interest)}</span>
+    const verdict = rootingVerdict(game, data.race);
+    return `<article class="root-card${live ? " is-live" : ""}${state === "final" ? " is-final" : ""}${verdict ? ` is-${verdict.lean}` : ""}">
+      <div class="root-head">
+        <span class="tag ${tagClass[game.interest] || "race"}">${esc(game.interest)}</span>
+        ${verdict ? `<span class="root-verdict ${esc(verdict.lean)}">${esc(verdict.label)}</span>` : ""}
+      </div>
       <strong>${esc(game.away?.abbr)} @ ${esc(game.home?.abbr)}</strong>
       <div class="meta">${live ? `<span class="live">LIVE</span> · ${esc(inningLabel(game) || game.status || "In progress")}` : esc(status)}</div>
       ${score ? `<div class="score">${esc(score)}</div>` : ""}
