@@ -25,7 +25,7 @@ const TERMS = {
   Diff: "Season run differential: runs scored minus runs allowed.",
   Elim: "Elimination number: Jays losses plus rival wins that mathematically end Toronto's shot.",
   Pythag: "Pythagorean record: the W-L the run differential says the team 'should' have.",
-  Magic: "Jays wins plus competitor losses needed to pass or clinch the last wild-card spot.",
+  Magic: "Jays wins plus rival losses that mathematically clinch a playoff berth (East title or a wild card).",
   BABIP: "Batting Average on Balls In Play. Extreme numbers often regress.",
   IL: "Injured list.",
   SOS: "Strength of remaining schedule, as opponents' winning percentage.",
@@ -179,11 +179,11 @@ function renderHero(data) {
   }
   const magic = data.magicNumber || {};
   $("magicGiant").textContent = magic.value == null ? "—" : String(magic.value);
-  $("magicLabel").textContent = magic.kind === "clinch" ? "Magic number to clinch" : "Magic number to pass the cut";
+  $("magicLabel").textContent = magic.kind === "clinched" ? "Playoff berth clinched" : "Magic number to clinch";
   $("magicLine").textContent = magic.vs
     ? `Jays wins + ${magic.vs} losses`
-    : "Jays wins + competitor losses";
-  $("magicNote").textContent = magic.detail || magic.hint || "Combination of Toronto wins and rival losses.";
+    : "Jays wins + rival losses";
+  $("magicNote").textContent = magic.detail || magic.hint || "Combination that mathematically locks a playoff spot.";
 }
 
 function renderKpis(data) {

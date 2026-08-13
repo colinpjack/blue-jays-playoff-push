@@ -403,33 +403,83 @@ def simulate_playoff_odds(
     }
 
 
-def wild_card_magic(jays: dict, wild_card: list[dict]) -> dict | None:
-    rank = jays.get("wildCardRank") or 99
-    cut = next((team for team in wild_card if team.get("wildCardRank") == 3), None)
-    fourth = next((team for team in wild_card if team.get("wildCardRank") == 4), None)
-    if rank <= 3 and fourth:
-        value = max(0, 163 - int(jays.get("wins") or 0) - int(fourth.get("losses") or 0))
-        return {
-            "kind": "clinch",
-            "value": value,
-            "toTie": None,
-            "vs": fourth.get("abbr"),
-            "vsName": fourth.get("name"),
-            "hint": f"Jays wins + {fourth.get('abbr')} losses to clinch a wild-card berth",
-            "detail": f"Classic magic number vs {fourth.get('abbr')}, the first club currently on the outside.",
-        }
-    if not cut:
+def magic_vs(jays_wins: int, other: dict) -> int:
+    """Classic magic: Jays wins + this club's losses that guarantee Toronto finishes ahead."""
+    return max(0, 163 - int(jays_wins) - int(other.get("losses") or 0))
+
+
+def playoff_magic(jays: dict, all_al: dict[int, dict], al_east: list[dict], wild_card: list[dict]) -> dict | None:
+    """Combination of Jays wins and rival losses that mathematically locks a playoff berth.
+
+    A playoff spot is an East title or one of the three AL wild cards — not merely
+    catching today's cut line. Magic vs a rival is 163 - TOR wins - rival losses.
+    The wild-card path uses the 3rd-best other non-division-leader (once that club
+    cannot finish ahead, at most two wild-card teams can). The East path is vs the
+    division leader. The card shows the smaller number.
+    """
+    jays_wins = int(jays.get("wins") or 0)
+    jays_id = jays.get("id")
+
+    def best_first(teams: list[dict]) -> list[dict]:
+        return sorted(
+            teams,
+            key=lambda team: (
+                int(team.get("losses") or 0),
+                -int(team.get("wins") or 0),
+            ),
+        )
+
+    east_others = [team for team in al_east if team.get("id") != jays_id]
+    east_target = best_first(east_others)[0] if east_others else None
+    east_value = magic_vs(jays_wins, east_target) if east_target else None
+
+    wc_others = [team for team in wild_card if team.get("id") != jays_id]
+    # 3rd-best other non-leader: eliminating them leaves at most two WC clubs ahead.
+    wc_ranked = best_first(wc_others)
+    wc_target = wc_ranked[2] if len(wc_ranked) >= 3 else (wc_ranked[-1] if wc_ranked else None)
+    wc_value = magic_vs(jays_wins, wc_target) if wc_target else None
+
+    league_others = [team for team in all_al.values() if team.get("id") != jays_id]
+    # 6th-best other AL club: eliminating them leaves at most five teams ahead (top 6).
+    league_ranked = best_first(league_others)
+    league_target = league_ranked[5] if len(league_ranked) >= 6 else None
+    league_value = magic_vs(jays_wins, league_target) if league_target else None
+
+    candidates: list[tuple[str, dict, int]] = []
+    if wc_target is not None and wc_value is not None:
+        candidates.append(("wildcard", wc_target, wc_value))
+    if league_target is not None and league_value is not None:
+        candidates.append(("league", league_target, league_value))
+    if east_target is not None and east_value is not None:
+        candidates.append(("division", east_target, east_value))
+    if not candidates:
         return None
-    to_tie = max(0, int(cut.get("wins") or 0) - int(jays.get("wins") or 0) + int(jays.get("losses") or 0) - int(cut.get("losses") or 0))
-    to_pass = to_tie + 1
+
+    path, target, value = min(candidates, key=lambda item: (item[2], 0 if item[0] != "division" else 1))
+    remaining = int(jays.get("gamesRemaining") or 0)
+    extra_losses = max(0, value - remaining)
+
+    if value == 0:
+        detail = "Toronto has clinched a playoff berth."
+        kind = "clinched"
+    else:
+        lock = "the AL East" if path == "division" else "a playoff spot"
+        detail = f"Any mix of Jays wins and {target.get('abbr')} losses that adds to {value} locks {lock}."
+        if extra_losses:
+            detail += f" Winning out still requires {extra_losses} {target.get('abbr')} loss{'es' if extra_losses != 1 else ''}."
+        if path != "division" and east_value and east_target:
+            detail += f" East title is {east_value} vs {east_target.get('abbr')}."
+
     return {
-        "kind": "get-in",
-        "value": to_pass,
-        "toTie": to_tie,
-        "vs": cut.get("abbr"),
-        "vsName": cut.get("name"),
-        "hint": f"Jays wins + {cut.get('abbr')} losses to pass the last wild-card spot",
-        "detail": f"{to_tie} to tie {cut.get('abbr')}, {to_pass} to go ahead of today's cut line.",
+        "kind": kind if value == 0 else "clinch",
+        "path": path,
+        "value": value,
+        "vs": target.get("abbr"),
+        "vsName": target.get("name"),
+        "divisionValue": east_value,
+        "divisionVs": east_target.get("abbr") if east_target else None,
+        "hint": f"Jays wins + {target.get('abbr')} losses to clinch a playoff spot",
+        "detail": detail,
     }
 
 
@@ -1183,7 +1233,7 @@ def main() -> None:
 
     cut_team = next((t for t in wild_card if t.get("wildCardRank") == 3), None)
     ahead = [t for t in wild_card if (t.get("wildCardRank") or 99) < (jays.get("wildCardRank") or 99)]
-    magic_number = wild_card_magic(jays, wild_card)
+    magic_number = playoff_magic(jays, all_al, al_east, wild_card)
 
     payload = {
         "generatedAt": now.isoformat(),
