@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css?v=20260813e" />
+  <link rel="stylesheet" href="css/styles.css?v=20260813f" />
 </head>
 <body>
   <div class="atmosphere" aria-hidden="true">
@@ -40,30 +40,40 @@
   <main>
     <section class="hero" id="hero">
       <div class="hero-copy">
-        <p class="kicker" id="statusKicker">Loading the cut line…</p>
-        <h2 id="headline">The race is loading</h2>
-        <p class="lede" id="blurb">Pulling standings, injuries, and the remaining gauntlet.</p>
+        <div class="hero-story">
+          <p class="kicker" id="statusKicker">Loading the cut line…</p>
+          <h2 id="headline">The race is loading</h2>
+          <p class="lede" id="blurb">Pulling standings, injuries, and the remaining gauntlet.</p>
+        </div>
         <div class="hero-chips" id="heroChips"></div>
       </div>
-      <div class="hero-score">
-        <p class="score-label">Games back of the last wild card</p>
-        <p class="score-giant" id="gbGiant">—</p>
-        <p class="score-sub" id="recordLine">TOR</p>
-        <div class="heat">
-          <div class="heat-label">
-            <span>Momentum meter</span>
-            <strong id="heatValue">0</strong>
-          </div>
-          <div class="heat-bar" role="meter" aria-label="Momentum" aria-valuemin="0" aria-valuemax="100">
-            <div class="heat-fill" id="heatFill"></div>
+      <div class="hero-meters">
+        <div class="hero-score">
+          <p class="score-label">Games back of the last wild card</p>
+          <p class="score-giant" id="gbGiant">—</p>
+          <p class="score-sub" id="recordLine">TOR</p>
+          <div class="heat">
+            <div class="heat-label">
+              <span>Momentum meter</span>
+              <strong id="heatValue">0</strong>
+            </div>
+            <div class="heat-bar" role="meter" aria-label="Momentum" aria-valuemin="0" aria-valuemax="100">
+              <div class="heat-fill" id="heatFill"></div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="hero-score odds">
-        <p class="score-label">Making the playoffs</p>
-        <p class="score-giant" id="oddsGiant">—</p>
-        <p class="score-sub" id="oddsLine">Simulating remaining games…</p>
-        <p class="odds-note" id="oddsNote"></p>
+        <div class="hero-score odds">
+          <p class="score-label">Making the playoffs</p>
+          <p class="score-giant" id="oddsGiant">—</p>
+          <p class="score-sub" id="oddsLine">Simulating remaining games…</p>
+          <p class="odds-note" id="oddsNote"></p>
+        </div>
+        <div class="hero-score magic">
+          <p class="score-label" id="magicLabel">Magic number</p>
+          <p class="score-giant" id="magicGiant">—</p>
+          <p class="score-sub" id="magicLine">Jays wins + rival losses</p>
+          <p class="odds-note" id="magicNote"></p>
+        </div>
       </div>
     </section>
 
@@ -206,6 +216,6 @@
     <p class="tiny">Playoff picture: 3 division winners + 3 wild cards per league. Data can lag live pitches by a few minutes.</p>
   </footer>
 
-  <script src="js/app.js?v=20260813e"></script>
+  <script src="js/app.js?v=20260813f"></script>
 </body>
 </html>

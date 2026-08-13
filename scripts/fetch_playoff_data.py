@@ -403,6 +403,36 @@ def simulate_playoff_odds(
     }
 
 
+def wild_card_magic(jays: dict, wild_card: list[dict]) -> dict | None:
+    rank = jays.get("wildCardRank") or 99
+    cut = next((team for team in wild_card if team.get("wildCardRank") == 3), None)
+    fourth = next((team for team in wild_card if team.get("wildCardRank") == 4), None)
+    if rank <= 3 and fourth:
+        value = max(0, 163 - int(jays.get("wins") or 0) - int(fourth.get("losses") or 0))
+        return {
+            "kind": "clinch",
+            "value": value,
+            "toTie": None,
+            "vs": fourth.get("abbr"),
+            "vsName": fourth.get("name"),
+            "hint": f"Jays wins + {fourth.get('abbr')} losses to clinch a wild-card berth",
+            "detail": f"Classic magic number vs {fourth.get('abbr')}, the first club currently on the outside.",
+        }
+    if not cut:
+        return None
+    to_tie = max(0, int(cut.get("wins") or 0) - int(jays.get("wins") or 0) + int(jays.get("losses") or 0) - int(cut.get("losses") or 0))
+    to_pass = to_tie + 1
+    return {
+        "kind": "get-in",
+        "value": to_pass,
+        "toTie": to_tie,
+        "vs": cut.get("abbr"),
+        "vsName": cut.get("name"),
+        "hint": f"Jays wins + {cut.get('abbr')} losses to pass the last wild-card spot",
+        "detail": f"{to_tie} to tie {cut.get('abbr')}, {to_pass} to go ahead of today's cut line.",
+    }
+
+
 def narrative_for(jays: dict) -> dict:
     rank = jays.get("wildCardRank") or 99
     gb = jays.get("wildCardGamesBackNum")
@@ -1153,6 +1183,7 @@ def main() -> None:
 
     cut_team = next((t for t in wild_card if t.get("wildCardRank") == 3), None)
     ahead = [t for t in wild_card if (t.get("wildCardRank") or 99) < (jays.get("wildCardRank") or 99)]
+    magic_number = wild_card_magic(jays, wild_card)
 
     payload = {
         "generatedAt": now.isoformat(),
@@ -1183,6 +1214,7 @@ def main() -> None:
             "jaysGamesBack": jays.get("wildCardGamesBack"),
             "teamsAhead": len(ahead),
         },
+        "magicNumber": magic_number,
         "race": race,
         "schedule": jays_upcoming,
         "recent": jays_recent,

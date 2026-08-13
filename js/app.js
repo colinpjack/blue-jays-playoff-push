@@ -25,6 +25,7 @@ const TERMS = {
   Diff: "Season run differential: runs scored minus runs allowed.",
   Elim: "Elimination number: Jays losses plus rival wins that mathematically end Toronto's shot.",
   Pythag: "Pythagorean record: the W-L the run differential says the team 'should' have.",
+  Magic: "Jays wins plus competitor losses needed to pass or clinch the last wild-card spot.",
   BABIP: "Batting Average on Balls In Play. Extreme numbers often regress.",
   IL: "Injured list.",
   SOS: "Strength of remaining schedule, as opponents' winning percentage.",
@@ -130,6 +131,7 @@ function renderTicker(data) {
     nextText,
     data.narrative.headline,
     data.playoffOdds?.percent != null ? `PLAYOFF ODDS ${data.playoffOdds.percent}%` : "",
+    data.magicNumber?.value != null ? `MAGIC NUMBER ${data.magicNumber.value}` : "",
     "THE PUSH IS ON",
     "UPDATED HOURLY",
   ].filter(Boolean);
@@ -175,6 +177,13 @@ function renderHero(data) {
       oddsCard.classList.add("live");
     }
   }
+  const magic = data.magicNumber || {};
+  $("magicGiant").textContent = magic.value == null ? "—" : String(magic.value);
+  $("magicLabel").textContent = magic.kind === "clinch" ? "Magic number to clinch" : "Magic number to pass the cut";
+  $("magicLine").textContent = magic.vs
+    ? `Jays wins + ${magic.vs} losses`
+    : "Jays wins + competitor losses";
+  $("magicNote").textContent = magic.detail || magic.hint || "Combination of Toronto wins and rival losses.";
 }
 
 function renderKpis(data) {
