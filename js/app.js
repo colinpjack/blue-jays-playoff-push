@@ -327,14 +327,23 @@ function renderInjuries(data) {
 function renderPlayers(data) {
   $("hitters").innerHTML = (data.leaders?.hitting || []).map((p) => {
     const hot = p.trend;
+    const avgMove = p.avgChange;
+    const avgTip = avgMove
+      ? (avgMove.lastGame === "did not bat"
+        ? "Did not bat in the last game, so the season average did not move."
+        : `Season average after going ${avgMove.lastGame} in the last game.`)
+      : "";
+    const avgArrow = avgMove && avgMove.direction && avgMove.direction !== "flat"
+      ? `<span class="trend ${esc(avgMove.direction)}" title="${esc(avgTip)}" data-tip="${esc(avgTip)}">${avgMove.direction === "up" ? "▲" : "▼"}</span>`
+      : "";
     return `<article class="player">
       <img src="${esc(p.headshot)}" alt="" onerror="this.style.opacity='0.2'" />
       <div>
         <strong>${esc(p.name)}</strong>
-        <div class="meta">${esc(p.position || "")} · ${esc(p.avg)} ${term("AVG")} · ${esc(p.hr)} ${term("HR")} · ${esc(p.rbi)} ${term("RBI")} · ${esc(p.sb)} ${term("SB")}</div>
+        <div class="meta">${esc(p.position || "")} · ${esc(p.avg)} ${term("AVG")}${avgArrow} · ${esc(p.hr)} ${term("HR")} · ${esc(p.rbi)} ${term("RBI")} · ${esc(p.sb)} ${term("SB")}</div>
         ${hot?.ops ? `<div class="player-trend">${trendBadge(hot.direction, `${hot.window} ${hot.ops} OPS`)}</div>` : ""}
       </div>
-      <div class="statline">${esc(p.ops)} ${term("OPS")}</div>
+      <div class="statline"><span class="statline-value">${esc(p.ops)}</span><span class="statline-label">Season ${term("OPS")}</span></div>
     </article>`;
   }).join("");
   $("pitchers").innerHTML = (data.leaders?.pitching || []).map((p) => {

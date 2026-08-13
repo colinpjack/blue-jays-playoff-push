@@ -464,9 +464,47 @@ def active_roster_maps(roster_payload: dict) -> tuple[dict[int, dict], set[int],
     return by_id, hitters, pitchers
 
 
-def build_hitters(season_payload: dict, l10_payload: dict, hitter_ids: set[int], roster: dict[int, dict]) -> list[dict]:
+def last_game_batting(game_pk: int | None) -> dict[int, dict]:
+    if not game_pk:
+        return {}
+    box = fetch_json(f"https://statsapi.mlb.com/api/v1/game/{game_pk}/boxscore")
+    out: dict[int, dict] = {}
+    for side in ("home", "away"):
+        team = (box.get("teams") or {}).get(side) or {}
+        if (team.get("team") or {}).get("id") != JAYS_ID:
+            continue
+        for player in (team.get("players") or {}).values():
+            person = player.get("person") or {}
+            pid = person.get("id")
+            stat = (player.get("stats") or {}).get("batting") or {}
+            if not pid or not stat:
+                continue
+            out[int(pid)] = {
+                "atBats": int(stat.get("atBats") or 0),
+                "hits": int(stat.get("hits") or 0),
+                "summary": stat.get("summary"),
+            }
+    return out
+
+
+def mlb_avg(hits: int, at_bats: int) -> str | None:
+    if at_bats <= 0:
+        return None
+    value = hits / at_bats
+    text = f"{value:.3f}"
+    return text[1:] if text.startswith("0") else text
+
+
+def build_hitters(
+    season_payload: dict,
+    l10_payload: dict,
+    hitter_ids: set[int],
+    roster: dict[int, dict],
+    last_game: dict[int, dict] | None = None,
+) -> list[dict]:
     season = splits_by_player(season_payload)
     last10 = splits_by_player(l10_payload)
+    last_game = last_game or {}
     rows = []
     for pid in hitter_ids:
         split = season.get(pid)
@@ -480,6 +518,31 @@ def build_hitters(season_payload: dict, l10_payload: dict, hitter_ids: set[int],
         season_ops = float(stat.get("ops") or 0) if stat.get("ops") else None
         hot_ops = float(l10_stat.get("ops") or 0) if l10_stat.get("ops") else None
         delta = round(hot_ops - season_ops, 3) if season_ops is not None and hot_ops is not None else None
+        season_h = int(stat.get("hits") or 0)
+        season_ab = int(stat.get("atBats") or 0)
+        game = last_game.get(pid)
+        avg_change = None
+        if game and season_ab > 0:
+            game_ab = int(game.get("atBats") or 0)
+            game_h = int(game.get("hits") or 0)
+            prev_ab = season_ab - game_ab
+            prev_h = season_h - game_h
+            current = mlb_avg(season_h, season_ab)
+            previous = mlb_avg(prev_h, prev_ab) if prev_ab > 0 else None
+            direction = "flat"
+            if previous and current:
+                if current > previous:
+                    direction = "up"
+                elif current < previous:
+                    direction = "down"
+            elif game_ab == 0:
+                direction = "flat"
+            avg_change = {
+                "direction": direction,
+                "from": previous,
+                "to": current,
+                "lastGame": f"{game_h}-for-{game_ab}" if game_ab else "did not bat",
+            }
         rows.append(
             {
                 "id": pid,
@@ -493,9 +556,11 @@ def build_hitters(season_payload: dict, l10_payload: dict, hitter_ids: set[int],
                 "hr": stat.get("homeRuns"),
                 "rbi": stat.get("rbi"),
                 "sb": stat.get("stolenBases"),
-                "hits": stat.get("hits"),
+                "hits": season_h,
+                "ab": season_ab,
                 "pa": pa,
                 "games": stat.get("gamesPlayed"),
+                "avgChange": avg_change,
                 "trend": {
                     "window": "L10",
                     "avg": l10_stat.get("avg"),
@@ -820,7 +885,9 @@ def main() -> None:
     rooting.sort(key=lambda g: g.get("gameDate") or "")
 
     roster, hitter_ids, pitcher_ids = active_roster_maps(jays_active)
-    hitters = build_hitters(jays_hitters, jays_hitters_l10, hitter_ids, roster)
+    last_final = next((game for game in reversed(jays_recent) if game.get("gamePk")), None)
+    last_batting = last_game_batting(last_final.get("gamePk") if last_final else None)
+    hitters = build_hitters(jays_hitters, jays_hitters_l10, hitter_ids, roster, last_batting)
     pitchers = build_pitchers(jays_pitchers, jays_pitchers_l14, pitcher_ids, roster)
 
     prior = week_ago_map(week_ago_standings)

@@ -692,6 +692,24 @@ h2 {
   text-align: right;
 }
 
+.statline-value {
+  display: block;
+  font-size: 16px;
+  color: var(--ink);
+}
+
+.statline-label {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+}
+
+.meta .trend {
+  margin-left: 2px;
+}
+
 footer {
   padding: 12px 0 48px;
   font-size: 13px;
