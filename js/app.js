@@ -344,6 +344,39 @@ function renderSchedule(data) {
   }).join("");
 }
 
+function inningLabel(game) {
+  const n = Number(game.inning);
+  if (!n) return "";
+  const mod = n % 100;
+  const suffix = mod >= 11 && mod <= 13 ? "th" : n % 10 === 1 ? "st" : n % 10 === 2 ? "nd" : n % 10 === 3 ? "rd" : "th";
+  return `${game.inningState || ""} ${n}${suffix}`.trim();
+}
+
+function rootingStatus(game) {
+  const state = game.abstractState;
+  if (state === "Live") {
+    const inn = inningLabel(game);
+    return inn ? `LIVE · ${inn}` : (game.status || "LIVE");
+  }
+  if (state === "Final") {
+    return game.status && !/^final$/i.test(game.status) ? game.status : "Final";
+  }
+  if (game.status && !/^(scheduled|preview)$/i.test(game.status)) {
+    return game.status;
+  }
+  return fmtDate(game.gameDate || game.date, true);
+}
+
+function rootingScore(game) {
+  const away = game.away?.score;
+  const home = game.home?.score;
+  if (away == null && home == null) return "";
+  if (game.abstractState !== "Live" && game.abstractState !== "Final" && !/delay|progress|challenge/i.test(game.status || "")) {
+    return "";
+  }
+  return `${game.away?.abbr || "AWAY"} ${away ?? "–"} @ ${game.home?.abbr || "HOME"} ${home ?? "–"}`;
+}
+
 function renderRooting(data) {
   const tagClass = {
     "Jays game": "jays",
@@ -351,14 +384,19 @@ function renderRooting(data) {
     "Need a loss": "need",
     "Keep them down": "keep",
   };
-  $("rooting").innerHTML = (data.rooting || []).map((game) => `
-    <article class="root-card">
+  $("rooting").innerHTML = (data.rooting || []).map((game) => {
+    const state = (game.abstractState || "").toLowerCase();
+    const live = state === "live";
+    const score = rootingScore(game);
+    const status = rootingStatus(game);
+    return `<article class="root-card${live ? " is-live" : ""}${state === "final" ? " is-final" : ""}">
       <span class="tag ${tagClass[game.interest] || "race"}">${esc(game.interest)}</span>
       <strong>${esc(game.away?.abbr)} @ ${esc(game.home?.abbr)}</strong>
-      <div class="meta">${esc(fmtDate(game.gameDate || game.date, true))}</div>
+      <div class="meta">${live ? `<span class="live">LIVE</span> · ${esc(inningLabel(game) || game.status || "In progress")}` : esc(status)}</div>
+      ${score ? `<div class="score">${esc(score)}</div>` : ""}
       <p>${esc(game.note)}</p>
-    </article>
-  `).join("");
+    </article>`;
+  }).join("");
 }
 
 function renderResults(data) {
