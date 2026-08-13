@@ -351,6 +351,65 @@ function renderPlayers(data) {
   }).join("");
 }
 
+function bindTermTips() {
+  let tip = document.getElementById("termTip");
+  if (!tip) {
+    tip = document.createElement("div");
+    tip.id = "termTip";
+    tip.className = "term-tip";
+    tip.setAttribute("role", "tooltip");
+    document.body.appendChild(tip);
+  }
+
+  document.querySelectorAll("abbr.term").forEach((el) => {
+    if (!el.dataset.tip && el.getAttribute("title")) {
+      el.dataset.tip = el.getAttribute("title");
+    }
+    if (el.dataset.tip && !el.getAttribute("aria-label")) {
+      el.setAttribute("aria-label", `${el.textContent}: ${el.dataset.tip}`);
+    }
+    el.removeAttribute("title");
+  });
+
+  const place = (el) => {
+    const text = el.dataset.tip;
+    if (!text) return;
+    tip.textContent = text;
+    tip.classList.add("show");
+    const pad = 12;
+    const gap = 8;
+    const rect = el.getBoundingClientRect();
+    const tw = tip.offsetWidth;
+    const th = tip.offsetHeight;
+    let left = rect.left + rect.width / 2 - tw / 2;
+    left = Math.max(pad, Math.min(left, window.innerWidth - tw - pad));
+    let top = rect.top - th - gap;
+    if (top < pad) top = Math.min(rect.bottom + gap, window.innerHeight - th - pad);
+    tip.style.left = `${Math.round(left)}px`;
+    tip.style.top = `${Math.round(top)}px`;
+  };
+
+  const hide = () => tip.classList.remove("show");
+
+  document.addEventListener("pointerover", (event) => {
+    const el = event.target.closest?.("abbr.term");
+    if (el) place(el);
+  });
+  document.addEventListener("pointerout", (event) => {
+    const el = event.target.closest?.("abbr.term");
+    if (!el) return;
+    const next = event.relatedTarget;
+    if (next && el.contains(next)) return;
+    hide();
+  });
+  document.addEventListener("focusin", (event) => {
+    const el = event.target.closest?.("abbr.term");
+    if (el) place(el);
+  });
+  document.addEventListener("focusout", hide);
+  window.addEventListener("scroll", hide, true);
+}
+
 async function boot() {
   try {
     const res = await fetch(`data.json?t=${Date.now()}`, { cache: "no-store" });
@@ -369,9 +428,7 @@ async function boot() {
     renderResults(data);
     renderInjuries(data);
     renderPlayers(data);
-    document.querySelectorAll("abbr.term[title]").forEach((el) => {
-      if (!el.dataset.tip) el.dataset.tip = el.getAttribute("title");
-    });
+    bindTermTips();
   } catch (err) {
     $("headline").textContent = "Dashboard needs a data refresh";
     $("blurb").textContent = "Run scripts/fetch_playoff_data.py, then push data.json to GitHub Pages.";

@@ -700,7 +700,6 @@ footer {
 .tiny { font-size: 12px; }
 
 .term {
-  position: relative;
   border-bottom: 1px dotted rgba(243, 193, 75, 0.75);
   text-decoration: none;
   cursor: help;
@@ -712,17 +711,11 @@ footer {
   outline-offset: 2px;
 }
 
-.term:hover::after,
-.term:focus-visible::after {
-  content: attr(data-tip);
-  position: absolute;
-  z-index: 20;
-  left: 50%;
-  bottom: calc(100% + 8px);
-  transform: translateX(-50%);
-  width: max(220px, 100%);
-  min-width: 220px;
-  max-width: 280px;
+.term-tip {
+  position: fixed;
+  z-index: 80;
+  display: none;
+  width: min(280px, calc(100vw - 24px));
   padding: 10px 12px;
   border-radius: 12px;
   background: #f7f1e4;
@@ -734,17 +727,11 @@ footer {
   text-transform: none;
   line-height: 1.35;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
-  white-space: normal;
   pointer-events: none;
 }
 
-.kpi .term,
-.board .term,
-.statline .term,
-.meta .term,
-.compare .term,
-.section-head .term {
-  position: relative;
+.term-tip.show {
+  display: block;
 }
 
 .trends {
