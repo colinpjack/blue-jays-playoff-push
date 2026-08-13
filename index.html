@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Push | Toronto Blue Jays Playoff Dashboard</title>
+  <meta name="description" content="Live-updating Toronto Blue Jays playoff race dashboard: wild-card standings, KPIs, upcoming games, injuries, and the AL clubs they are chasing." />
+  <link rel="icon" href="https://www.mlbstatic.com/team-logos/141.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="atmosphere" aria-hidden="true">
+    <div class="flood flood-a"></div>
+    <div class="flood flood-b"></div>
+    <div class="diamond"></div>
+    <div class="maple"></div>
+  </div>
+
+  <div class="ticker" id="ticker" aria-label="Scoreboard ticker">
+    <div class="ticker-track" id="tickerTrack">Loading the race…</div>
+  </div>
+
+  <header class="topbar">
+    <div class="brand">
+      <img class="brand-logo" src="https://www.mlbstatic.com/team-logos/141.svg" alt="Toronto Blue Jays" />
+      <div>
+        <p class="eyebrow">Toronto Blue Jays · 2026</p>
+        <h1>The Push</h1>
+      </div>
+    </div>
+    <div class="top-meta">
+      <span class="pill" id="updatePill">Refreshing hourly</span>
+      <span class="pill ghost" id="seasonPill">AL Wild Card hunt</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-copy">
+        <p class="kicker" id="statusKicker">Loading the cut line…</p>
+        <h2 id="headline">The race is loading</h2>
+        <p class="lede" id="blurb">Pulling standings, injuries, and the remaining gauntlet.</p>
+        <div class="hero-chips" id="heroChips"></div>
+      </div>
+      <div class="hero-score">
+        <p class="score-label">Games back of the last wild card</p>
+        <p class="score-giant" id="gbGiant">—</p>
+        <p class="score-sub" id="recordLine">TOR</p>
+        <div class="heat">
+          <div class="heat-label">
+            <span>Momentum meter</span>
+            <strong id="heatValue">0</strong>
+          </div>
+          <div class="heat-bar" role="meter" aria-label="Momentum" aria-valuemin="0" aria-valuemax="100">
+            <div class="heat-fill" id="heatFill"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="kpis" id="kpis" aria-label="Playoff KPIs"></section>
+
+    <section class="panel">
+      <div class="section-head">
+        <h3>The cut line</h3>
+        <p>Six AL clubs make October: three division winners, three wild cards. The Jays are fighting for one of those wild-card tickets.</p>
+      </div>
+      <div class="legend">
+        <span><i class="swatch in"></i> In a WC spot</span>
+        <span><i class="swatch hunt"></i> On the bubble</span>
+        <span><i class="swatch jays"></i> Toronto</span>
+      </div>
+      <div class="table-wrap">
+        <table class="board" id="wildCardTable">
+          <thead>
+            <tr>
+              <th>WC</th>
+              <th>Team</th>
+              <th>W-L</th>
+              <th>Pct</th>
+              <th>GB</th>
+              <th>L10</th>
+              <th>Strk</th>
+              <th>Diff</th>
+              <th>Elim</th>
+              <th>Next</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <div class="split">
+      <section class="panel">
+        <div class="section-head">
+          <h3>AL East</h3>
+          <p>Division record still matters — especially with a gauntlet of East games left.</p>
+        </div>
+        <div class="table-wrap">
+          <table class="board compact" id="eastTable">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Team</th>
+                <th>W-L</th>
+                <th>GB</th>
+                <th>L10</th>
+                <th>Home</th>
+                <th>Away</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+      <section class="panel">
+        <div class="section-head">
+          <h3>Already punching October tickets?</h3>
+          <p>Current AL division leaders. Wild-card clubs are chasing the remaining three berths.</p>
+        </div>
+        <div class="leader-grid" id="divLeaders"></div>
+      </section>
+    </div>
+
+    <section class="panel">
+      <div class="section-head">
+        <h3>How the bubble stacks up</h3>
+        <p>Same race, different engines. OPS, ERA, run differential, and last-10 form for every club in the hunt.</p>
+      </div>
+      <div class="compare" id="compare"></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
+        <h3>The gauntlet</h3>
+        <p id="gauntletBlurb">Remaining Toronto games, with probable pitchers when posted.</p>
+      </div>
+      <div class="tickets" id="tickets"></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
+        <h3>Rooting interest</h3>
+        <p>Scoreboard watching 101: who you need to lose, who you need to stay down, and when two bubble teams punch each other.</p>
+      </div>
+      <div class="rooting" id="rooting"></div>
+    </section>
+
+    <div class="split">
+      <section class="panel">
+        <div class="section-head">
+          <h3>Recent results</h3>
+          <p>The stretch that got them back into this thing.</p>
+        </div>
+        <ol class="results" id="results"></ol>
+      </section>
+      <section class="panel">
+        <div class="section-head">
+          <h3>Injury report</h3>
+          <p>Who is missing for Toronto — and how crowded the other IL rooms are.</p>
+        </div>
+        <div class="injury-meta" id="injuryMeta"></div>
+        <div class="injuries" id="injuries"></div>
+      </section>
+    </div>
+
+    <div class="split">
+      <section class="panel">
+        <div class="section-head">
+          <h3>The bats</h3>
+          <p>Qualified hitters and the names that still have to carry October.</p>
+        </div>
+        <div class="players" id="hitters"></div>
+      </section>
+      <section class="panel">
+        <div class="section-head">
+          <h3>The arms</h3>
+          <p>Starters and high-leverage pieces still on the active side of the ledger.</p>
+        </div>
+        <div class="players" id="pitchers"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>Updated about once an hour from the MLB Stats API and ESPN injury reports. Not affiliated with MLB, the Blue Jays, or ESPN.</p>
+    <p class="tiny">Playoff picture: 3 division winners + 3 wild cards per league. Data can lag live pitches by a few minutes.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
