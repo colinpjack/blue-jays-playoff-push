@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T14:10:20.310237-04:00",
+  "generatedAt": "2026-08-13T14:30:42.644778-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -76,7 +76,8 @@
       "homeRunsPer9": "1.06",
       "holds": 80,
       "blownSaves": 15,
-      "winPercentage": ".484"
+      "winPercentage": ".484",
+      "runs": 536
     },
     "momentum": 68,
     "injuryCount": 16,
@@ -320,9 +321,9 @@
           "gameDate": "2026-08-13T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "In Progress",
+          "status": "Manager challenge",
           "abstractState": "Live",
-          "inning": 2,
+          "inning": 3,
           "inningState": "Bottom",
           "home": {
             "id": 147,
@@ -2018,9 +2019,9 @@
           "gameDate": "2026-08-13T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "In Progress",
+          "status": "Manager challenge",
           "abstractState": "Live",
-          "inning": 2,
+          "inning": 3,
           "inningState": "Bottom",
           "home": {
             "id": 147,
@@ -3716,8 +3717,8 @@
           "venue": "Comerica Park",
           "status": "In Progress",
           "abstractState": "Live",
-          "inning": 4,
-          "inningState": "Bottom",
+          "inning": 6,
+          "inningState": "Top",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -4140,8 +4141,8 @@
           "venue": "Comerica Park",
           "status": "In Progress",
           "abstractState": "Live",
-          "inning": 4,
-          "inningState": "Bottom",
+          "inning": 6,
+          "inningState": "Top",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -5410,9 +5411,9 @@
           "gameDate": "2026-08-13T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "In Progress",
+          "status": "Manager challenge",
           "abstractState": "Live",
-          "inning": 2,
+          "inning": 3,
           "inningState": "Bottom",
           "home": {
             "id": 147,
@@ -6492,11 +6493,11 @@
         "slg": ".413",
         "ops": ".724",
         "runs": 545,
-        "hits": 922,
+        "hits": 923,
         "homeRuns": 169,
         "rbi": 519,
         "stolenBases": 114,
-        "strikeOuts": 1100,
+        "strikeOuts": 1101,
         "baseOnBalls": 440,
         "babip": ".275"
       },
@@ -6506,16 +6507,49 @@
         "wins": 68,
         "losses": 52,
         "saves": 34,
-        "strikeOuts": 1083,
+        "strikeOuts": 1084,
         "baseOnBalls": 369,
-        "inningsPitched": "1074.2",
+        "inningsPitched": "1075.2",
         "strikeoutsPer9Inn": "9.07",
         "walksPer9Inn": "3.09",
         "homeRunsPer9": "1.01",
         "holds": 65,
         "blownSaves": 21,
-        "winPercentage": ".567"
+        "winPercentage": ".567",
+        "runs": 456
       },
+      "hittingL10": {
+        "avg": ".224",
+        "obp": ".309",
+        "slg": ".428",
+        "ops": ".737",
+        "runs": 35,
+        "hits": 67,
+        "homeRuns": 13,
+        "rbi": 34,
+        "stolenBases": 6,
+        "strikeOuts": 88,
+        "baseOnBalls": 33,
+        "babip": ".271"
+      },
+      "pitchingL10": {
+        "era": "3.24",
+        "whip": "1.16",
+        "wins": 6,
+        "losses": 3,
+        "saves": 4,
+        "strikeOuts": 93,
+        "baseOnBalls": 33,
+        "inningsPitched": "86.0",
+        "strikeoutsPer9Inn": "9.73",
+        "walksPer9Inn": "3.45",
+        "homeRunsPer9": "1.47",
+        "holds": 8,
+        "blownSaves": 1,
+        "winPercentage": ".667",
+        "runs": 32
+      },
+      "runDifferentialL10": 3,
       "momentum": 85,
       "nextGames": [
         {
@@ -6524,9 +6558,9 @@
           "gameDate": "2026-08-13T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "In Progress",
+          "status": "Manager challenge",
           "abstractState": "Live",
-          "inning": 2,
+          "inning": 3,
           "inningState": "Bottom",
           "home": {
             "id": 147,
@@ -6938,39 +6972,7 @@
         "gbDelta": -1.5,
         "rankDelta": 0,
         "direction": "up"
-      },
-      "hittingL10": {
-        "avg": ".221",
-        "obp": ".307",
-        "slg": ".423",
-        "ops": ".730",
-        "runs": 35,
-        "hits": 66,
-        "homeRuns": 13,
-        "rbi": 34,
-        "stolenBases": 6,
-        "strikeOuts": 88,
-        "baseOnBalls": 33,
-        "babip": ".268"
-      },
-      "pitchingL10": {
-        "era": "3.24",
-        "whip": "1.16",
-        "wins": 6,
-        "losses": 3,
-        "saves": 4,
-        "strikeOuts": 93,
-        "baseOnBalls": 33,
-        "inningsPitched": "86.0",
-        "strikeoutsPer9Inn": "9.73",
-        "walksPer9Inn": "3.45",
-        "homeRunsPer9": "1.47",
-        "holds": 8,
-        "blownSaves": 1,
-        "winPercentage": ".667",
-        "runs": 32
-      },
-      "runDifferentialL10": 3
+      }
     },
     {
       "id": 111,
@@ -7046,8 +7048,41 @@
         "homeRunsPer9": "0.99",
         "holds": 75,
         "blownSaves": 11,
-        "winPercentage": ".533"
+        "winPercentage": ".533",
+        "runs": 452
       },
+      "hittingL10": {
+        "avg": ".286",
+        "obp": ".370",
+        "slg": ".477",
+        "ops": ".847",
+        "runs": 65,
+        "hits": 99,
+        "homeRuns": 14,
+        "rbi": 61,
+        "stolenBases": 12,
+        "strikeOuts": 76,
+        "baseOnBalls": 46,
+        "babip": ".320"
+      },
+      "pitchingL10": {
+        "era": "3.26",
+        "whip": "1.22",
+        "wins": 5,
+        "losses": 5,
+        "saves": 2,
+        "strikeOuts": 92,
+        "baseOnBalls": 31,
+        "inningsPitched": "91.0",
+        "strikeoutsPer9Inn": "9.10",
+        "walksPer9Inn": "3.07",
+        "homeRunsPer9": "0.59",
+        "holds": 6,
+        "blownSaves": 1,
+        "winPercentage": ".500",
+        "runs": 42
+      },
+      "runDifferentialL10": 23,
       "momentum": 52,
       "nextGames": [
         {
@@ -7505,39 +7540,7 @@
         "gbDelta": 2.0,
         "rankDelta": 0,
         "direction": "down"
-      },
-      "hittingL10": {
-        "avg": ".286",
-        "obp": ".370",
-        "slg": ".477",
-        "ops": ".847",
-        "runs": 65,
-        "hits": 99,
-        "homeRuns": 14,
-        "rbi": 61,
-        "stolenBases": 12,
-        "strikeOuts": 76,
-        "baseOnBalls": 46,
-        "babip": ".320"
-      },
-      "pitchingL10": {
-        "era": "3.26",
-        "whip": "1.22",
-        "wins": 5,
-        "losses": 5,
-        "saves": 2,
-        "strikeOuts": 92,
-        "baseOnBalls": 31,
-        "inningsPitched": "91.0",
-        "strikeoutsPer9Inn": "9.10",
-        "walksPer9Inn": "3.07",
-        "homeRunsPer9": "0.59",
-        "holds": 6,
-        "blownSaves": 1,
-        "winPercentage": ".500",
-        "runs": 42
-      },
-      "runDifferentialL10": 23
+      }
     },
     {
       "id": 140,
@@ -7613,8 +7616,41 @@
         "homeRunsPer9": "1.25",
         "holds": 61,
         "blownSaves": 16,
-        "winPercentage": ".496"
+        "winPercentage": ".496",
+        "runs": 531
       },
+      "hittingL10": {
+        "avg": ".220",
+        "obp": ".299",
+        "slg": ".332",
+        "ops": ".631",
+        "runs": 35,
+        "hits": 71,
+        "homeRuns": 8,
+        "rbi": 34,
+        "stolenBases": 2,
+        "strikeOuts": 89,
+        "baseOnBalls": 33,
+        "babip": ".280"
+      },
+      "pitchingL10": {
+        "era": "3.48",
+        "whip": "1.38",
+        "wins": 5,
+        "losses": 5,
+        "saves": 2,
+        "strikeOuts": 78,
+        "baseOnBalls": 39,
+        "inningsPitched": "88.0",
+        "strikeoutsPer9Inn": "7.98",
+        "walksPer9Inn": "3.99",
+        "homeRunsPer9": "1.02",
+        "holds": 3,
+        "blownSaves": 3,
+        "winPercentage": ".500",
+        "runs": 37
+      },
+      "runDifferentialL10": -2,
       "momentum": 70,
       "nextGames": [
         {
@@ -8072,39 +8108,7 @@
         "gbDelta": 0.0,
         "rankDelta": 0,
         "direction": "flat"
-      },
-      "hittingL10": {
-        "avg": ".220",
-        "obp": ".299",
-        "slg": ".332",
-        "ops": ".631",
-        "runs": 35,
-        "hits": 71,
-        "homeRuns": 8,
-        "rbi": 34,
-        "stolenBases": 2,
-        "strikeOuts": 89,
-        "baseOnBalls": 33,
-        "babip": ".280"
-      },
-      "pitchingL10": {
-        "era": "3.48",
-        "whip": "1.38",
-        "wins": 5,
-        "losses": 5,
-        "saves": 2,
-        "strikeOuts": 78,
-        "baseOnBalls": 39,
-        "inningsPitched": "88.0",
-        "strikeoutsPer9Inn": "7.98",
-        "walksPer9Inn": "3.99",
-        "homeRunsPer9": "1.02",
-        "holds": 3,
-        "blownSaves": 3,
-        "winPercentage": ".500",
-        "runs": 37
-      },
-      "runDifferentialL10": -2
+      }
     },
     {
       "id": 142,
@@ -8180,8 +8184,41 @@
         "homeRunsPer9": "1.18",
         "holds": 80,
         "blownSaves": 12,
-        "winPercentage": ".492"
+        "winPercentage": ".492",
+        "runs": 603
       },
+      "hittingL10": {
+        "avg": ".254",
+        "obp": ".334",
+        "slg": ".396",
+        "ops": ".730",
+        "runs": 45,
+        "hits": 88,
+        "homeRuns": 11,
+        "rbi": 43,
+        "stolenBases": 6,
+        "strikeOuts": 75,
+        "baseOnBalls": 35,
+        "babip": ".293"
+      },
+      "pitchingL10": {
+        "era": "4.57",
+        "whip": "1.40",
+        "wins": 4,
+        "losses": 6,
+        "saves": 3,
+        "strikeOuts": 79,
+        "baseOnBalls": 35,
+        "inningsPitched": "86.2",
+        "strikeoutsPer9Inn": "8.20",
+        "walksPer9Inn": "3.63",
+        "homeRunsPer9": "1.04",
+        "holds": 8,
+        "blownSaves": 0,
+        "winPercentage": ".400",
+        "runs": 49
+      },
+      "runDifferentialL10": -4,
       "momentum": 67,
       "nextGames": [
         {
@@ -8553,13 +8590,6 @@
       ],
       "injuries": [
         {
-          "name": "Byron Buxton",
-          "status": "10-Day-IL",
-          "comment": "Twins manager Derek Shelton said Wednesday that \"[Thursday] is a possibility\" for Buxton's (hip) activation from the 10-day injured list, Jack Azoulay-Haron of ELEmergente.com reports.",
-          "date": "2026-08-12T16:36Z",
-          "position": null
-        },
-        {
           "name": "Joe Ryan",
           "status": "15-Day-IL",
           "comment": "Ryan (glute) threw on flat ground Monday, Aaron Gleeman of AaronGleeman.com reports.",
@@ -8609,7 +8639,7 @@
           "position": null
         }
       ],
-      "injuryCount": 8,
+      "injuryCount": 7,
       "weekAgo": {
         "wildCardRank": 4,
         "wildCardGamesBack": "0.5",
@@ -8618,39 +8648,7 @@
         "gbDelta": 0.0,
         "rankDelta": 0,
         "direction": "flat"
-      },
-      "hittingL10": {
-        "avg": ".254",
-        "obp": ".334",
-        "slg": ".396",
-        "ops": ".730",
-        "runs": 45,
-        "hits": 88,
-        "homeRuns": 11,
-        "rbi": 43,
-        "stolenBases": 6,
-        "strikeOuts": 75,
-        "baseOnBalls": 35,
-        "babip": ".293"
-      },
-      "pitchingL10": {
-        "era": "4.57",
-        "whip": "1.40",
-        "wins": 4,
-        "losses": 6,
-        "saves": 3,
-        "strikeOuts": 79,
-        "baseOnBalls": 35,
-        "inningsPitched": "86.2",
-        "strikeoutsPer9Inn": "8.20",
-        "walksPer9Inn": "3.63",
-        "homeRunsPer9": "1.04",
-        "holds": 8,
-        "blownSaves": 0,
-        "winPercentage": ".400",
-        "runs": 49
-      },
-      "runDifferentialL10": -4
+      }
     },
     {
       "id": 116,
@@ -8700,9 +8698,9 @@
       "divisionLeader": false,
       "hitting": {
         "avg": ".243",
-        "obp": ".320",
-        "slg": ".407",
-        "ops": ".727",
+        "obp": ".319",
+        "slg": ".406",
+        "ops": ".725",
         "runs": 550,
         "hits": 987,
         "homeRuns": 145,
@@ -8710,24 +8708,57 @@
         "stolenBases": 35,
         "strikeOuts": 1040,
         "baseOnBalls": 430,
-        "babip": ".289"
+        "babip": ".288"
       },
       "pitching": {
-        "era": "3.49",
+        "era": "3.48",
         "whip": "1.20",
         "wins": 59,
         "losses": 61,
         "saves": 24,
         "strikeOuts": 994,
-        "baseOnBalls": 369,
-        "inningsPitched": "1067.2",
-        "strikeoutsPer9Inn": "8.38",
+        "baseOnBalls": 370,
+        "inningsPitched": "1069.1",
+        "strikeoutsPer9Inn": "8.37",
         "walksPer9Inn": "3.11",
         "homeRunsPer9": "0.98",
         "holds": 54,
         "blownSaves": 26,
-        "winPercentage": ".492"
+        "winPercentage": ".492",
+        "runs": 462
       },
+      "hittingL10": {
+        "avg": ".257",
+        "obp": ".352",
+        "slg": ".381",
+        "ops": ".733",
+        "runs": 56,
+        "hits": 87,
+        "homeRuns": 8,
+        "rbi": 51,
+        "stolenBases": 1,
+        "strikeOuts": 79,
+        "baseOnBalls": 41,
+        "babip": ".313"
+      },
+      "pitchingL10": {
+        "era": "1.89",
+        "whip": "1.06",
+        "wins": 6,
+        "losses": 3,
+        "saves": 2,
+        "strikeOuts": 64,
+        "baseOnBalls": 31,
+        "inningsPitched": "85.2",
+        "strikeoutsPer9Inn": "6.72",
+        "walksPer9Inn": "3.26",
+        "homeRunsPer9": "0.74",
+        "holds": 4,
+        "blownSaves": 1,
+        "winPercentage": ".667",
+        "runs": 20
+      },
+      "runDifferentialL10": 36,
       "momentum": 100,
       "nextGames": [
         {
@@ -8738,8 +8769,8 @@
           "venue": "Comerica Park",
           "status": "In Progress",
           "abstractState": "Live",
-          "inning": 4,
-          "inningState": "Bottom",
+          "inning": 6,
+          "inningState": "Top",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -9206,39 +9237,7 @@
         "gbDelta": -0.5,
         "rankDelta": -2,
         "direction": "up"
-      },
-      "hittingL10": {
-        "avg": ".257",
-        "obp": ".352",
-        "slg": ".381",
-        "ops": ".733",
-        "runs": 56,
-        "hits": 87,
-        "homeRuns": 8,
-        "rbi": 51,
-        "stolenBases": 1,
-        "strikeOuts": 79,
-        "baseOnBalls": 41,
-        "babip": ".313"
-      },
-      "pitchingL10": {
-        "era": "1.89",
-        "whip": "1.06",
-        "wins": 6,
-        "losses": 3,
-        "saves": 2,
-        "strikeOuts": 64,
-        "baseOnBalls": 31,
-        "inningsPitched": "85.2",
-        "strikeoutsPer9Inn": "6.72",
-        "walksPer9Inn": "3.26",
-        "homeRunsPer9": "0.74",
-        "holds": 4,
-        "blownSaves": 1,
-        "winPercentage": ".667",
-        "runs": 20
-      },
-      "runDifferentialL10": 36
+      }
     },
     {
       "id": 114,
@@ -9292,12 +9291,12 @@
         "slg": ".369",
         "ops": ".683",
         "runs": 483,
-        "hits": 938,
+        "hits": 939,
         "homeRuns": 117,
         "rbi": 463,
         "stolenBases": 118,
         "strikeOuts": 1000,
-        "baseOnBalls": 447,
+        "baseOnBalls": 448,
         "babip": ".279"
       },
       "pitching": {
@@ -9308,14 +9307,47 @@
         "saves": 35,
         "strikeOuts": 1128,
         "baseOnBalls": 399,
-        "inningsPitched": "1075.1",
-        "strikeoutsPer9Inn": "9.44",
+        "inningsPitched": "1076.2",
+        "strikeoutsPer9Inn": "9.43",
         "walksPer9Inn": "3.34",
         "homeRunsPer9": "1.15",
         "holds": 91,
         "blownSaves": 14,
-        "winPercentage": ".488"
+        "winPercentage": ".488",
+        "runs": 511
       },
+      "hittingL10": {
+        "avg": ".251",
+        "obp": ".350",
+        "slg": ".361",
+        "ops": ".711",
+        "runs": 42,
+        "hits": 84,
+        "homeRuns": 9,
+        "rbi": 40,
+        "stolenBases": 8,
+        "strikeOuts": 72,
+        "baseOnBalls": 47,
+        "babip": ".292"
+      },
+      "pitchingL10": {
+        "era": "4.29",
+        "whip": "1.31",
+        "wins": 3,
+        "losses": 6,
+        "saves": 1,
+        "strikeOuts": 100,
+        "baseOnBalls": 37,
+        "inningsPitched": "84.0",
+        "strikeoutsPer9Inn": "10.71",
+        "walksPer9Inn": "3.96",
+        "homeRunsPer9": "1.50",
+        "holds": 4,
+        "blownSaves": 3,
+        "winPercentage": ".333",
+        "runs": 49
+      },
+      "runDifferentialL10": -7,
       "momentum": 51,
       "nextGames": [
         {
@@ -9326,8 +9358,8 @@
           "venue": "Comerica Park",
           "status": "In Progress",
           "abstractState": "Live",
-          "inning": 4,
-          "inningState": "Bottom",
+          "inning": 6,
+          "inningState": "Top",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -9710,39 +9742,7 @@
         "gbDelta": 0.5,
         "rankDelta": 1,
         "direction": "down"
-      },
-      "hittingL10": {
-        "avg": ".251",
-        "obp": ".350",
-        "slg": ".361",
-        "ops": ".711",
-        "runs": 42,
-        "hits": 84,
-        "homeRuns": 9,
-        "rbi": 40,
-        "stolenBases": 8,
-        "strikeOuts": 72,
-        "baseOnBalls": 47,
-        "babip": ".292"
-      },
-      "pitchingL10": {
-        "era": "4.29",
-        "whip": "1.31",
-        "wins": 3,
-        "losses": 6,
-        "saves": 1,
-        "strikeOuts": 100,
-        "baseOnBalls": 37,
-        "inningsPitched": "84.0",
-        "strikeoutsPer9Inn": "10.71",
-        "walksPer9Inn": "3.96",
-        "homeRunsPer9": "1.50",
-        "holds": 4,
-        "blownSaves": 3,
-        "winPercentage": ".333",
-        "runs": 49
-      },
-      "runDifferentialL10": -7
+      }
     },
     {
       "id": 141,
@@ -9818,8 +9818,41 @@
         "homeRunsPer9": "1.06",
         "holds": 80,
         "blownSaves": 15,
-        "winPercentage": ".484"
+        "winPercentage": ".484",
+        "runs": 536
       },
+      "hittingL10": {
+        "avg": ".244",
+        "obp": ".304",
+        "slg": ".360",
+        "ops": ".664",
+        "runs": 43,
+        "hits": 86,
+        "homeRuns": 8,
+        "rbi": 40,
+        "stolenBases": 9,
+        "strikeOuts": 84,
+        "baseOnBalls": 30,
+        "babip": ".292"
+      },
+      "pitchingL10": {
+        "era": "3.10",
+        "whip": "1.41",
+        "wins": 7,
+        "losses": 3,
+        "saves": 7,
+        "strikeOuts": 77,
+        "baseOnBalls": 56,
+        "inningsPitched": "95.2",
+        "strikeoutsPer9Inn": "7.24",
+        "walksPer9Inn": "5.27",
+        "homeRunsPer9": "0.94",
+        "holds": 8,
+        "blownSaves": 2,
+        "winPercentage": ".700",
+        "runs": 39
+      },
+      "runDifferentialL10": 4,
       "momentum": 68,
       "nextGames": [
         {
@@ -10312,39 +10345,7 @@
         "gbDelta": -2.0,
         "rankDelta": -2,
         "direction": "up"
-      },
-      "hittingL10": {
-        "avg": ".244",
-        "obp": ".304",
-        "slg": ".360",
-        "ops": ".664",
-        "runs": 43,
-        "hits": 86,
-        "homeRuns": 8,
-        "rbi": 40,
-        "stolenBases": 9,
-        "strikeOuts": 84,
-        "baseOnBalls": 30,
-        "babip": ".292"
-      },
-      "pitchingL10": {
-        "era": "3.10",
-        "whip": "1.41",
-        "wins": 7,
-        "losses": 3,
-        "saves": 7,
-        "strikeOuts": 77,
-        "baseOnBalls": 56,
-        "inningsPitched": "95.2",
-        "strikeoutsPer9Inn": "7.24",
-        "walksPer9Inn": "5.27",
-        "homeRunsPer9": "0.94",
-        "holds": 8,
-        "blownSaves": 2,
-        "winPercentage": ".700",
-        "runs": 39
-      },
-      "runDifferentialL10": 4
+      }
     },
     {
       "id": 110,
@@ -10420,8 +10421,41 @@
         "homeRunsPer9": "1.08",
         "holds": 63,
         "blownSaves": 16,
-        "winPercentage": ".479"
+        "winPercentage": ".479",
+        "runs": 579
       },
+      "hittingL10": {
+        "avg": ".231",
+        "obp": ".315",
+        "slg": ".429",
+        "ops": ".744",
+        "runs": 36,
+        "hits": 71,
+        "homeRuns": 15,
+        "rbi": 35,
+        "stolenBases": 4,
+        "strikeOuts": 88,
+        "baseOnBalls": 34,
+        "babip": ".273"
+      },
+      "pitchingL10": {
+        "era": "4.55",
+        "whip": "1.37",
+        "wins": 4,
+        "losses": 6,
+        "saves": 3,
+        "strikeOuts": 80,
+        "baseOnBalls": 30,
+        "inningsPitched": "83.0",
+        "strikeoutsPer9Inn": "8.67",
+        "walksPer9Inn": "3.25",
+        "homeRunsPer9": "0.98",
+        "holds": 7,
+        "blownSaves": 0,
+        "winPercentage": ".400",
+        "runs": 45
+      },
+      "runDifferentialL10": -9,
       "momentum": 32,
       "nextGames": [
         {
@@ -10865,39 +10899,7 @@
         "gbDelta": 1.0,
         "rankDelta": 2,
         "direction": "down"
-      },
-      "hittingL10": {
-        "avg": ".231",
-        "obp": ".315",
-        "slg": ".429",
-        "ops": ".744",
-        "runs": 36,
-        "hits": 71,
-        "homeRuns": 15,
-        "rbi": 35,
-        "stolenBases": 4,
-        "strikeOuts": 88,
-        "baseOnBalls": 34,
-        "babip": ".273"
-      },
-      "pitchingL10": {
-        "era": "4.55",
-        "whip": "1.37",
-        "wins": 4,
-        "losses": 6,
-        "saves": 3,
-        "strikeOuts": 80,
-        "baseOnBalls": 30,
-        "inningsPitched": "83.0",
-        "strikeoutsPer9Inn": "8.67",
-        "walksPer9Inn": "3.25",
-        "homeRunsPer9": "0.98",
-        "holds": 7,
-        "blownSaves": 0,
-        "winPercentage": ".400",
-        "runs": 45
-      },
-      "runDifferentialL10": -9
+      }
     },
     {
       "id": 136,
@@ -10951,11 +10953,11 @@
         "slg": ".376",
         "ops": ".684",
         "runs": 469,
-        "hits": 912,
+        "hits": 914,
         "homeRuns": 142,
         "rbi": 453,
         "stolenBases": 84,
-        "strikeOuts": 1032,
+        "strikeOuts": 1033,
         "baseOnBalls": 398,
         "babip": ".270"
       },
@@ -10965,16 +10967,49 @@
         "wins": 56,
         "losses": 65,
         "saves": 26,
-        "strikeOuts": 1027,
+        "strikeOuts": 1028,
         "baseOnBalls": 303,
-        "inningsPitched": "1068.1",
+        "inningsPitched": "1069.2",
         "strikeoutsPer9Inn": "8.65",
         "walksPer9Inn": "2.55",
         "homeRunsPer9": "1.10",
         "holds": 61,
         "blownSaves": 19,
-        "winPercentage": ".463"
+        "winPercentage": ".463",
+        "runs": 495
       },
+      "hittingL10": {
+        "avg": ".217",
+        "obp": ".292",
+        "slg": ".347",
+        "ops": ".639",
+        "runs": 22,
+        "hits": 65,
+        "homeRuns": 11,
+        "rbi": 22,
+        "stolenBases": 2,
+        "strikeOuts": 68,
+        "baseOnBalls": 29,
+        "babip": ".244"
+      },
+      "pitchingL10": {
+        "era": "4.98",
+        "whip": "1.50",
+        "wins": 2,
+        "losses": 7,
+        "saves": 1,
+        "strikeOuts": 74,
+        "baseOnBalls": 28,
+        "inningsPitched": "81.1",
+        "strikeoutsPer9Inn": "8.19",
+        "walksPer9Inn": "3.10",
+        "homeRunsPer9": "1.55",
+        "holds": 3,
+        "blownSaves": 2,
+        "winPercentage": ".222",
+        "runs": 50
+      },
+      "runDifferentialL10": -28,
       "momentum": 0,
       "nextGames": [
         {
@@ -10983,9 +11018,9 @@
           "gameDate": "2026-08-13T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "In Progress",
+          "status": "Manager challenge",
           "abstractState": "Live",
-          "inning": 2,
+          "inning": 3,
           "inningState": "Bottom",
           "home": {
             "id": 147,
@@ -11425,39 +11460,7 @@
         "gbDelta": 2.5,
         "rankDelta": 1,
         "direction": "down"
-      },
-      "hittingL10": {
-        "avg": ".217",
-        "obp": ".292",
-        "slg": ".347",
-        "ops": ".639",
-        "runs": 22,
-        "hits": 65,
-        "homeRuns": 11,
-        "rbi": 22,
-        "stolenBases": 2,
-        "strikeOuts": 68,
-        "baseOnBalls": 29,
-        "babip": ".244"
-      },
-      "pitchingL10": {
-        "era": "4.98",
-        "whip": "1.50",
-        "wins": 2,
-        "losses": 7,
-        "saves": 1,
-        "strikeOuts": 74,
-        "baseOnBalls": 28,
-        "inningsPitched": "81.1",
-        "strikeoutsPer9Inn": "8.19",
-        "walksPer9Inn": "3.10",
-        "homeRunsPer9": "1.55",
-        "holds": 3,
-        "blownSaves": 2,
-        "winPercentage": ".222",
-        "runs": 50
-      },
-      "runDifferentialL10": -28
+      }
     }
   ],
   "schedule": [
@@ -13232,8 +13235,8 @@
       "venue": "Comerica Park",
       "status": "In Progress",
       "abstractState": "Live",
-      "inning": 4,
-      "inningState": "Bottom",
+      "inning": 6,
+      "inningState": "Top",
       "home": {
         "id": 116,
         "name": "Detroit Tigers",
@@ -13284,9 +13287,9 @@
       "gameDate": "2026-08-13T17:35:00Z",
       "dayNight": "day",
       "venue": "Yankee Stadium",
-      "status": "In Progress",
+      "status": "Manager challenge",
       "abstractState": "Live",
-      "inning": 2,
+      "inning": 3,
       "inningState": "Bottom",
       "home": {
         "id": 147,
@@ -15145,13 +15148,13 @@
     ]
   },
   "playoffOdds": {
-    "percent": 17.4,
+    "percent": 17.3,
     "sims": 5000,
-    "made": 868,
+    "made": 867,
     "gamesModeled": 389,
     "talent": 0.484,
     "method": "Monte Carlo of remaining American League games. Each game uses log5 win odds from Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag.",
-    "note": "17.4% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 389 remaining games involving AL clubs.",
+    "note": "17.3% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 389 remaining games involving AL clubs.",
     "gb": "1.5",
     "gamesLeft": 40
   },
