@@ -411,14 +411,15 @@ function renderPlayers(data) {
   }).join("");
   $("pitchers").innerHTML = (data.leaders?.pitching || []).map((p) => {
     const hot = p.trend;
+    const saves = p.sv ? ` · ${esc(p.sv)} ${term("SV")}` : "";
     return `<article class="player">
       <img src="${esc(p.headshot)}" alt="" onerror="this.style.opacity='0.2'" />
       <div>
         <strong>${esc(p.name)}</strong>
-        <div class="meta">${term(p.role)} · ${esc(p.ip)} ${term("IP")} · ${esc(p.w)}-${esc(p.l)} · ${esc(p.so)} K${p.sv ? ` · ${p.sv} ${term("SV")}` : ""}</div>
+        <div class="meta">${term(p.role)} · Season ${esc(p.ip)} ${term("IP")} · ${esc(p.w)}-${esc(p.l)} · ${esc(p.whip)} ${term("WHIP")} · ${esc(p.so)} K${saves}</div>
         ${hot?.era ? `<div class="player-trend">${trendBadge(hot.direction, `${hot.window} ${hot.era} ERA`)}</div>` : ""}
       </div>
-      <div class="statline">${esc(p.era)} ${term("ERA")}<br>${esc(p.whip)} ${term("WHIP")}</div>
+      <div class="statline"><span class="statline-value">${esc(p.era)}</span><span class="statline-label">Season ${term("ERA")}</span></div>
     </article>`;
   }).join("");
 }
