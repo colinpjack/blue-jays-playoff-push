@@ -265,26 +265,59 @@ function metricMax(rows, getter) {
   return Math.max(...rows.map(getter), 0.0001);
 }
 
+function signed(value) {
+  if (value == null || value === "") return "—";
+  const n = Number(value);
+  if (Number.isNaN(n)) return "—";
+  return `${n > 0 ? "+" : ""}${n}`;
+}
+
+function pctOfMax(value, max) {
+  if (!max) return 8;
+  return Math.max(8, Math.min(100, Math.round((value / max) * 100)));
+}
+
+function compareBlock(race, block) {
+  const max = metricMax(race, block.get);
+  const rows = [...race].sort((a, b) => block.get(b) - block.get(a)).map((team) => {
+    const pct = pctOfMax(block.get(team), max);
+    return `<div class="compare-row">
+      <div class="who"><img src="${esc(team.logo)}" alt="" />${esc(team.abbr)}</div>
+      <div class="bar ${team.id === 141 ? "jays" : ""}"><span style="width:${pct}%"></span></div>
+      <b>${esc(block.format(team))}</b>
+    </div>`;
+  }).join("");
+  return `<div class="compare-block"><header>${block.title}</header>${rows}</div>`;
+}
+
 function renderCompare(data) {
   const race = data.race || [];
-  const blocks = [
-    { title: term("OPS"), get: (t) => parseFloat(t.hitting?.ops || 0), format: (t) => t.hitting?.ops || "—" },
-    { title: `Staff ${term("ERA")}`, get: (t) => 6 - parseFloat(t.pitching?.era || 6), format: (t) => t.pitching?.era || "—" },
-    { title: "Run differential", get: (t) => Math.max(0, (t.runDifferential || 0) + 80), format: (t) => `${t.runDifferential > 0 ? "+" : ""}${t.runDifferential}` },
-    { title: "Last 10 wins", get: (t) => t.lastTenWins || 0, format: (t) => t.lastTen || "—" },
+  const columns = [
+    {
+      heading: "Last 10 games",
+      blocks: [
+        { title: "Record", get: (t) => t.lastTenWins || 0, format: (t) => t.lastTen || "—" },
+        { title: term("OPS"), get: (t) => parseFloat(t.hittingL10?.ops || 0), format: (t) => t.hittingL10?.ops || "—" },
+        { title: `Staff ${term("ERA")}`, get: (t) => 6 - parseFloat(t.pitchingL10?.era || 6), format: (t) => t.pitchingL10?.era || "—" },
+        { title: "Run differential", get: (t) => Math.max(0, (t.runDifferentialL10 || 0) + 40), format: (t) => signed(t.runDifferentialL10) },
+      ],
+    },
+    {
+      heading: "Full season",
+      blocks: [
+        { title: "Record", get: (t) => parseFloat(t.pct || 0), format: (t) => `${record(t)} · ${t.pct || "—"}` },
+        { title: term("OPS"), get: (t) => parseFloat(t.hitting?.ops || 0), format: (t) => t.hitting?.ops || "—" },
+        { title: `Staff ${term("ERA")}`, get: (t) => 6 - parseFloat(t.pitching?.era || 6), format: (t) => t.pitching?.era || "—" },
+        { title: "Run differential", get: (t) => Math.max(0, (t.runDifferential || 0) + 80), format: (t) => signed(t.runDifferential) },
+      ],
+    },
   ];
-  $("compare").innerHTML = blocks.map((block) => {
-    const max = metricMax(race, block.get);
-    const rows = [...race].sort((a, b) => block.get(b) - block.get(a)).map((team) => {
-      const pct = Math.max(8, Math.round((block.get(team) / max) * 100));
-      return `<div class="compare-row">
-        <div class="who"><img src="${esc(team.logo)}" alt="" />${esc(team.abbr)}</div>
-        <div class="bar ${team.id === 141 ? "jays" : ""}"><span style="width:${pct}%"></span></div>
-        <b>${esc(block.format(team))}</b>
-      </div>`;
-    }).join("");
-        return `<div><header>${block.title}</header>${rows}</div>`;
-  }).join("");
+  $("compare").innerHTML = columns.map((col) => `
+    <div class="compare-col">
+      <h4>${esc(col.heading)}</h4>
+      ${col.blocks.map((block) => compareBlock(race, block)).join("")}
+    </div>
+  `).join("");
 }
 
 function renderSchedule(data) {

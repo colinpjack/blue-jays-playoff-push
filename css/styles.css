@@ -533,20 +533,35 @@ h2 {
 }
 
 .compare {
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px 28px;
+  align-items: start;
+}
+
+.compare-col {
+  min-width: 0;
+}
+
+.compare-col > h4 {
+  margin: 0 0 10px;
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
 }
 
 .compare-row {
   display: grid;
-  grid-template-columns: 140px 1fr 72px;
-  gap: 10px;
+  grid-template-columns: 56px 1fr 88px;
+  gap: 8px;
   align-items: center;
 }
 
-.compare > div > header {
+.compare-block > header {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 22px;
-  margin: 10px 0 8px;
+  font-size: 20px;
+  margin: 12px 0 8px;
 }
 
 .ticket.today {
@@ -856,7 +871,7 @@ footer {
 .player-trend { margin-top: 4px; }
 
 @media (max-width: 900px) {
-  .hero-copy, .hero-meters, .split, .kpis { grid-template-columns: 1fr; }
+  .hero-copy, .hero-meters, .split, .kpis, .compare { grid-template-columns: 1fr; }
   .hero-chips { grid-template-columns: 1fr 1fr; }
   .kpis { grid-template-columns: 1fr 1fr; }
   .trends { grid-template-columns: 1fr 1fr; }

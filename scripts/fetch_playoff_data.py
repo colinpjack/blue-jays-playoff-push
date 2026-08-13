@@ -193,6 +193,38 @@ def pick_stat(stat: dict, keys: list[str]) -> dict:
     return out
 
 
+def team_stats_by_id(payload: dict) -> dict[int, dict]:
+    out: dict[int, dict] = {}
+    for split in (payload.get("stats") or [{}])[0].get("splits") or []:
+        tid = (split.get("team") or {}).get("id")
+        if tid:
+            out[tid] = split.get("stat") or {}
+    return out
+
+
+def fetch_last_x_team_stats(group: str, season: int, games: int = 10) -> dict[int, dict]:
+    """lastXGames+limit is both 'last N games' and page size, so page through all 30 clubs."""
+    by_id: dict[int, dict] = {}
+    for offset in range(0, 30, games):
+        payload = fetch_json(
+            f"https://statsapi.mlb.com/api/v1/teams/stats?group={group}&season={season}"
+            f"&sportIds=1&stats=lastXGames&limit={games}&offset={offset}"
+        )
+        by_id.update(team_stats_by_id(payload))
+    return by_id
+
+
+def run_diff_from_splits(hitting: dict, pitching: dict) -> int | None:
+    if not hitting or not pitching:
+        return None
+    if hitting.get("runs") is None or pitching.get("runs") is None:
+        return None
+    try:
+        return int(float(hitting["runs"])) - int(float(pitching["runs"]))
+    except (TypeError, ValueError):
+        return None
+
+
 HITTING_KEYS = [
     "avg", "obp", "slg", "ops", "runs", "hits", "homeRuns", "rbi",
     "stolenBases", "strikeOuts", "baseOnBalls", "babip",
@@ -200,7 +232,7 @@ HITTING_KEYS = [
 PITCHING_KEYS = [
     "era", "whip", "wins", "losses", "saves", "strikeOuts", "baseOnBalls",
     "inningsPitched", "strikeoutsPer9Inn", "walksPer9Inn", "homeRunsPer9",
-    "holds", "blownSaves", "winPercentage",
+    "holds", "blownSaves", "winPercentage", "runs",
 ]
 
 
@@ -872,6 +904,8 @@ def main() -> None:
     pitching = fetch_json(
         f"https://statsapi.mlb.com/api/v1/teams/stats?group=pitching&season={season}&sportIds=1&stats=season"
     )
+    hitting_l10 = fetch_last_x_team_stats("hitting", season, 10)
+    pitching_l10 = fetch_last_x_team_stats("pitching", season, 10)
     schedule = fetch_json(
         "https://statsapi.mlb.com/api/v1/schedule?sportId=1"
         f"&startDate={start_recent.isoformat()}&endDate={end_upcoming.isoformat()}"
@@ -917,14 +951,8 @@ def main() -> None:
     )
     espn = fetch_json("https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries")
 
-    hitting_by_id = {
-        (split.get("team") or {}).get("id"): split.get("stat") or {}
-        for split in (hitting.get("stats") or [{}])[0].get("splits") or []
-    }
-    pitching_by_id = {
-        (split.get("team") or {}).get("id"): split.get("stat") or {}
-        for split in (pitching.get("stats") or [{}])[0].get("splits") or []
-    }
+    hitting_by_id = team_stats_by_id(hitting)
+    pitching_by_id = team_stats_by_id(pitching)
 
     al_east: list[dict] = []
     al_west_leaders = []
@@ -967,6 +995,11 @@ def main() -> None:
             enriched = dict(team)
             enriched["hitting"] = pick_stat(hitting_by_id.get(team["id"]) or {}, HITTING_KEYS)
             enriched["pitching"] = pick_stat(pitching_by_id.get(team["id"]) or {}, PITCHING_KEYS)
+            hit_l10 = pick_stat(hitting_l10.get(team["id"]) or {}, HITTING_KEYS)
+            pitch_l10 = pick_stat(pitching_l10.get(team["id"]) or {}, PITCHING_KEYS)
+            enriched["hittingL10"] = hit_l10
+            enriched["pitchingL10"] = pitch_l10
+            enriched["runDifferentialL10"] = run_diff_from_splits(hit_l10, pitch_l10)
             enriched["momentum"] = momentum_score(enriched)
             race.append(enriched)
 
