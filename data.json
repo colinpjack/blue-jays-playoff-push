@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T13:08:47.561318-04:00",
+  "generatedAt": "2026-08-13T14:01:50.784153-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -320,9 +320,9 @@
           "gameDate": "2026-08-13T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": 1,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 2,
           "inningState": "Top",
           "home": {
             "id": 147,
@@ -2018,9 +2018,9 @@
           "gameDate": "2026-08-13T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": 1,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 2,
           "inningState": "Top",
           "home": {
             "id": 147,
@@ -3714,9 +3714,9 @@
           "gameDate": "2026-08-13T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Warmup",
+          "status": "In Progress",
           "abstractState": "Live",
-          "inning": 1,
+          "inning": 4,
           "inningState": "Top",
           "home": {
             "id": 116,
@@ -3727,7 +3727,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": 0,
+            "score": 1,
             "probablePitcher": "Keider Montero",
             "record": {
               "wins": 59,
@@ -4138,9 +4138,9 @@
           "gameDate": "2026-08-13T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Warmup",
+          "status": "In Progress",
           "abstractState": "Live",
-          "inning": 1,
+          "inning": 4,
           "inningState": "Top",
           "home": {
             "id": 116,
@@ -4151,7 +4151,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": 0,
+            "score": 1,
             "probablePitcher": "Keider Montero",
             "record": {
               "wins": 59,
@@ -5410,9 +5410,9 @@
           "gameDate": "2026-08-13T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": 1,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 2,
           "inningState": "Top",
           "home": {
             "id": 147,
@@ -6428,6 +6428,15 @@
     "jaysGamesBack": "1.5",
     "teamsAhead": 6
   },
+  "magicNumber": {
+    "kind": "get-in",
+    "value": 4,
+    "toTie": 3,
+    "vs": "TEX",
+    "vsName": "Texas Rangers",
+    "hint": "Jays wins + TEX losses to pass the last wild-card spot",
+    "detail": "3 to tie TEX, 4 to go ahead of today's cut line."
+  },
   "race": [
     {
       "id": 147,
@@ -6485,19 +6494,19 @@
         "homeRuns": 169,
         "rbi": 519,
         "stolenBases": 114,
-        "strikeOuts": 1099,
+        "strikeOuts": 1100,
         "baseOnBalls": 440,
         "babip": ".275"
       },
       "pitching": {
-        "era": "3.30",
+        "era": "3.29",
         "whip": "1.18",
         "wins": 68,
         "losses": 52,
         "saves": 34,
-        "strikeOuts": 1081,
-        "baseOnBalls": 368,
-        "inningsPitched": "1072.2",
+        "strikeOuts": 1083,
+        "baseOnBalls": 369,
+        "inningsPitched": "1074.1",
         "strikeoutsPer9Inn": "9.07",
         "walksPer9Inn": "3.09",
         "homeRunsPer9": "1.01",
@@ -6513,9 +6522,9 @@
           "gameDate": "2026-08-13T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": 1,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 2,
           "inningState": "Top",
           "home": {
             "id": 147,
@@ -8564,26 +8573,26 @@
         "obp": ".320",
         "slg": ".407",
         "ops": ".727",
-        "runs": 549,
-        "hits": 985,
+        "runs": 550,
+        "hits": 987,
         "homeRuns": 145,
-        "rbi": 522,
+        "rbi": 523,
         "stolenBases": 35,
-        "strikeOuts": 1035,
-        "baseOnBalls": 429,
+        "strikeOuts": 1038,
+        "baseOnBalls": 430,
         "babip": ".289"
       },
       "pitching": {
-        "era": "3.50",
+        "era": "3.49",
         "whip": "1.21",
         "wins": 59,
         "losses": 61,
         "saves": 24,
         "strikeOuts": 994,
         "baseOnBalls": 369,
-        "inningsPitched": "1063.2",
-        "strikeoutsPer9Inn": "8.41",
-        "walksPer9Inn": "3.12",
+        "inningsPitched": "1067.0",
+        "strikeoutsPer9Inn": "8.38",
+        "walksPer9Inn": "3.11",
         "homeRunsPer9": "0.98",
         "holds": 54,
         "blownSaves": 26,
@@ -8597,9 +8606,9 @@
           "gameDate": "2026-08-13T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Warmup",
+          "status": "In Progress",
           "abstractState": "Live",
-          "inning": 1,
+          "inning": 4,
           "inningState": "Top",
           "home": {
             "id": 116,
@@ -8610,7 +8619,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": 0,
+            "score": 1,
             "probablePitcher": "Keider Montero",
             "record": {
               "wins": 59,
@@ -8960,6 +8969,13 @@
       ],
       "injuries": [
         {
+          "name": "James Outman",
+          "status": "7-Day IL",
+          "comment": "The Tigers placed Outman on the 7-day concussion injured list Thursday.",
+          "date": "2026-08-13T17:08Z",
+          "position": null
+        },
+        {
           "name": "Riley Greene",
           "status": "10-Day-IL",
           "comment": "Greene exited Tuesday's game versus Cleveland in the third inning as a result of right hamstring tightness.",
@@ -9051,7 +9067,7 @@
           "position": null
         }
       ],
-      "injuryCount": 13,
+      "injuryCount": 14,
       "weekAgo": {
         "wildCardRank": 7,
         "wildCardGamesBack": "1.0",
@@ -9114,13 +9130,13 @@
         "slg": ".370",
         "ops": ".684",
         "runs": 483,
-        "hits": 936,
+        "hits": 938,
         "homeRuns": 117,
         "rbi": 463,
-        "stolenBases": 117,
+        "stolenBases": 118,
         "strikeOuts": 1000,
         "baseOnBalls": 447,
-        "babip": ".280"
+        "babip": ".279"
       },
       "pitching": {
         "era": "3.84",
@@ -9128,9 +9144,9 @@
         "wins": 59,
         "losses": 62,
         "saves": 35,
-        "strikeOuts": 1123,
-        "baseOnBalls": 398,
-        "inningsPitched": "1071.2",
+        "strikeOuts": 1126,
+        "baseOnBalls": 399,
+        "inningsPitched": "1074.2",
         "strikeoutsPer9Inn": "9.43",
         "walksPer9Inn": "3.34",
         "homeRunsPer9": "1.16",
@@ -9146,9 +9162,9 @@
           "gameDate": "2026-08-13T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Warmup",
+          "status": "In Progress",
           "abstractState": "Live",
-          "inning": 1,
+          "inning": 4,
           "inningState": "Top",
           "home": {
             "id": 116,
@@ -9159,7 +9175,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": 0,
+            "score": 1,
             "probablePitcher": "Keider Montero",
             "record": {
               "wins": 59,
@@ -9981,6 +9997,13 @@
       ],
       "injuries": [
         {
+          "name": "Spencer Arrighetti",
+          "status": "15-Day-IL",
+          "comment": "Arrighetti (foot) will resume a rehab assignment with Triple-A Buffalo on Sunday, Shi Davidi of Sportsnet.ca reports.",
+          "date": "2026-08-13T17:28Z",
+          "position": null
+        },
+        {
           "name": "Brendon Little",
           "status": "Paternity",
           "comment": "The Blue Jays placed Little on the paternity list Thursday.",
@@ -10020,13 +10043,6 @@
           "status": "10-Day-IL",
           "comment": "The Blue Jays announced Monday that Urias (quadriceps) will be shut down for the next two weeks, Ben Nicholson-Smith of Sportsnet.ca reports.",
           "date": "2026-08-10T20:51Z",
-          "position": null
-        },
-        {
-          "name": "Spencer Arrighetti",
-          "status": "15-Day-IL",
-          "comment": "Arrighetti has been diagnosed with Morton's Neuroma in his right foot but is aiming to pitch through the issue, Keegan Matheson of MLB.com reports.",
-          "date": "2026-08-10T20:45Z",
           "position": null
         },
         {
@@ -10681,19 +10697,19 @@
         "homeRuns": 141,
         "rbi": 452,
         "stolenBases": 84,
-        "strikeOuts": 1030,
-        "baseOnBalls": 397,
+        "strikeOuts": 1032,
+        "baseOnBalls": 398,
         "babip": ".270"
       },
       "pitching": {
-        "era": "3.85",
+        "era": "3.84",
         "whip": "1.21",
         "wins": 56,
         "losses": 65,
         "saves": 26,
-        "strikeOuts": 1026,
+        "strikeOuts": 1027,
         "baseOnBalls": 303,
-        "inningsPitched": "1067.1",
+        "inningsPitched": "1068.1",
         "strikeoutsPer9Inn": "8.65",
         "walksPer9Inn": "2.55",
         "homeRunsPer9": "1.10",
@@ -10709,9 +10725,9 @@
           "gameDate": "2026-08-13T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": 1,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 2,
           "inningState": "Top",
           "home": {
             "id": 147,
@@ -11086,13 +11102,6 @@
           "position": null
         },
         {
-          "name": "Gabe Speier",
-          "status": "Day-To-Day",
-          "comment": "Speier was unavailable for Tuesday's game against the Yankees due to back discomfort, Ryan Divish of The Seattle Times reports.",
-          "date": "2026-08-12T03:05Z",
-          "position": null
-        },
-        {
           "name": "Matt Brash",
           "status": "15-Day-IL",
           "comment": "Mariners manager Dan Wilson said Saturday that Brash (lat) is \"looming\" closer to throwing a bullpen session, MLB.com reports.",
@@ -11149,7 +11158,7 @@
           "position": null
         }
       ],
-      "injuryCount": 11,
+      "injuryCount": 10,
       "weekAgo": {
         "wildCardRank": 8,
         "wildCardGamesBack": "1.5",
@@ -12931,9 +12940,9 @@
       "gameDate": "2026-08-13T17:10:00Z",
       "dayNight": "day",
       "venue": "Comerica Park",
-      "status": "Warmup",
+      "status": "In Progress",
       "abstractState": "Live",
-      "inning": 1,
+      "inning": 4,
       "inningState": "Top",
       "home": {
         "id": 116,
@@ -12944,7 +12953,7 @@
         "fileCode": "det",
         "logo": "https://www.mlbstatic.com/team-logos/116.svg",
         "color": "#0C2340",
-        "score": 0,
+        "score": 1,
         "probablePitcher": "Keider Montero",
         "record": {
           "wins": 59,
@@ -12985,9 +12994,9 @@
       "gameDate": "2026-08-13T17:35:00Z",
       "dayNight": "day",
       "venue": "Yankee Stadium",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
-      "inning": 1,
+      "status": "In Progress",
+      "abstractState": "Live",
+      "inning": 2,
       "inningState": "Top",
       "home": {
         "id": 147,
@@ -13900,6 +13909,13 @@
   ],
   "injuries": [
     {
+      "name": "Spencer Arrighetti",
+      "status": "15-Day-IL",
+      "comment": "Arrighetti (foot) will resume a rehab assignment with Triple-A Buffalo on Sunday, Shi Davidi of Sportsnet.ca reports.",
+      "date": "2026-08-13T17:28Z",
+      "position": null
+    },
+    {
       "name": "Brendon Little",
       "status": "Paternity",
       "comment": "The Blue Jays placed Little on the paternity list Thursday.",
@@ -13939,13 +13955,6 @@
       "status": "10-Day-IL",
       "comment": "The Blue Jays announced Monday that Urias (quadriceps) will be shut down for the next two weeks, Ben Nicholson-Smith of Sportsnet.ca reports.",
       "date": "2026-08-10T20:51Z",
-      "position": null
-    },
-    {
-      "name": "Spencer Arrighetti",
-      "status": "15-Day-IL",
-      "comment": "Arrighetti has been diagnosed with Morton's Neuroma in his right foot but is aiming to pitch through the issue, Keegan Matheson of MLB.com reports.",
-      "date": "2026-08-10T20:45Z",
       "position": null
     },
     {
@@ -14848,7 +14857,7 @@
   "playoffOdds": {
     "percent": 17.4,
     "sims": 5000,
-    "made": 869,
+    "made": 868,
     "gamesModeled": 389,
     "talent": 0.484,
     "method": "Monte Carlo of remaining American League games. Each game uses log5 win odds from Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag.",
@@ -14905,14 +14914,5 @@
       "hint": "Record the run differential expects",
       "stat": "Pythag"
     }
-  ],
-  "magicNumber": {
-    "kind": "get-in",
-    "value": 4,
-    "toTie": 3,
-    "vs": "TEX",
-    "vsName": "Texas Rangers",
-    "hint": "Jays wins + TEX losses to pass the last wild-card spot",
-    "detail": "3 to tie TEX, 4 to go ahead of today's cut line."
-  }
+  ]
 }
