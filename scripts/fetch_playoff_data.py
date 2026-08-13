@@ -3,7 +3,9 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
+import random
 import ssl
 import subprocess
 import time
@@ -255,6 +257,150 @@ def momentum_score(team: dict) -> int:
     rank = team.get("wildCardRank") or 9
     rank_term = max(0, 24 - rank * 3)
     return max(0, min(100, gb_term + l10 + streak + rd + rank_term))
+
+
+HOME_ADVANTAGE = 0.038
+PLAYOFF_SIMS = 5000
+
+
+def parse_pct(value, default: float = 0.5) -> float:
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return default
+
+
+def injury_drag(team: dict, detailed_injuries: list[dict] | None = None) -> float:
+    if detailed_injuries:
+        drag = 0.0
+        for inj in detailed_injuries:
+            status = (inj.get("status") or "").lower()
+            if "10" in status:
+                drag += 0.007
+            elif "15" in status:
+                drag += 0.009
+            elif "60" in status:
+                drag += 0.001
+            else:
+                drag += 0.004
+        return min(0.04, drag)
+    return min(0.035, 0.0028 * int(team.get("injuryCount") or 0))
+
+
+def team_talent(team: dict, detailed_injuries: list[dict] | None = None) -> float:
+    actual = parse_pct(team.get("pct"))
+    pyth = team.get("pythagPct")
+    pyth = float(pyth) if pyth is not None else actual
+    l10w = int(team.get("lastTenWins") or 0)
+    l10l = int(team.get("lastTenLosses") or 0)
+    l10n = l10w + l10l
+    recent = (l10w / l10n) if l10n else actual
+    base = 0.45 * pyth + 0.30 * actual + 0.25 * recent
+    base -= injury_drag(team, detailed_injuries)
+    return max(0.33, min(0.67, base))
+
+
+def log5(p_win: float, p_lose: float) -> float:
+    a = max(0.05, min(0.95, p_win))
+    b = max(0.05, min(0.95, p_lose))
+    num = a * (1 - b)
+    den = num + b * (1 - a)
+    return num / den if den else 0.5
+
+
+def remaining_al_matchups(all_games: list[dict], al_ids: set[int]) -> list[tuple[int, int]]:
+    games = []
+    seen = set()
+    for game in all_games:
+        if (game.get("status") or {}).get("abstractGameState") == "Final":
+            continue
+        pk = game.get("gamePk")
+        if not pk or pk in seen:
+            continue
+        home = ((game.get("teams") or {}).get("home") or {}).get("team") or {}
+        away = ((game.get("teams") or {}).get("away") or {}).get("team") or {}
+        hid, aid = home.get("id"), away.get("id")
+        if not hid or not aid:
+            continue
+        hid, aid = int(hid), int(aid)
+        if hid not in al_ids and aid not in al_ids:
+            continue
+        seen.add(pk)
+        games.append((hid, aid))
+    return games
+
+
+def simulate_playoff_odds(
+    all_al: dict[int, dict],
+    all_records: dict[int, dict],
+    all_games: list[dict],
+    jays_injuries: list[dict],
+    n: int = PLAYOFF_SIMS,
+) -> dict:
+    al_ids = set(all_al.keys())
+    matchups = remaining_al_matchups(all_games, al_ids)
+    talent: dict[int, float] = {}
+    for tid, team in all_records.items():
+        talent[tid] = team_talent(team)
+    for tid, team in all_al.items():
+        extra = jays_injuries if tid == JAYS_ID else None
+        talent[tid] = team_talent(team, extra)
+
+    divisions: dict[str, list[int]] = defaultdict(list)
+    for tid, team in all_al.items():
+        divisions[team.get("divisionName") or "Unknown"].append(tid)
+
+    start_wins = {tid: int(team.get("wins") or 0) for tid, team in all_al.items()}
+    run_diff = {tid: int(team.get("runDifferential") or 0) for tid, team in all_al.items()}
+
+    seed_src = json.dumps(
+        [(tid, all_al[tid].get("wins"), all_al[tid].get("losses")) for tid in sorted(all_al)]
+        + [len(matchups), len(jays_injuries)],
+        separators=(",", ":"),
+    )
+    rng = random.Random(int(hashlib.md5(seed_src.encode()).hexdigest()[:16], 16))
+
+    made = 0
+    for _ in range(n):
+        wins = dict(start_wins)
+        for hid, aid in matchups:
+            p_home = log5(talent.get(hid, 0.5) + HOME_ADVANTAGE, talent.get(aid, 0.5))
+            if rng.random() < p_home:
+                if hid in wins:
+                    wins[hid] += 1
+            elif aid in wins:
+                wins[aid] += 1
+        winners = set()
+        for ids in divisions.values():
+            if ids:
+                winners.add(sorted(ids, key=lambda tid: (wins[tid], run_diff[tid]), reverse=True)[0])
+        rest = sorted(
+            (tid for tid in all_al if tid not in winners),
+            key=lambda tid: (wins[tid], run_diff[tid]),
+            reverse=True,
+        )
+        if JAYS_ID in winners or JAYS_ID in rest[:3]:
+            made += 1
+
+    percent = round(100.0 * made / n, 1)
+    jays_team = all_al.get(JAYS_ID) or {}
+    return {
+        "percent": percent,
+        "sims": n,
+        "made": made,
+        "gamesModeled": len(matchups),
+        "talent": round(talent.get(JAYS_ID, 0), 3),
+        "method": (
+            "Monte Carlo of remaining American League games. Each game uses log5 win odds from "
+            "Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag."
+        ),
+        "note": (
+            f"{percent}% of {n:,} sims have Toronto as a division winner or one of the three AL wild cards. "
+            f"Models {len(matchups)} remaining games involving AL clubs."
+        ),
+        "gb": jays_team.get("wildCardGamesBack"),
+        "gamesLeft": jays_team.get("gamesRemaining"),
+    }
 
 
 def narrative_for(jays: dict) -> dict:
@@ -831,12 +977,15 @@ def main() -> None:
         match_espn_team(jays.get("name"), jays.get("abbr"), espn_teams),
         il_fallback,
     )
+    jays["injuryCount"] = len(jays_injuries)
 
     for team in race:
         team["nextGames"] = upcoming_for(team["id"], 6)
         espn_team = match_espn_team(team.get("name"), team.get("abbr"), espn_teams)
         team["injuries"] = injury_items(espn_team, [])
         team["injuryCount"] = len(team["injuries"])
+        if team["id"] in all_al:
+            all_al[team["id"]]["injuryCount"] = team["injuryCount"]
 
     next_lookup = {team["id"]: team.get("nextGames") for team in race}
     for team in wild_card:
@@ -895,6 +1044,8 @@ def main() -> None:
     apply_week_trends(race, prior)
     apply_week_trends(al_east, prior)
     apply_week_trends([jays], prior)
+
+    playoff_odds = simulate_playoff_odds(all_al, all_records, all_games, jays_injuries)
 
     l14_hit = first_split_stat(team_hit_l14)
     l14_pitch = first_split_stat(team_pitch_l14)
@@ -1052,6 +1203,7 @@ def main() -> None:
             "pitching": pitchers,
         },
         "trends": trends,
+        "playoffOdds": playoff_odds,
         "kpis": [
             {"label": "Wild Card GB", "value": jays.get("wildCardGamesBack") or "—", "hint": gb_hint, "trend": week.get("direction"), "stat": "GB"},
             {"label": "WC Rank", "value": f"#{jays.get('wildCardRank') or '—'}", "hint": "Among AL non-division leaders", "trend": trend_dir(rank_delta, invert=True, deadzone=0), "stat": "WC"},
@@ -1068,7 +1220,8 @@ def main() -> None:
     print(f"Wrote {OUT_PATH} at {payload['generatedAt']}")
     print(
         f"Jays {jays['wins']}-{jays['losses']}  WC#{jays.get('wildCardRank')}  "
-        f"GB {jays.get('wildCardGamesBack')}  L10 {jays.get('lastTen')}  {jays.get('streak')}"
+        f"GB {jays.get('wildCardGamesBack')}  L10 {jays.get('lastTen')}  {jays.get('streak')}  "
+        f"odds {playoff_odds.get('percent')}%"
     )
 
 

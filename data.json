@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T10:32:03.590198-04:00",
+  "generatedAt": "2026-08-13T11:02:19.969005-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -79,6 +79,7 @@
       "winPercentage": ".484"
     },
     "momentum": 68,
+    "injuryCount": 15,
     "weekAgo": {
       "wildCardRank": 9,
       "wildCardGamesBack": "3.5",
@@ -319,7 +320,7 @@
           "gameDate": "2026-08-13T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -2017,7 +2018,7 @@
           "gameDate": "2026-08-13T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -5409,7 +5410,7 @@
           "gameDate": "2026-08-13T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -6512,7 +6513,7 @@
           "gameDate": "2026-08-13T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -10701,7 +10702,7 @@
           "gameDate": "2026-08-13T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -12970,7 +12971,7 @@
       "gameDate": "2026-08-13T17:35:00Z",
       "dayNight": "day",
       "venue": "Yankee Stadium",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
       "inning": null,
       "inningState": null,
@@ -14822,6 +14823,17 @@
         "stat": "ERA"
       }
     ]
+  },
+  "playoffOdds": {
+    "percent": 17.8,
+    "sims": 5000,
+    "made": 892,
+    "gamesModeled": 389,
+    "talent": 0.484,
+    "method": "Monte Carlo of remaining American League games. Each game uses log5 win odds from Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag.",
+    "note": "17.8% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 389 remaining games involving AL clubs.",
+    "gb": "1.5",
+    "gamesLeft": 40
   },
   "kpis": [
     {

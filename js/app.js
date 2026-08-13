@@ -129,6 +129,7 @@ function renderTicker(data) {
     `RUN DIFF ${jays.runDifferential > 0 ? "+" : ""}${jays.runDifferential}`,
     nextText,
     data.narrative.headline,
+    data.playoffOdds?.percent != null ? `PLAYOFF ODDS ${data.playoffOdds.percent}%` : "",
     "THE PUSH IS ON",
     "UPDATED HOURLY",
   ].filter(Boolean);
@@ -154,6 +155,26 @@ function renderHero(data) {
   ].map(([label, value]) => `<div class="chip"><span>${esc(label)}</span><strong>${esc(value)}</strong></div>`).join("");
   $("updatePill").textContent = `Updated ${relativeTime(data.generatedAt)}`;
   $("seasonPill").textContent = `${data.season} AL wild card`;
+  const odds = data.playoffOdds || {};
+  const pct = odds.percent;
+  $("oddsGiant").textContent = pct == null ? "—" : `${pct}%`;
+  $("oddsLine").textContent = odds.sims
+    ? `${Number(odds.sims).toLocaleString()} sims · ${odds.gamesModeled || "—"} games modeled`
+    : "";
+  $("oddsNote").textContent = "Based on current records, last-10 form, remaining opponents, home field, and injured lists.";
+  const oddsCard = document.querySelector(".hero-score.odds");
+  if (oddsCard) {
+    oddsCard.classList.remove("longshot", "toss-up", "live");
+    if (pct == null) {
+      /* keep default */
+    } else if (pct < 20) {
+      oddsCard.classList.add("longshot");
+    } else if (pct < 40) {
+      oddsCard.classList.add("toss-up");
+    } else {
+      oddsCard.classList.add("live");
+    }
+  }
 }
 
 function renderKpis(data) {
