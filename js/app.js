@@ -151,8 +151,6 @@ function renderHero(data) {
     ["Last 10", jays.lastTen],
     ["Home", jays.home],
     ["Away", jays.away],
-    ["1-run", jays.oneRun],
-    ["Left / Right", `${jays.vsLeft} / ${jays.vsRight}`],
   ].map(([label, value]) => `<div class="chip"><span>${esc(label)}</span><strong>${esc(value)}</strong></div>`).join("");
   $("updatePill").textContent = `Updated ${relativeTime(data.generatedAt)}`;
   $("seasonPill").textContent = `${data.season} AL wild card`;
