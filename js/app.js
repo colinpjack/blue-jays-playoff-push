@@ -447,12 +447,11 @@ function fmtPct(value) {
 
 function rootingOddsLine(game) {
   if ((game.abstractState || "").toLowerCase() === "final") return "";
-  if (game.helpsTorPct == null) return "";
+  if (game.awayWinPct == null || game.homeWinPct == null) return "";
   const want = game.wantWinnerId;
   const awayClass = want === game.away?.id ? "want" : "";
   const homeClass = want === game.home?.id ? "want" : "";
   return `<div class="root-odds">
-    <div class="helps">Helps TOR ${esc(fmtPct(game.helpsTorPct))}</div>
     <div class="split-odds">
       <span class="${awayClass}">${esc(game.away?.abbr)} ${esc(fmtPct(game.awayWinPct))}</span>
       <span class="dot">·</span>
