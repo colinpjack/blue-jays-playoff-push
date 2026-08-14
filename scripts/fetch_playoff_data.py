@@ -340,6 +340,71 @@ def log5(p_win: float, p_lose: float) -> float:
     return num / den if den else 0.5
 
 
+def build_talent(
+    all_al: dict[int, dict],
+    all_records: dict[int, dict],
+    jays_injuries: list[dict] | None = None,
+) -> dict[int, float]:
+    talent: dict[int, float] = {}
+    for tid, team in all_records.items():
+        talent[tid] = team_talent(team, jays_injuries if tid == JAYS_ID else None)
+    for tid, team in all_al.items():
+        talent[tid] = team_talent(team, jays_injuries if tid == JAYS_ID else None)
+    return talent
+
+
+def game_win_pcts(home_id: int | None, away_id: int | None, talent: dict[int, float]) -> tuple[float, float]:
+    hid = int(home_id or 0)
+    aid = int(away_id or 0)
+    p_home = log5(talent.get(hid, 0.5) + HOME_ADVANTAGE, talent.get(aid, 0.5))
+    home_pct = round(p_home * 100, 1)
+    return home_pct, round(100 - home_pct, 1)
+
+
+def want_winner_id(
+    interest: str,
+    home_id: int,
+    away_id: int,
+    race: list[dict],
+    race_ids: set[int],
+) -> int:
+    if JAYS_ID in (home_id, away_id) or interest == "Jays game":
+        return JAYS_ID
+
+    def wc_rank(tid: int) -> int:
+        team = next((item for item in race if item.get("id") == tid), None)
+        return int(team.get("wildCardRank") or 99) if team else 99
+
+    home_in = home_id in race_ids
+    away_in = away_id in race_ids
+    if interest == "Race game" or (home_in and away_in):
+        rival = home_id if wc_rank(home_id) <= wc_rank(away_id) else away_id
+    elif home_in != away_in:
+        rival = home_id if home_in else away_id
+    else:
+        rival = home_id if wc_rank(home_id) <= wc_rank(away_id) else away_id
+    return away_id if rival == home_id else home_id
+
+
+def rooting_odds(
+    home_id: int,
+    away_id: int,
+    interest: str,
+    race: list[dict],
+    race_ids: set[int],
+    talent: dict[int, float],
+) -> dict:
+    home_pct, away_pct = game_win_pcts(home_id, away_id, talent)
+    want = want_winner_id(interest, home_id, away_id, race, race_ids)
+    helps = home_pct if want == home_id else away_pct
+    return {
+        "homeWinPct": home_pct,
+        "awayWinPct": away_pct,
+        "helpsTorPct": helps,
+        "wantWinnerId": want,
+    }
+
+
 def remaining_al_matchups(all_games: list[dict], al_ids: set[int]) -> list[tuple[int, int]]:
     games = []
     seen = set()
@@ -371,12 +436,7 @@ def simulate_playoff_odds(
 ) -> dict:
     al_ids = set(all_al.keys())
     matchups = remaining_al_matchups(all_games, al_ids)
-    talent: dict[int, float] = {}
-    for tid, team in all_records.items():
-        talent[tid] = team_talent(team)
-    for tid, team in all_al.items():
-        extra = jays_injuries if tid == JAYS_ID else None
-        talent[tid] = team_talent(team, extra)
+    talent = build_talent(all_al, all_records, jays_injuries)
 
     divisions: dict[str, list[int]] = defaultdict(list)
     for tid, team in all_al.items():
@@ -1108,6 +1168,7 @@ def main() -> None:
             team["nextGames"] = next_lookup.get(team["id"]) or upcoming_for(team["id"], 2)
 
     # Rooting board: next week of race-team games.
+    talent = build_talent(all_al, all_records, jays_injuries)
     rooting = []
     seen_games = set()
     week_end = (today + timedelta(days=8)).isoformat()
@@ -1143,7 +1204,8 @@ def main() -> None:
                 else:
                     interest = "Keep them down"
                     note = f"Do not let {rival.get('abbr')} sneak closer."
-            rooting.append({**payload, "interest": interest, "note": note})
+            odds = rooting_odds(home_id, away_id, interest, race, race_ids, talent)
+            rooting.append({**payload, "interest": interest, "note": note, **odds})
     rooting.sort(key=lambda g: g.get("gameDate") or "")
 
     roster, hitter_ids, pitcher_ids = active_roster_maps(jays_active)

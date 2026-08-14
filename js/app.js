@@ -438,6 +438,29 @@ function rootingScore(game) {
   return `${game.away?.abbr || "AWAY"} ${away ?? "–"} @ ${game.home?.abbr || "HOME"} ${home ?? "–"}`;
 }
 
+function fmtPct(value) {
+  if (value == null || value === "") return "";
+  const n = Number(value);
+  if (Number.isNaN(n)) return "";
+  return `${Number.isInteger(n) ? n : n.toFixed(1)}%`;
+}
+
+function rootingOddsLine(game) {
+  if ((game.abstractState || "").toLowerCase() === "final") return "";
+  if (game.helpsTorPct == null) return "";
+  const want = game.wantWinnerId;
+  const awayClass = want === game.away?.id ? "want" : "";
+  const homeClass = want === game.home?.id ? "want" : "";
+  return `<div class="root-odds">
+    <div class="helps">Helps TOR ${esc(fmtPct(game.helpsTorPct))}</div>
+    <div class="split-odds">
+      <span class="${awayClass}">${esc(game.away?.abbr)} ${esc(fmtPct(game.awayWinPct))}</span>
+      <span class="dot">·</span>
+      <span class="${homeClass}">${esc(game.home?.abbr)} ${esc(fmtPct(game.homeWinPct))}</span>
+    </div>
+  </div>`;
+}
+
 function renderRooting(data) {
   const tagClass = {
     "Jays game": "jays",
@@ -459,6 +482,7 @@ function renderRooting(data) {
       <strong>${esc(game.away?.abbr)} @ ${esc(game.home?.abbr)}</strong>
       <div class="meta">${live ? `<span class="live">LIVE</span> · ${esc(inningLabel(game) || game.status || "In progress")}` : esc(status)}</div>
       ${score ? `<div class="score">${esc(score)}</div>` : ""}
+      ${rootingOddsLine(game)}
       <p>${esc(game.note)}</p>
     </article>`;
   }).join("");
