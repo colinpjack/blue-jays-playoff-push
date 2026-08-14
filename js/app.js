@@ -346,6 +346,7 @@ function renderSchedule(data) {
       <div class="when">${live ? '<span class="live">LIVE</span> · ' : ""}${esc(fmtDate(game.gameDate || game.date, true))}</div>
       <h4>${game.isHome ? "vs" : "@"} ${esc(oppTeam.abbr || "TBD")}</h4>
       <div class="pitch">${esc(pitcher || "TBD")} vs ${esc(theirs || "TBD")}</div>
+      ${gauntletOddsLine(game)}
       <div class="venue">${esc(score || "")}</div>
     </article>`;
   }).join("");
@@ -445,19 +446,35 @@ function fmtPct(value) {
   return `${Number.isInteger(n) ? n : n.toFixed(1)}%`;
 }
 
-function rootingOddsLine(game) {
+function oddsSplitHtml(game, className = "root-odds") {
   if ((game.abstractState || "").toLowerCase() === "final") return "";
   if (game.awayWinPct == null || game.homeWinPct == null) return "";
   const want = game.wantWinnerId;
   const awayClass = want === game.away?.id ? "want" : "";
   const homeClass = want === game.home?.id ? "want" : "";
-  return `<div class="root-odds">
+  return `<div class="${esc(className)}">
     <div class="split-odds">
       <span class="${awayClass}">${esc(game.away?.abbr)} ${esc(fmtPct(game.awayWinPct))}</span>
       <span class="dot">·</span>
       <span class="${homeClass}">${esc(game.home?.abbr)} ${esc(fmtPct(game.homeWinPct))}</span>
     </div>
   </div>`;
+}
+
+function pitchersKnown(game) {
+  const names = [game.home?.probablePitcher, game.away?.probablePitcher]
+    .map((name) => String(name || "").trim())
+    .filter(Boolean);
+  return names.length === 2 && names.every((name) => name.toUpperCase() !== "TBD");
+}
+
+function rootingOddsLine(game) {
+  return oddsSplitHtml(game);
+}
+
+function gauntletOddsLine(game) {
+  if (!pitchersKnown(game)) return "";
+  return oddsSplitHtml(game, "root-odds ticket-odds");
 }
 
 function renderRooting(data) {

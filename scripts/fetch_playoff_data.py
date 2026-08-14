@@ -405,6 +405,14 @@ def rooting_odds(
     }
 
 
+def both_pitchers_known(game: dict) -> bool:
+    home = str((game.get("home") or {}).get("probablePitcher") or "").strip()
+    away = str((game.get("away") or {}).get("probablePitcher") or "").strip()
+    if not home or not away:
+        return False
+    return home.upper() != "TBD" and away.upper() != "TBD"
+
+
 def remaining_al_matchups(all_games: list[dict], al_ids: set[int]) -> list[tuple[int, int]]:
     games = []
     seen = set()
@@ -1207,6 +1215,17 @@ def main() -> None:
             odds = rooting_odds(home_id, away_id, interest, race, race_ids, talent)
             rooting.append({**payload, "interest": interest, "note": note, **odds})
     rooting.sort(key=lambda g: g.get("gameDate") or "")
+
+    for game in jays_upcoming:
+        if (game.get("abstractState") or "") == "Final":
+            continue
+        if not both_pitchers_known(game):
+            continue
+        hid = game.get("home", {}).get("id")
+        aid = game.get("away", {}).get("id")
+        if not hid or not aid:
+            continue
+        game.update(rooting_odds(hid, aid, "Jays game", race, race_ids, talent))
 
     roster, hitter_ids, pitcher_ids = active_roster_maps(jays_active)
     last_final = next((game for game in reversed(jays_recent) if game.get("gamePk")), None)
