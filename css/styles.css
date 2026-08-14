@@ -659,26 +659,6 @@ h2 {
 
 .ticket .venue { margin-top: 12px; font-size: 12px; color: #5d6b80; }
 
-.ticket-odds {
-  margin-top: 8px;
-}
-
-.ticket-odds .split-odds {
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 12px;
-  color: #5d6b80;
-}
-
-.ticket-odds .split-odds .want {
-  color: #172033;
-  font-weight: 700;
-}
-
-.ticket-odds .dot {
-  margin: 0 4px;
-  color: #94a3b8;
-}
-
 .live {
   color: var(--red);
   font-weight: 800;
@@ -780,6 +760,26 @@ h2 {
 .root-odds .dot {
   margin: 0 4px;
   color: var(--muted);
+}
+
+.ticket .ticket-odds {
+  margin-top: 8px;
+}
+
+.ticket .ticket-odds .split-odds,
+.ticket .ticket-odds .split-odds span {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 13px;
+  color: #334155;
+}
+
+.ticket .ticket-odds .split-odds .want {
+  color: #0f172a;
+  font-weight: 800;
+}
+
+.ticket .ticket-odds .dot {
+  color: #64748b;
 }
 
 .results {
