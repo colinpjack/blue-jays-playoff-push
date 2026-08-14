@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T16:40:57.508474-04:00",
+  "generatedAt": "2026-08-14T17:36:06.923552-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -4336,7 +4336,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Foster Griffin",
             "record": {
               "wins": 59,
               "losses": 63,
@@ -5835,7 +5835,7 @@
           "gameDate": "2026-08-15T01:38:00Z",
           "dayNight": "night",
           "venue": "Angel Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -9560,7 +9560,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Foster Griffin",
             "record": {
               "wins": 59,
               "losses": 63,
@@ -10888,16 +10888,9 @@
           "comment": "Westburg (elbow) underwent Tommy John surgery Wednesday, Andrew Golden of TheBanner.com reports.",
           "date": "2026-05-15T21:13Z",
           "position": null
-        },
-        {
-          "name": "Zach Eflin",
-          "status": "60-Day-IL",
-          "comment": "Eflin underwent Tommy John surgery on his right elbow Wednesday, Andy Kostka of TheBaltimoreBanner.com reports.",
-          "date": "2026-05-08T11:02Z",
-          "position": null
         }
       ],
-      "injuryCount": 9,
+      "injuryCount": 8,
       "weekAgo": {
         "wildCardRank": 6,
         "wildCardGamesBack": "2.0",
@@ -11388,24 +11381,24 @@
       ],
       "injuries": [
         {
-          "name": "Taylor Ward",
-          "status": "Day-To-Day",
-          "comment": "Ward is out of the lineup for Thursday's game against the Yankees.",
-          "date": "2026-08-13T16:37Z",
-          "position": null
-        },
-        {
-          "name": "Cole Young",
-          "status": "Day-To-Day",
-          "comment": "Young (head) is not in the lineup for Thursday's game against the Yankees.",
-          "date": "2026-08-13T15:01Z",
-          "position": null
-        },
-        {
           "name": "Matt Brash",
           "status": "15-Day-IL",
-          "comment": "Mariners manager Dan Wilson said Saturday that Brash (lat) is \"looming\" closer to throwing a bullpen session, MLB.com reports.",
-          "date": "2026-08-09T19:36Z",
+          "comment": "Brash (lat) is scheduled to throw a bullpen session Saturday, Adam Jude of The Seattle Times reports.",
+          "date": "2026-08-14T21:16Z",
+          "position": null
+        },
+        {
+          "name": "Taylor Ward",
+          "status": "Day-To-Day",
+          "comment": "Ward (quad) isn't in the lineup for Friday's game against Houston.",
+          "date": "2026-08-14T21:02Z",
+          "position": null
+        },
+        {
+          "name": "Colt Emerson",
+          "status": "10-Day-IL",
+          "comment": "The Mariners placed Emerson on the 10-day injured list Friday with left wrist inflammation, Adam Jude of The Seattle Times reports.",
+          "date": "2026-08-14T20:46Z",
           "position": null
         },
         {
@@ -13465,9 +13458,9 @@
       "gamesInSeries": 4,
       "interest": "Keep them down",
       "note": "Do not let BAL sneak closer.",
-      "homeWinPct": 75.3,
-      "awayWinPct": 24.7,
-      "helpsTorPct": 75.3,
+      "homeWinPct": 75.1,
+      "awayWinPct": 24.9,
+      "helpsTorPct": 75.1,
       "wantWinnerId": 139
     },
     {
@@ -13813,9 +13806,9 @@
       "gamesInSeries": 4,
       "interest": "Keep them down",
       "note": "Do not let BAL sneak closer.",
-      "homeWinPct": 75.3,
-      "awayWinPct": 24.7,
-      "helpsTorPct": 75.3,
+      "homeWinPct": 75.1,
+      "awayWinPct": 24.9,
+      "helpsTorPct": 75.1,
       "wantWinnerId": 139
     },
     {
@@ -14161,9 +14154,9 @@
       "gamesInSeries": 4,
       "interest": "Keep them down",
       "note": "Do not let BAL sneak closer.",
-      "homeWinPct": 75.3,
-      "awayWinPct": 24.7,
-      "helpsTorPct": 75.3,
+      "homeWinPct": 75.1,
+      "awayWinPct": 24.9,
+      "helpsTorPct": 75.1,
       "wantWinnerId": 139
     },
     {
@@ -15197,13 +15190,13 @@
     ]
   },
   "playoffOdds": {
-    "percent": 8.9,
+    "percent": 8.6,
     "sims": 5000,
-    "made": 443,
+    "made": 432,
     "gamesModeled": 383,
     "talent": 0.455,
     "method": "Monte Carlo of remaining American League games. Each game uses log5 win odds from Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag.",
-    "note": "8.9% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 383 remaining games involving AL clubs.",
+    "note": "8.6% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 383 remaining games involving AL clubs.",
     "gb": "2.0",
     "gamesLeft": 39
   },
