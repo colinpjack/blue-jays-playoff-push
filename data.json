@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T12:36:38.233446-04:00",
+  "generatedAt": "2026-08-15T13:31:55.045689-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -2867,10 +2867,10 @@
           "gameDate": "2026-08-15T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
-          "inningState": "Top",
+          "inningState": "Bottom",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -2898,7 +2898,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": 0,
+            "score": 1,
             "probablePitcher": "Anthony Kay",
             "record": {
               "wins": 63,
@@ -6055,10 +6055,10 @@
           "gameDate": "2026-08-15T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
-          "inningState": "Top",
+          "inningState": "Bottom",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -6086,7 +6086,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": 0,
+            "score": 1,
             "probablePitcher": "Anthony Kay",
             "record": {
               "wins": 63,
@@ -6921,6 +6921,13 @@
       ],
       "injuries": [
         {
+          "name": "Aaron Judge",
+          "status": "60-Day-IL",
+          "comment": "Judge (ribs) began playing catch Friday, Gary Phillips of the New York Daily News reports.",
+          "date": "2026-08-15T17:27Z",
+          "position": null
+        },
+        {
           "name": "Carlos Rodon",
           "status": "15-Day-IL",
           "comment": "Rodon (elbow) pitched 4.1 scoreless innings, giving up two hits and a walk while striking seven batters in a rehab start with Double-A Somerset on Thursday.",
@@ -6953,13 +6960,6 @@
           "status": "60-Day-IL",
           "comment": "Yankees manager Aaron Boone said Sunday that Schmidt (elbow) has resumed playing catch without issue and should get back on a mound in the \"next couple days,\" Gary Phillips of the New York Daily News reports.",
           "date": "2026-08-09T16:13Z",
-          "position": null
-        },
-        {
-          "name": "Aaron Judge",
-          "status": "60-Day-IL",
-          "comment": "Yankees manager Aaron Boone said Wednesday that Judge (rib) has been cleared to begin light activities, which includes outdoor running and upper-body resistance work, Erik Boland of Newsday reports.",
-          "date": "2026-08-05T20:41Z",
           "position": null
         }
       ],
@@ -7590,17 +7590,17 @@
       "divisionLeader": false,
       "hitting": {
         "avg": ".243",
-        "obp": ".319",
+        "obp": ".320",
         "slg": ".408",
-        "ops": ".727",
+        "ops": ".728",
         "runs": 557,
-        "hits": 1001,
+        "hits": 1002,
         "homeRuns": 148,
         "rbi": 530,
         "stolenBases": 36,
-        "strikeOuts": 1050,
-        "baseOnBalls": 433,
-        "babip": ".288"
+        "strikeOuts": 1051,
+        "baseOnBalls": 434,
+        "babip": ".289"
       },
       "pitching": {
         "era": "3.52",
@@ -7608,49 +7608,49 @@
         "wins": 60,
         "losses": 62,
         "saves": 25,
-        "strikeOuts": 1000,
-        "baseOnBalls": 373,
-        "inningsPitched": "1081.2",
-        "strikeoutsPer9Inn": "8.32",
-        "walksPer9Inn": "3.10",
+        "strikeOuts": 1002,
+        "baseOnBalls": 374,
+        "inningsPitched": "1082.2",
+        "strikeoutsPer9Inn": "8.33",
+        "walksPer9Inn": "3.11",
         "homeRunsPer9": "1.00",
         "holds": 55,
         "blownSaves": 26,
         "winPercentage": ".492",
-        "runs": 471
+        "runs": 472
       },
       "hittingL10": {
-        "avg": ".254",
-        "obp": ".335",
-        "slg": ".393",
-        "ops": ".728",
-        "runs": 52,
-        "hits": 89,
-        "homeRuns": 10,
-        "rbi": 47,
-        "stolenBases": 2,
-        "strikeOuts": 82,
-        "baseOnBalls": 35,
-        "babip": ".305"
+        "avg": ".244",
+        "obp": ".327",
+        "slg": ".364",
+        "ops": ".691",
+        "runs": 44,
+        "hits": 77,
+        "homeRuns": 7,
+        "rbi": 40,
+        "stolenBases": 1,
+        "strikeOuts": 72,
+        "baseOnBalls": 31,
+        "babip": ".295"
       },
       "pitchingL10": {
-        "era": "2.73",
-        "whip": "1.12",
-        "wins": 6,
+        "era": "3.11",
+        "whip": "1.17",
+        "wins": 5,
         "losses": 4,
         "saves": 3,
-        "strikeOuts": 63,
-        "baseOnBalls": 32,
-        "inningsPitched": "89.0",
-        "strikeoutsPer9Inn": "6.37",
-        "walksPer9Inn": "3.24",
-        "homeRunsPer9": "1.11",
+        "strikeOuts": 57,
+        "baseOnBalls": 29,
+        "inningsPitched": "81.0",
+        "strikeoutsPer9Inn": "6.33",
+        "walksPer9Inn": "3.22",
+        "homeRunsPer9": "1.22",
         "holds": 5,
         "blownSaves": 1,
-        "winPercentage": ".600",
-        "runs": 29
+        "winPercentage": ".556",
+        "runs": 30
       },
-      "runDifferentialL10": 23,
+      "runDifferentialL10": 14,
       "momentum": 100,
       "nextGames": [
         {
@@ -7659,10 +7659,10 @@
           "gameDate": "2026-08-15T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
-          "inningState": "Top",
+          "inningState": "Bottom",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -7690,7 +7690,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": 0,
+            "score": 1,
             "probablePitcher": "Anthony Kay",
             "record": {
               "wins": 63,
@@ -9727,9 +9727,9 @@
       "injuries": [
         {
           "name": "Vladimir Guerrero Jr.",
-          "status": "Day-To-Day",
-          "comment": "Guerrero (head) isn't in the lineup for Saturday's game against the Yankees.",
-          "date": "2026-08-15T15:57Z",
+          "status": "7-Day IL",
+          "comment": "The Blue Jays placed Guerrero on the 7-day concussion IL on Saturday, Mitch Bannon of The Athletic reports.",
+          "date": "2026-08-15T17:02Z",
           "position": null
         },
         {
@@ -13244,10 +13244,10 @@
       "gameDate": "2026-08-15T17:10:00Z",
       "dayNight": "day",
       "venue": "Comerica Park",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
+      "status": "In Progress",
+      "abstractState": "Live",
       "inning": 1,
-      "inningState": "Top",
+      "inningState": "Bottom",
       "home": {
         "id": 116,
         "name": "Detroit Tigers",
@@ -13275,7 +13275,7 @@
         "fileCode": "cws",
         "logo": "https://www.mlbstatic.com/team-logos/145.svg",
         "color": "#27251F",
-        "score": 0,
+        "score": 1,
         "probablePitcher": "Anthony Kay",
         "record": {
           "wins": 63,
@@ -14286,9 +14286,9 @@
   "injuries": [
     {
       "name": "Vladimir Guerrero Jr.",
-      "status": "Day-To-Day",
-      "comment": "Guerrero (head) isn't in the lineup for Saturday's game against the Yankees.",
-      "date": "2026-08-15T15:57Z",
+      "status": "7-Day IL",
+      "comment": "The Blue Jays placed Guerrero on the 7-day concussion IL on Saturday, Mitch Bannon of The Athletic reports.",
+      "date": "2026-08-15T17:02Z",
       "position": null
     },
     {
@@ -14439,38 +14439,6 @@
           "hr": 1,
           "pa": 39,
           "delta": -0.129,
-          "direction": "down"
-        }
-      },
-      {
-        "id": 665489,
-        "name": "Vladimir Guerrero Jr.",
-        "position": "1B",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_180,q_auto:best/v1/people/665489/headshot/67/current",
-        "avg": ".263",
-        "obp": ".337",
-        "slg": ".356",
-        "ops": ".693",
-        "hr": 7,
-        "rbi": 46,
-        "sb": 7,
-        "hits": 113,
-        "ab": 430,
-        "pa": 486,
-        "games": 115,
-        "avgChange": {
-          "direction": "up",
-          "from": ".262",
-          "to": ".263",
-          "lastGame": "1-for-3"
-        },
-        "trend": {
-          "window": "L10",
-          "avg": ".225",
-          "ops": ".587",
-          "hr": 1,
-          "pa": 42,
-          "delta": -0.106,
           "direction": "down"
         }
       },
