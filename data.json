@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T09:38:36.823346-04:00",
+  "generatedAt": "2026-08-15T10:35:08.750828-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -2867,10 +2867,10 @@
           "gameDate": "2026-08-15T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -2880,7 +2880,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Troy Melton",
             "record": {
               "wins": 60,
@@ -2898,7 +2898,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Anthony Kay",
             "record": {
               "wins": 63,
@@ -6055,10 +6055,10 @@
           "gameDate": "2026-08-15T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -6068,7 +6068,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Troy Melton",
             "record": {
               "wins": 60,
@@ -6086,7 +6086,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Anthony Kay",
             "record": {
               "wins": 63,
@@ -7454,17 +7454,17 @@
       ],
       "injuries": [
         {
+          "name": "Roman Anthony",
+          "status": "60-Day-IL",
+          "comment": "Anthony (finger) will undergo an evaluation following this weekend, Ian Browne of MLB.com reports.",
+          "date": "2026-08-15T14:22Z",
+          "position": null
+        },
+        {
           "name": "Garrett Whitlock",
           "status": "15-Day-IL",
           "comment": "The Red Sox placed Whitlock on the 15-day injured list Thursday with right elbow inflammation, Chris Cotillo of MassLive.com reports.",
           "date": "2026-08-13T15:33Z",
-          "position": null
-        },
-        {
-          "name": "Roman Anthony",
-          "status": "60-Day-IL",
-          "comment": "Red Sox interim manager Chad Tracy said Tuesday that Anthony (finger) is \"getting closer\" to a rehab assignment, MLB.com reports.",
-          "date": "2026-08-12T12:16Z",
           "position": null
         },
         {
@@ -7659,10 +7659,10 @@
           "gameDate": "2026-08-15T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -7672,7 +7672,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Troy Melton",
             "record": {
               "wins": 60,
@@ -7690,7 +7690,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Anthony Kay",
             "record": {
               "wins": 63,
@@ -13244,10 +13244,10 @@
       "gameDate": "2026-08-15T17:10:00Z",
       "dayNight": "day",
       "venue": "Comerica Park",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 116,
         "name": "Detroit Tigers",
@@ -13257,7 +13257,7 @@
         "fileCode": "det",
         "logo": "https://www.mlbstatic.com/team-logos/116.svg",
         "color": "#0C2340",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Troy Melton",
         "record": {
           "wins": 60,
@@ -13275,7 +13275,7 @@
         "fileCode": "cws",
         "logo": "https://www.mlbstatic.com/team-logos/145.svg",
         "color": "#27251F",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Anthony Kay",
         "record": {
           "wins": 63,
