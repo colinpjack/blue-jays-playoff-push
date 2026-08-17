@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T19:30:53.628153-04:00",
+  "generatedAt": "2026-08-16T21:52:02.017590-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -4087,430 +4087,6 @@
       }
     },
     {
-      "id": 114,
-      "name": "Cleveland Guardians",
-      "teamName": "Guardians",
-      "location": "Cleveland",
-      "abbr": "CLE",
-      "fileCode": "cle",
-      "logo": "https://www.mlbstatic.com/team-logos/114.svg",
-      "color": "#00385D",
-      "wins": 60,
-      "losses": 64,
-      "pct": ".484",
-      "gamesPlayed": 124,
-      "gamesRemaining": 38,
-      "divisionRank": 2,
-      "leagueRank": 9,
-      "wildCardRank": 6,
-      "gamesBack": "5.5",
-      "wildCardGamesBack": "1.0",
-      "wildCardGamesBackNum": 1.0,
-      "divisionName": "American League East",
-      "streak": "W1",
-      "streakType": "wins",
-      "streakNumber": 1,
-      "lastTen": "3-7",
-      "lastTenWins": 3,
-      "lastTenLosses": 7,
-      "home": "29-32",
-      "away": "31-32",
-      "oneRun": "18-18",
-      "extraInning": "4-5",
-      "day": "23-23",
-      "night": "37-41",
-      "vsLeft": "25-19",
-      "vsRight": "35-45",
-      "runsScored": 494,
-      "runsAllowed": 521,
-      "runDifferential": -27,
-      "pythagWins": 59,
-      "pythagLosses": 65,
-      "pythagPct": 0.476,
-      "expectedRecord": "59-65",
-      "eliminationNumber": "34",
-      "wildCardEliminationNumber": "38",
-      "clinched": false,
-      "divisionLeader": false,
-      "nextGames": [
-        {
-          "gamePk": 824397,
-          "date": "2026-08-16",
-          "gameDate": "2026-08-16T17:40:00Z",
-          "dayNight": "day",
-          "venue": "Progressive Field",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 9,
-          "inningState": "Bottom",
-          "home": {
-            "id": 114,
-            "name": "Cleveland Guardians",
-            "teamName": "Guardians",
-            "location": "Cleveland",
-            "abbr": "CLE",
-            "fileCode": "cle",
-            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
-            "color": "#00385D",
-            "score": 0,
-            "probablePitcher": "Tanner Bibee",
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "away": {
-            "id": 135,
-            "name": "San Diego Padres",
-            "teamName": "Padres",
-            "location": "San Diego",
-            "abbr": "SD",
-            "fileCode": "sd",
-            "logo": "https://www.mlbstatic.com/team-logos/135.svg",
-            "color": "#1D4ED8",
-            "score": 5,
-            "probablePitcher": "Casey Mize",
-            "record": {
-              "wins": 66,
-              "losses": 58,
-              "ties": 0,
-              "pct": ".532"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 135,
-            "name": "San Diego Padres",
-            "teamName": "Padres",
-            "location": "San Diego",
-            "abbr": "SD",
-            "fileCode": "sd",
-            "logo": "https://www.mlbstatic.com/team-logos/135.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 3,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824398,
-          "date": "2026-08-18",
-          "gameDate": "2026-08-18T22:40:00Z",
-          "dayNight": "night",
-          "venue": "Progressive Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 114,
-            "name": "Cleveland Guardians",
-            "teamName": "Guardians",
-            "location": "Cleveland",
-            "abbr": "CLE",
-            "fileCode": "cle",
-            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
-            "color": "#00385D",
-            "score": null,
-            "probablePitcher": "Foster Griffin",
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "away": {
-            "id": 137,
-            "name": "San Francisco Giants",
-            "teamName": "Giants",
-            "location": "San Francisco",
-            "abbr": "SF",
-            "fileCode": "sf",
-            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": "Carson Whisenhunt",
-            "record": {
-              "wins": 51,
-              "losses": 73,
-              "ties": 0,
-              "pct": ".411"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 137,
-            "name": "San Francisco Giants",
-            "teamName": "Giants",
-            "location": "San Francisco",
-            "abbr": "SF",
-            "fileCode": "sf",
-            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824394,
-          "date": "2026-08-19",
-          "gameDate": "2026-08-19T22:40:00Z",
-          "dayNight": "night",
-          "venue": "Progressive Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 114,
-            "name": "Cleveland Guardians",
-            "teamName": "Guardians",
-            "location": "Cleveland",
-            "abbr": "CLE",
-            "fileCode": "cle",
-            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
-            "color": "#00385D",
-            "score": null,
-            "probablePitcher": "Parker Messick",
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "away": {
-            "id": 137,
-            "name": "San Francisco Giants",
-            "teamName": "Giants",
-            "location": "San Francisco",
-            "abbr": "SF",
-            "fileCode": "sf",
-            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 51,
-              "losses": 73,
-              "ties": 0,
-              "pct": ".411"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 137,
-            "name": "San Francisco Giants",
-            "teamName": "Giants",
-            "location": "San Francisco",
-            "abbr": "SF",
-            "fileCode": "sf",
-            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824395,
-          "date": "2026-08-20",
-          "gameDate": "2026-08-20T17:10:00Z",
-          "dayNight": "day",
-          "venue": "Progressive Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 114,
-            "name": "Cleveland Guardians",
-            "teamName": "Guardians",
-            "location": "Cleveland",
-            "abbr": "CLE",
-            "fileCode": "cle",
-            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
-            "color": "#00385D",
-            "score": null,
-            "probablePitcher": "Gavin Williams",
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "away": {
-            "id": 137,
-            "name": "San Francisco Giants",
-            "teamName": "Giants",
-            "location": "San Francisco",
-            "abbr": "SF",
-            "fileCode": "sf",
-            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": "Landen Roupp",
-            "record": {
-              "wins": 51,
-              "losses": 73,
-              "ties": 0,
-              "pct": ".411"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 137,
-            "name": "San Francisco Giants",
-            "teamName": "Giants",
-            "location": "San Francisco",
-            "abbr": "SF",
-            "fileCode": "sf",
-            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 3,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824317,
-          "date": "2026-08-21",
-          "gameDate": "2026-08-22T00:40:00Z",
-          "dayNight": "night",
-          "venue": "Coors Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 115,
-            "name": "Colorado Rockies",
-            "teamName": "Rockies",
-            "location": "Denver",
-            "abbr": "COL",
-            "fileCode": "col",
-            "logo": "https://www.mlbstatic.com/team-logos/115.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 50,
-              "losses": 74,
-              "ties": 0,
-              "pct": ".403"
-            }
-          },
-          "away": {
-            "id": 114,
-            "name": "Cleveland Guardians",
-            "teamName": "Guardians",
-            "location": "Cleveland",
-            "abbr": "CLE",
-            "fileCode": "cle",
-            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
-            "color": "#00385D",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 115,
-            "name": "Colorado Rockies",
-            "teamName": "Rockies",
-            "location": "Denver",
-            "abbr": "COL",
-            "fileCode": "col",
-            "logo": "https://www.mlbstatic.com/team-logos/115.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824316,
-          "date": "2026-08-22",
-          "gameDate": "2026-08-23T00:10:00Z",
-          "dayNight": "night",
-          "venue": "Coors Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 115,
-            "name": "Colorado Rockies",
-            "teamName": "Rockies",
-            "location": "Denver",
-            "abbr": "COL",
-            "fileCode": "col",
-            "logo": "https://www.mlbstatic.com/team-logos/115.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 50,
-              "losses": 74,
-              "ties": 0,
-              "pct": ".403"
-            }
-          },
-          "away": {
-            "id": 114,
-            "name": "Cleveland Guardians",
-            "teamName": "Guardians",
-            "location": "Cleveland",
-            "abbr": "CLE",
-            "fileCode": "cle",
-            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
-            "color": "#00385D",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 115,
-            "name": "Colorado Rockies",
-            "teamName": "Rockies",
-            "location": "Denver",
-            "abbr": "COL",
-            "fileCode": "col",
-            "logo": "https://www.mlbstatic.com/team-logos/115.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
-          "gamesInSeries": 3
-        }
-      ],
-      "weekAgo": {
-        "wildCardRank": 6,
-        "wildCardGamesBack": "1.5",
-        "wins": 58,
-        "losses": 61,
-        "gbDelta": -0.5,
-        "rankDelta": 0,
-        "direction": "up"
-      }
-    },
-    {
       "id": 116,
       "name": "Detroit Tigers",
       "teamName": "Tigers",
@@ -4524,9 +4100,9 @@
       "pct": ".484",
       "gamesPlayed": 124,
       "gamesRemaining": 38,
-      "divisionRank": 3,
-      "leagueRank": 10,
-      "wildCardRank": 7,
+      "divisionRank": 2,
+      "leagueRank": 9,
+      "wildCardRank": 6,
       "gamesBack": "5.5",
       "wildCardGamesBack": "1.0",
       "wildCardGamesBackNum": 1.0,
@@ -4638,7 +4214,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/134.svg",
             "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Carmen Mlodzinski",
             "record": {
               "wins": 61,
               "losses": 65,
@@ -4930,7 +4506,7 @@
         "wins": 58,
         "losses": 60,
         "gbDelta": 0.0,
-        "rankDelta": 3,
+        "rankDelta": 2,
         "direction": "flat"
       }
     },
@@ -4948,9 +4524,9 @@
       "pct": ".480",
       "gamesPlayed": 125,
       "gamesRemaining": 37,
-      "divisionRank": 4,
-      "leagueRank": 11,
-      "wildCardRank": 8,
+      "divisionRank": 3,
+      "leagueRank": 10,
+      "wildCardRank": 7,
       "gamesBack": "6.0",
       "wildCardGamesBack": "1.5",
       "wildCardGamesBackNum": 1.5,
@@ -5247,10 +4823,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -5308,10 +4884,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -5354,7 +4930,431 @@
         "wins": 58,
         "losses": 61,
         "gbDelta": 0.0,
-        "rankDelta": 3,
+        "rankDelta": 2,
+        "direction": "flat"
+      }
+    },
+    {
+      "id": 114,
+      "name": "Cleveland Guardians",
+      "teamName": "Guardians",
+      "location": "Cleveland",
+      "abbr": "CLE",
+      "fileCode": "cle",
+      "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+      "color": "#00385D",
+      "wins": 60,
+      "losses": 65,
+      "pct": ".480",
+      "gamesPlayed": 125,
+      "gamesRemaining": 37,
+      "divisionRank": 4,
+      "leagueRank": 11,
+      "wildCardRank": 8,
+      "gamesBack": "6.0",
+      "wildCardGamesBack": "1.5",
+      "wildCardGamesBackNum": 1.5,
+      "divisionName": "American League East",
+      "streak": "L1",
+      "streakType": "losses",
+      "streakNumber": 1,
+      "lastTen": "3-7",
+      "lastTenWins": 3,
+      "lastTenLosses": 7,
+      "home": "29-33",
+      "away": "31-32",
+      "oneRun": "18-18",
+      "extraInning": "4-5",
+      "day": "23-24",
+      "night": "37-41",
+      "vsLeft": "25-19",
+      "vsRight": "35-46",
+      "runsScored": 494,
+      "runsAllowed": 526,
+      "runDifferential": -32,
+      "pythagWins": 59,
+      "pythagLosses": 66,
+      "pythagPct": 0.471,
+      "expectedRecord": "59-66",
+      "eliminationNumber": "33",
+      "wildCardEliminationNumber": "37",
+      "clinched": false,
+      "divisionLeader": false,
+      "nextGames": [
+        {
+          "gamePk": 824397,
+          "date": "2026-08-16",
+          "gameDate": "2026-08-16T17:40:00Z",
+          "dayNight": "day",
+          "venue": "Progressive Field",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Bottom",
+          "home": {
+            "id": 114,
+            "name": "Cleveland Guardians",
+            "teamName": "Guardians",
+            "location": "Cleveland",
+            "abbr": "CLE",
+            "fileCode": "cle",
+            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+            "color": "#00385D",
+            "score": 0,
+            "probablePitcher": "Tanner Bibee",
+            "record": {
+              "wins": 60,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".480"
+            }
+          },
+          "away": {
+            "id": 135,
+            "name": "San Diego Padres",
+            "teamName": "Padres",
+            "location": "San Diego",
+            "abbr": "SD",
+            "fileCode": "sd",
+            "logo": "https://www.mlbstatic.com/team-logos/135.svg",
+            "color": "#1D4ED8",
+            "score": 5,
+            "probablePitcher": "Casey Mize",
+            "record": {
+              "wins": 67,
+              "losses": 58,
+              "ties": 0,
+              "pct": ".536"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 135,
+            "name": "San Diego Padres",
+            "teamName": "Padres",
+            "location": "San Diego",
+            "abbr": "SD",
+            "fileCode": "sd",
+            "logo": "https://www.mlbstatic.com/team-logos/135.svg",
+            "color": "#1D4ED8"
+          },
+          "result": "L",
+          "seriesGameNumber": 3,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824398,
+          "date": "2026-08-18",
+          "gameDate": "2026-08-18T22:40:00Z",
+          "dayNight": "night",
+          "venue": "Progressive Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 114,
+            "name": "Cleveland Guardians",
+            "teamName": "Guardians",
+            "location": "Cleveland",
+            "abbr": "CLE",
+            "fileCode": "cle",
+            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+            "color": "#00385D",
+            "score": null,
+            "probablePitcher": "Foster Griffin",
+            "record": {
+              "wins": 60,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".480"
+            }
+          },
+          "away": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "teamName": "Giants",
+            "location": "San Francisco",
+            "abbr": "SF",
+            "fileCode": "sf",
+            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": "Carson Whisenhunt",
+            "record": {
+              "wins": 51,
+              "losses": 73,
+              "ties": 0,
+              "pct": ".411"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "teamName": "Giants",
+            "location": "San Francisco",
+            "abbr": "SF",
+            "fileCode": "sf",
+            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824394,
+          "date": "2026-08-19",
+          "gameDate": "2026-08-19T22:40:00Z",
+          "dayNight": "night",
+          "venue": "Progressive Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 114,
+            "name": "Cleveland Guardians",
+            "teamName": "Guardians",
+            "location": "Cleveland",
+            "abbr": "CLE",
+            "fileCode": "cle",
+            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+            "color": "#00385D",
+            "score": null,
+            "probablePitcher": "Parker Messick",
+            "record": {
+              "wins": 60,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".480"
+            }
+          },
+          "away": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "teamName": "Giants",
+            "location": "San Francisco",
+            "abbr": "SF",
+            "fileCode": "sf",
+            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 51,
+              "losses": 73,
+              "ties": 0,
+              "pct": ".411"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "teamName": "Giants",
+            "location": "San Francisco",
+            "abbr": "SF",
+            "fileCode": "sf",
+            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 2,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824395,
+          "date": "2026-08-20",
+          "gameDate": "2026-08-20T17:10:00Z",
+          "dayNight": "day",
+          "venue": "Progressive Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 114,
+            "name": "Cleveland Guardians",
+            "teamName": "Guardians",
+            "location": "Cleveland",
+            "abbr": "CLE",
+            "fileCode": "cle",
+            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+            "color": "#00385D",
+            "score": null,
+            "probablePitcher": "Gavin Williams",
+            "record": {
+              "wins": 60,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".480"
+            }
+          },
+          "away": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "teamName": "Giants",
+            "location": "San Francisco",
+            "abbr": "SF",
+            "fileCode": "sf",
+            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": "Landen Roupp",
+            "record": {
+              "wins": 51,
+              "losses": 73,
+              "ties": 0,
+              "pct": ".411"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "teamName": "Giants",
+            "location": "San Francisco",
+            "abbr": "SF",
+            "fileCode": "sf",
+            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 3,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824317,
+          "date": "2026-08-21",
+          "gameDate": "2026-08-22T00:40:00Z",
+          "dayNight": "night",
+          "venue": "Coors Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "teamName": "Rockies",
+            "location": "Denver",
+            "abbr": "COL",
+            "fileCode": "col",
+            "logo": "https://www.mlbstatic.com/team-logos/115.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 50,
+              "losses": 74,
+              "ties": 0,
+              "pct": ".403"
+            }
+          },
+          "away": {
+            "id": 114,
+            "name": "Cleveland Guardians",
+            "teamName": "Guardians",
+            "location": "Cleveland",
+            "abbr": "CLE",
+            "fileCode": "cle",
+            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+            "color": "#00385D",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 60,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".480"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "teamName": "Rockies",
+            "location": "Denver",
+            "abbr": "COL",
+            "fileCode": "col",
+            "logo": "https://www.mlbstatic.com/team-logos/115.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824316,
+          "date": "2026-08-22",
+          "gameDate": "2026-08-23T00:10:00Z",
+          "dayNight": "night",
+          "venue": "Coors Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "teamName": "Rockies",
+            "location": "Denver",
+            "abbr": "COL",
+            "fileCode": "col",
+            "logo": "https://www.mlbstatic.com/team-logos/115.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 50,
+              "losses": 74,
+              "ties": 0,
+              "pct": ".403"
+            }
+          },
+          "away": {
+            "id": 114,
+            "name": "Cleveland Guardians",
+            "teamName": "Guardians",
+            "location": "Cleveland",
+            "abbr": "CLE",
+            "fileCode": "cle",
+            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+            "color": "#00385D",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 60,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".480"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "teamName": "Rockies",
+            "location": "Denver",
+            "abbr": "COL",
+            "fileCode": "col",
+            "logo": "https://www.mlbstatic.com/team-logos/115.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 2,
+          "gamesInSeries": 3
+        }
+      ],
+      "weekAgo": {
+        "wildCardRank": 6,
+        "wildCardGamesBack": "1.5",
+        "wins": 58,
+        "losses": 61,
+        "gbDelta": 0.0,
+        "rankDelta": 2,
         "direction": "flat"
       }
     },
@@ -5413,8 +5413,8 @@
           "venue": "Daikin Park",
           "status": "In Progress",
           "abstractState": "Live",
-          "inning": 1,
-          "inningState": "Middle",
+          "inning": 8,
+          "inningState": "Bottom",
           "home": {
             "id": 117,
             "name": "Houston Astros",
@@ -5424,7 +5424,7 @@
             "fileCode": "hou",
             "logo": "https://www.mlbstatic.com/team-logos/117.svg",
             "color": "#002D62",
-            "score": 0,
+            "score": 2,
             "probablePitcher": "Hunter Brown",
             "record": {
               "wins": 63,
@@ -5442,7 +5442,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": 1,
+            "score": 3,
             "probablePitcher": "Bryan Woo",
             "record": {
               "wins": 58,
@@ -6923,7 +6923,7 @@
         {
           "name": "Cody Bellinger",
           "status": "10-Day-IL",
-          "comment": "Bellinger (hamstring) will start his minor-league rehab assignment Thursday or Friday, Erik Boland of Newsday reports.",
+          "comment": "Yankees manager Aaron Boone clarified that Bellinger (hamstring) will start his minor-league rehab assignment Thursday or Friday, Erik Boland of Newsday reports.",
           "date": "2026-08-16T21:24Z",
           "position": null
         },
@@ -7456,7 +7456,7 @@
         {
           "name": "Justin Slaten",
           "status": "15-Day-IL",
-          "comment": "The Red Sox placed Slaten on the 15-day injured list Sunday.",
+          "comment": "The Red Sox placed Slaten (elbow) on the 15-day injured list Sunday.",
           "date": "2026-08-16T15:19Z",
           "position": null
         },
@@ -9275,525 +9275,6 @@
       }
     },
     {
-      "id": 114,
-      "name": "Cleveland Guardians",
-      "teamName": "Guardians",
-      "location": "Cleveland",
-      "abbr": "CLE",
-      "fileCode": "cle",
-      "logo": "https://www.mlbstatic.com/team-logos/114.svg",
-      "color": "#00385D",
-      "wins": 60,
-      "losses": 64,
-      "pct": ".484",
-      "gamesPlayed": 124,
-      "gamesRemaining": 38,
-      "divisionRank": 2,
-      "leagueRank": 9,
-      "wildCardRank": 6,
-      "gamesBack": "5.5",
-      "wildCardGamesBack": "1.0",
-      "wildCardGamesBackNum": 1.0,
-      "divisionName": "American League East",
-      "streak": "W1",
-      "streakType": "wins",
-      "streakNumber": 1,
-      "lastTen": "3-7",
-      "lastTenWins": 3,
-      "lastTenLosses": 7,
-      "home": "29-32",
-      "away": "31-32",
-      "oneRun": "18-18",
-      "extraInning": "4-5",
-      "day": "23-23",
-      "night": "37-41",
-      "vsLeft": "25-19",
-      "vsRight": "35-45",
-      "runsScored": 494,
-      "runsAllowed": 521,
-      "runDifferential": -27,
-      "pythagWins": 59,
-      "pythagLosses": 65,
-      "pythagPct": 0.476,
-      "expectedRecord": "59-65",
-      "eliminationNumber": "34",
-      "wildCardEliminationNumber": "38",
-      "clinched": false,
-      "divisionLeader": false,
-      "hitting": {
-        "avg": ".233",
-        "obp": ".313",
-        "slg": ".369",
-        "ops": ".682",
-        "runs": 494,
-        "hits": 964,
-        "homeRuns": 119,
-        "rbi": 471,
-        "stolenBases": 121,
-        "strikeOuts": 1022,
-        "baseOnBalls": 454,
-        "babip": ".278"
-      },
-      "pitching": {
-        "era": "3.85",
-        "whip": "1.27",
-        "wins": 60,
-        "losses": 64,
-        "saves": 35,
-        "strikeOuts": 1155,
-        "baseOnBalls": 413,
-        "inningsPitched": "1106.2",
-        "strikeoutsPer9Inn": "9.39",
-        "walksPer9Inn": "3.36",
-        "homeRunsPer9": "1.18",
-        "holds": 93,
-        "blownSaves": 14,
-        "winPercentage": ".484",
-        "runs": 526
-      },
-      "hittingL10": {
-        "avg": ".244",
-        "obp": ".320",
-        "slg": ".376",
-        "ops": ".696",
-        "runs": 41,
-        "hits": 83,
-        "homeRuns": 10,
-        "rbi": 36,
-        "stolenBases": 8,
-        "strikeOuts": 65,
-        "baseOnBalls": 36,
-        "babip": ".271"
-      },
-      "pitchingL10": {
-        "era": "5.13",
-        "whip": "1.42",
-        "wins": 3,
-        "losses": 6,
-        "saves": 1,
-        "strikeOuts": 89,
-        "baseOnBalls": 41,
-        "inningsPitched": "86.0",
-        "strikeoutsPer9Inn": "9.31",
-        "walksPer9Inn": "4.29",
-        "homeRunsPer9": "1.57",
-        "holds": 5,
-        "blownSaves": 2,
-        "winPercentage": ".333",
-        "runs": 52
-      },
-      "runDifferentialL10": -11,
-      "momentum": 51,
-      "nextGames": [
-        {
-          "gamePk": 824397,
-          "date": "2026-08-16",
-          "gameDate": "2026-08-16T17:40:00Z",
-          "dayNight": "day",
-          "venue": "Progressive Field",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 9,
-          "inningState": "Bottom",
-          "home": {
-            "id": 114,
-            "name": "Cleveland Guardians",
-            "teamName": "Guardians",
-            "location": "Cleveland",
-            "abbr": "CLE",
-            "fileCode": "cle",
-            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
-            "color": "#00385D",
-            "score": 0,
-            "probablePitcher": "Tanner Bibee",
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "away": {
-            "id": 135,
-            "name": "San Diego Padres",
-            "teamName": "Padres",
-            "location": "San Diego",
-            "abbr": "SD",
-            "fileCode": "sd",
-            "logo": "https://www.mlbstatic.com/team-logos/135.svg",
-            "color": "#1D4ED8",
-            "score": 5,
-            "probablePitcher": "Casey Mize",
-            "record": {
-              "wins": 66,
-              "losses": 58,
-              "ties": 0,
-              "pct": ".532"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 135,
-            "name": "San Diego Padres",
-            "teamName": "Padres",
-            "location": "San Diego",
-            "abbr": "SD",
-            "fileCode": "sd",
-            "logo": "https://www.mlbstatic.com/team-logos/135.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 3,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824398,
-          "date": "2026-08-18",
-          "gameDate": "2026-08-18T22:40:00Z",
-          "dayNight": "night",
-          "venue": "Progressive Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 114,
-            "name": "Cleveland Guardians",
-            "teamName": "Guardians",
-            "location": "Cleveland",
-            "abbr": "CLE",
-            "fileCode": "cle",
-            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
-            "color": "#00385D",
-            "score": null,
-            "probablePitcher": "Foster Griffin",
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "away": {
-            "id": 137,
-            "name": "San Francisco Giants",
-            "teamName": "Giants",
-            "location": "San Francisco",
-            "abbr": "SF",
-            "fileCode": "sf",
-            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": "Carson Whisenhunt",
-            "record": {
-              "wins": 51,
-              "losses": 73,
-              "ties": 0,
-              "pct": ".411"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 137,
-            "name": "San Francisco Giants",
-            "teamName": "Giants",
-            "location": "San Francisco",
-            "abbr": "SF",
-            "fileCode": "sf",
-            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824394,
-          "date": "2026-08-19",
-          "gameDate": "2026-08-19T22:40:00Z",
-          "dayNight": "night",
-          "venue": "Progressive Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 114,
-            "name": "Cleveland Guardians",
-            "teamName": "Guardians",
-            "location": "Cleveland",
-            "abbr": "CLE",
-            "fileCode": "cle",
-            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
-            "color": "#00385D",
-            "score": null,
-            "probablePitcher": "Parker Messick",
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "away": {
-            "id": 137,
-            "name": "San Francisco Giants",
-            "teamName": "Giants",
-            "location": "San Francisco",
-            "abbr": "SF",
-            "fileCode": "sf",
-            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 51,
-              "losses": 73,
-              "ties": 0,
-              "pct": ".411"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 137,
-            "name": "San Francisco Giants",
-            "teamName": "Giants",
-            "location": "San Francisco",
-            "abbr": "SF",
-            "fileCode": "sf",
-            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824395,
-          "date": "2026-08-20",
-          "gameDate": "2026-08-20T17:10:00Z",
-          "dayNight": "day",
-          "venue": "Progressive Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 114,
-            "name": "Cleveland Guardians",
-            "teamName": "Guardians",
-            "location": "Cleveland",
-            "abbr": "CLE",
-            "fileCode": "cle",
-            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
-            "color": "#00385D",
-            "score": null,
-            "probablePitcher": "Gavin Williams",
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "away": {
-            "id": 137,
-            "name": "San Francisco Giants",
-            "teamName": "Giants",
-            "location": "San Francisco",
-            "abbr": "SF",
-            "fileCode": "sf",
-            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": "Landen Roupp",
-            "record": {
-              "wins": 51,
-              "losses": 73,
-              "ties": 0,
-              "pct": ".411"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 137,
-            "name": "San Francisco Giants",
-            "teamName": "Giants",
-            "location": "San Francisco",
-            "abbr": "SF",
-            "fileCode": "sf",
-            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 3,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824317,
-          "date": "2026-08-21",
-          "gameDate": "2026-08-22T00:40:00Z",
-          "dayNight": "night",
-          "venue": "Coors Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 115,
-            "name": "Colorado Rockies",
-            "teamName": "Rockies",
-            "location": "Denver",
-            "abbr": "COL",
-            "fileCode": "col",
-            "logo": "https://www.mlbstatic.com/team-logos/115.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 50,
-              "losses": 74,
-              "ties": 0,
-              "pct": ".403"
-            }
-          },
-          "away": {
-            "id": 114,
-            "name": "Cleveland Guardians",
-            "teamName": "Guardians",
-            "location": "Cleveland",
-            "abbr": "CLE",
-            "fileCode": "cle",
-            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
-            "color": "#00385D",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 115,
-            "name": "Colorado Rockies",
-            "teamName": "Rockies",
-            "location": "Denver",
-            "abbr": "COL",
-            "fileCode": "col",
-            "logo": "https://www.mlbstatic.com/team-logos/115.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824316,
-          "date": "2026-08-22",
-          "gameDate": "2026-08-23T00:10:00Z",
-          "dayNight": "night",
-          "venue": "Coors Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 115,
-            "name": "Colorado Rockies",
-            "teamName": "Rockies",
-            "location": "Denver",
-            "abbr": "COL",
-            "fileCode": "col",
-            "logo": "https://www.mlbstatic.com/team-logos/115.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 50,
-              "losses": 74,
-              "ties": 0,
-              "pct": ".403"
-            }
-          },
-          "away": {
-            "id": 114,
-            "name": "Cleveland Guardians",
-            "teamName": "Guardians",
-            "location": "Cleveland",
-            "abbr": "CLE",
-            "fileCode": "cle",
-            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
-            "color": "#00385D",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 115,
-            "name": "Colorado Rockies",
-            "teamName": "Rockies",
-            "location": "Denver",
-            "abbr": "COL",
-            "fileCode": "col",
-            "logo": "https://www.mlbstatic.com/team-logos/115.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
-          "gamesInSeries": 3
-        }
-      ],
-      "injuries": [
-        {
-          "name": "Chase DeLauter",
-          "status": "Day-To-Day",
-          "comment": "DeLauter exited Sunday's contest against San Diego with left hamstring tightness, Tim Stebbins of MLB.com reports.",
-          "date": "2026-08-16T22:03Z",
-          "position": null
-        },
-        {
-          "name": "Colin Holderman",
-          "status": "Day-To-Day",
-          "comment": "Holderman was removed from Saturday's 6-1 win over the Padres due to right wrist inflammation, Tim Stebbins of MLB.com reports. He was credited with a hold while hitting a batter and retiring the other two hitters he faced.",
-          "date": "2026-08-16T14:16Z",
-          "position": null
-        },
-        {
-          "name": "Slade Cecconi",
-          "status": "15-Day-IL",
-          "comment": "Cecconi (arm) underwent an MRI that confirmed no structural damage, MLB.com reports.",
-          "date": "2026-08-15T13:10Z",
-          "position": null
-        },
-        {
-          "name": "Shawn Armstrong",
-          "status": "60-Day-IL",
-          "comment": "The Guardians transferred Armstrong (calf) to the 60-day injured list Tuesday.",
-          "date": "2026-08-05T04:38Z",
-          "position": null
-        }
-      ],
-      "injuryCount": 4,
-      "weekAgo": {
-        "wildCardRank": 6,
-        "wildCardGamesBack": "1.5",
-        "wins": 58,
-        "losses": 61,
-        "gbDelta": -0.5,
-        "rankDelta": 0,
-        "direction": "up"
-      }
-    },
-    {
       "id": 116,
       "name": "Detroit Tigers",
       "teamName": "Tigers",
@@ -9807,9 +9288,9 @@
       "pct": ".484",
       "gamesPlayed": 124,
       "gamesRemaining": 38,
-      "divisionRank": 3,
-      "leagueRank": 10,
-      "wildCardRank": 7,
+      "divisionRank": 2,
+      "leagueRank": 9,
+      "wildCardRank": 6,
       "gamesBack": "5.5",
       "wildCardGamesBack": "1.0",
       "wildCardGamesBackNum": 1.0,
@@ -9902,7 +9383,7 @@
         "runs": 36
       },
       "runDifferentialL10": 14,
-      "momentum": 74,
+      "momentum": 77,
       "nextGames": [
         {
           "gamePk": 824236,
@@ -9985,7 +9466,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/134.svg",
             "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Carmen Mlodzinski",
             "record": {
               "wins": 61,
               "losses": 65,
@@ -10378,7 +9859,7 @@
         "wins": 58,
         "losses": 60,
         "gbDelta": 0.0,
-        "rankDelta": 3,
+        "rankDelta": 2,
         "direction": "flat"
       }
     },
@@ -10396,9 +9877,9 @@
       "pct": ".480",
       "gamesPlayed": 125,
       "gamesRemaining": 37,
-      "divisionRank": 4,
-      "leagueRank": 11,
-      "wildCardRank": 8,
+      "divisionRank": 3,
+      "leagueRank": 10,
+      "wildCardRank": 7,
       "gamesBack": "6.0",
       "wildCardGamesBack": "1.5",
       "wildCardGamesBackNum": 1.5,
@@ -10491,7 +9972,7 @@
         "runs": 55
       },
       "runDifferentialL10": -12,
-      "momentum": 28,
+      "momentum": 31,
       "nextGames": [
         {
           "gamePk": 823670,
@@ -10759,10 +10240,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -10820,10 +10301,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -10925,7 +10406,526 @@
         "wins": 58,
         "losses": 61,
         "gbDelta": 0.0,
-        "rankDelta": 3,
+        "rankDelta": 2,
+        "direction": "flat"
+      }
+    },
+    {
+      "id": 114,
+      "name": "Cleveland Guardians",
+      "teamName": "Guardians",
+      "location": "Cleveland",
+      "abbr": "CLE",
+      "fileCode": "cle",
+      "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+      "color": "#00385D",
+      "wins": 60,
+      "losses": 65,
+      "pct": ".480",
+      "gamesPlayed": 125,
+      "gamesRemaining": 37,
+      "divisionRank": 4,
+      "leagueRank": 11,
+      "wildCardRank": 8,
+      "gamesBack": "6.0",
+      "wildCardGamesBack": "1.5",
+      "wildCardGamesBackNum": 1.5,
+      "divisionName": "American League East",
+      "streak": "L1",
+      "streakType": "losses",
+      "streakNumber": 1,
+      "lastTen": "3-7",
+      "lastTenWins": 3,
+      "lastTenLosses": 7,
+      "home": "29-33",
+      "away": "31-32",
+      "oneRun": "18-18",
+      "extraInning": "4-5",
+      "day": "23-24",
+      "night": "37-41",
+      "vsLeft": "25-19",
+      "vsRight": "35-46",
+      "runsScored": 494,
+      "runsAllowed": 526,
+      "runDifferential": -32,
+      "pythagWins": 59,
+      "pythagLosses": 66,
+      "pythagPct": 0.471,
+      "expectedRecord": "59-66",
+      "eliminationNumber": "33",
+      "wildCardEliminationNumber": "37",
+      "clinched": false,
+      "divisionLeader": false,
+      "hitting": {
+        "avg": ".233",
+        "obp": ".313",
+        "slg": ".369",
+        "ops": ".682",
+        "runs": 494,
+        "hits": 964,
+        "homeRuns": 119,
+        "rbi": 471,
+        "stolenBases": 121,
+        "strikeOuts": 1023,
+        "baseOnBalls": 455,
+        "babip": ".278"
+      },
+      "pitching": {
+        "era": "3.85",
+        "whip": "1.27",
+        "wins": 60,
+        "losses": 65,
+        "saves": 35,
+        "strikeOuts": 1155,
+        "baseOnBalls": 413,
+        "inningsPitched": "1106.2",
+        "strikeoutsPer9Inn": "9.39",
+        "walksPer9Inn": "3.36",
+        "homeRunsPer9": "1.18",
+        "holds": 93,
+        "blownSaves": 14,
+        "winPercentage": ".480",
+        "runs": 526
+      },
+      "hittingL10": {
+        "avg": ".243",
+        "obp": ".320",
+        "slg": ".374",
+        "ops": ".694",
+        "runs": 41,
+        "hits": 83,
+        "homeRuns": 10,
+        "rbi": 36,
+        "stolenBases": 8,
+        "strikeOuts": 66,
+        "baseOnBalls": 37,
+        "babip": ".270"
+      },
+      "pitchingL10": {
+        "era": "5.13",
+        "whip": "1.42",
+        "wins": 3,
+        "losses": 7,
+        "saves": 1,
+        "strikeOuts": 89,
+        "baseOnBalls": 41,
+        "inningsPitched": "86.0",
+        "strikeoutsPer9Inn": "9.31",
+        "walksPer9Inn": "4.29",
+        "homeRunsPer9": "1.57",
+        "holds": 5,
+        "blownSaves": 2,
+        "winPercentage": ".300",
+        "runs": 52
+      },
+      "runDifferentialL10": -11,
+      "momentum": 32,
+      "nextGames": [
+        {
+          "gamePk": 824397,
+          "date": "2026-08-16",
+          "gameDate": "2026-08-16T17:40:00Z",
+          "dayNight": "day",
+          "venue": "Progressive Field",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Bottom",
+          "home": {
+            "id": 114,
+            "name": "Cleveland Guardians",
+            "teamName": "Guardians",
+            "location": "Cleveland",
+            "abbr": "CLE",
+            "fileCode": "cle",
+            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+            "color": "#00385D",
+            "score": 0,
+            "probablePitcher": "Tanner Bibee",
+            "record": {
+              "wins": 60,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".480"
+            }
+          },
+          "away": {
+            "id": 135,
+            "name": "San Diego Padres",
+            "teamName": "Padres",
+            "location": "San Diego",
+            "abbr": "SD",
+            "fileCode": "sd",
+            "logo": "https://www.mlbstatic.com/team-logos/135.svg",
+            "color": "#1D4ED8",
+            "score": 5,
+            "probablePitcher": "Casey Mize",
+            "record": {
+              "wins": 67,
+              "losses": 58,
+              "ties": 0,
+              "pct": ".536"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 135,
+            "name": "San Diego Padres",
+            "teamName": "Padres",
+            "location": "San Diego",
+            "abbr": "SD",
+            "fileCode": "sd",
+            "logo": "https://www.mlbstatic.com/team-logos/135.svg",
+            "color": "#1D4ED8"
+          },
+          "result": "L",
+          "seriesGameNumber": 3,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824398,
+          "date": "2026-08-18",
+          "gameDate": "2026-08-18T22:40:00Z",
+          "dayNight": "night",
+          "venue": "Progressive Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 114,
+            "name": "Cleveland Guardians",
+            "teamName": "Guardians",
+            "location": "Cleveland",
+            "abbr": "CLE",
+            "fileCode": "cle",
+            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+            "color": "#00385D",
+            "score": null,
+            "probablePitcher": "Foster Griffin",
+            "record": {
+              "wins": 60,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".480"
+            }
+          },
+          "away": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "teamName": "Giants",
+            "location": "San Francisco",
+            "abbr": "SF",
+            "fileCode": "sf",
+            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": "Carson Whisenhunt",
+            "record": {
+              "wins": 51,
+              "losses": 73,
+              "ties": 0,
+              "pct": ".411"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "teamName": "Giants",
+            "location": "San Francisco",
+            "abbr": "SF",
+            "fileCode": "sf",
+            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824394,
+          "date": "2026-08-19",
+          "gameDate": "2026-08-19T22:40:00Z",
+          "dayNight": "night",
+          "venue": "Progressive Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 114,
+            "name": "Cleveland Guardians",
+            "teamName": "Guardians",
+            "location": "Cleveland",
+            "abbr": "CLE",
+            "fileCode": "cle",
+            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+            "color": "#00385D",
+            "score": null,
+            "probablePitcher": "Parker Messick",
+            "record": {
+              "wins": 60,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".480"
+            }
+          },
+          "away": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "teamName": "Giants",
+            "location": "San Francisco",
+            "abbr": "SF",
+            "fileCode": "sf",
+            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 51,
+              "losses": 73,
+              "ties": 0,
+              "pct": ".411"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "teamName": "Giants",
+            "location": "San Francisco",
+            "abbr": "SF",
+            "fileCode": "sf",
+            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 2,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824395,
+          "date": "2026-08-20",
+          "gameDate": "2026-08-20T17:10:00Z",
+          "dayNight": "day",
+          "venue": "Progressive Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 114,
+            "name": "Cleveland Guardians",
+            "teamName": "Guardians",
+            "location": "Cleveland",
+            "abbr": "CLE",
+            "fileCode": "cle",
+            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+            "color": "#00385D",
+            "score": null,
+            "probablePitcher": "Gavin Williams",
+            "record": {
+              "wins": 60,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".480"
+            }
+          },
+          "away": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "teamName": "Giants",
+            "location": "San Francisco",
+            "abbr": "SF",
+            "fileCode": "sf",
+            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": "Landen Roupp",
+            "record": {
+              "wins": 51,
+              "losses": 73,
+              "ties": 0,
+              "pct": ".411"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "teamName": "Giants",
+            "location": "San Francisco",
+            "abbr": "SF",
+            "fileCode": "sf",
+            "logo": "https://www.mlbstatic.com/team-logos/137.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 3,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824317,
+          "date": "2026-08-21",
+          "gameDate": "2026-08-22T00:40:00Z",
+          "dayNight": "night",
+          "venue": "Coors Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "teamName": "Rockies",
+            "location": "Denver",
+            "abbr": "COL",
+            "fileCode": "col",
+            "logo": "https://www.mlbstatic.com/team-logos/115.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 50,
+              "losses": 74,
+              "ties": 0,
+              "pct": ".403"
+            }
+          },
+          "away": {
+            "id": 114,
+            "name": "Cleveland Guardians",
+            "teamName": "Guardians",
+            "location": "Cleveland",
+            "abbr": "CLE",
+            "fileCode": "cle",
+            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+            "color": "#00385D",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 60,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".480"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "teamName": "Rockies",
+            "location": "Denver",
+            "abbr": "COL",
+            "fileCode": "col",
+            "logo": "https://www.mlbstatic.com/team-logos/115.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824316,
+          "date": "2026-08-22",
+          "gameDate": "2026-08-23T00:10:00Z",
+          "dayNight": "night",
+          "venue": "Coors Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "teamName": "Rockies",
+            "location": "Denver",
+            "abbr": "COL",
+            "fileCode": "col",
+            "logo": "https://www.mlbstatic.com/team-logos/115.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 50,
+              "losses": 74,
+              "ties": 0,
+              "pct": ".403"
+            }
+          },
+          "away": {
+            "id": 114,
+            "name": "Cleveland Guardians",
+            "teamName": "Guardians",
+            "location": "Cleveland",
+            "abbr": "CLE",
+            "fileCode": "cle",
+            "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+            "color": "#00385D",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 60,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".480"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "teamName": "Rockies",
+            "location": "Denver",
+            "abbr": "COL",
+            "fileCode": "col",
+            "logo": "https://www.mlbstatic.com/team-logos/115.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 2,
+          "gamesInSeries": 3
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Chase DeLauter",
+          "status": "Day-To-Day",
+          "comment": "DeLauter exited Sunday's contest against San Diego with left hamstring tightness, Tim Stebbins of MLB.com reports.",
+          "date": "2026-08-16T22:03Z",
+          "position": null
+        },
+        {
+          "name": "Colin Holderman",
+          "status": "Day-To-Day",
+          "comment": "Holderman was removed from Saturday's 6-1 win over the Padres due to right wrist inflammation, Tim Stebbins of MLB.com reports. He was credited with a hold while hitting a batter and retiring the other two hitters he faced.",
+          "date": "2026-08-16T14:16Z",
+          "position": null
+        },
+        {
+          "name": "Slade Cecconi",
+          "status": "15-Day-IL",
+          "comment": "Cecconi (arm) underwent an MRI that confirmed no structural damage, MLB.com reports.",
+          "date": "2026-08-15T13:10Z",
+          "position": null
+        },
+        {
+          "name": "Shawn Armstrong",
+          "status": "60-Day-IL",
+          "comment": "The Guardians transferred Armstrong (calf) to the 60-day injured list Tuesday.",
+          "date": "2026-08-05T04:38Z",
+          "position": null
+        }
+      ],
+      "injuryCount": 4,
+      "weekAgo": {
+        "wildCardRank": 6,
+        "wildCardGamesBack": "1.5",
+        "wins": 58,
+        "losses": 61,
+        "gbDelta": 0.0,
+        "rankDelta": 2,
         "direction": "flat"
       }
     },
@@ -10980,62 +10980,62 @@
         "obp": ".309",
         "slg": ".378",
         "ops": ".687",
-        "runs": 487,
-        "hits": 945,
-        "homeRuns": 144,
-        "rbi": 471,
-        "stolenBases": 87,
-        "strikeOuts": 1061,
-        "baseOnBalls": 406,
+        "runs": 489,
+        "hits": 950,
+        "homeRuns": 145,
+        "rbi": 473,
+        "stolenBases": 88,
+        "strikeOuts": 1068,
+        "baseOnBalls": 413,
         "babip": ".273"
       },
       "pitching": {
-        "era": "3.86",
+        "era": "3.85",
         "whip": "1.21",
         "wins": 58,
         "losses": 66,
         "saves": 27,
-        "strikeOuts": 1051,
-        "baseOnBalls": 311,
-        "inningsPitched": "1095.0",
-        "strikeoutsPer9Inn": "8.64",
-        "walksPer9Inn": "2.56",
-        "homeRunsPer9": "1.11",
+        "strikeOuts": 1057,
+        "baseOnBalls": 312,
+        "inningsPitched": "1102.2",
+        "strikeoutsPer9Inn": "8.63",
+        "walksPer9Inn": "2.55",
+        "homeRunsPer9": "1.12",
         "holds": 63,
         "blownSaves": 20,
         "winPercentage": ".468",
-        "runs": 510
+        "runs": 512
       },
       "hittingL10": {
-        "avg": ".231",
-        "obp": ".295",
+        "avg": ".229",
+        "obp": ".305",
         "slg": ".377",
-        "ops": ".672",
-        "runs": 29,
-        "hits": 71,
-        "homeRuns": 10,
-        "rbi": 29,
-        "stolenBases": 5,
-        "strikeOuts": 80,
-        "baseOnBalls": 26,
-        "babip": ".277"
+        "ops": ".682",
+        "runs": 31,
+        "hits": 76,
+        "homeRuns": 11,
+        "rbi": 31,
+        "stolenBases": 6,
+        "strikeOuts": 87,
+        "baseOnBalls": 33,
+        "babip": ".275"
       },
       "pitchingL10": {
-        "era": "5.08",
-        "whip": "1.46",
+        "era": "4.84",
+        "whip": "1.41",
         "wins": 2,
         "losses": 7,
         "saves": 1,
-        "strikeOuts": 71,
-        "baseOnBalls": 28,
-        "inningsPitched": "79.2",
-        "strikeoutsPer9Inn": "8.02",
-        "walksPer9Inn": "3.16",
-        "homeRunsPer9": "1.24",
+        "strikeOuts": 77,
+        "baseOnBalls": 29,
+        "inningsPitched": "87.1",
+        "strikeoutsPer9Inn": "7.94",
+        "walksPer9Inn": "2.99",
+        "homeRunsPer9": "1.34",
         "holds": 3,
         "blownSaves": 2,
         "winPercentage": ".222",
-        "runs": 49
+        "runs": 51
       },
       "runDifferentialL10": -20,
       "momentum": 26,
@@ -11048,8 +11048,8 @@
           "venue": "Daikin Park",
           "status": "In Progress",
           "abstractState": "Live",
-          "inning": 1,
-          "inningState": "Middle",
+          "inning": 8,
+          "inningState": "Bottom",
           "home": {
             "id": 117,
             "name": "Houston Astros",
@@ -11059,7 +11059,7 @@
             "fileCode": "hou",
             "logo": "https://www.mlbstatic.com/team-logos/117.svg",
             "color": "#002D62",
-            "score": 0,
+            "score": 2,
             "probablePitcher": "Hunter Brown",
             "record": {
               "wins": 63,
@@ -11077,7 +11077,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": 1,
+            "score": 3,
             "probablePitcher": "Bryan Woo",
             "record": {
               "wins": 58,
@@ -11411,14 +11411,14 @@
         {
           "name": "Victor Robles",
           "status": "Day-To-Day",
-          "comment": "Robles (shoulder) is not in the starting lineup Sunday against Houston, Adam Jude of The Seattle Times reports.",
+          "comment": "Robles is out of the lineup for Sunday's game against Houston due to a sore right shoulder, Adam Jude of The Seattle Times reports.",
           "date": "2026-08-16T21:44Z",
           "position": null
         },
         {
           "name": "Taylor Ward",
           "status": "Day-To-Day",
-          "comment": "Ward (quadriceps) is not in the starting lineup for Sunday's series finale against the Astros.",
+          "comment": "Ward (quadriceps) is out of the starting lineup for Sunday's series finale against the Astros.",
           "date": "2026-08-16T21:34Z",
           "position": null
         },
@@ -12315,9 +12315,9 @@
         "probablePitcher": null,
         "record": {
           "wins": 60,
-          "losses": 64,
+          "losses": 65,
           "ties": 0,
-          "pct": ".484"
+          "pct": ".480"
         }
       },
       "away": {
@@ -12376,9 +12376,9 @@
         "probablePitcher": null,
         "record": {
           "wins": 60,
-          "losses": 64,
+          "losses": 65,
           "ties": 0,
-          "pct": ".484"
+          "pct": ".480"
         }
       },
       "away": {
@@ -12437,9 +12437,9 @@
         "probablePitcher": null,
         "record": {
           "wins": 60,
-          "losses": 64,
+          "losses": 65,
           "ties": 0,
-          "pct": ".484"
+          "pct": ".480"
         }
       },
       "away": {
@@ -13255,7 +13255,7 @@
         "games": 3
       }
     ],
-    "strengthOfSchedule": 0.48
+    "strengthOfSchedule": 0.479
   },
   "rooting": [
     {
@@ -13433,64 +13433,6 @@
       "wantWinnerId": 141
     },
     {
-      "gamePk": 824397,
-      "date": "2026-08-16",
-      "gameDate": "2026-08-16T17:40:00Z",
-      "dayNight": "day",
-      "venue": "Progressive Field",
-      "status": "In Progress",
-      "abstractState": "Live",
-      "inning": 9,
-      "inningState": "Bottom",
-      "home": {
-        "id": 114,
-        "name": "Cleveland Guardians",
-        "teamName": "Guardians",
-        "location": "Cleveland",
-        "abbr": "CLE",
-        "fileCode": "cle",
-        "logo": "https://www.mlbstatic.com/team-logos/114.svg",
-        "color": "#00385D",
-        "score": 0,
-        "probablePitcher": "Tanner Bibee",
-        "record": {
-          "wins": 60,
-          "losses": 64,
-          "ties": 0,
-          "pct": ".484"
-        }
-      },
-      "away": {
-        "id": 135,
-        "name": "San Diego Padres",
-        "teamName": "Padres",
-        "location": "San Diego",
-        "abbr": "SD",
-        "fileCode": "sd",
-        "logo": "https://www.mlbstatic.com/team-logos/135.svg",
-        "color": "#1D4ED8",
-        "score": 5,
-        "probablePitcher": "Casey Mize",
-        "record": {
-          "wins": 66,
-          "losses": 58,
-          "ties": 0,
-          "pct": ".532"
-        }
-      },
-      "isHome": null,
-      "opponent": null,
-      "result": null,
-      "seriesGameNumber": 3,
-      "gamesInSeries": 3,
-      "interest": "Keep them down",
-      "note": "Do not let CLE sneak closer.",
-      "homeWinPct": 40.3,
-      "awayWinPct": 59.7,
-      "helpsTorPct": 59.7,
-      "wantWinnerId": 135
-    },
-    {
       "gamePk": 824236,
       "date": "2026-08-16",
       "gameDate": "2026-08-16T17:40:00Z",
@@ -13547,6 +13489,64 @@
       "awayWinPct": 52.0,
       "helpsTorPct": 52.0,
       "wantWinnerId": 145
+    },
+    {
+      "gamePk": 824397,
+      "date": "2026-08-16",
+      "gameDate": "2026-08-16T17:40:00Z",
+      "dayNight": "day",
+      "venue": "Progressive Field",
+      "status": "Final",
+      "abstractState": "Final",
+      "inning": 9,
+      "inningState": "Bottom",
+      "home": {
+        "id": 114,
+        "name": "Cleveland Guardians",
+        "teamName": "Guardians",
+        "location": "Cleveland",
+        "abbr": "CLE",
+        "fileCode": "cle",
+        "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+        "color": "#00385D",
+        "score": 0,
+        "probablePitcher": "Tanner Bibee",
+        "record": {
+          "wins": 60,
+          "losses": 65,
+          "ties": 0,
+          "pct": ".480"
+        }
+      },
+      "away": {
+        "id": 135,
+        "name": "San Diego Padres",
+        "teamName": "Padres",
+        "location": "San Diego",
+        "abbr": "SD",
+        "fileCode": "sd",
+        "logo": "https://www.mlbstatic.com/team-logos/135.svg",
+        "color": "#1D4ED8",
+        "score": 5,
+        "probablePitcher": "Casey Mize",
+        "record": {
+          "wins": 67,
+          "losses": 58,
+          "ties": 0,
+          "pct": ".536"
+        }
+      },
+      "isHome": null,
+      "opponent": null,
+      "result": null,
+      "seriesGameNumber": 3,
+      "gamesInSeries": 3,
+      "interest": "Keep them down",
+      "note": "Do not let CLE sneak closer.",
+      "homeWinPct": 37.2,
+      "awayWinPct": 62.8,
+      "helpsTorPct": 62.8,
+      "wantWinnerId": 135
     },
     {
       "gamePk": 823670,
@@ -13672,8 +13672,8 @@
       "venue": "Daikin Park",
       "status": "In Progress",
       "abstractState": "Live",
-      "inning": 1,
-      "inningState": "Middle",
+      "inning": 8,
+      "inningState": "Bottom",
       "home": {
         "id": 117,
         "name": "Houston Astros",
@@ -13683,7 +13683,7 @@
         "fileCode": "hou",
         "logo": "https://www.mlbstatic.com/team-logos/117.svg",
         "color": "#002D62",
-        "score": 0,
+        "score": 2,
         "probablePitcher": "Hunter Brown",
         "record": {
           "wins": 63,
@@ -13701,7 +13701,7 @@
         "fileCode": "sea",
         "logo": "https://www.mlbstatic.com/team-logos/136.svg",
         "color": "#0C2C56",
-        "score": 1,
+        "score": 3,
         "probablePitcher": "Bryan Woo",
         "record": {
           "wins": 58,
@@ -13800,7 +13800,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/134.svg",
         "color": "#1D4ED8",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Carmen Mlodzinski",
         "record": {
           "wins": 61,
           "losses": 65,
@@ -14071,64 +14071,6 @@
       "wantWinnerId": 141
     },
     {
-      "gamePk": 824398,
-      "date": "2026-08-18",
-      "gameDate": "2026-08-18T22:40:00Z",
-      "dayNight": "night",
-      "venue": "Progressive Field",
-      "status": "Scheduled",
-      "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
-      "home": {
-        "id": 114,
-        "name": "Cleveland Guardians",
-        "teamName": "Guardians",
-        "location": "Cleveland",
-        "abbr": "CLE",
-        "fileCode": "cle",
-        "logo": "https://www.mlbstatic.com/team-logos/114.svg",
-        "color": "#00385D",
-        "score": null,
-        "probablePitcher": "Foster Griffin",
-        "record": {
-          "wins": 60,
-          "losses": 64,
-          "ties": 0,
-          "pct": ".484"
-        }
-      },
-      "away": {
-        "id": 137,
-        "name": "San Francisco Giants",
-        "teamName": "Giants",
-        "location": "San Francisco",
-        "abbr": "SF",
-        "fileCode": "sf",
-        "logo": "https://www.mlbstatic.com/team-logos/137.svg",
-        "color": "#1D4ED8",
-        "score": null,
-        "probablePitcher": "Carson Whisenhunt",
-        "record": {
-          "wins": 51,
-          "losses": 73,
-          "ties": 0,
-          "pct": ".411"
-        }
-      },
-      "isHome": null,
-      "opponent": null,
-      "result": null,
-      "seriesGameNumber": 1,
-      "gamesInSeries": 3,
-      "interest": "Keep them down",
-      "note": "Do not let CLE sneak closer.",
-      "homeWinPct": 56.4,
-      "awayWinPct": 43.6,
-      "helpsTorPct": 43.6,
-      "wantWinnerId": 137
-    },
-    {
       "gamePk": 823341,
       "date": "2026-08-18",
       "gameDate": "2026-08-18T22:40:00Z",
@@ -14185,6 +14127,64 @@
       "awayWinPct": 47.5,
       "helpsTorPct": 52.5,
       "wantWinnerId": 134
+    },
+    {
+      "gamePk": 824398,
+      "date": "2026-08-18",
+      "gameDate": "2026-08-18T22:40:00Z",
+      "dayNight": "night",
+      "venue": "Progressive Field",
+      "status": "Scheduled",
+      "abstractState": "Preview",
+      "inning": null,
+      "inningState": null,
+      "home": {
+        "id": 114,
+        "name": "Cleveland Guardians",
+        "teamName": "Guardians",
+        "location": "Cleveland",
+        "abbr": "CLE",
+        "fileCode": "cle",
+        "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+        "color": "#00385D",
+        "score": null,
+        "probablePitcher": "Foster Griffin",
+        "record": {
+          "wins": 60,
+          "losses": 65,
+          "ties": 0,
+          "pct": ".480"
+        }
+      },
+      "away": {
+        "id": 137,
+        "name": "San Francisco Giants",
+        "teamName": "Giants",
+        "location": "San Francisco",
+        "abbr": "SF",
+        "fileCode": "sf",
+        "logo": "https://www.mlbstatic.com/team-logos/137.svg",
+        "color": "#1D4ED8",
+        "score": null,
+        "probablePitcher": "Carson Whisenhunt",
+        "record": {
+          "wins": 51,
+          "losses": 73,
+          "ties": 0,
+          "pct": ".411"
+        }
+      },
+      "isHome": null,
+      "opponent": null,
+      "result": null,
+      "seriesGameNumber": 1,
+      "gamesInSeries": 3,
+      "interest": "Keep them down",
+      "note": "Do not let CLE sneak closer.",
+      "homeWinPct": 56.1,
+      "awayWinPct": 43.9,
+      "helpsTorPct": 43.9,
+      "wantWinnerId": 137
     },
     {
       "gamePk": 824723,
@@ -15195,13 +15195,13 @@
     ]
   },
   "playoffOdds": {
-    "percent": 30.1,
+    "percent": 32.0,
     "sims": 5000,
-    "made": 1507,
-    "gamesModeled": 359,
+    "made": 1598,
+    "gamesModeled": 358,
     "talent": 0.483,
     "method": "Monte Carlo of remaining American League games. Each game uses log5 win odds from Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag.",
-    "note": "30.1% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 359 remaining games involving AL clubs.",
+    "note": "32.0% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 358 remaining games involving AL clubs.",
     "gb": "1.0",
     "gamesLeft": 36
   },
