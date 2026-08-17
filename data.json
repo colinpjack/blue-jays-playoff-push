@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T15:36:12.155140-04:00",
+  "generatedAt": "2026-08-17T16:38:32.117601-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -745,7 +745,7 @@
           "gameDate": "2026-08-17T23:10:00Z",
           "dayNight": "night",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -2443,7 +2443,7 @@
           "gameDate": "2026-08-17T23:10:00Z",
           "dayNight": "night",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -4141,8 +4141,8 @@
           "venue": "PNC Park",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 134,
             "name": "Pittsburgh Pirates",
@@ -4152,7 +4152,7 @@
             "fileCode": "pit",
             "logo": "https://www.mlbstatic.com/team-logos/134.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Carmen Mlodzinski",
             "record": {
               "wins": 61,
@@ -4170,7 +4170,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Framber Valdez",
             "record": {
               "wins": 60,
@@ -4565,8 +4565,8 @@
           "venue": "Target Field",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -4576,7 +4576,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Bailey Ober",
             "record": {
               "wins": 60,
@@ -4594,7 +4594,7 @@
             "fileCode": "atl",
             "logo": "https://www.mlbstatic.com/team-logos/144.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Mart\u00edn P\u00e9rez",
             "record": {
               "wins": 74,
@@ -5835,7 +5835,7 @@
           "gameDate": "2026-08-17T23:40:00Z",
           "dayNight": "night",
           "venue": "Kauffman Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -7091,7 +7091,7 @@
           "gameDate": "2026-08-17T23:10:00Z",
           "dayNight": "night",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -9400,8 +9400,8 @@
           "venue": "PNC Park",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 134,
             "name": "Pittsburgh Pirates",
@@ -9411,7 +9411,7 @@
             "fileCode": "pit",
             "logo": "https://www.mlbstatic.com/team-logos/134.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Carmen Mlodzinski",
             "record": {
               "wins": 61,
@@ -9429,7 +9429,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Framber Valdez",
             "record": {
               "wins": 60,
@@ -9989,8 +9989,8 @@
           "venue": "Target Field",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -10000,7 +10000,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Bailey Ober",
             "record": {
               "wins": 60,
@@ -10018,7 +10018,7 @@
             "fileCode": "atl",
             "logo": "https://www.mlbstatic.com/team-logos/144.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Mart\u00edn P\u00e9rez",
             "record": {
               "wins": 74,
@@ -13269,7 +13269,7 @@
         "games": 3
       }
     ],
-    "strengthOfSchedule": 0.48
+    "strengthOfSchedule": 0.479
   },
   "rooting": [
     {
@@ -13338,8 +13338,8 @@
       "venue": "PNC Park",
       "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 134,
         "name": "Pittsburgh Pirates",
@@ -13349,7 +13349,7 @@
         "fileCode": "pit",
         "logo": "https://www.mlbstatic.com/team-logos/134.svg",
         "color": "#1D4ED8",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Carmen Mlodzinski",
         "record": {
           "wins": 61,
@@ -13367,7 +13367,7 @@
         "fileCode": "det",
         "logo": "https://www.mlbstatic.com/team-logos/116.svg",
         "color": "#0C2340",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Framber Valdez",
         "record": {
           "wins": 60,
@@ -13394,7 +13394,7 @@
       "gameDate": "2026-08-17T23:10:00Z",
       "dayNight": "night",
       "venue": "Fenway Park",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
       "inning": null,
       "inningState": null,
@@ -13454,8 +13454,8 @@
       "venue": "Target Field",
       "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 142,
         "name": "Minnesota Twins",
@@ -13465,7 +13465,7 @@
         "fileCode": "min",
         "logo": "https://www.mlbstatic.com/team-logos/142.svg",
         "color": "#002B5C",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Bailey Ober",
         "record": {
           "wins": 60,
@@ -13483,7 +13483,7 @@
         "fileCode": "atl",
         "logo": "https://www.mlbstatic.com/team-logos/144.svg",
         "color": "#1D4ED8",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Mart\u00edn P\u00e9rez",
         "record": {
           "wins": 74,
@@ -15209,13 +15209,13 @@
     ]
   },
   "playoffOdds": {
-    "percent": 32.4,
+    "percent": 33.2,
     "sims": 5000,
-    "made": 1621,
+    "made": 1658,
     "gamesModeled": 357,
     "talent": 0.483,
     "method": "Monte Carlo of remaining American League games. Each game uses log5 win odds from Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag.",
-    "note": "32.4% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 357 remaining games involving AL clubs.",
+    "note": "33.2% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 357 remaining games involving AL clubs.",
     "gb": "1.0",
     "gamesLeft": 36
   },
