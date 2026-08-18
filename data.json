@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T21:47:12.064915-04:00",
+  "generatedAt": "2026-08-17T23:05:39.724040-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -17,8 +17,8 @@
     "gamesPlayed": 126,
     "gamesRemaining": 36,
     "divisionRank": 5,
-    "leagueRank": 8,
-    "wildCardRank": 5,
+    "leagueRank": 9,
+    "wildCardRank": 6,
     "gamesBack": "15.0",
     "wildCardGamesBack": "0.5",
     "wildCardGamesBackNum": 0.5,
@@ -79,7 +79,7 @@
       "winPercentage": ".484",
       "runs": 549
     },
-    "momentum": 68,
+    "momentum": 65,
     "injuryCount": 16,
     "weekAgo": {
       "wildCardRank": 8,
@@ -87,7 +87,7 @@
       "wins": 57,
       "losses": 63,
       "gbDelta": -3.0,
-      "rankDelta": -3,
+      "rankDelta": -2,
       "direction": "up"
     }
   },
@@ -701,39 +701,39 @@
       "fileCode": "bos",
       "logo": "https://www.mlbstatic.com/team-logos/111.svg",
       "color": "#BD3039",
-      "wins": 66,
+      "wins": 67,
       "losses": 58,
-      "pct": ".532",
-      "gamesPlayed": 124,
-      "gamesRemaining": 38,
+      "pct": ".536",
+      "gamesPlayed": 125,
+      "gamesRemaining": 37,
       "divisionRank": 3,
       "leagueRank": 3,
       "wildCardRank": 2,
-      "gamesBack": "9.0",
-      "wildCardGamesBack": "+5.5",
-      "wildCardGamesBackNum": 5.5,
+      "gamesBack": "8.5",
+      "wildCardGamesBack": "+6.0",
+      "wildCardGamesBackNum": 6.0,
       "divisionName": "American League East",
-      "streak": "L1",
-      "streakType": "losses",
+      "streak": "W1",
+      "streakType": "wins",
       "streakNumber": 1,
       "lastTen": "3-7",
       "lastTenWins": 3,
       "lastTenLosses": 7,
-      "home": "29-31",
+      "home": "30-31",
       "away": "37-27",
       "oneRun": "13-15",
       "extraInning": "5-3",
       "day": "23-27",
-      "night": "43-31",
-      "vsLeft": "18-12",
+      "night": "44-31",
+      "vsLeft": "19-12",
       "vsRight": "48-46",
-      "runsScored": 549,
-      "runsAllowed": 468,
-      "runDifferential": 81,
-      "pythagWins": 71,
-      "pythagLosses": 53,
-      "pythagPct": 0.573,
-      "expectedRecord": "71-53",
+      "runsScored": 560,
+      "runsAllowed": 469,
+      "runDifferential": 91,
+      "pythagWins": 73,
+      "pythagLosses": 52,
+      "pythagPct": 0.58,
+      "expectedRecord": "73-52",
       "eliminationNumber": "30",
       "wildCardEliminationNumber": "-",
       "clinched": false,
@@ -745,9 +745,9 @@
           "gameDate": "2026-08-17T23:10:00Z",
           "dayNight": "night",
           "venue": "Fenway Park",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 8,
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
           "inningState": "Top",
           "home": {
             "id": 111,
@@ -761,10 +761,10 @@
             "score": 11,
             "probablePitcher": "Alec Gamboa",
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -780,9 +780,9 @@
             "probablePitcher": "Mitch Bratt",
             "record": {
               "wins": 66,
-              "losses": 59,
+              "losses": 60,
               "ties": 0,
-              "pct": ".528"
+              "pct": ".524"
             }
           },
           "isHome": true,
@@ -796,7 +796,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/109.svg",
             "color": "#1D4ED8"
           },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 1,
           "gamesInSeries": 3
         },
@@ -822,10 +822,10 @@
             "score": null,
             "probablePitcher": "Ranger Suarez",
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -841,9 +841,9 @@
             "probablePitcher": "Merrill Kelly",
             "record": {
               "wins": 66,
-              "losses": 59,
+              "losses": 60,
               "ties": 0,
-              "pct": ".528"
+              "pct": ".524"
             }
           },
           "isHome": true,
@@ -883,10 +883,10 @@
             "score": null,
             "probablePitcher": "Payton Tolle",
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -902,9 +902,9 @@
             "probablePitcher": "Brandon Pfaadt",
             "record": {
               "wins": 66,
-              "losses": 59,
+              "losses": 60,
               "ties": 0,
-              "pct": ".528"
+              "pct": ".524"
             }
           },
           "isHome": true,
@@ -944,10 +944,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -1005,10 +1005,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -1066,10 +1066,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -1111,7 +1111,7 @@
         "wildCardGamesBack": "+4.5",
         "wins": 64,
         "losses": 54,
-        "gbDelta": -1.0,
+        "gbDelta": -1.5,
         "rankDelta": 0,
         "direction": "up"
       }
@@ -1131,8 +1131,8 @@
       "gamesPlayed": 125,
       "gamesRemaining": 37,
       "divisionRank": 4,
-      "leagueRank": 7,
-      "wildCardRank": 4,
+      "leagueRank": 6,
+      "wildCardRank": 3,
       "gamesBack": "14.5",
       "wildCardGamesBack": "-",
       "wildCardGamesBackNum": 0.0,
@@ -1159,7 +1159,7 @@
       "pythagPct": 0.479,
       "expectedRecord": "60-65",
       "eliminationNumber": "24",
-      "wildCardEliminationNumber": "38",
+      "wildCardEliminationNumber": "-",
       "clinched": false,
       "divisionLeader": false,
       "nextGames": [
@@ -1536,7 +1536,7 @@
         "wins": 57,
         "losses": 62,
         "gbDelta": -3.0,
-        "rankDelta": -3,
+        "rankDelta": -4,
         "direction": "up"
       }
     },
@@ -1555,8 +1555,8 @@
       "gamesPlayed": 126,
       "gamesRemaining": 36,
       "divisionRank": 5,
-      "leagueRank": 8,
-      "wildCardRank": 5,
+      "leagueRank": 9,
+      "wildCardRank": 6,
       "gamesBack": "15.0",
       "wildCardGamesBack": "0.5",
       "wildCardGamesBackNum": 0.5,
@@ -1960,7 +1960,7 @@
         "wins": 57,
         "losses": 63,
         "gbDelta": -3.0,
-        "rankDelta": -3,
+        "rankDelta": -2,
         "direction": "up"
       }
     }
@@ -2399,39 +2399,39 @@
       "fileCode": "bos",
       "logo": "https://www.mlbstatic.com/team-logos/111.svg",
       "color": "#BD3039",
-      "wins": 66,
+      "wins": 67,
       "losses": 58,
-      "pct": ".532",
-      "gamesPlayed": 124,
-      "gamesRemaining": 38,
+      "pct": ".536",
+      "gamesPlayed": 125,
+      "gamesRemaining": 37,
       "divisionRank": 3,
       "leagueRank": 3,
       "wildCardRank": 2,
-      "gamesBack": "9.0",
-      "wildCardGamesBack": "+5.5",
-      "wildCardGamesBackNum": 5.5,
+      "gamesBack": "8.5",
+      "wildCardGamesBack": "+6.0",
+      "wildCardGamesBackNum": 6.0,
       "divisionName": "American League East",
-      "streak": "L1",
-      "streakType": "losses",
+      "streak": "W1",
+      "streakType": "wins",
       "streakNumber": 1,
       "lastTen": "3-7",
       "lastTenWins": 3,
       "lastTenLosses": 7,
-      "home": "29-31",
+      "home": "30-31",
       "away": "37-27",
       "oneRun": "13-15",
       "extraInning": "5-3",
       "day": "23-27",
-      "night": "43-31",
-      "vsLeft": "18-12",
+      "night": "44-31",
+      "vsLeft": "19-12",
       "vsRight": "48-46",
-      "runsScored": 549,
-      "runsAllowed": 468,
-      "runDifferential": 81,
-      "pythagWins": 71,
-      "pythagLosses": 53,
-      "pythagPct": 0.573,
-      "expectedRecord": "71-53",
+      "runsScored": 560,
+      "runsAllowed": 469,
+      "runDifferential": 91,
+      "pythagWins": 73,
+      "pythagLosses": 52,
+      "pythagPct": 0.58,
+      "expectedRecord": "73-52",
       "eliminationNumber": "30",
       "wildCardEliminationNumber": "-",
       "clinched": false,
@@ -2443,9 +2443,9 @@
           "gameDate": "2026-08-17T23:10:00Z",
           "dayNight": "night",
           "venue": "Fenway Park",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 8,
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
           "inningState": "Top",
           "home": {
             "id": 111,
@@ -2459,10 +2459,10 @@
             "score": 11,
             "probablePitcher": "Alec Gamboa",
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -2478,9 +2478,9 @@
             "probablePitcher": "Mitch Bratt",
             "record": {
               "wins": 66,
-              "losses": 59,
+              "losses": 60,
               "ties": 0,
-              "pct": ".528"
+              "pct": ".524"
             }
           },
           "isHome": true,
@@ -2494,7 +2494,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/109.svg",
             "color": "#1D4ED8"
           },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 1,
           "gamesInSeries": 3
         },
@@ -2520,10 +2520,10 @@
             "score": null,
             "probablePitcher": "Ranger Suarez",
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -2539,9 +2539,9 @@
             "probablePitcher": "Merrill Kelly",
             "record": {
               "wins": 66,
-              "losses": 59,
+              "losses": 60,
               "ties": 0,
-              "pct": ".528"
+              "pct": ".524"
             }
           },
           "isHome": true,
@@ -2581,10 +2581,10 @@
             "score": null,
             "probablePitcher": "Payton Tolle",
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -2600,9 +2600,9 @@
             "probablePitcher": "Brandon Pfaadt",
             "record": {
               "wins": 66,
-              "losses": 59,
+              "losses": 60,
               "ties": 0,
-              "pct": ".528"
+              "pct": ".524"
             }
           },
           "isHome": true,
@@ -2642,10 +2642,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -2703,10 +2703,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -2764,10 +2764,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -2809,433 +2809,9 @@
         "wildCardGamesBack": "+4.5",
         "wins": 64,
         "losses": 54,
-        "gbDelta": -1.0,
+        "gbDelta": -1.5,
         "rankDelta": 0,
         "direction": "up"
-      }
-    },
-    {
-      "id": 140,
-      "name": "Texas Rangers",
-      "teamName": "Rangers",
-      "location": "Arlington",
-      "abbr": "TEX",
-      "fileCode": "tex",
-      "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-      "color": "#003278",
-      "wins": 61,
-      "losses": 64,
-      "pct": ".488",
-      "gamesPlayed": 125,
-      "gamesRemaining": 37,
-      "divisionRank": 2,
-      "leagueRank": 6,
-      "wildCardRank": 3,
-      "gamesBack": "2.0",
-      "wildCardGamesBack": "-",
-      "wildCardGamesBackNum": 0.0,
-      "divisionName": "American League East",
-      "streak": "L1",
-      "streakType": "losses",
-      "streakNumber": 1,
-      "lastTen": "4-6",
-      "lastTenWins": 4,
-      "lastTenLosses": 6,
-      "home": "32-27",
-      "away": "29-37",
-      "oneRun": "21-13",
-      "extraInning": "3-1",
-      "day": "20-22",
-      "night": "41-42",
-      "vsLeft": "16-15",
-      "vsRight": "45-49",
-      "runsScored": 507,
-      "runsAllowed": 554,
-      "runDifferential": -47,
-      "pythagWins": 57,
-      "pythagLosses": 68,
-      "pythagPct": 0.46,
-      "expectedRecord": "57-68",
-      "eliminationNumber": "36",
-      "wildCardEliminationNumber": "-",
-      "clinched": false,
-      "divisionLeader": false,
-      "nextGames": [
-        {
-          "gamePk": 822859,
-          "date": "2026-08-18",
-          "gameDate": "2026-08-19T00:05:00Z",
-          "dayNight": "night",
-          "venue": "Globe Life Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": null,
-            "probablePitcher": "Cal Quantrill",
-            "record": {
-              "wins": 61,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "away": {
-            "id": 120,
-            "name": "Washington Nationals",
-            "teamName": "Nationals",
-            "location": "Washington",
-            "abbr": "WSH",
-            "fileCode": "was",
-            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": "Jackson Kent",
-            "record": {
-              "wins": 60,
-              "losses": 66,
-              "ties": 0,
-              "pct": ".476"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 120,
-            "name": "Washington Nationals",
-            "teamName": "Nationals",
-            "location": "Washington",
-            "abbr": "WSH",
-            "fileCode": "was",
-            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 822860,
-          "date": "2026-08-19",
-          "gameDate": "2026-08-20T00:05:00Z",
-          "dayNight": "night",
-          "venue": "Globe Life Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 61,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "away": {
-            "id": 120,
-            "name": "Washington Nationals",
-            "teamName": "Nationals",
-            "location": "Washington",
-            "abbr": "WSH",
-            "fileCode": "was",
-            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": "Cade Cavalli",
-            "record": {
-              "wins": 60,
-              "losses": 66,
-              "ties": 0,
-              "pct": ".476"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 120,
-            "name": "Washington Nationals",
-            "teamName": "Nationals",
-            "location": "Washington",
-            "abbr": "WSH",
-            "fileCode": "was",
-            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 822861,
-          "date": "2026-08-20",
-          "gameDate": "2026-08-21T00:05:00Z",
-          "dayNight": "night",
-          "venue": "Globe Life Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 61,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "away": {
-            "id": 120,
-            "name": "Washington Nationals",
-            "teamName": "Nationals",
-            "location": "Washington",
-            "abbr": "WSH",
-            "fileCode": "was",
-            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": "Andrew Alvarez",
-            "record": {
-              "wins": 60,
-              "losses": 66,
-              "ties": 0,
-              "pct": ".476"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 120,
-            "name": "Washington Nationals",
-            "teamName": "Nationals",
-            "location": "Washington",
-            "abbr": "WSH",
-            "fileCode": "was",
-            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 3,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 822857,
-          "date": "2026-08-21",
-          "gameDate": "2026-08-22T00:15:00Z",
-          "dayNight": "night",
-          "venue": "Globe Life Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 61,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "away": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 49,
-              "losses": 76,
-              "ties": 0,
-              "pct": ".392"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 822858,
-          "date": "2026-08-22",
-          "gameDate": "2026-08-22T23:05:00Z",
-          "dayNight": "night",
-          "venue": "Globe Life Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 61,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "away": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 49,
-              "losses": 76,
-              "ties": 0,
-              "pct": ".392"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 822856,
-          "date": "2026-08-23",
-          "gameDate": "2026-08-23T18:35:00Z",
-          "dayNight": "day",
-          "venue": "Globe Life Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 61,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "away": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 49,
-              "losses": 76,
-              "ties": 0,
-              "pct": ".392"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 3,
-          "gamesInSeries": 3
-        }
-      ],
-      "weekAgo": {
-        "wildCardRank": 3,
-        "wildCardGamesBack": "-",
-        "wins": 60,
-        "losses": 59,
-        "gbDelta": 0.0,
-        "rankDelta": 0,
-        "direction": "flat"
       }
     },
     {
@@ -3253,8 +2829,8 @@
       "gamesPlayed": 125,
       "gamesRemaining": 37,
       "divisionRank": 4,
-      "leagueRank": 7,
-      "wildCardRank": 4,
+      "leagueRank": 6,
+      "wildCardRank": 3,
       "gamesBack": "14.5",
       "wildCardGamesBack": "-",
       "wildCardGamesBackNum": 0.0,
@@ -3281,7 +2857,7 @@
       "pythagPct": 0.479,
       "expectedRecord": "60-65",
       "eliminationNumber": "24",
-      "wildCardEliminationNumber": "38",
+      "wildCardEliminationNumber": "-",
       "clinched": false,
       "divisionLeader": false,
       "nextGames": [
@@ -3658,7 +3234,855 @@
         "wins": 57,
         "losses": 62,
         "gbDelta": -3.0,
-        "rankDelta": -3,
+        "rankDelta": -4,
+        "direction": "up"
+      }
+    },
+    {
+      "id": 140,
+      "name": "Texas Rangers",
+      "teamName": "Rangers",
+      "location": "Arlington",
+      "abbr": "TEX",
+      "fileCode": "tex",
+      "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+      "color": "#003278",
+      "wins": 61,
+      "losses": 64,
+      "pct": ".488",
+      "gamesPlayed": 125,
+      "gamesRemaining": 37,
+      "divisionRank": 2,
+      "leagueRank": 7,
+      "wildCardRank": 4,
+      "gamesBack": "2.0",
+      "wildCardGamesBack": "-",
+      "wildCardGamesBackNum": 0.0,
+      "divisionName": "American League East",
+      "streak": "L1",
+      "streakType": "losses",
+      "streakNumber": 1,
+      "lastTen": "4-6",
+      "lastTenWins": 4,
+      "lastTenLosses": 6,
+      "home": "32-27",
+      "away": "29-37",
+      "oneRun": "21-13",
+      "extraInning": "3-1",
+      "day": "20-22",
+      "night": "41-42",
+      "vsLeft": "16-15",
+      "vsRight": "45-49",
+      "runsScored": 507,
+      "runsAllowed": 554,
+      "runDifferential": -47,
+      "pythagWins": 57,
+      "pythagLosses": 68,
+      "pythagPct": 0.46,
+      "expectedRecord": "57-68",
+      "eliminationNumber": "36",
+      "wildCardEliminationNumber": "38",
+      "clinched": false,
+      "divisionLeader": false,
+      "nextGames": [
+        {
+          "gamePk": 822859,
+          "date": "2026-08-18",
+          "gameDate": "2026-08-19T00:05:00Z",
+          "dayNight": "night",
+          "venue": "Globe Life Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 140,
+            "name": "Texas Rangers",
+            "teamName": "Rangers",
+            "location": "Arlington",
+            "abbr": "TEX",
+            "fileCode": "tex",
+            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+            "color": "#003278",
+            "score": null,
+            "probablePitcher": "Cal Quantrill",
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "away": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "teamName": "Nationals",
+            "location": "Washington",
+            "abbr": "WSH",
+            "fileCode": "was",
+            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": "Jackson Kent",
+            "record": {
+              "wins": 60,
+              "losses": 66,
+              "ties": 0,
+              "pct": ".476"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "teamName": "Nationals",
+            "location": "Washington",
+            "abbr": "WSH",
+            "fileCode": "was",
+            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 822860,
+          "date": "2026-08-19",
+          "gameDate": "2026-08-20T00:05:00Z",
+          "dayNight": "night",
+          "venue": "Globe Life Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 140,
+            "name": "Texas Rangers",
+            "teamName": "Rangers",
+            "location": "Arlington",
+            "abbr": "TEX",
+            "fileCode": "tex",
+            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+            "color": "#003278",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "away": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "teamName": "Nationals",
+            "location": "Washington",
+            "abbr": "WSH",
+            "fileCode": "was",
+            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": "Cade Cavalli",
+            "record": {
+              "wins": 60,
+              "losses": 66,
+              "ties": 0,
+              "pct": ".476"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "teamName": "Nationals",
+            "location": "Washington",
+            "abbr": "WSH",
+            "fileCode": "was",
+            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 2,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 822861,
+          "date": "2026-08-20",
+          "gameDate": "2026-08-21T00:05:00Z",
+          "dayNight": "night",
+          "venue": "Globe Life Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 140,
+            "name": "Texas Rangers",
+            "teamName": "Rangers",
+            "location": "Arlington",
+            "abbr": "TEX",
+            "fileCode": "tex",
+            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+            "color": "#003278",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "away": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "teamName": "Nationals",
+            "location": "Washington",
+            "abbr": "WSH",
+            "fileCode": "was",
+            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": "Andrew Alvarez",
+            "record": {
+              "wins": 60,
+              "losses": 66,
+              "ties": 0,
+              "pct": ".476"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "teamName": "Nationals",
+            "location": "Washington",
+            "abbr": "WSH",
+            "fileCode": "was",
+            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 3,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 822857,
+          "date": "2026-08-21",
+          "gameDate": "2026-08-22T00:15:00Z",
+          "dayNight": "night",
+          "venue": "Globe Life Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 140,
+            "name": "Texas Rangers",
+            "teamName": "Rangers",
+            "location": "Arlington",
+            "abbr": "TEX",
+            "fileCode": "tex",
+            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+            "color": "#003278",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "away": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "teamName": "Angels",
+            "location": "Anaheim",
+            "abbr": "LAA",
+            "fileCode": "ana",
+            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 49,
+              "losses": 76,
+              "ties": 0,
+              "pct": ".392"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "teamName": "Angels",
+            "location": "Anaheim",
+            "abbr": "LAA",
+            "fileCode": "ana",
+            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 822858,
+          "date": "2026-08-22",
+          "gameDate": "2026-08-22T23:05:00Z",
+          "dayNight": "night",
+          "venue": "Globe Life Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 140,
+            "name": "Texas Rangers",
+            "teamName": "Rangers",
+            "location": "Arlington",
+            "abbr": "TEX",
+            "fileCode": "tex",
+            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+            "color": "#003278",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "away": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "teamName": "Angels",
+            "location": "Anaheim",
+            "abbr": "LAA",
+            "fileCode": "ana",
+            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 49,
+              "losses": 76,
+              "ties": 0,
+              "pct": ".392"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "teamName": "Angels",
+            "location": "Anaheim",
+            "abbr": "LAA",
+            "fileCode": "ana",
+            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 2,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 822856,
+          "date": "2026-08-23",
+          "gameDate": "2026-08-23T18:35:00Z",
+          "dayNight": "day",
+          "venue": "Globe Life Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 140,
+            "name": "Texas Rangers",
+            "teamName": "Rangers",
+            "location": "Arlington",
+            "abbr": "TEX",
+            "fileCode": "tex",
+            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+            "color": "#003278",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "away": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "teamName": "Angels",
+            "location": "Anaheim",
+            "abbr": "LAA",
+            "fileCode": "ana",
+            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 49,
+              "losses": 76,
+              "ties": 0,
+              "pct": ".392"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "teamName": "Angels",
+            "location": "Anaheim",
+            "abbr": "LAA",
+            "fileCode": "ana",
+            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 3,
+          "gamesInSeries": 3
+        }
+      ],
+      "weekAgo": {
+        "wildCardRank": 3,
+        "wildCardGamesBack": "-",
+        "wins": 60,
+        "losses": 59,
+        "gbDelta": 0.0,
+        "rankDelta": 1,
+        "direction": "flat"
+      }
+    },
+    {
+      "id": 116,
+      "name": "Detroit Tigers",
+      "teamName": "Tigers",
+      "location": "Detroit",
+      "abbr": "DET",
+      "fileCode": "det",
+      "logo": "https://www.mlbstatic.com/team-logos/116.svg",
+      "color": "#0C2340",
+      "wins": 61,
+      "losses": 64,
+      "pct": ".488",
+      "gamesPlayed": 125,
+      "gamesRemaining": 37,
+      "divisionRank": 2,
+      "leagueRank": 8,
+      "wildCardRank": 5,
+      "gamesBack": "5.0",
+      "wildCardGamesBack": "-",
+      "wildCardGamesBackNum": 0.0,
+      "divisionName": "American League East",
+      "streak": "W1",
+      "streakType": "wins",
+      "streakNumber": 1,
+      "lastTen": "5-5",
+      "lastTenWins": 5,
+      "lastTenLosses": 5,
+      "home": "32-31",
+      "away": "29-33",
+      "oneRun": "12-21",
+      "extraInning": "4-7",
+      "day": "24-22",
+      "night": "37-42",
+      "vsLeft": "16-23",
+      "vsRight": "45-41",
+      "runsScored": 573,
+      "runsAllowed": 487,
+      "runDifferential": 86,
+      "pythagWins": 72,
+      "pythagLosses": 53,
+      "pythagPct": 0.574,
+      "expectedRecord": "72-53",
+      "eliminationNumber": "34",
+      "wildCardEliminationNumber": "38",
+      "clinched": false,
+      "divisionLeader": false,
+      "nextGames": [
+        {
+          "gamePk": 823343,
+          "date": "2026-08-17",
+          "gameDate": "2026-08-17T23:05:00Z",
+          "dayNight": "night",
+          "venue": "PNC Park",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Bottom",
+          "home": {
+            "id": 134,
+            "name": "Pittsburgh Pirates",
+            "teamName": "Pirates",
+            "location": "Pittsburgh",
+            "abbr": "PIT",
+            "fileCode": "pit",
+            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
+            "color": "#1D4ED8",
+            "score": 5,
+            "probablePitcher": "Carmen Mlodzinski",
+            "record": {
+              "wins": 61,
+              "losses": 66,
+              "ties": 0,
+              "pct": ".480"
+            }
+          },
+          "away": {
+            "id": 116,
+            "name": "Detroit Tigers",
+            "teamName": "Tigers",
+            "location": "Detroit",
+            "abbr": "DET",
+            "fileCode": "det",
+            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
+            "color": "#0C2340",
+            "score": 8,
+            "probablePitcher": "Framber Valdez",
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 134,
+            "name": "Pittsburgh Pirates",
+            "teamName": "Pirates",
+            "location": "Pittsburgh",
+            "abbr": "PIT",
+            "fileCode": "pit",
+            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
+            "color": "#1D4ED8"
+          },
+          "result": "W",
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 823341,
+          "date": "2026-08-18",
+          "gameDate": "2026-08-18T22:40:00Z",
+          "dayNight": "night",
+          "venue": "PNC Park",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 134,
+            "name": "Pittsburgh Pirates",
+            "teamName": "Pirates",
+            "location": "Pittsburgh",
+            "abbr": "PIT",
+            "fileCode": "pit",
+            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": "Braxton Ashcraft",
+            "record": {
+              "wins": 61,
+              "losses": 66,
+              "ties": 0,
+              "pct": ".480"
+            }
+          },
+          "away": {
+            "id": 116,
+            "name": "Detroit Tigers",
+            "teamName": "Tigers",
+            "location": "Detroit",
+            "abbr": "DET",
+            "fileCode": "det",
+            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
+            "color": "#0C2340",
+            "score": null,
+            "probablePitcher": "Keider Montero",
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 134,
+            "name": "Pittsburgh Pirates",
+            "teamName": "Pirates",
+            "location": "Pittsburgh",
+            "abbr": "PIT",
+            "fileCode": "pit",
+            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 2,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 823342,
+          "date": "2026-08-19",
+          "gameDate": "2026-08-19T16:35:00Z",
+          "dayNight": "day",
+          "venue": "PNC Park",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 134,
+            "name": "Pittsburgh Pirates",
+            "teamName": "Pirates",
+            "location": "Pittsburgh",
+            "abbr": "PIT",
+            "fileCode": "pit",
+            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": "Paul Skenes",
+            "record": {
+              "wins": 61,
+              "losses": 66,
+              "ties": 0,
+              "pct": ".480"
+            }
+          },
+          "away": {
+            "id": 116,
+            "name": "Detroit Tigers",
+            "teamName": "Tigers",
+            "location": "Detroit",
+            "abbr": "DET",
+            "fileCode": "det",
+            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
+            "color": "#0C2340",
+            "score": null,
+            "probablePitcher": "Jackson Jobe",
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 134,
+            "name": "Pittsburgh Pirates",
+            "teamName": "Pirates",
+            "location": "Pittsburgh",
+            "abbr": "PIT",
+            "fileCode": "pit",
+            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 3,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824072,
+          "date": "2026-08-21",
+          "gameDate": "2026-08-22T00:10:00Z",
+          "dayNight": "night",
+          "venue": "Kauffman Stadium",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "teamName": "Royals",
+            "location": "Kansas City",
+            "abbr": "KC",
+            "fileCode": "kc",
+            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
+            "color": "#004687",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 52,
+              "losses": 74,
+              "ties": 0,
+              "pct": ".413"
+            }
+          },
+          "away": {
+            "id": 116,
+            "name": "Detroit Tigers",
+            "teamName": "Tigers",
+            "location": "Detroit",
+            "abbr": "DET",
+            "fileCode": "det",
+            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
+            "color": "#0C2340",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "teamName": "Royals",
+            "location": "Kansas City",
+            "abbr": "KC",
+            "fileCode": "kc",
+            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
+            "color": "#004687"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824073,
+          "date": "2026-08-22",
+          "gameDate": "2026-08-22T23:15:00Z",
+          "dayNight": "night",
+          "venue": "Kauffman Stadium",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "teamName": "Royals",
+            "location": "Kansas City",
+            "abbr": "KC",
+            "fileCode": "kc",
+            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
+            "color": "#004687",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 52,
+              "losses": 74,
+              "ties": 0,
+              "pct": ".413"
+            }
+          },
+          "away": {
+            "id": 116,
+            "name": "Detroit Tigers",
+            "teamName": "Tigers",
+            "location": "Detroit",
+            "abbr": "DET",
+            "fileCode": "det",
+            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
+            "color": "#0C2340",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "teamName": "Royals",
+            "location": "Kansas City",
+            "abbr": "KC",
+            "fileCode": "kc",
+            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
+            "color": "#004687"
+          },
+          "result": null,
+          "seriesGameNumber": 2,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824071,
+          "date": "2026-08-23",
+          "gameDate": "2026-08-23T18:10:00Z",
+          "dayNight": "day",
+          "venue": "Kauffman Stadium",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "teamName": "Royals",
+            "location": "Kansas City",
+            "abbr": "KC",
+            "fileCode": "kc",
+            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
+            "color": "#004687",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 52,
+              "losses": 74,
+              "ties": 0,
+              "pct": ".413"
+            }
+          },
+          "away": {
+            "id": 116,
+            "name": "Detroit Tigers",
+            "teamName": "Tigers",
+            "location": "Detroit",
+            "abbr": "DET",
+            "fileCode": "det",
+            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
+            "color": "#0C2340",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "teamName": "Royals",
+            "location": "Kansas City",
+            "abbr": "KC",
+            "fileCode": "kc",
+            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
+            "color": "#004687"
+          },
+          "result": null,
+          "seriesGameNumber": 3,
+          "gamesInSeries": 3
+        }
+      ],
+      "weekAgo": {
+        "wildCardRank": 5,
+        "wildCardGamesBack": "1.5",
+        "wins": 58,
+        "losses": 60,
+        "gbDelta": -1.5,
+        "rankDelta": 0,
         "direction": "up"
       }
     },
@@ -3677,8 +4101,8 @@
       "gamesPlayed": 126,
       "gamesRemaining": 36,
       "divisionRank": 5,
-      "leagueRank": 8,
-      "wildCardRank": 5,
+      "leagueRank": 9,
+      "wildCardRank": 6,
       "gamesBack": "15.0",
       "wildCardGamesBack": "0.5",
       "wildCardGamesBackNum": 0.5,
@@ -4082,431 +4506,7 @@
         "wins": 57,
         "losses": 63,
         "gbDelta": -3.0,
-        "rankDelta": -3,
-        "direction": "up"
-      }
-    },
-    {
-      "id": 116,
-      "name": "Detroit Tigers",
-      "teamName": "Tigers",
-      "location": "Detroit",
-      "abbr": "DET",
-      "fileCode": "det",
-      "logo": "https://www.mlbstatic.com/team-logos/116.svg",
-      "color": "#0C2340",
-      "wins": 60,
-      "losses": 64,
-      "pct": ".484",
-      "gamesPlayed": 124,
-      "gamesRemaining": 38,
-      "divisionRank": 2,
-      "leagueRank": 9,
-      "wildCardRank": 6,
-      "gamesBack": "5.5",
-      "wildCardGamesBack": "0.5",
-      "wildCardGamesBackNum": 0.5,
-      "divisionName": "American League East",
-      "streak": "L3",
-      "streakType": "losses",
-      "streakNumber": 3,
-      "lastTen": "5-5",
-      "lastTenWins": 5,
-      "lastTenLosses": 5,
-      "home": "32-31",
-      "away": "28-33",
-      "oneRun": "12-21",
-      "extraInning": "4-7",
-      "day": "24-22",
-      "night": "36-42",
-      "vsLeft": "16-23",
-      "vsRight": "44-41",
-      "runsScored": 565,
-      "runsAllowed": 482,
-      "runDifferential": 83,
-      "pythagWins": 71,
-      "pythagLosses": 53,
-      "pythagPct": 0.572,
-      "expectedRecord": "71-53",
-      "eliminationNumber": "34",
-      "wildCardEliminationNumber": "38",
-      "clinched": false,
-      "divisionLeader": false,
-      "nextGames": [
-        {
-          "gamePk": 823343,
-          "date": "2026-08-17",
-          "gameDate": "2026-08-17T23:05:00Z",
-          "dayNight": "night",
-          "venue": "PNC Park",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 7,
-          "inningState": "Bottom",
-          "home": {
-            "id": 134,
-            "name": "Pittsburgh Pirates",
-            "teamName": "Pirates",
-            "location": "Pittsburgh",
-            "abbr": "PIT",
-            "fileCode": "pit",
-            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
-            "color": "#1D4ED8",
-            "score": 5,
-            "probablePitcher": "Carmen Mlodzinski",
-            "record": {
-              "wins": 61,
-              "losses": 65,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "away": {
-            "id": 116,
-            "name": "Detroit Tigers",
-            "teamName": "Tigers",
-            "location": "Detroit",
-            "abbr": "DET",
-            "fileCode": "det",
-            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
-            "color": "#0C2340",
-            "score": 8,
-            "probablePitcher": "Framber Valdez",
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 134,
-            "name": "Pittsburgh Pirates",
-            "teamName": "Pirates",
-            "location": "Pittsburgh",
-            "abbr": "PIT",
-            "fileCode": "pit",
-            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 823341,
-          "date": "2026-08-18",
-          "gameDate": "2026-08-18T22:40:00Z",
-          "dayNight": "night",
-          "venue": "PNC Park",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 134,
-            "name": "Pittsburgh Pirates",
-            "teamName": "Pirates",
-            "location": "Pittsburgh",
-            "abbr": "PIT",
-            "fileCode": "pit",
-            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": "Braxton Ashcraft",
-            "record": {
-              "wins": 61,
-              "losses": 65,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "away": {
-            "id": 116,
-            "name": "Detroit Tigers",
-            "teamName": "Tigers",
-            "location": "Detroit",
-            "abbr": "DET",
-            "fileCode": "det",
-            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": "Keider Montero",
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 134,
-            "name": "Pittsburgh Pirates",
-            "teamName": "Pirates",
-            "location": "Pittsburgh",
-            "abbr": "PIT",
-            "fileCode": "pit",
-            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 823342,
-          "date": "2026-08-19",
-          "gameDate": "2026-08-19T16:35:00Z",
-          "dayNight": "day",
-          "venue": "PNC Park",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 134,
-            "name": "Pittsburgh Pirates",
-            "teamName": "Pirates",
-            "location": "Pittsburgh",
-            "abbr": "PIT",
-            "fileCode": "pit",
-            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": "Paul Skenes",
-            "record": {
-              "wins": 61,
-              "losses": 65,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "away": {
-            "id": 116,
-            "name": "Detroit Tigers",
-            "teamName": "Tigers",
-            "location": "Detroit",
-            "abbr": "DET",
-            "fileCode": "det",
-            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": "Jackson Jobe",
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 134,
-            "name": "Pittsburgh Pirates",
-            "teamName": "Pirates",
-            "location": "Pittsburgh",
-            "abbr": "PIT",
-            "fileCode": "pit",
-            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 3,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824072,
-          "date": "2026-08-21",
-          "gameDate": "2026-08-22T00:10:00Z",
-          "dayNight": "night",
-          "venue": "Kauffman Stadium",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 118,
-            "name": "Kansas City Royals",
-            "teamName": "Royals",
-            "location": "Kansas City",
-            "abbr": "KC",
-            "fileCode": "kc",
-            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
-            "color": "#004687",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 51,
-              "losses": 74,
-              "ties": 0,
-              "pct": ".408"
-            }
-          },
-          "away": {
-            "id": 116,
-            "name": "Detroit Tigers",
-            "teamName": "Tigers",
-            "location": "Detroit",
-            "abbr": "DET",
-            "fileCode": "det",
-            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 118,
-            "name": "Kansas City Royals",
-            "teamName": "Royals",
-            "location": "Kansas City",
-            "abbr": "KC",
-            "fileCode": "kc",
-            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
-            "color": "#004687"
-          },
-          "result": null,
-          "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824073,
-          "date": "2026-08-22",
-          "gameDate": "2026-08-22T23:15:00Z",
-          "dayNight": "night",
-          "venue": "Kauffman Stadium",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 118,
-            "name": "Kansas City Royals",
-            "teamName": "Royals",
-            "location": "Kansas City",
-            "abbr": "KC",
-            "fileCode": "kc",
-            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
-            "color": "#004687",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 51,
-              "losses": 74,
-              "ties": 0,
-              "pct": ".408"
-            }
-          },
-          "away": {
-            "id": 116,
-            "name": "Detroit Tigers",
-            "teamName": "Tigers",
-            "location": "Detroit",
-            "abbr": "DET",
-            "fileCode": "det",
-            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 118,
-            "name": "Kansas City Royals",
-            "teamName": "Royals",
-            "location": "Kansas City",
-            "abbr": "KC",
-            "fileCode": "kc",
-            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
-            "color": "#004687"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824071,
-          "date": "2026-08-23",
-          "gameDate": "2026-08-23T18:10:00Z",
-          "dayNight": "day",
-          "venue": "Kauffman Stadium",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 118,
-            "name": "Kansas City Royals",
-            "teamName": "Royals",
-            "location": "Kansas City",
-            "abbr": "KC",
-            "fileCode": "kc",
-            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
-            "color": "#004687",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 51,
-              "losses": 74,
-              "ties": 0,
-              "pct": ".408"
-            }
-          },
-          "away": {
-            "id": 116,
-            "name": "Detroit Tigers",
-            "teamName": "Tigers",
-            "location": "Detroit",
-            "abbr": "DET",
-            "fileCode": "det",
-            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 118,
-            "name": "Kansas City Royals",
-            "teamName": "Royals",
-            "location": "Kansas City",
-            "abbr": "KC",
-            "fileCode": "kc",
-            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
-            "color": "#004687"
-          },
-          "result": null,
-          "seriesGameNumber": 3,
-          "gamesInSeries": 3
-        }
-      ],
-      "weekAgo": {
-        "wildCardRank": 5,
-        "wildCardGamesBack": "1.5",
-        "wins": 58,
-        "losses": 60,
-        "gbDelta": -1.0,
-        "rankDelta": 1,
+        "rankDelta": -2,
         "direction": "up"
       }
     },
@@ -4565,7 +4565,7 @@
           "venue": "Target Field",
           "status": "In Progress",
           "abstractState": "Live",
-          "inning": 5,
+          "inning": 9,
           "inningState": "Top",
           "home": {
             "id": 142,
@@ -4594,7 +4594,7 @@
             "fileCode": "atl",
             "logo": "https://www.mlbstatic.com/team-logos/144.svg",
             "color": "#1D4ED8",
-            "score": 0,
+            "score": 2,
             "probablePitcher": "Mart\u00edn P\u00e9rez",
             "record": {
               "wins": 74,
@@ -5791,39 +5791,39 @@
       "fileCode": "kc",
       "logo": "https://www.mlbstatic.com/team-logos/118.svg",
       "color": "#004687",
-      "wins": 51,
+      "wins": 52,
       "losses": 74,
-      "pct": ".408",
-      "gamesPlayed": 125,
-      "gamesRemaining": 37,
+      "pct": ".413",
+      "gamesPlayed": 126,
+      "gamesRemaining": 36,
       "divisionRank": 5,
       "leagueRank": 13,
       "wildCardRank": 10,
-      "gamesBack": "15.0",
-      "wildCardGamesBack": "10.0",
-      "wildCardGamesBackNum": 10.0,
+      "gamesBack": "14.5",
+      "wildCardGamesBack": "9.5",
+      "wildCardGamesBackNum": 9.5,
       "divisionName": "American League East",
-      "streak": "W1",
+      "streak": "W2",
       "streakType": "wins",
-      "streakNumber": 1,
-      "lastTen": "3-7",
-      "lastTenWins": 3,
-      "lastTenLosses": 7,
-      "home": "29-30",
+      "streakNumber": 2,
+      "lastTen": "4-6",
+      "lastTenWins": 4,
+      "lastTenLosses": 6,
+      "home": "30-30",
       "away": "22-44",
       "oneRun": "17-22",
       "extraInning": "4-5",
       "day": "20-25",
-      "night": "31-49",
+      "night": "32-49",
       "vsLeft": "9-28",
-      "vsRight": "42-46",
-      "runsScored": 513,
-      "runsAllowed": 624,
-      "runDifferential": -111,
-      "pythagWins": 51,
+      "vsRight": "43-46",
+      "runsScored": 522,
+      "runsAllowed": 629,
+      "runDifferential": -107,
+      "pythagWins": 52,
       "pythagLosses": 74,
-      "pythagPct": 0.411,
-      "expectedRecord": "51-74",
+      "pythagPct": 0.416,
+      "expectedRecord": "52-74",
       "eliminationNumber": "24",
       "wildCardEliminationNumber": "28",
       "clinched": false,
@@ -5835,10 +5835,10 @@
           "gameDate": "2026-08-17T23:40:00Z",
           "dayNight": "night",
           "venue": "Kauffman Stadium",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 7,
-          "inningState": "Middle",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Top",
           "home": {
             "id": 118,
             "name": "Kansas City Royals",
@@ -5848,13 +5848,13 @@
             "fileCode": "kc",
             "logo": "https://www.mlbstatic.com/team-logos/118.svg",
             "color": "#004687",
-            "score": 7,
+            "score": 9,
             "probablePitcher": "Michael Wacha",
             "record": {
-              "wins": 51,
+              "wins": 52,
               "losses": 74,
               "ties": 0,
-              "pct": ".408"
+              "pct": ".413"
             }
           },
           "away": {
@@ -5866,13 +5866,13 @@
             "fileCode": "ath",
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
-            "score": 4,
+            "score": 5,
             "probablePitcher": "Mason Barnett",
             "record": {
               "wins": 49,
-              "losses": 75,
+              "losses": 76,
               "ties": 0,
-              "pct": ".395"
+              "pct": ".392"
             }
           },
           "isHome": true,
@@ -5886,7 +5886,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831"
           },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 1,
           "gamesInSeries": 4
         },
@@ -5912,10 +5912,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 51,
+              "wins": 52,
               "losses": 74,
               "ties": 0,
-              "pct": ".408"
+              "pct": ".413"
             }
           },
           "away": {
@@ -5931,9 +5931,9 @@
             "probablePitcher": "Jack Perkins",
             "record": {
               "wins": 49,
-              "losses": 75,
+              "losses": 76,
               "ties": 0,
-              "pct": ".395"
+              "pct": ".392"
             }
           },
           "isHome": true,
@@ -5957,7 +5957,7 @@
         "wildCardGamesBack": "11.5",
         "wins": 49,
         "losses": 71,
-        "gbDelta": -1.5,
+        "gbDelta": -2.0,
         "rankDelta": 0,
         "direction": "up"
       }
@@ -6003,73 +6003,134 @@
   ],
   "cutLine": {
     "team": {
-      "id": 140,
-      "name": "Texas Rangers",
-      "teamName": "Rangers",
-      "location": "Arlington",
-      "abbr": "TEX",
-      "fileCode": "tex",
-      "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-      "color": "#003278",
+      "id": 110,
+      "name": "Baltimore Orioles",
+      "teamName": "Orioles",
+      "location": "Baltimore",
+      "abbr": "BAL",
+      "fileCode": "bal",
+      "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+      "color": "#DF4601",
       "wins": 61,
       "losses": 64,
       "pct": ".488",
       "gamesPlayed": 125,
       "gamesRemaining": 37,
-      "divisionRank": 2,
+      "divisionRank": 4,
       "leagueRank": 6,
       "wildCardRank": 3,
-      "gamesBack": "2.0",
+      "gamesBack": "14.5",
       "wildCardGamesBack": "-",
       "wildCardGamesBackNum": 0.0,
       "divisionName": "American League East",
       "streak": "L1",
       "streakType": "losses",
       "streakNumber": 1,
-      "lastTen": "4-6",
-      "lastTenWins": 4,
-      "lastTenLosses": 6,
-      "home": "32-27",
-      "away": "29-37",
-      "oneRun": "21-13",
-      "extraInning": "3-1",
-      "day": "20-22",
-      "night": "41-42",
-      "vsLeft": "16-15",
-      "vsRight": "45-49",
-      "runsScored": 507,
-      "runsAllowed": 554,
-      "runDifferential": -47,
-      "pythagWins": 57,
-      "pythagLosses": 68,
-      "pythagPct": 0.46,
-      "expectedRecord": "57-68",
-      "eliminationNumber": "36",
+      "lastTen": "5-5",
+      "lastTenWins": 5,
+      "lastTenLosses": 5,
+      "home": "32-30",
+      "away": "29-34",
+      "oneRun": "12-19",
+      "extraInning": "5-6",
+      "day": "25-27",
+      "night": "36-37",
+      "vsLeft": "17-21",
+      "vsRight": "44-43",
+      "runsScored": 569,
+      "runsAllowed": 596,
+      "runDifferential": -27,
+      "pythagWins": 60,
+      "pythagLosses": 65,
+      "pythagPct": 0.479,
+      "expectedRecord": "60-65",
+      "eliminationNumber": "24",
       "wildCardEliminationNumber": "-",
       "clinched": false,
       "divisionLeader": false,
       "nextGames": [
         {
-          "gamePk": 822859,
-          "date": "2026-08-18",
-          "gameDate": "2026-08-19T00:05:00Z",
+          "gamePk": 822939,
+          "date": "2026-08-17",
+          "gameDate": "2026-08-17T22:05:00Z",
           "dayNight": "night",
-          "venue": "Globe Life Field",
+          "venue": "Tropicana Field",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Top",
+          "home": {
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "teamName": "Rays",
+            "location": "St. Petersburg",
+            "abbr": "TB",
+            "fileCode": "tb",
+            "logo": "https://www.mlbstatic.com/team-logos/139.svg",
+            "color": "#092C5C",
+            "score": 7,
+            "probablePitcher": "Shane McClanahan",
+            "record": {
+              "wins": 75,
+              "losses": 49,
+              "ties": 0,
+              "pct": ".605"
+            }
+          },
+          "away": {
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601",
+            "score": 6,
+            "probablePitcher": "Brandon Young",
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "teamName": "Rays",
+            "location": "St. Petersburg",
+            "abbr": "TB",
+            "fileCode": "tb",
+            "logo": "https://www.mlbstatic.com/team-logos/139.svg",
+            "color": "#092C5C"
+          },
+          "result": "L",
+          "seriesGameNumber": 4,
+          "gamesInSeries": 4
+        },
+        {
+          "gamePk": 824803,
+          "date": "2026-08-18",
+          "gameDate": "2026-08-18T22:35:00Z",
+          "dayNight": "night",
+          "venue": "Oriole Park at Camden Yards",
           "status": "Scheduled",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
           "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601",
             "score": null,
-            "probablePitcher": "Cal Quantrill",
+            "probablePitcher": "Shane Baz",
             "record": {
               "wins": 61,
               "losses": 64,
@@ -6078,59 +6139,59 @@
             }
           },
           "away": {
-            "id": 120,
-            "name": "Washington Nationals",
-            "teamName": "Nationals",
-            "location": "Washington",
-            "abbr": "WSH",
-            "fileCode": "was",
-            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
-            "color": "#1D4ED8",
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340",
             "score": null,
-            "probablePitcher": "Jackson Kent",
+            "probablePitcher": "Carlos Rod\u00f3n",
             "record": {
-              "wins": 60,
-              "losses": 66,
+              "wins": 69,
+              "losses": 55,
               "ties": 0,
-              "pct": ".476"
+              "pct": ".556"
             }
           },
           "isHome": true,
           "opponent": {
-            "id": 120,
-            "name": "Washington Nationals",
-            "teamName": "Nationals",
-            "location": "Washington",
-            "abbr": "WSH",
-            "fileCode": "was",
-            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
-            "color": "#1D4ED8"
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340"
           },
           "result": null,
           "seriesGameNumber": 1,
           "gamesInSeries": 3
         },
         {
-          "gamePk": 822860,
+          "gamePk": 824801,
           "date": "2026-08-19",
-          "gameDate": "2026-08-20T00:05:00Z",
+          "gameDate": "2026-08-19T22:35:00Z",
           "dayNight": "night",
-          "venue": "Globe Life Field",
+          "venue": "Oriole Park at Camden Yards",
           "status": "Scheduled",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
           "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Chris Bassitt",
             "record": {
               "wins": 61,
               "losses": 64,
@@ -6139,59 +6200,59 @@
             }
           },
           "away": {
-            "id": 120,
-            "name": "Washington Nationals",
-            "teamName": "Nationals",
-            "location": "Washington",
-            "abbr": "WSH",
-            "fileCode": "was",
-            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
-            "color": "#1D4ED8",
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340",
             "score": null,
-            "probablePitcher": "Cade Cavalli",
+            "probablePitcher": "Max Fried",
             "record": {
-              "wins": 60,
-              "losses": 66,
+              "wins": 69,
+              "losses": 55,
               "ties": 0,
-              "pct": ".476"
+              "pct": ".556"
             }
           },
           "isHome": true,
           "opponent": {
-            "id": 120,
-            "name": "Washington Nationals",
-            "teamName": "Nationals",
-            "location": "Washington",
-            "abbr": "WSH",
-            "fileCode": "was",
-            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
-            "color": "#1D4ED8"
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340"
           },
           "result": null,
           "seriesGameNumber": 2,
           "gamesInSeries": 3
         },
         {
-          "gamePk": 822861,
+          "gamePk": 824802,
           "date": "2026-08-20",
-          "gameDate": "2026-08-21T00:05:00Z",
+          "gameDate": "2026-08-20T22:35:00Z",
           "dayNight": "night",
-          "venue": "Globe Life Field",
+          "venue": "Oriole Park at Camden Yards",
           "status": "Scheduled",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
           "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Kyle Bradish",
             "record": {
               "wins": 61,
               "losses": 64,
@@ -6200,57 +6261,57 @@
             }
           },
           "away": {
-            "id": 120,
-            "name": "Washington Nationals",
-            "teamName": "Nationals",
-            "location": "Washington",
-            "abbr": "WSH",
-            "fileCode": "was",
-            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
-            "color": "#1D4ED8",
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340",
             "score": null,
-            "probablePitcher": "Andrew Alvarez",
+            "probablePitcher": "Gerrit Cole",
             "record": {
-              "wins": 60,
-              "losses": 66,
+              "wins": 69,
+              "losses": 55,
               "ties": 0,
-              "pct": ".476"
+              "pct": ".556"
             }
           },
           "isHome": true,
           "opponent": {
-            "id": 120,
-            "name": "Washington Nationals",
-            "teamName": "Nationals",
-            "location": "Washington",
-            "abbr": "WSH",
-            "fileCode": "was",
-            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
-            "color": "#1D4ED8"
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340"
           },
           "result": null,
           "seriesGameNumber": 3,
           "gamesInSeries": 3
         },
         {
-          "gamePk": 822857,
+          "gamePk": 824800,
           "date": "2026-08-21",
-          "gameDate": "2026-08-22T00:15:00Z",
+          "gameDate": "2026-08-21T23:15:00Z",
           "dayNight": "night",
-          "venue": "Globe Life Field",
+          "venue": "Oriole Park at Camden Yards",
           "status": "Scheduled",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
           "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601",
             "score": null,
             "probablePitcher": null,
             "record": {
@@ -6261,57 +6322,57 @@
             }
           },
           "away": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8",
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "teamName": "Rays",
+            "location": "St. Petersburg",
+            "abbr": "TB",
+            "fileCode": "tb",
+            "logo": "https://www.mlbstatic.com/team-logos/139.svg",
+            "color": "#092C5C",
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 49,
-              "losses": 76,
+              "wins": 75,
+              "losses": 49,
               "ties": 0,
-              "pct": ".392"
+              "pct": ".605"
             }
           },
           "isHome": true,
           "opponent": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8"
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "teamName": "Rays",
+            "location": "St. Petersburg",
+            "abbr": "TB",
+            "fileCode": "tb",
+            "logo": "https://www.mlbstatic.com/team-logos/139.svg",
+            "color": "#092C5C"
           },
           "result": null,
           "seriesGameNumber": 1,
           "gamesInSeries": 3
         },
         {
-          "gamePk": 822858,
+          "gamePk": 824798,
           "date": "2026-08-22",
           "gameDate": "2026-08-22T23:05:00Z",
           "dayNight": "night",
-          "venue": "Globe Life Field",
+          "venue": "Oriole Park at Camden Yards",
           "status": "Scheduled",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
           "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601",
             "score": null,
             "probablePitcher": null,
             "record": {
@@ -6322,123 +6383,62 @@
             }
           },
           "away": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8",
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "teamName": "Rays",
+            "location": "St. Petersburg",
+            "abbr": "TB",
+            "fileCode": "tb",
+            "logo": "https://www.mlbstatic.com/team-logos/139.svg",
+            "color": "#092C5C",
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 49,
-              "losses": 76,
+              "wins": 75,
+              "losses": 49,
               "ties": 0,
-              "pct": ".392"
+              "pct": ".605"
             }
           },
           "isHome": true,
           "opponent": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8"
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "teamName": "Rays",
+            "location": "St. Petersburg",
+            "abbr": "TB",
+            "fileCode": "tb",
+            "logo": "https://www.mlbstatic.com/team-logos/139.svg",
+            "color": "#092C5C"
           },
           "result": null,
           "seriesGameNumber": 2,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 822856,
-          "date": "2026-08-23",
-          "gameDate": "2026-08-23T18:35:00Z",
-          "dayNight": "day",
-          "venue": "Globe Life Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 61,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "away": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 49,
-              "losses": 76,
-              "ties": 0,
-              "pct": ".392"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 3,
           "gamesInSeries": 3
         }
       ],
       "weekAgo": {
-        "wildCardRank": 3,
-        "wildCardGamesBack": "-",
-        "wins": 60,
-        "losses": 59,
-        "gbDelta": 0.0,
-        "rankDelta": 0,
-        "direction": "flat"
+        "wildCardRank": 7,
+        "wildCardGamesBack": "3.0",
+        "wins": 57,
+        "losses": 62,
+        "gbDelta": -3.0,
+        "rankDelta": -4,
+        "direction": "up"
       }
     },
     "jaysGamesBack": "0.5",
-    "teamsAhead": 4
+    "teamsAhead": 5
   },
   "magicNumber": {
     "kind": "clinch",
     "path": "wildcard",
     "value": 38,
-    "vs": "TEX",
-    "vsName": "Texas Rangers",
+    "vs": "BAL",
+    "vsName": "Baltimore Orioles",
     "divisionValue": 53,
     "divisionVs": "TB",
-    "hint": "Jays wins + TEX losses to clinch a playoff spot",
-    "detail": "Any mix of Jays wins and TEX losses that adds to 38 locks a playoff spot. Winning out still requires 2 TEX losses. East title is 53 vs TB."
+    "hint": "Jays wins + BAL losses to clinch a playoff spot",
+    "detail": "Any mix of Jays wins and BAL losses that adds to 38 locks a playoff spot. Winning out still requires 2 BAL losses. East title is 53 vs TB."
   },
   "race": [
     {
@@ -6990,39 +6990,39 @@
       "fileCode": "bos",
       "logo": "https://www.mlbstatic.com/team-logos/111.svg",
       "color": "#BD3039",
-      "wins": 66,
+      "wins": 67,
       "losses": 58,
-      "pct": ".532",
-      "gamesPlayed": 124,
-      "gamesRemaining": 38,
+      "pct": ".536",
+      "gamesPlayed": 125,
+      "gamesRemaining": 37,
       "divisionRank": 3,
       "leagueRank": 3,
       "wildCardRank": 2,
-      "gamesBack": "9.0",
-      "wildCardGamesBack": "+5.5",
-      "wildCardGamesBackNum": 5.5,
+      "gamesBack": "8.5",
+      "wildCardGamesBack": "+6.0",
+      "wildCardGamesBackNum": 6.0,
       "divisionName": "American League East",
-      "streak": "L1",
-      "streakType": "losses",
+      "streak": "W1",
+      "streakType": "wins",
       "streakNumber": 1,
       "lastTen": "3-7",
       "lastTenWins": 3,
       "lastTenLosses": 7,
-      "home": "29-31",
+      "home": "30-31",
       "away": "37-27",
       "oneRun": "13-15",
       "extraInning": "5-3",
       "day": "23-27",
-      "night": "43-31",
-      "vsLeft": "18-12",
+      "night": "44-31",
+      "vsLeft": "19-12",
       "vsRight": "48-46",
-      "runsScored": 549,
-      "runsAllowed": 468,
-      "runDifferential": 81,
-      "pythagWins": 71,
-      "pythagLosses": 53,
-      "pythagPct": 0.573,
-      "expectedRecord": "71-53",
+      "runsScored": 560,
+      "runsAllowed": 469,
+      "runDifferential": 91,
+      "pythagWins": 73,
+      "pythagLosses": 52,
+      "pythagPct": 0.58,
+      "expectedRecord": "73-52",
       "eliminationNumber": "30",
       "wildCardEliminationNumber": "-",
       "clinched": false,
@@ -7033,7 +7033,7 @@
         "slg": ".403",
         "ops": ".724",
         "runs": 560,
-        "hits": 1041,
+        "hits": 1042,
         "homeRuns": 126,
         "rbi": 536,
         "stolenBases": 94,
@@ -7042,29 +7042,29 @@
         "babip": ".297"
       },
       "pitching": {
-        "era": "3.51",
+        "era": "3.50",
         "whip": "1.22",
-        "wins": 66,
+        "wins": 67,
         "losses": 58,
         "saves": 34,
-        "strikeOuts": 1065,
+        "strikeOuts": 1067,
         "baseOnBalls": 349,
-        "inningsPitched": "1109.0",
-        "strikeoutsPer9Inn": "8.64",
+        "inningsPitched": "1110.1",
+        "strikeoutsPer9Inn": "8.65",
         "walksPer9Inn": "2.83",
-        "homeRunsPer9": "0.97",
+        "homeRunsPer9": "0.96",
         "holds": 76,
         "blownSaves": 11,
-        "winPercentage": ".532",
+        "winPercentage": ".536",
         "runs": 469
       },
       "hittingL10": {
         "avg": ".255",
-        "obp": ".336",
-        "slg": ".396",
-        "ops": ".732",
+        "obp": ".335",
+        "slg": ".395",
+        "ops": ".730",
         "runs": 43,
-        "hits": 85,
+        "hits": 86,
         "homeRuns": 8,
         "rbi": 42,
         "stolenBases": 7,
@@ -7073,24 +7073,24 @@
         "babip": ".304"
       },
       "pitchingL10": {
-        "era": "3.87",
-        "whip": "1.21",
-        "wins": 2,
+        "era": "3.81",
+        "whip": "1.19",
+        "wins": 3,
         "losses": 7,
         "saves": 0,
-        "strikeOuts": 70,
+        "strikeOuts": 72,
         "baseOnBalls": 23,
-        "inningsPitched": "83.2",
-        "strikeoutsPer9Inn": "7.53",
-        "walksPer9Inn": "2.47",
-        "homeRunsPer9": "0.54",
+        "inningsPitched": "85.0",
+        "strikeoutsPer9Inn": "7.62",
+        "walksPer9Inn": "2.44",
+        "homeRunsPer9": "0.53",
         "holds": 3,
         "blownSaves": 1,
-        "winPercentage": ".222",
+        "winPercentage": ".300",
         "runs": 41
       },
       "runDifferentialL10": 2,
-      "momentum": 53,
+      "momentum": 60,
       "nextGames": [
         {
           "gamePk": 824725,
@@ -7098,9 +7098,9 @@
           "gameDate": "2026-08-17T23:10:00Z",
           "dayNight": "night",
           "venue": "Fenway Park",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 8,
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
           "inningState": "Top",
           "home": {
             "id": 111,
@@ -7114,10 +7114,10 @@
             "score": 11,
             "probablePitcher": "Alec Gamboa",
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -7133,9 +7133,9 @@
             "probablePitcher": "Mitch Bratt",
             "record": {
               "wins": 66,
-              "losses": 59,
+              "losses": 60,
               "ties": 0,
-              "pct": ".528"
+              "pct": ".524"
             }
           },
           "isHome": true,
@@ -7149,7 +7149,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/109.svg",
             "color": "#1D4ED8"
           },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 1,
           "gamesInSeries": 3
         },
@@ -7175,10 +7175,10 @@
             "score": null,
             "probablePitcher": "Ranger Suarez",
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -7194,9 +7194,9 @@
             "probablePitcher": "Merrill Kelly",
             "record": {
               "wins": 66,
-              "losses": 59,
+              "losses": 60,
               "ties": 0,
-              "pct": ".528"
+              "pct": ".524"
             }
           },
           "isHome": true,
@@ -7236,10 +7236,10 @@
             "score": null,
             "probablePitcher": "Payton Tolle",
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -7255,9 +7255,9 @@
             "probablePitcher": "Brandon Pfaadt",
             "record": {
               "wins": 66,
-              "losses": 59,
+              "losses": 60,
               "ties": 0,
-              "pct": ".528"
+              "pct": ".524"
             }
           },
           "isHome": true,
@@ -7297,10 +7297,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -7358,10 +7358,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -7419,10 +7419,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 58,
               "ties": 0,
-              "pct": ".532"
+              "pct": ".536"
             }
           },
           "away": {
@@ -7565,8 +7565,562 @@
         "wildCardGamesBack": "+4.5",
         "wins": 64,
         "losses": 54,
-        "gbDelta": -1.0,
+        "gbDelta": -1.5,
         "rankDelta": 0,
+        "direction": "up"
+      }
+    },
+    {
+      "id": 110,
+      "name": "Baltimore Orioles",
+      "teamName": "Orioles",
+      "location": "Baltimore",
+      "abbr": "BAL",
+      "fileCode": "bal",
+      "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+      "color": "#DF4601",
+      "wins": 61,
+      "losses": 64,
+      "pct": ".488",
+      "gamesPlayed": 125,
+      "gamesRemaining": 37,
+      "divisionRank": 4,
+      "leagueRank": 6,
+      "wildCardRank": 3,
+      "gamesBack": "14.5",
+      "wildCardGamesBack": "-",
+      "wildCardGamesBackNum": 0.0,
+      "divisionName": "American League East",
+      "streak": "L1",
+      "streakType": "losses",
+      "streakNumber": 1,
+      "lastTen": "5-5",
+      "lastTenWins": 5,
+      "lastTenLosses": 5,
+      "home": "32-30",
+      "away": "29-34",
+      "oneRun": "12-19",
+      "extraInning": "5-6",
+      "day": "25-27",
+      "night": "36-37",
+      "vsLeft": "17-21",
+      "vsRight": "44-43",
+      "runsScored": 569,
+      "runsAllowed": 596,
+      "runDifferential": -27,
+      "pythagWins": 60,
+      "pythagLosses": 65,
+      "pythagPct": 0.479,
+      "expectedRecord": "60-65",
+      "eliminationNumber": "24",
+      "wildCardEliminationNumber": "-",
+      "clinched": false,
+      "divisionLeader": false,
+      "hitting": {
+        "avg": ".238",
+        "obp": ".321",
+        "slg": ".399",
+        "ops": ".720",
+        "runs": 569,
+        "hits": 988,
+        "homeRuns": 151,
+        "rbi": 550,
+        "stolenBases": 66,
+        "strikeOuts": 1150,
+        "baseOnBalls": 481,
+        "babip": ".290"
+      },
+      "pitching": {
+        "era": "4.24",
+        "whip": "1.35",
+        "wins": 61,
+        "losses": 64,
+        "saves": 33,
+        "strikeOuts": 988,
+        "baseOnBalls": 418,
+        "inningsPitched": "1110.2",
+        "strikeoutsPer9Inn": "8.01",
+        "walksPer9Inn": "3.39",
+        "homeRunsPer9": "1.08",
+        "holds": 67,
+        "blownSaves": 18,
+        "winPercentage": ".488",
+        "runs": 596
+      },
+      "hittingL10": {
+        "avg": ".273",
+        "obp": ".341",
+        "slg": ".482",
+        "ops": ".823",
+        "runs": 53,
+        "hits": 97,
+        "homeRuns": 18,
+        "rbi": 52,
+        "stolenBases": 4,
+        "strikeOuts": 91,
+        "baseOnBalls": 34,
+        "babip": ".320"
+      },
+      "pitchingL10": {
+        "era": "4.71",
+        "whip": "1.45",
+        "wins": 5,
+        "losses": 5,
+        "saves": 3,
+        "strikeOuts": 76,
+        "baseOnBalls": 32,
+        "inningsPitched": "86.0",
+        "strikeoutsPer9Inn": "7.95",
+        "walksPer9Inn": "3.35",
+        "homeRunsPer9": "0.94",
+        "holds": 6,
+        "blownSaves": 2,
+        "winPercentage": ".500",
+        "runs": 47
+      },
+      "runDifferentialL10": 6,
+      "momentum": 75,
+      "nextGames": [
+        {
+          "gamePk": 822939,
+          "date": "2026-08-17",
+          "gameDate": "2026-08-17T22:05:00Z",
+          "dayNight": "night",
+          "venue": "Tropicana Field",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Top",
+          "home": {
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "teamName": "Rays",
+            "location": "St. Petersburg",
+            "abbr": "TB",
+            "fileCode": "tb",
+            "logo": "https://www.mlbstatic.com/team-logos/139.svg",
+            "color": "#092C5C",
+            "score": 7,
+            "probablePitcher": "Shane McClanahan",
+            "record": {
+              "wins": 75,
+              "losses": 49,
+              "ties": 0,
+              "pct": ".605"
+            }
+          },
+          "away": {
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601",
+            "score": 6,
+            "probablePitcher": "Brandon Young",
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "teamName": "Rays",
+            "location": "St. Petersburg",
+            "abbr": "TB",
+            "fileCode": "tb",
+            "logo": "https://www.mlbstatic.com/team-logos/139.svg",
+            "color": "#092C5C"
+          },
+          "result": "L",
+          "seriesGameNumber": 4,
+          "gamesInSeries": 4
+        },
+        {
+          "gamePk": 824803,
+          "date": "2026-08-18",
+          "gameDate": "2026-08-18T22:35:00Z",
+          "dayNight": "night",
+          "venue": "Oriole Park at Camden Yards",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601",
+            "score": null,
+            "probablePitcher": "Shane Baz",
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "away": {
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340",
+            "score": null,
+            "probablePitcher": "Carlos Rod\u00f3n",
+            "record": {
+              "wins": 69,
+              "losses": 55,
+              "ties": 0,
+              "pct": ".556"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824801,
+          "date": "2026-08-19",
+          "gameDate": "2026-08-19T22:35:00Z",
+          "dayNight": "night",
+          "venue": "Oriole Park at Camden Yards",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601",
+            "score": null,
+            "probablePitcher": "Chris Bassitt",
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "away": {
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340",
+            "score": null,
+            "probablePitcher": "Max Fried",
+            "record": {
+              "wins": 69,
+              "losses": 55,
+              "ties": 0,
+              "pct": ".556"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340"
+          },
+          "result": null,
+          "seriesGameNumber": 2,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824802,
+          "date": "2026-08-20",
+          "gameDate": "2026-08-20T22:35:00Z",
+          "dayNight": "night",
+          "venue": "Oriole Park at Camden Yards",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601",
+            "score": null,
+            "probablePitcher": "Kyle Bradish",
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "away": {
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340",
+            "score": null,
+            "probablePitcher": "Gerrit Cole",
+            "record": {
+              "wins": 69,
+              "losses": 55,
+              "ties": 0,
+              "pct": ".556"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340"
+          },
+          "result": null,
+          "seriesGameNumber": 3,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824800,
+          "date": "2026-08-21",
+          "gameDate": "2026-08-21T23:15:00Z",
+          "dayNight": "night",
+          "venue": "Oriole Park at Camden Yards",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "away": {
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "teamName": "Rays",
+            "location": "St. Petersburg",
+            "abbr": "TB",
+            "fileCode": "tb",
+            "logo": "https://www.mlbstatic.com/team-logos/139.svg",
+            "color": "#092C5C",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 75,
+              "losses": 49,
+              "ties": 0,
+              "pct": ".605"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "teamName": "Rays",
+            "location": "St. Petersburg",
+            "abbr": "TB",
+            "fileCode": "tb",
+            "logo": "https://www.mlbstatic.com/team-logos/139.svg",
+            "color": "#092C5C"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824798,
+          "date": "2026-08-22",
+          "gameDate": "2026-08-22T23:05:00Z",
+          "dayNight": "night",
+          "venue": "Oriole Park at Camden Yards",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "away": {
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "teamName": "Rays",
+            "location": "St. Petersburg",
+            "abbr": "TB",
+            "fileCode": "tb",
+            "logo": "https://www.mlbstatic.com/team-logos/139.svg",
+            "color": "#092C5C",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 75,
+              "losses": 49,
+              "ties": 0,
+              "pct": ".605"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "teamName": "Rays",
+            "location": "St. Petersburg",
+            "abbr": "TB",
+            "fileCode": "tb",
+            "logo": "https://www.mlbstatic.com/team-logos/139.svg",
+            "color": "#092C5C"
+          },
+          "result": null,
+          "seriesGameNumber": 2,
+          "gamesInSeries": 3
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Felix Bautista",
+          "status": "60-Day-IL",
+          "comment": "Bautista (shoulder) could begin a minor-league rehab assignment in late August, per MLB.com.",
+          "date": "2026-08-16T03:35Z",
+          "position": null
+        },
+        {
+          "name": "Samuel Basallo",
+          "status": "10-Day-IL",
+          "comment": "Basallo (shoulder) will begin a rehab assignment at Triple-A Norfolk on Sunday, Jacob Calvin Meyer of The Baltimore Sun reports.",
+          "date": "2026-08-15T20:42Z",
+          "position": null
+        },
+        {
+          "name": "Blaze Alexander",
+          "status": "10-Day-IL",
+          "comment": "Alexander (hand) hit in the batting cage Friday, per MLB.com.",
+          "date": "2026-08-15T02:44Z",
+          "position": null
+        },
+        {
+          "name": "Ryan Helsley",
+          "status": "60-Day-IL",
+          "comment": "Helsley (elbow) said Sunday that he's about a week into his throwing program but is likely a couple of weeks away from getting back on a mound, Andy Kostka of TheBanner.com reports.",
+          "date": "2026-08-10T02:14Z",
+          "position": null
+        },
+        {
+          "name": "Colin Selby",
+          "status": "60-Day-IL",
+          "comment": "Orioles president of baseball operations Mike Elias said Friday that Selby underwent right shoulder surgery Tuesday to repair his labrum and rotator cuff, Andy Kostka of TheBanner.com reports.",
+          "date": "2026-07-31T20:48Z",
+          "position": null
+        },
+        {
+          "name": "Ryan Mountcastle",
+          "status": "60-Day-IL",
+          "comment": "The Orioles announced that Mountcastle (foot) suffered a \"significant\" oblique strain while warming up for his first rehab game and will now be out a couple more months, Jake Rill of MLB.com reports.",
+          "date": "2026-07-31T20:19Z",
+          "position": null
+        },
+        {
+          "name": "Keegan Akin",
+          "status": "60-Day-IL",
+          "comment": "Akin (elbow) underwent Tommy John surgery Wednesday, Jake Rill of MLB.com  reports.",
+          "date": "2026-07-15T20:40Z",
+          "position": null
+        },
+        {
+          "name": "Jordan Westburg",
+          "status": "60-Day-IL",
+          "comment": "Westburg (elbow) underwent Tommy John surgery Wednesday, Andrew Golden of TheBanner.com reports.",
+          "date": "2026-05-15T21:13Z",
+          "position": null
+        },
+        {
+          "name": "Zach Eflin",
+          "status": "60-Day-IL",
+          "comment": "Eflin underwent Tommy John surgery on his right elbow Wednesday, Andy Kostka of TheBaltimoreBanner.com reports.",
+          "date": "2026-05-08T11:02Z",
+          "position": null
+        }
+      ],
+      "injuryCount": 9,
+      "weekAgo": {
+        "wildCardRank": 7,
+        "wildCardGamesBack": "3.0",
+        "wins": 57,
+        "losses": 62,
+        "gbDelta": -3.0,
+        "rankDelta": -4,
         "direction": "up"
       }
     },
@@ -7585,8 +8139,8 @@
       "gamesPlayed": 125,
       "gamesRemaining": 37,
       "divisionRank": 2,
-      "leagueRank": 6,
-      "wildCardRank": 3,
+      "leagueRank": 7,
+      "wildCardRank": 4,
       "gamesBack": "2.0",
       "wildCardGamesBack": "-",
       "wildCardGamesBackNum": 0.0,
@@ -7613,7 +8167,7 @@
       "pythagPct": 0.46,
       "expectedRecord": "57-68",
       "eliminationNumber": "36",
-      "wildCardEliminationNumber": "-",
+      "wildCardEliminationNumber": "38",
       "clinched": false,
       "divisionLeader": false,
       "hitting": {
@@ -7679,7 +8233,7 @@
         "runs": 44
       },
       "runDifferentialL10": -14,
-      "momentum": 64,
+      "momentum": 61,
       "nextGames": [
         {
           "gamePk": 822859,
@@ -8134,160 +8688,160 @@
         "wins": 60,
         "losses": 59,
         "gbDelta": 0.0,
-        "rankDelta": 0,
+        "rankDelta": 1,
         "direction": "flat"
       }
     },
     {
-      "id": 110,
-      "name": "Baltimore Orioles",
-      "teamName": "Orioles",
-      "location": "Baltimore",
-      "abbr": "BAL",
-      "fileCode": "bal",
-      "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-      "color": "#DF4601",
+      "id": 116,
+      "name": "Detroit Tigers",
+      "teamName": "Tigers",
+      "location": "Detroit",
+      "abbr": "DET",
+      "fileCode": "det",
+      "logo": "https://www.mlbstatic.com/team-logos/116.svg",
+      "color": "#0C2340",
       "wins": 61,
       "losses": 64,
       "pct": ".488",
       "gamesPlayed": 125,
       "gamesRemaining": 37,
-      "divisionRank": 4,
-      "leagueRank": 7,
-      "wildCardRank": 4,
-      "gamesBack": "14.5",
+      "divisionRank": 2,
+      "leagueRank": 8,
+      "wildCardRank": 5,
+      "gamesBack": "5.0",
       "wildCardGamesBack": "-",
       "wildCardGamesBackNum": 0.0,
       "divisionName": "American League East",
-      "streak": "L1",
-      "streakType": "losses",
+      "streak": "W1",
+      "streakType": "wins",
       "streakNumber": 1,
       "lastTen": "5-5",
       "lastTenWins": 5,
       "lastTenLosses": 5,
-      "home": "32-30",
-      "away": "29-34",
-      "oneRun": "12-19",
-      "extraInning": "5-6",
-      "day": "25-27",
-      "night": "36-37",
-      "vsLeft": "17-21",
-      "vsRight": "44-43",
-      "runsScored": 569,
-      "runsAllowed": 596,
-      "runDifferential": -27,
-      "pythagWins": 60,
-      "pythagLosses": 65,
-      "pythagPct": 0.479,
-      "expectedRecord": "60-65",
-      "eliminationNumber": "24",
+      "home": "32-31",
+      "away": "29-33",
+      "oneRun": "12-21",
+      "extraInning": "4-7",
+      "day": "24-22",
+      "night": "37-42",
+      "vsLeft": "16-23",
+      "vsRight": "45-41",
+      "runsScored": 573,
+      "runsAllowed": 487,
+      "runDifferential": 86,
+      "pythagWins": 72,
+      "pythagLosses": 53,
+      "pythagPct": 0.574,
+      "expectedRecord": "72-53",
+      "eliminationNumber": "34",
       "wildCardEliminationNumber": "38",
       "clinched": false,
       "divisionLeader": false,
       "hitting": {
-        "avg": ".238",
-        "obp": ".321",
-        "slg": ".399",
-        "ops": ".720",
-        "runs": 569,
-        "hits": 988,
+        "avg": ".243",
+        "obp": ".320",
+        "slg": ".408",
+        "ops": ".728",
+        "runs": 573,
+        "hits": 1029,
         "homeRuns": 151,
-        "rbi": 550,
-        "stolenBases": 66,
-        "strikeOuts": 1150,
-        "baseOnBalls": 481,
-        "babip": ".290"
+        "rbi": 546,
+        "stolenBases": 36,
+        "strikeOuts": 1072,
+        "baseOnBalls": 446,
+        "babip": ".289"
       },
       "pitching": {
-        "era": "4.24",
-        "whip": "1.35",
+        "era": "3.56",
+        "whip": "1.21",
         "wins": 61,
         "losses": 64,
-        "saves": 33,
-        "strikeOuts": 988,
-        "baseOnBalls": 418,
-        "inningsPitched": "1110.2",
-        "strikeoutsPer9Inn": "8.01",
-        "walksPer9Inn": "3.39",
-        "homeRunsPer9": "1.08",
-        "holds": 67,
-        "blownSaves": 18,
+        "saves": 26,
+        "strikeOuts": 1030,
+        "baseOnBalls": 386,
+        "inningsPitched": "1108.2",
+        "strikeoutsPer9Inn": "8.36",
+        "walksPer9Inn": "3.13",
+        "homeRunsPer9": "1.00",
+        "holds": 56,
+        "blownSaves": 27,
         "winPercentage": ".488",
-        "runs": 596
+        "runs": 487
       },
       "hittingL10": {
-        "avg": ".273",
-        "obp": ".341",
-        "slg": ".482",
-        "ops": ".823",
-        "runs": 53,
-        "hits": 97,
-        "homeRuns": 18,
-        "rbi": 52,
-        "stolenBases": 4,
-        "strikeOuts": 91,
-        "baseOnBalls": 34,
-        "babip": ".320"
+        "avg": ".242",
+        "obp": ".324",
+        "slg": ".366",
+        "ops": ".690",
+        "runs": 47,
+        "hits": 84,
+        "homeRuns": 7,
+        "rbi": 44,
+        "stolenBases": 1,
+        "strikeOuts": 73,
+        "baseOnBalls": 38,
+        "babip": ".288"
       },
       "pitchingL10": {
-        "era": "4.71",
-        "whip": "1.45",
+        "era": "3.80",
+        "whip": "1.26",
         "wins": 5,
         "losses": 5,
-        "saves": 3,
-        "strikeOuts": 76,
-        "baseOnBalls": 32,
-        "inningsPitched": "86.0",
-        "strikeoutsPer9Inn": "7.95",
-        "walksPer9Inn": "3.35",
-        "homeRunsPer9": "0.94",
+        "saves": 4,
+        "strikeOuts": 75,
+        "baseOnBalls": 37,
+        "inningsPitched": "90.0",
+        "strikeoutsPer9Inn": "7.50",
+        "walksPer9Inn": "3.70",
+        "homeRunsPer9": "1.20",
         "holds": 6,
         "blownSaves": 2,
         "winPercentage": ".500",
-        "runs": 47
+        "runs": 41
       },
       "runDifferentialL10": 6,
-      "momentum": 72,
+      "momentum": 100,
       "nextGames": [
         {
-          "gamePk": 822939,
+          "gamePk": 823343,
           "date": "2026-08-17",
-          "gameDate": "2026-08-17T22:05:00Z",
+          "gameDate": "2026-08-17T23:05:00Z",
           "dayNight": "night",
-          "venue": "Tropicana Field",
+          "venue": "PNC Park",
           "status": "Final",
           "abstractState": "Final",
           "inning": 9,
-          "inningState": "Top",
+          "inningState": "Bottom",
           "home": {
-            "id": 139,
-            "name": "Tampa Bay Rays",
-            "teamName": "Rays",
-            "location": "St. Petersburg",
-            "abbr": "TB",
-            "fileCode": "tb",
-            "logo": "https://www.mlbstatic.com/team-logos/139.svg",
-            "color": "#092C5C",
-            "score": 7,
-            "probablePitcher": "Shane McClanahan",
+            "id": 134,
+            "name": "Pittsburgh Pirates",
+            "teamName": "Pirates",
+            "location": "Pittsburgh",
+            "abbr": "PIT",
+            "fileCode": "pit",
+            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
+            "color": "#1D4ED8",
+            "score": 5,
+            "probablePitcher": "Carmen Mlodzinski",
             "record": {
-              "wins": 75,
-              "losses": 49,
+              "wins": 61,
+              "losses": 66,
               "ties": 0,
-              "pct": ".605"
+              "pct": ".480"
             }
           },
           "away": {
-            "id": 110,
-            "name": "Baltimore Orioles",
-            "teamName": "Orioles",
-            "location": "Baltimore",
-            "abbr": "BAL",
-            "fileCode": "bal",
-            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-            "color": "#DF4601",
-            "score": 6,
-            "probablePitcher": "Brandon Young",
+            "id": 116,
+            "name": "Detroit Tigers",
+            "teamName": "Tigers",
+            "location": "Detroit",
+            "abbr": "DET",
+            "fileCode": "det",
+            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
+            "color": "#0C2340",
+            "score": 8,
+            "probablePitcher": "Framber Valdez",
             "record": {
               "wins": 61,
               "losses": 64,
@@ -8297,101 +8851,58 @@
           },
           "isHome": false,
           "opponent": {
-            "id": 139,
-            "name": "Tampa Bay Rays",
-            "teamName": "Rays",
-            "location": "St. Petersburg",
-            "abbr": "TB",
-            "fileCode": "tb",
-            "logo": "https://www.mlbstatic.com/team-logos/139.svg",
-            "color": "#092C5C"
+            "id": 134,
+            "name": "Pittsburgh Pirates",
+            "teamName": "Pirates",
+            "location": "Pittsburgh",
+            "abbr": "PIT",
+            "fileCode": "pit",
+            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
+            "color": "#1D4ED8"
           },
-          "result": "L",
-          "seriesGameNumber": 4,
-          "gamesInSeries": 4
-        },
-        {
-          "gamePk": 824803,
-          "date": "2026-08-18",
-          "gameDate": "2026-08-18T22:35:00Z",
-          "dayNight": "night",
-          "venue": "Oriole Park at Camden Yards",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 110,
-            "name": "Baltimore Orioles",
-            "teamName": "Orioles",
-            "location": "Baltimore",
-            "abbr": "BAL",
-            "fileCode": "bal",
-            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-            "color": "#DF4601",
-            "score": null,
-            "probablePitcher": "Shane Baz",
-            "record": {
-              "wins": 61,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "away": {
-            "id": 147,
-            "name": "New York Yankees",
-            "teamName": "Yankees",
-            "location": "Bronx",
-            "abbr": "NYY",
-            "fileCode": "nyy",
-            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": "Carlos Rod\u00f3n",
-            "record": {
-              "wins": 69,
-              "losses": 55,
-              "ties": 0,
-              "pct": ".556"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 147,
-            "name": "New York Yankees",
-            "teamName": "Yankees",
-            "location": "Bronx",
-            "abbr": "NYY",
-            "fileCode": "nyy",
-            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
-            "color": "#0C2340"
-          },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 1,
           "gamesInSeries": 3
         },
         {
-          "gamePk": 824801,
-          "date": "2026-08-19",
-          "gameDate": "2026-08-19T22:35:00Z",
+          "gamePk": 823341,
+          "date": "2026-08-18",
+          "gameDate": "2026-08-18T22:40:00Z",
           "dayNight": "night",
-          "venue": "Oriole Park at Camden Yards",
+          "venue": "PNC Park",
           "status": "Scheduled",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
           "home": {
-            "id": 110,
-            "name": "Baltimore Orioles",
-            "teamName": "Orioles",
-            "location": "Baltimore",
-            "abbr": "BAL",
-            "fileCode": "bal",
-            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-            "color": "#DF4601",
+            "id": 134,
+            "name": "Pittsburgh Pirates",
+            "teamName": "Pirates",
+            "location": "Pittsburgh",
+            "abbr": "PIT",
+            "fileCode": "pit",
+            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
+            "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": "Chris Bassitt",
+            "probablePitcher": "Braxton Ashcraft",
+            "record": {
+              "wins": 61,
+              "losses": 66,
+              "ties": 0,
+              "pct": ".480"
+            }
+          },
+          "away": {
+            "id": 116,
+            "name": "Detroit Tigers",
+            "teamName": "Tigers",
+            "location": "Detroit",
+            "abbr": "DET",
+            "fileCode": "det",
+            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
+            "color": "#0C2340",
+            "score": null,
+            "probablePitcher": "Keider Montero",
             "record": {
               "wins": 61,
               "losses": 64,
@@ -8399,60 +8910,60 @@
               "pct": ".488"
             }
           },
-          "away": {
-            "id": 147,
-            "name": "New York Yankees",
-            "teamName": "Yankees",
-            "location": "Bronx",
-            "abbr": "NYY",
-            "fileCode": "nyy",
-            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": "Max Fried",
-            "record": {
-              "wins": 69,
-              "losses": 55,
-              "ties": 0,
-              "pct": ".556"
-            }
-          },
-          "isHome": true,
+          "isHome": false,
           "opponent": {
-            "id": 147,
-            "name": "New York Yankees",
-            "teamName": "Yankees",
-            "location": "Bronx",
-            "abbr": "NYY",
-            "fileCode": "nyy",
-            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
-            "color": "#0C2340"
+            "id": 134,
+            "name": "Pittsburgh Pirates",
+            "teamName": "Pirates",
+            "location": "Pittsburgh",
+            "abbr": "PIT",
+            "fileCode": "pit",
+            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
+            "color": "#1D4ED8"
           },
           "result": null,
           "seriesGameNumber": 2,
           "gamesInSeries": 3
         },
         {
-          "gamePk": 824802,
-          "date": "2026-08-20",
-          "gameDate": "2026-08-20T22:35:00Z",
-          "dayNight": "night",
-          "venue": "Oriole Park at Camden Yards",
+          "gamePk": 823342,
+          "date": "2026-08-19",
+          "gameDate": "2026-08-19T16:35:00Z",
+          "dayNight": "day",
+          "venue": "PNC Park",
           "status": "Scheduled",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
           "home": {
-            "id": 110,
-            "name": "Baltimore Orioles",
-            "teamName": "Orioles",
-            "location": "Baltimore",
-            "abbr": "BAL",
-            "fileCode": "bal",
-            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-            "color": "#DF4601",
+            "id": 134,
+            "name": "Pittsburgh Pirates",
+            "teamName": "Pirates",
+            "location": "Pittsburgh",
+            "abbr": "PIT",
+            "fileCode": "pit",
+            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
+            "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": "Kyle Bradish",
+            "probablePitcher": "Paul Skenes",
+            "record": {
+              "wins": 61,
+              "losses": 66,
+              "ties": 0,
+              "pct": ".480"
+            }
+          },
+          "away": {
+            "id": 116,
+            "name": "Detroit Tigers",
+            "teamName": "Tigers",
+            "location": "Detroit",
+            "abbr": "DET",
+            "fileCode": "det",
+            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
+            "color": "#0C2340",
+            "score": null,
+            "probablePitcher": "Jackson Jobe",
             "record": {
               "wins": 61,
               "losses": 64,
@@ -8460,58 +8971,58 @@
               "pct": ".488"
             }
           },
-          "away": {
-            "id": 147,
-            "name": "New York Yankees",
-            "teamName": "Yankees",
-            "location": "Bronx",
-            "abbr": "NYY",
-            "fileCode": "nyy",
-            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": "Gerrit Cole",
-            "record": {
-              "wins": 69,
-              "losses": 55,
-              "ties": 0,
-              "pct": ".556"
-            }
-          },
-          "isHome": true,
+          "isHome": false,
           "opponent": {
-            "id": 147,
-            "name": "New York Yankees",
-            "teamName": "Yankees",
-            "location": "Bronx",
-            "abbr": "NYY",
-            "fileCode": "nyy",
-            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
-            "color": "#0C2340"
+            "id": 134,
+            "name": "Pittsburgh Pirates",
+            "teamName": "Pirates",
+            "location": "Pittsburgh",
+            "abbr": "PIT",
+            "fileCode": "pit",
+            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
+            "color": "#1D4ED8"
           },
           "result": null,
           "seriesGameNumber": 3,
           "gamesInSeries": 3
         },
         {
-          "gamePk": 824800,
+          "gamePk": 824072,
           "date": "2026-08-21",
-          "gameDate": "2026-08-21T23:15:00Z",
+          "gameDate": "2026-08-22T00:10:00Z",
           "dayNight": "night",
-          "venue": "Oriole Park at Camden Yards",
+          "venue": "Kauffman Stadium",
           "status": "Scheduled",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
           "home": {
-            "id": 110,
-            "name": "Baltimore Orioles",
-            "teamName": "Orioles",
-            "location": "Baltimore",
-            "abbr": "BAL",
-            "fileCode": "bal",
-            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-            "color": "#DF4601",
+            "id": 118,
+            "name": "Kansas City Royals",
+            "teamName": "Royals",
+            "location": "Kansas City",
+            "abbr": "KC",
+            "fileCode": "kc",
+            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
+            "color": "#004687",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 52,
+              "losses": 74,
+              "ties": 0,
+              "pct": ".413"
+            }
+          },
+          "away": {
+            "id": 116,
+            "name": "Detroit Tigers",
+            "teamName": "Tigers",
+            "location": "Detroit",
+            "abbr": "DET",
+            "fileCode": "det",
+            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
+            "color": "#0C2340",
             "score": null,
             "probablePitcher": null,
             "record": {
@@ -8521,58 +9032,58 @@
               "pct": ".488"
             }
           },
-          "away": {
-            "id": 139,
-            "name": "Tampa Bay Rays",
-            "teamName": "Rays",
-            "location": "St. Petersburg",
-            "abbr": "TB",
-            "fileCode": "tb",
-            "logo": "https://www.mlbstatic.com/team-logos/139.svg",
-            "color": "#092C5C",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 75,
-              "losses": 49,
-              "ties": 0,
-              "pct": ".605"
-            }
-          },
-          "isHome": true,
+          "isHome": false,
           "opponent": {
-            "id": 139,
-            "name": "Tampa Bay Rays",
-            "teamName": "Rays",
-            "location": "St. Petersburg",
-            "abbr": "TB",
-            "fileCode": "tb",
-            "logo": "https://www.mlbstatic.com/team-logos/139.svg",
-            "color": "#092C5C"
+            "id": 118,
+            "name": "Kansas City Royals",
+            "teamName": "Royals",
+            "location": "Kansas City",
+            "abbr": "KC",
+            "fileCode": "kc",
+            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
+            "color": "#004687"
           },
           "result": null,
           "seriesGameNumber": 1,
           "gamesInSeries": 3
         },
         {
-          "gamePk": 824798,
+          "gamePk": 824073,
           "date": "2026-08-22",
-          "gameDate": "2026-08-22T23:05:00Z",
+          "gameDate": "2026-08-22T23:15:00Z",
           "dayNight": "night",
-          "venue": "Oriole Park at Camden Yards",
+          "venue": "Kauffman Stadium",
           "status": "Scheduled",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
           "home": {
-            "id": 110,
-            "name": "Baltimore Orioles",
-            "teamName": "Orioles",
-            "location": "Baltimore",
-            "abbr": "BAL",
-            "fileCode": "bal",
-            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-            "color": "#DF4601",
+            "id": 118,
+            "name": "Kansas City Royals",
+            "teamName": "Royals",
+            "location": "Kansas City",
+            "abbr": "KC",
+            "fileCode": "kc",
+            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
+            "color": "#004687",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 52,
+              "losses": 74,
+              "ties": 0,
+              "pct": ".413"
+            }
+          },
+          "away": {
+            "id": 116,
+            "name": "Detroit Tigers",
+            "teamName": "Tigers",
+            "location": "Detroit",
+            "abbr": "DET",
+            "fileCode": "det",
+            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
+            "color": "#0C2340",
             "score": null,
             "probablePitcher": null,
             "record": {
@@ -8582,113 +9093,191 @@
               "pct": ".488"
             }
           },
-          "away": {
-            "id": 139,
-            "name": "Tampa Bay Rays",
-            "teamName": "Rays",
-            "location": "St. Petersburg",
-            "abbr": "TB",
-            "fileCode": "tb",
-            "logo": "https://www.mlbstatic.com/team-logos/139.svg",
-            "color": "#092C5C",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 75,
-              "losses": 49,
-              "ties": 0,
-              "pct": ".605"
-            }
-          },
-          "isHome": true,
+          "isHome": false,
           "opponent": {
-            "id": 139,
-            "name": "Tampa Bay Rays",
-            "teamName": "Rays",
-            "location": "St. Petersburg",
-            "abbr": "TB",
-            "fileCode": "tb",
-            "logo": "https://www.mlbstatic.com/team-logos/139.svg",
-            "color": "#092C5C"
+            "id": 118,
+            "name": "Kansas City Royals",
+            "teamName": "Royals",
+            "location": "Kansas City",
+            "abbr": "KC",
+            "fileCode": "kc",
+            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
+            "color": "#004687"
           },
           "result": null,
           "seriesGameNumber": 2,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824071,
+          "date": "2026-08-23",
+          "gameDate": "2026-08-23T18:10:00Z",
+          "dayNight": "day",
+          "venue": "Kauffman Stadium",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "teamName": "Royals",
+            "location": "Kansas City",
+            "abbr": "KC",
+            "fileCode": "kc",
+            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
+            "color": "#004687",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 52,
+              "losses": 74,
+              "ties": 0,
+              "pct": ".413"
+            }
+          },
+          "away": {
+            "id": 116,
+            "name": "Detroit Tigers",
+            "teamName": "Tigers",
+            "location": "Detroit",
+            "abbr": "DET",
+            "fileCode": "det",
+            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
+            "color": "#0C2340",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 61,
+              "losses": 64,
+              "ties": 0,
+              "pct": ".488"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "teamName": "Royals",
+            "location": "Kansas City",
+            "abbr": "KC",
+            "fileCode": "kc",
+            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
+            "color": "#004687"
+          },
+          "result": null,
+          "seriesGameNumber": 3,
           "gamesInSeries": 3
         }
       ],
       "injuries": [
         {
-          "name": "Felix Bautista",
-          "status": "60-Day-IL",
-          "comment": "Bautista (shoulder) could begin a minor-league rehab assignment in late August, per MLB.com.",
-          "date": "2026-08-16T03:35Z",
-          "position": null
-        },
-        {
-          "name": "Samuel Basallo",
+          "name": "Kerry Carpenter",
           "status": "10-Day-IL",
-          "comment": "Basallo (shoulder) will begin a rehab assignment at Triple-A Norfolk on Sunday, Jacob Calvin Meyer of The Baltimore Sun reports.",
-          "date": "2026-08-15T20:42Z",
+          "comment": "Tigers manager AJ Hinch said Monday that Carpenter has been sent to a foot specialist, Chris McCosky of The Detroit News reports.",
+          "date": "2026-08-17T21:56Z",
           "position": null
         },
         {
-          "name": "Blaze Alexander",
+          "name": "Jack Flaherty",
+          "status": "15-Day-IL",
+          "comment": "The Tigers announced Friday that Flaherty (forearm) has increased the intensity and distance of his throwing progression, MLB.com reports.",
+          "date": "2026-08-16T22:00Z",
+          "position": null
+        },
+        {
+          "name": "James Outman",
+          "status": "7-Day IL",
+          "comment": "The Tigers placed Outman on the 7-day concussion injured list Thursday.",
+          "date": "2026-08-13T17:08Z",
+          "position": null
+        },
+        {
+          "name": "Riley Greene",
           "status": "10-Day-IL",
-          "comment": "Alexander (hand) hit in the batting cage Friday, per MLB.com.",
-          "date": "2026-08-15T02:44Z",
+          "comment": "Greene exited Tuesday's game versus Cleveland in the third inning as a result of right hamstring tightness.",
+          "date": "2026-08-12T21:01Z",
           "position": null
         },
         {
-          "name": "Ryan Helsley",
+          "name": "Wenceel Perez",
           "status": "60-Day-IL",
-          "comment": "Helsley (elbow) said Sunday that he's about a week into his throwing program but is likely a couple of weeks away from getting back on a mound, Andy Kostka of TheBanner.com reports.",
-          "date": "2026-08-10T02:14Z",
+          "comment": "Perez (orbital) was pulled off his rehab assignment Tuesday, Cody Stavenhagen of The Athletic reports.",
+          "date": "2026-08-11T19:53Z",
           "position": null
         },
         {
-          "name": "Colin Selby",
+          "name": "Will Vest",
           "status": "60-Day-IL",
-          "comment": "Orioles president of baseball operations Mike Elias said Friday that Selby underwent right shoulder surgery Tuesday to repair his labrum and rotator cuff, Andy Kostka of TheBanner.com reports.",
-          "date": "2026-07-31T20:48Z",
+          "comment": "Vest (elbow) underwent hip surgery Tuesday, Chris McCosky of The Detroit News reports.",
+          "date": "2026-08-11T19:49Z",
           "position": null
         },
         {
-          "name": "Ryan Mountcastle",
+          "name": "Brant Hurter",
           "status": "60-Day-IL",
-          "comment": "The Orioles announced that Mountcastle (foot) suffered a \"significant\" oblique strain while warming up for his first rehab game and will now be out a couple more months, Jake Rill of MLB.com reports.",
-          "date": "2026-07-31T20:19Z",
+          "comment": "The Tigers transferred Hurter (back) to Triple-A Toledo on Saturday to begin a rehab assignment, Emily Waldon of Baseball America reports.",
+          "date": "2026-08-08T21:22Z",
           "position": null
         },
         {
-          "name": "Keegan Akin",
+          "name": "Justin Verlander",
           "status": "60-Day-IL",
-          "comment": "Akin (elbow) underwent Tommy John surgery Wednesday, Jake Rill of MLB.com  reports.",
-          "date": "2026-07-15T20:40Z",
+          "comment": "Verlander (hamstring/hip) threw off the front of the bullpen mound Wednesday, Jason Beck of MLB.com reports.",
+          "date": "2026-08-05T22:53Z",
           "position": null
         },
         {
-          "name": "Jordan Westburg",
-          "status": "60-Day-IL",
-          "comment": "Westburg (elbow) underwent Tommy John surgery Wednesday, Andrew Golden of TheBanner.com reports.",
-          "date": "2026-05-15T21:13Z",
+          "name": "Matt Vierling",
+          "status": "10-Day-IL",
+          "comment": "The Tigers placed Vierling on the 10-day injured list Friday, retroactive to Thursday, due to a left adductor strain.",
+          "date": "2026-07-31T22:36Z",
           "position": null
         },
         {
-          "name": "Zach Eflin",
+          "name": "Burch Smith",
           "status": "60-Day-IL",
-          "comment": "Eflin underwent Tommy John surgery on his right elbow Wednesday, Andy Kostka of TheBaltimoreBanner.com reports.",
+          "comment": "Smith is being evaluated after exiting a rehab appearance with Triple-A Toledo on Thursday with right shoulder/lat discomfort, Cody Stavenhagen of The Athletic reports.",
+          "date": "2026-07-24T20:30Z",
+          "position": null
+        },
+        {
+          "name": "Bailey Horn",
+          "status": "60-Day-IL",
+          "comment": "Horn (elbow) will undergo season-ending Tommy John surgery, Chris McCosky of The Detroit News reports.",
+          "date": "2026-07-18T00:07Z",
+          "position": null
+        },
+        {
+          "name": "Parker Meadows",
+          "status": "60-Day-IL",
+          "comment": "Tigers manager A.J. Hinch said Tuesday that Meadows (forearm) has yet to resume hitting and is without a timeline to return from the 60-day injured list, Evan Petzold of the Detroit Free Press reports.",
+          "date": "2026-06-25T22:51Z",
+          "position": null
+        },
+        {
+          "name": "Trey Sweeney",
+          "status": "60-Day-IL",
+          "comment": "Sweeney will undergo season-ending shoulder surgery this week, Cody Stavenhagen of The Athletic reports.",
+          "date": "2026-06-05T19:14Z",
+          "position": null
+        },
+        {
+          "name": "Reese Olson",
+          "status": "60-Day-IL",
+          "comment": "The Tigers placed Olson on the 60-day injured list Tuesday after he underwent a right shoulder labral repair Feb. 2 that will result in him missing the 2026 season.",
           "date": "2026-05-08T11:02Z",
           "position": null
         }
       ],
-      "injuryCount": 9,
+      "injuryCount": 14,
       "weekAgo": {
-        "wildCardRank": 7,
-        "wildCardGamesBack": "3.0",
-        "wins": 57,
-        "losses": 62,
-        "gbDelta": -3.0,
-        "rankDelta": -3,
+        "wildCardRank": 5,
+        "wildCardGamesBack": "1.5",
+        "wins": 58,
+        "losses": 60,
+        "gbDelta": -1.5,
+        "rankDelta": 0,
         "direction": "up"
       }
     },
@@ -8707,8 +9296,8 @@
       "gamesPlayed": 126,
       "gamesRemaining": 36,
       "divisionRank": 5,
-      "leagueRank": 8,
-      "wildCardRank": 5,
+      "leagueRank": 9,
+      "wildCardRank": 6,
       "gamesBack": "15.0",
       "wildCardGamesBack": "0.5",
       "wildCardGamesBackNum": 0.5,
@@ -8801,7 +9390,7 @@
         "runs": 37
       },
       "runDifferentialL10": 4,
-      "momentum": 68,
+      "momentum": 65,
       "nextGames": [
         {
           "gamePk": 822938,
@@ -9291,596 +9880,7 @@
         "wins": 57,
         "losses": 63,
         "gbDelta": -3.0,
-        "rankDelta": -3,
-        "direction": "up"
-      }
-    },
-    {
-      "id": 116,
-      "name": "Detroit Tigers",
-      "teamName": "Tigers",
-      "location": "Detroit",
-      "abbr": "DET",
-      "fileCode": "det",
-      "logo": "https://www.mlbstatic.com/team-logos/116.svg",
-      "color": "#0C2340",
-      "wins": 60,
-      "losses": 64,
-      "pct": ".484",
-      "gamesPlayed": 124,
-      "gamesRemaining": 38,
-      "divisionRank": 2,
-      "leagueRank": 9,
-      "wildCardRank": 6,
-      "gamesBack": "5.5",
-      "wildCardGamesBack": "0.5",
-      "wildCardGamesBackNum": 0.5,
-      "divisionName": "American League East",
-      "streak": "L3",
-      "streakType": "losses",
-      "streakNumber": 3,
-      "lastTen": "5-5",
-      "lastTenWins": 5,
-      "lastTenLosses": 5,
-      "home": "32-31",
-      "away": "28-33",
-      "oneRun": "12-21",
-      "extraInning": "4-7",
-      "day": "24-22",
-      "night": "36-42",
-      "vsLeft": "16-23",
-      "vsRight": "44-41",
-      "runsScored": 565,
-      "runsAllowed": 482,
-      "runDifferential": 83,
-      "pythagWins": 71,
-      "pythagLosses": 53,
-      "pythagPct": 0.572,
-      "expectedRecord": "71-53",
-      "eliminationNumber": "34",
-      "wildCardEliminationNumber": "38",
-      "clinched": false,
-      "divisionLeader": false,
-      "hitting": {
-        "avg": ".243",
-        "obp": ".320",
-        "slg": ".408",
-        "ops": ".728",
-        "runs": 573,
-        "hits": 1027,
-        "homeRuns": 151,
-        "rbi": 546,
-        "stolenBases": 36,
-        "strikeOuts": 1069,
-        "baseOnBalls": 445,
-        "babip": ".289"
-      },
-      "pitching": {
-        "era": "3.57",
-        "whip": "1.22",
-        "wins": 60,
-        "losses": 64,
-        "saves": 25,
-        "strikeOuts": 1024,
-        "baseOnBalls": 385,
-        "inningsPitched": "1105.2",
-        "strikeoutsPer9Inn": "8.34",
-        "walksPer9Inn": "3.13",
-        "homeRunsPer9": "1.00",
-        "holds": 55,
-        "blownSaves": 27,
-        "winPercentage": ".484",
-        "runs": 487
-      },
-      "hittingL10": {
-        "avg": ".241",
-        "obp": ".321",
-        "slg": ".368",
-        "ops": ".689",
-        "runs": 47,
-        "hits": 82,
-        "homeRuns": 7,
-        "rbi": 44,
-        "stolenBases": 1,
-        "strikeOuts": 70,
-        "baseOnBalls": 37,
-        "babip": ".285"
-      },
-      "pitchingL10": {
-        "era": "3.92",
-        "whip": "1.28",
-        "wins": 4,
-        "losses": 5,
-        "saves": 3,
-        "strikeOuts": 70,
-        "baseOnBalls": 36,
-        "inningsPitched": "87.1",
-        "strikeoutsPer9Inn": "7.21",
-        "walksPer9Inn": "3.71",
-        "homeRunsPer9": "1.24",
-        "holds": 5,
-        "blownSaves": 2,
-        "winPercentage": ".444",
-        "runs": 41
-      },
-      "runDifferentialL10": 6,
-      "momentum": 82,
-      "nextGames": [
-        {
-          "gamePk": 823343,
-          "date": "2026-08-17",
-          "gameDate": "2026-08-17T23:05:00Z",
-          "dayNight": "night",
-          "venue": "PNC Park",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 7,
-          "inningState": "Bottom",
-          "home": {
-            "id": 134,
-            "name": "Pittsburgh Pirates",
-            "teamName": "Pirates",
-            "location": "Pittsburgh",
-            "abbr": "PIT",
-            "fileCode": "pit",
-            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
-            "color": "#1D4ED8",
-            "score": 5,
-            "probablePitcher": "Carmen Mlodzinski",
-            "record": {
-              "wins": 61,
-              "losses": 65,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "away": {
-            "id": 116,
-            "name": "Detroit Tigers",
-            "teamName": "Tigers",
-            "location": "Detroit",
-            "abbr": "DET",
-            "fileCode": "det",
-            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
-            "color": "#0C2340",
-            "score": 8,
-            "probablePitcher": "Framber Valdez",
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 134,
-            "name": "Pittsburgh Pirates",
-            "teamName": "Pirates",
-            "location": "Pittsburgh",
-            "abbr": "PIT",
-            "fileCode": "pit",
-            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 823341,
-          "date": "2026-08-18",
-          "gameDate": "2026-08-18T22:40:00Z",
-          "dayNight": "night",
-          "venue": "PNC Park",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 134,
-            "name": "Pittsburgh Pirates",
-            "teamName": "Pirates",
-            "location": "Pittsburgh",
-            "abbr": "PIT",
-            "fileCode": "pit",
-            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": "Braxton Ashcraft",
-            "record": {
-              "wins": 61,
-              "losses": 65,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "away": {
-            "id": 116,
-            "name": "Detroit Tigers",
-            "teamName": "Tigers",
-            "location": "Detroit",
-            "abbr": "DET",
-            "fileCode": "det",
-            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": "Keider Montero",
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 134,
-            "name": "Pittsburgh Pirates",
-            "teamName": "Pirates",
-            "location": "Pittsburgh",
-            "abbr": "PIT",
-            "fileCode": "pit",
-            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 823342,
-          "date": "2026-08-19",
-          "gameDate": "2026-08-19T16:35:00Z",
-          "dayNight": "day",
-          "venue": "PNC Park",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 134,
-            "name": "Pittsburgh Pirates",
-            "teamName": "Pirates",
-            "location": "Pittsburgh",
-            "abbr": "PIT",
-            "fileCode": "pit",
-            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": "Paul Skenes",
-            "record": {
-              "wins": 61,
-              "losses": 65,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "away": {
-            "id": 116,
-            "name": "Detroit Tigers",
-            "teamName": "Tigers",
-            "location": "Detroit",
-            "abbr": "DET",
-            "fileCode": "det",
-            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": "Jackson Jobe",
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 134,
-            "name": "Pittsburgh Pirates",
-            "teamName": "Pirates",
-            "location": "Pittsburgh",
-            "abbr": "PIT",
-            "fileCode": "pit",
-            "logo": "https://www.mlbstatic.com/team-logos/134.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 3,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824072,
-          "date": "2026-08-21",
-          "gameDate": "2026-08-22T00:10:00Z",
-          "dayNight": "night",
-          "venue": "Kauffman Stadium",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 118,
-            "name": "Kansas City Royals",
-            "teamName": "Royals",
-            "location": "Kansas City",
-            "abbr": "KC",
-            "fileCode": "kc",
-            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
-            "color": "#004687",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 51,
-              "losses": 74,
-              "ties": 0,
-              "pct": ".408"
-            }
-          },
-          "away": {
-            "id": 116,
-            "name": "Detroit Tigers",
-            "teamName": "Tigers",
-            "location": "Detroit",
-            "abbr": "DET",
-            "fileCode": "det",
-            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 118,
-            "name": "Kansas City Royals",
-            "teamName": "Royals",
-            "location": "Kansas City",
-            "abbr": "KC",
-            "fileCode": "kc",
-            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
-            "color": "#004687"
-          },
-          "result": null,
-          "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824073,
-          "date": "2026-08-22",
-          "gameDate": "2026-08-22T23:15:00Z",
-          "dayNight": "night",
-          "venue": "Kauffman Stadium",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 118,
-            "name": "Kansas City Royals",
-            "teamName": "Royals",
-            "location": "Kansas City",
-            "abbr": "KC",
-            "fileCode": "kc",
-            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
-            "color": "#004687",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 51,
-              "losses": 74,
-              "ties": 0,
-              "pct": ".408"
-            }
-          },
-          "away": {
-            "id": 116,
-            "name": "Detroit Tigers",
-            "teamName": "Tigers",
-            "location": "Detroit",
-            "abbr": "DET",
-            "fileCode": "det",
-            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 118,
-            "name": "Kansas City Royals",
-            "teamName": "Royals",
-            "location": "Kansas City",
-            "abbr": "KC",
-            "fileCode": "kc",
-            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
-            "color": "#004687"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824071,
-          "date": "2026-08-23",
-          "gameDate": "2026-08-23T18:10:00Z",
-          "dayNight": "day",
-          "venue": "Kauffman Stadium",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 118,
-            "name": "Kansas City Royals",
-            "teamName": "Royals",
-            "location": "Kansas City",
-            "abbr": "KC",
-            "fileCode": "kc",
-            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
-            "color": "#004687",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 51,
-              "losses": 74,
-              "ties": 0,
-              "pct": ".408"
-            }
-          },
-          "away": {
-            "id": 116,
-            "name": "Detroit Tigers",
-            "teamName": "Tigers",
-            "location": "Detroit",
-            "abbr": "DET",
-            "fileCode": "det",
-            "logo": "https://www.mlbstatic.com/team-logos/116.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 60,
-              "losses": 64,
-              "ties": 0,
-              "pct": ".484"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 118,
-            "name": "Kansas City Royals",
-            "teamName": "Royals",
-            "location": "Kansas City",
-            "abbr": "KC",
-            "fileCode": "kc",
-            "logo": "https://www.mlbstatic.com/team-logos/118.svg",
-            "color": "#004687"
-          },
-          "result": null,
-          "seriesGameNumber": 3,
-          "gamesInSeries": 3
-        }
-      ],
-      "injuries": [
-        {
-          "name": "Kerry Carpenter",
-          "status": "10-Day-IL",
-          "comment": "Tigers manager AJ Hinch said Monday that Carpenter has been sent to a foot specialist, Chris McCosky of The Detroit News reports.",
-          "date": "2026-08-17T21:56Z",
-          "position": null
-        },
-        {
-          "name": "Jack Flaherty",
-          "status": "15-Day-IL",
-          "comment": "The Tigers announced Friday that Flaherty (forearm) has increased the intensity and distance of his throwing progression, MLB.com reports.",
-          "date": "2026-08-16T22:00Z",
-          "position": null
-        },
-        {
-          "name": "James Outman",
-          "status": "7-Day IL",
-          "comment": "The Tigers placed Outman on the 7-day concussion injured list Thursday.",
-          "date": "2026-08-13T17:08Z",
-          "position": null
-        },
-        {
-          "name": "Riley Greene",
-          "status": "10-Day-IL",
-          "comment": "Greene exited Tuesday's game versus Cleveland in the third inning as a result of right hamstring tightness.",
-          "date": "2026-08-12T21:01Z",
-          "position": null
-        },
-        {
-          "name": "Wenceel Perez",
-          "status": "60-Day-IL",
-          "comment": "Perez (orbital) was pulled off his rehab assignment Tuesday, Cody Stavenhagen of The Athletic reports.",
-          "date": "2026-08-11T19:53Z",
-          "position": null
-        },
-        {
-          "name": "Will Vest",
-          "status": "60-Day-IL",
-          "comment": "Vest (elbow) underwent hip surgery Tuesday, Chris McCosky of The Detroit News reports.",
-          "date": "2026-08-11T19:49Z",
-          "position": null
-        },
-        {
-          "name": "Brant Hurter",
-          "status": "60-Day-IL",
-          "comment": "The Tigers transferred Hurter (back) to Triple-A Toledo on Saturday to begin a rehab assignment, Emily Waldon of Baseball America reports.",
-          "date": "2026-08-08T21:22Z",
-          "position": null
-        },
-        {
-          "name": "Justin Verlander",
-          "status": "60-Day-IL",
-          "comment": "Verlander (hamstring/hip) threw off the front of the bullpen mound Wednesday, Jason Beck of MLB.com reports.",
-          "date": "2026-08-05T22:53Z",
-          "position": null
-        },
-        {
-          "name": "Matt Vierling",
-          "status": "10-Day-IL",
-          "comment": "The Tigers placed Vierling on the 10-day injured list Friday, retroactive to Thursday, due to a left adductor strain.",
-          "date": "2026-07-31T22:36Z",
-          "position": null
-        },
-        {
-          "name": "Burch Smith",
-          "status": "60-Day-IL",
-          "comment": "Smith is being evaluated after exiting a rehab appearance with Triple-A Toledo on Thursday with right shoulder/lat discomfort, Cody Stavenhagen of The Athletic reports.",
-          "date": "2026-07-24T20:30Z",
-          "position": null
-        },
-        {
-          "name": "Bailey Horn",
-          "status": "60-Day-IL",
-          "comment": "Horn (elbow) will undergo season-ending Tommy John surgery, Chris McCosky of The Detroit News reports.",
-          "date": "2026-07-18T00:07Z",
-          "position": null
-        },
-        {
-          "name": "Parker Meadows",
-          "status": "60-Day-IL",
-          "comment": "Tigers manager A.J. Hinch said Tuesday that Meadows (forearm) has yet to resume hitting and is without a timeline to return from the 60-day injured list, Evan Petzold of the Detroit Free Press reports.",
-          "date": "2026-06-25T22:51Z",
-          "position": null
-        },
-        {
-          "name": "Trey Sweeney",
-          "status": "60-Day-IL",
-          "comment": "Sweeney will undergo season-ending shoulder surgery this week, Cody Stavenhagen of The Athletic reports.",
-          "date": "2026-06-05T19:14Z",
-          "position": null
-        },
-        {
-          "name": "Reese Olson",
-          "status": "60-Day-IL",
-          "comment": "The Tigers placed Olson on the 60-day injured list Tuesday after he underwent a right shoulder labral repair Feb. 2 that will result in him missing the 2026 season.",
-          "date": "2026-05-08T11:02Z",
-          "position": null
-        }
-      ],
-      "injuryCount": 14,
-      "weekAgo": {
-        "wildCardRank": 5,
-        "wildCardGamesBack": "1.5",
-        "wins": 58,
-        "losses": 60,
-        "gbDelta": -1.0,
-        "rankDelta": 1,
+        "rankDelta": -2,
         "direction": "up"
       }
     },
@@ -9931,17 +9931,17 @@
       "clinched": false,
       "divisionLeader": false,
       "hitting": {
-        "avg": ".246",
+        "avg": ".245",
         "obp": ".320",
-        "slg": ".406",
-        "ops": ".726",
+        "slg": ".405",
+        "ops": ".725",
         "runs": 582,
-        "hits": 1040,
+        "hits": 1042,
         "homeRuns": 146,
         "rbi": 554,
         "stolenBases": 73,
-        "strikeOuts": 1023,
-        "baseOnBalls": 414,
+        "strikeOuts": 1026,
+        "baseOnBalls": 415,
         "babip": ".288"
       },
       "pitching": {
@@ -9950,49 +9950,49 @@
         "wins": 60,
         "losses": 65,
         "saves": 34,
-        "strikeOuts": 1033,
-        "baseOnBalls": 459,
-        "inningsPitched": "1107.2",
-        "strikeoutsPer9Inn": "8.39",
+        "strikeOuts": 1037,
+        "baseOnBalls": 461,
+        "inningsPitched": "1111.2",
+        "strikeoutsPer9Inn": "8.40",
         "walksPer9Inn": "3.73",
-        "homeRunsPer9": "1.19",
+        "homeRunsPer9": "1.18",
         "holds": 82,
         "blownSaves": 13,
         "winPercentage": ".480",
-        "runs": 626
+        "runs": 628
       },
       "hittingL10": {
-        "avg": ".276",
-        "obp": ".355",
-        "slg": ".423",
-        "ops": ".778",
+        "avg": ".271",
+        "obp": ".353",
+        "slg": ".412",
+        "ops": ".765",
         "runs": 43,
-        "hits": 92,
+        "hits": 94,
         "homeRuns": 9,
         "rbi": 42,
         "stolenBases": 4,
-        "strikeOuts": 88,
-        "baseOnBalls": 35,
-        "babip": ".349"
+        "strikeOuts": 91,
+        "baseOnBalls": 36,
+        "babip": ".341"
       },
       "pitchingL10": {
-        "era": "5.12",
+        "era": "5.09",
         "whip": "1.47",
         "wins": 3,
         "losses": 6,
         "saves": 2,
-        "strikeOuts": 87,
-        "baseOnBalls": 37,
-        "inningsPitched": "84.1",
-        "strikeoutsPer9Inn": "9.28",
-        "walksPer9Inn": "3.95",
-        "homeRunsPer9": "1.39",
+        "strikeOuts": 91,
+        "baseOnBalls": 39,
+        "inningsPitched": "88.1",
+        "strikeoutsPer9Inn": "9.27",
+        "walksPer9Inn": "3.97",
+        "homeRunsPer9": "1.32",
         "holds": 9,
         "blownSaves": 1,
         "winPercentage": ".333",
-        "runs": 52
+        "runs": 54
       },
-      "runDifferentialL10": -9,
+      "runDifferentialL10": -11,
       "momentum": 36,
       "nextGames": [
         {
@@ -10003,7 +10003,7 @@
           "venue": "Target Field",
           "status": "In Progress",
           "abstractState": "Live",
-          "inning": 5,
+          "inning": 9,
           "inningState": "Top",
           "home": {
             "id": 142,
@@ -10032,7 +10032,7 @@
             "fileCode": "atl",
             "logo": "https://www.mlbstatic.com/team-logos/144.svg",
             "color": "#1D4ED8",
-            "score": 0,
+            "score": 2,
             "probablePitcher": "Mart\u00edn P\u00e9rez",
             "record": {
               "wins": 74,
@@ -11945,10 +11945,10 @@
         "score": null,
         "probablePitcher": null,
         "record": {
-          "wins": 51,
+          "wins": 52,
           "losses": 74,
           "ties": 0,
-          "pct": ".408"
+          "pct": ".413"
         }
       },
       "isHome": true,
@@ -12006,10 +12006,10 @@
         "score": null,
         "probablePitcher": null,
         "record": {
-          "wins": 51,
+          "wins": 52,
           "losses": 74,
           "ties": 0,
-          "pct": ".408"
+          "pct": ".413"
         }
       },
       "isHome": true,
@@ -12067,10 +12067,10 @@
         "score": null,
         "probablePitcher": null,
         "record": {
-          "wins": 51,
+          "wins": 52,
           "losses": 74,
           "ties": 0,
-          "pct": ".408"
+          "pct": ".413"
         }
       },
       "isHome": true,
@@ -12476,10 +12476,10 @@
         "score": null,
         "probablePitcher": null,
         "record": {
-          "wins": 51,
+          "wins": 52,
           "losses": 74,
           "ties": 0,
-          "pct": ".408"
+          "pct": ".413"
         }
       },
       "away": {
@@ -12537,10 +12537,10 @@
         "score": null,
         "probablePitcher": null,
         "record": {
-          "wins": 51,
+          "wins": 52,
           "losses": 74,
           "ties": 0,
-          "pct": ".408"
+          "pct": ".413"
         }
       },
       "away": {
@@ -12598,10 +12598,10 @@
         "score": null,
         "probablePitcher": null,
         "record": {
-          "wins": 51,
+          "wins": 52,
           "losses": 74,
           "ties": 0,
-          "pct": ".408"
+          "pct": ".413"
         }
       },
       "away": {
@@ -13295,7 +13295,7 @@
         "games": 3
       }
     ],
-    "strengthOfSchedule": 0.479
+    "strengthOfSchedule": 0.48
   },
   "rooting": [
     {
@@ -13350,7 +13350,7 @@
       "seriesGameNumber": 4,
       "gamesInSeries": 4,
       "interest": "Need a loss",
-      "note": "A BAL loss trims the club Toronto is chasing.",
+      "note": "Root against BAL \u2014 they are holding a wild-card spot.",
       "homeWinPct": 67.4,
       "awayWinPct": 32.6,
       "helpsTorPct": 67.4,
@@ -13362,9 +13362,9 @@
       "gameDate": "2026-08-17T23:05:00Z",
       "dayNight": "night",
       "venue": "PNC Park",
-      "status": "In Progress",
-      "abstractState": "Live",
-      "inning": 7,
+      "status": "Final",
+      "abstractState": "Final",
+      "inning": 9,
       "inningState": "Bottom",
       "home": {
         "id": 134,
@@ -13379,9 +13379,9 @@
         "probablePitcher": "Carmen Mlodzinski",
         "record": {
           "wins": 61,
-          "losses": 65,
+          "losses": 66,
           "ties": 0,
-          "pct": ".484"
+          "pct": ".480"
         }
       },
       "away": {
@@ -13396,10 +13396,10 @@
         "score": 8,
         "probablePitcher": "Framber Valdez",
         "record": {
-          "wins": 60,
+          "wins": 61,
           "losses": 64,
           "ties": 0,
-          "pct": ".484"
+          "pct": ".488"
         }
       },
       "isHome": null,
@@ -13407,11 +13407,11 @@
       "result": null,
       "seriesGameNumber": 1,
       "gamesInSeries": 3,
-      "interest": "Keep them down",
-      "note": "Do not let DET sneak closer.",
-      "homeWinPct": 52.5,
-      "awayWinPct": 47.5,
-      "helpsTorPct": 52.5,
+      "interest": "Need a loss",
+      "note": "A DET loss trims the club Toronto is chasing.",
+      "homeWinPct": 52.1,
+      "awayWinPct": 47.9,
+      "helpsTorPct": 52.1,
       "wantWinnerId": 134
     },
     {
@@ -13420,9 +13420,9 @@
       "gameDate": "2026-08-17T23:10:00Z",
       "dayNight": "night",
       "venue": "Fenway Park",
-      "status": "In Progress",
-      "abstractState": "Live",
-      "inning": 8,
+      "status": "Final",
+      "abstractState": "Final",
+      "inning": 9,
       "inningState": "Top",
       "home": {
         "id": 111,
@@ -13436,10 +13436,10 @@
         "score": 11,
         "probablePitcher": "Alec Gamboa",
         "record": {
-          "wins": 66,
+          "wins": 67,
           "losses": 58,
           "ties": 0,
-          "pct": ".532"
+          "pct": ".536"
         }
       },
       "away": {
@@ -13455,9 +13455,9 @@
         "probablePitcher": "Mitch Bratt",
         "record": {
           "wins": 66,
-          "losses": 59,
+          "losses": 60,
           "ties": 0,
-          "pct": ".528"
+          "pct": ".524"
         }
       },
       "isHome": null,
@@ -13467,9 +13467,9 @@
       "gamesInSeries": 3,
       "interest": "Need a loss",
       "note": "Root against BOS \u2014 they are holding a wild-card spot.",
-      "homeWinPct": 48.0,
-      "awayWinPct": 52.0,
-      "helpsTorPct": 52.0,
+      "homeWinPct": 49.0,
+      "awayWinPct": 51.0,
+      "helpsTorPct": 51.0,
       "wantWinnerId": 109
     },
     {
@@ -13480,7 +13480,7 @@
       "venue": "Target Field",
       "status": "In Progress",
       "abstractState": "Live",
-      "inning": 5,
+      "inning": 9,
       "inningState": "Top",
       "home": {
         "id": 142,
@@ -13509,7 +13509,7 @@
         "fileCode": "atl",
         "logo": "https://www.mlbstatic.com/team-logos/144.svg",
         "color": "#1D4ED8",
-        "score": 0,
+        "score": 2,
         "probablePitcher": "Mart\u00edn P\u00e9rez",
         "record": {
           "wins": 74,
@@ -13589,6 +13589,64 @@
       "wantWinnerId": 110
     },
     {
+      "gamePk": 823341,
+      "date": "2026-08-18",
+      "gameDate": "2026-08-18T22:40:00Z",
+      "dayNight": "night",
+      "venue": "PNC Park",
+      "status": "Scheduled",
+      "abstractState": "Preview",
+      "inning": null,
+      "inningState": null,
+      "home": {
+        "id": 134,
+        "name": "Pittsburgh Pirates",
+        "teamName": "Pirates",
+        "location": "Pittsburgh",
+        "abbr": "PIT",
+        "fileCode": "pit",
+        "logo": "https://www.mlbstatic.com/team-logos/134.svg",
+        "color": "#1D4ED8",
+        "score": null,
+        "probablePitcher": "Braxton Ashcraft",
+        "record": {
+          "wins": 61,
+          "losses": 66,
+          "ties": 0,
+          "pct": ".480"
+        }
+      },
+      "away": {
+        "id": 116,
+        "name": "Detroit Tigers",
+        "teamName": "Tigers",
+        "location": "Detroit",
+        "abbr": "DET",
+        "fileCode": "det",
+        "logo": "https://www.mlbstatic.com/team-logos/116.svg",
+        "color": "#0C2340",
+        "score": null,
+        "probablePitcher": "Keider Montero",
+        "record": {
+          "wins": 61,
+          "losses": 64,
+          "ties": 0,
+          "pct": ".488"
+        }
+      },
+      "isHome": null,
+      "opponent": null,
+      "result": null,
+      "seriesGameNumber": 2,
+      "gamesInSeries": 3,
+      "interest": "Need a loss",
+      "note": "A DET loss trims the club Toronto is chasing.",
+      "homeWinPct": 52.1,
+      "awayWinPct": 47.9,
+      "helpsTorPct": 52.1,
+      "wantWinnerId": 134
+    },
+    {
       "gamePk": 822938,
       "date": "2026-08-18",
       "gameDate": "2026-08-18T22:40:00Z",
@@ -13645,64 +13703,6 @@
       "awayWinPct": 34.4,
       "helpsTorPct": 34.4,
       "wantWinnerId": 141
-    },
-    {
-      "gamePk": 823341,
-      "date": "2026-08-18",
-      "gameDate": "2026-08-18T22:40:00Z",
-      "dayNight": "night",
-      "venue": "PNC Park",
-      "status": "Scheduled",
-      "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
-      "home": {
-        "id": 134,
-        "name": "Pittsburgh Pirates",
-        "teamName": "Pirates",
-        "location": "Pittsburgh",
-        "abbr": "PIT",
-        "fileCode": "pit",
-        "logo": "https://www.mlbstatic.com/team-logos/134.svg",
-        "color": "#1D4ED8",
-        "score": null,
-        "probablePitcher": "Braxton Ashcraft",
-        "record": {
-          "wins": 61,
-          "losses": 65,
-          "ties": 0,
-          "pct": ".484"
-        }
-      },
-      "away": {
-        "id": 116,
-        "name": "Detroit Tigers",
-        "teamName": "Tigers",
-        "location": "Detroit",
-        "abbr": "DET",
-        "fileCode": "det",
-        "logo": "https://www.mlbstatic.com/team-logos/116.svg",
-        "color": "#0C2340",
-        "score": null,
-        "probablePitcher": "Keider Montero",
-        "record": {
-          "wins": 60,
-          "losses": 64,
-          "ties": 0,
-          "pct": ".484"
-        }
-      },
-      "isHome": null,
-      "opponent": null,
-      "result": null,
-      "seriesGameNumber": 2,
-      "gamesInSeries": 3,
-      "interest": "Keep them down",
-      "note": "Do not let DET sneak closer.",
-      "homeWinPct": 52.5,
-      "awayWinPct": 47.5,
-      "helpsTorPct": 52.5,
-      "wantWinnerId": 134
     },
     {
       "gamePk": 824398,
@@ -13784,10 +13784,10 @@
         "score": null,
         "probablePitcher": "Ranger Suarez",
         "record": {
-          "wins": 66,
+          "wins": 67,
           "losses": 58,
           "ties": 0,
-          "pct": ".532"
+          "pct": ".536"
         }
       },
       "away": {
@@ -13803,9 +13803,9 @@
         "probablePitcher": "Merrill Kelly",
         "record": {
           "wins": 66,
-          "losses": 59,
+          "losses": 60,
           "ties": 0,
-          "pct": ".528"
+          "pct": ".524"
         }
       },
       "isHome": null,
@@ -13815,9 +13815,9 @@
       "gamesInSeries": 3,
       "interest": "Need a loss",
       "note": "Root against BOS \u2014 they are holding a wild-card spot.",
-      "homeWinPct": 48.0,
-      "awayWinPct": 52.0,
-      "helpsTorPct": 52.0,
+      "homeWinPct": 49.0,
+      "awayWinPct": 51.0,
+      "helpsTorPct": 51.0,
       "wantWinnerId": 109
     },
     {
@@ -13988,7 +13988,7 @@
       "seriesGameNumber": 1,
       "gamesInSeries": 3,
       "interest": "Need a loss",
-      "note": "Root against TEX \u2014 they are holding a wild-card spot.",
+      "note": "A TEX loss trims the club Toronto is chasing.",
       "homeWinPct": 48.7,
       "awayWinPct": 51.3,
       "helpsTorPct": 51.3,
@@ -14017,9 +14017,9 @@
         "probablePitcher": "Paul Skenes",
         "record": {
           "wins": 61,
-          "losses": 65,
+          "losses": 66,
           "ties": 0,
-          "pct": ".484"
+          "pct": ".480"
         }
       },
       "away": {
@@ -14034,10 +14034,10 @@
         "score": null,
         "probablePitcher": "Jackson Jobe",
         "record": {
-          "wins": 60,
+          "wins": 61,
           "losses": 64,
           "ties": 0,
-          "pct": ".484"
+          "pct": ".488"
         }
       },
       "isHome": null,
@@ -14045,11 +14045,11 @@
       "result": null,
       "seriesGameNumber": 3,
       "gamesInSeries": 3,
-      "interest": "Keep them down",
-      "note": "Do not let DET sneak closer.",
-      "homeWinPct": 52.5,
-      "awayWinPct": 47.5,
-      "helpsTorPct": 52.5,
+      "interest": "Need a loss",
+      "note": "A DET loss trims the club Toronto is chasing.",
+      "homeWinPct": 52.1,
+      "awayWinPct": 47.9,
+      "helpsTorPct": 52.1,
       "wantWinnerId": 134
     },
     {
@@ -14132,10 +14132,10 @@
         "score": null,
         "probablePitcher": "Payton Tolle",
         "record": {
-          "wins": 66,
+          "wins": 67,
           "losses": 58,
           "ties": 0,
-          "pct": ".532"
+          "pct": ".536"
         }
       },
       "away": {
@@ -14151,9 +14151,9 @@
         "probablePitcher": "Brandon Pfaadt",
         "record": {
           "wins": 66,
-          "losses": 59,
+          "losses": 60,
           "ties": 0,
-          "pct": ".528"
+          "pct": ".524"
         }
       },
       "isHome": null,
@@ -14163,9 +14163,9 @@
       "gamesInSeries": 3,
       "interest": "Need a loss",
       "note": "Root against BOS \u2014 they are holding a wild-card spot.",
-      "homeWinPct": 48.0,
-      "awayWinPct": 52.0,
-      "helpsTorPct": 52.0,
+      "homeWinPct": 49.0,
+      "awayWinPct": 51.0,
+      "helpsTorPct": 51.0,
       "wantWinnerId": 109
     },
     {
@@ -15170,11 +15170,11 @@
       "wins": 57,
       "losses": 63,
       "gbDelta": -3.0,
-      "rankDelta": -3,
+      "rankDelta": -2,
       "direction": "up"
     },
     "gbDelta": -3.0,
-    "rankDelta": -3,
+    "rankDelta": -2,
     "last14": {
       "ops": ".640",
       "avg": ".237",
@@ -15202,7 +15202,7 @@
       },
       {
         "label": "WC rank",
-        "value": "#5",
+        "value": "#6",
         "detail": "Was #8 a week ago",
         "direction": "up"
       },
@@ -15235,13 +15235,13 @@
     ]
   },
   "playoffOdds": {
-    "percent": 32.4,
+    "percent": 28.4,
     "sims": 5000,
-    "made": 1622,
-    "gamesModeled": 356,
+    "made": 1422,
+    "gamesModeled": 353,
     "talent": 0.483,
     "method": "Monte Carlo of remaining American League games. Each game uses log5 win odds from Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag.",
-    "note": "32.4% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 356 remaining games involving AL clubs.",
+    "note": "28.4% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 353 remaining games involving AL clubs.",
     "gb": "0.5",
     "gamesLeft": 36
   },
@@ -15255,7 +15255,7 @@
     },
     {
       "label": "WC Rank",
-      "value": "#5",
+      "value": "#6",
       "hint": "Among AL non-division leaders",
       "trend": "up",
       "stat": "WC"
