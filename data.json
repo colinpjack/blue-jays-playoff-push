@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T15:35:47.623840-04:00",
+  "generatedAt": "2026-08-18T16:35:47.181984-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -3291,10 +3291,10 @@
           "gameDate": "2026-08-19T00:05:00Z",
           "dayNight": "night",
           "venue": "Globe Life Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 140,
             "name": "Texas Rangers",
@@ -3304,7 +3304,7 @@
             "fileCode": "tex",
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cal Quantrill",
             "record": {
               "wins": 61,
@@ -3322,7 +3322,7 @@
             "fileCode": "was",
             "logo": "https://www.mlbstatic.com/team-logos/120.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jackson Kent",
             "record": {
               "wins": 60,
@@ -4139,10 +4139,10 @@
           "gameDate": "2026-08-18T23:40:00Z",
           "dayNight": "night",
           "venue": "Target Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -4152,7 +4152,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Zebby Matthews",
             "record": {
               "wins": 61,
@@ -4170,7 +4170,7 @@
             "fileCode": "atl",
             "logo": "https://www.mlbstatic.com/team-logos/144.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Tyler Mahle",
             "record": {
               "wins": 74,
@@ -5411,10 +5411,10 @@
           "gameDate": "2026-08-18T23:40:00Z",
           "dayNight": "night",
           "venue": "American Family Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 158,
             "name": "Milwaukee Brewers",
@@ -5424,7 +5424,7 @@
             "fileCode": "mil",
             "logo": "https://www.mlbstatic.com/team-logos/158.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Kyle Harrison",
             "record": {
               "wins": 77,
@@ -5442,7 +5442,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Bryce Miller",
             "record": {
               "wins": 59,
@@ -5835,7 +5835,7 @@
           "gameDate": "2026-08-18T23:40:00Z",
           "dayNight": "night",
           "venue": "Kauffman Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -5849,7 +5849,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/118.svg",
             "color": "#004687",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Daniel Lynch IV",
             "record": {
               "wins": 52,
               "losses": 74,
@@ -6921,6 +6921,13 @@
       ],
       "injuries": [
         {
+          "name": "Cody Bellinger",
+          "status": "10-Day-IL",
+          "comment": "Bellinger (hamstring) will begin a rehab assignment Thursday at Triple-A Scranton/Wilkes-Barre and is expected to play in at least two games before potentially rejoining the Yankees, Chris Kirschner of The Athletic reports.",
+          "date": "2026-08-18T20:06Z",
+          "position": null
+        },
+        {
           "name": "Clarke Schmidt",
           "status": "60-Day-IL",
           "comment": "Yankees manager Aaron Boone said Sunday that Schmidt (elbow) will be preparing to return from the 60-day injured list as a reliever, Gary Phillips of the New York Daily News reports. \"That can always change as the weeks and month unfolds, just depending,\" Boone said, regarding Schmidt's potential role. \"But that's kind of how we're looking at.\"",
@@ -6942,20 +6949,6 @@
           "position": null
         },
         {
-          "name": "Carlos Rodon",
-          "status": "15-Day-IL",
-          "comment": "Rodon (elbow) will be activated from the 15-day injured list to start Tuesday's contest in Baltimore, Meredith Marakovits of YES Network reports.",
-          "date": "2026-08-17T20:35Z",
-          "position": null
-        },
-        {
-          "name": "Cody Bellinger",
-          "status": "10-Day-IL",
-          "comment": "Yankees manager Aaron Boone clarified that Bellinger (hamstring) will start his minor-league rehab assignment Thursday or Friday, Erik Boland of Newsday reports.",
-          "date": "2026-08-16T21:24Z",
-          "position": null
-        },
-        {
           "name": "Aaron Judge",
           "status": "60-Day-IL",
           "comment": "Judge (ribs) began playing catch Friday, Gary Phillips of the New York Daily News reports.",
@@ -6970,7 +6963,7 @@
           "position": null
         }
       ],
-      "injuryCount": 7,
+      "injuryCount": 6,
       "weekAgo": {
         "wildCardRank": 1,
         "wildCardGamesBack": "+7.5",
@@ -8241,10 +8234,10 @@
           "gameDate": "2026-08-19T00:05:00Z",
           "dayNight": "night",
           "venue": "Globe Life Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 140,
             "name": "Texas Rangers",
@@ -8254,7 +8247,7 @@
             "fileCode": "tex",
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cal Quantrill",
             "record": {
               "wins": 61,
@@ -8272,7 +8265,7 @@
             "fileCode": "was",
             "logo": "https://www.mlbstatic.com/team-logos/120.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jackson Kent",
             "record": {
               "wins": 60,
@@ -8604,13 +8597,6 @@
       ],
       "injuries": [
         {
-          "name": "Danny Jansen",
-          "status": "60-Day-IL",
-          "comment": "Jansen (forearm) went 2-for-3 with a walk and an RBI for Triple-A Round Rock on Sunday.",
-          "date": "2026-08-17T13:07Z",
-          "position": null
-        },
-        {
           "name": "Josh Jung",
           "status": "10-Day-IL",
           "comment": "Jung (calf) did some running on the field Sunday and could be cleared to begin a defensive progression within the next few days, Shawn McFarland of The Dallas Morning News reports.",
@@ -8681,7 +8667,7 @@
           "position": null
         }
       ],
-      "injuryCount": 11,
+      "injuryCount": 10,
       "weekAgo": {
         "wildCardRank": 3,
         "wildCardGamesBack": "-",
@@ -9398,10 +9384,10 @@
           "gameDate": "2026-08-18T23:40:00Z",
           "dayNight": "night",
           "venue": "Target Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -9411,7 +9397,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Zebby Matthews",
             "record": {
               "wins": 61,
@@ -9429,7 +9415,7 @@
             "fileCode": "atl",
             "logo": "https://www.mlbstatic.com/team-logos/144.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Tyler Mahle",
             "record": {
               "wins": 74,
@@ -10308,17 +10294,24 @@
       ],
       "injuries": [
         {
-          "name": "Spencer Arrighetti",
+          "name": "Jameson Taillon",
           "status": "15-Day-IL",
-          "comment": "Arrighetti (foot) threw 3.2 innings for Triple-A Buffalo on Sunday, allowing two runs on three hits and a walk. He struck out three.",
-          "date": "2026-08-17T16:26Z",
+          "comment": "Taillon (forearm) resumed a throwing program with some flat-ground work Tuesday, Arden Zwelling of Sportsnet.ca reports.",
+          "date": "2026-08-18T20:15Z",
           "position": null
         },
         {
           "name": "Vladimir Guerrero Jr.",
           "status": "7-Day IL",
-          "comment": "The Blue Jays placed Guerrero on the 7-day concussion IL on Saturday, Mitch Bannon of The Athletic reports.",
-          "date": "2026-08-15T17:02Z",
+          "comment": "Guerrero (concussion) participated in a light on-field workout Tuesday that included activation drills, jogging and higher-intensity running, Arden Zwelling of Sportsnet.ca reports.",
+          "date": "2026-08-18T19:58Z",
+          "position": null
+        },
+        {
+          "name": "Spencer Arrighetti",
+          "status": "15-Day-IL",
+          "comment": "Arrighetti (foot) threw 3.2 innings for Triple-A Buffalo on Sunday, allowing two runs on three hits and a walk. He struck out three.",
+          "date": "2026-08-17T16:26Z",
           "position": null
         },
         {
@@ -10333,13 +10326,6 @@
           "status": "15-Day-IL",
           "comment": "Yesavage (knee) underwent surgery to repair his torn meniscus Tuesday and is considered week-to-week, Mitch Bannon of The Athletic reports.",
           "date": "2026-08-11T20:22Z",
-          "position": null
-        },
-        {
-          "name": "Jameson Taillon",
-          "status": "15-Day-IL",
-          "comment": "Toronto placed Taillon on the 15-day injured list with right forearm tendinitis on Tuesday, Keegan Matheson of MLB.com reports.",
-          "date": "2026-08-11T19:30Z",
           "position": null
         },
         {
@@ -11060,10 +11046,10 @@
           "gameDate": "2026-08-18T23:40:00Z",
           "dayNight": "night",
           "venue": "American Family Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 158,
             "name": "Milwaukee Brewers",
@@ -11073,7 +11059,7 @@
             "fileCode": "mil",
             "logo": "https://www.mlbstatic.com/team-logos/158.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Kyle Harrison",
             "record": {
               "wins": 77,
@@ -11091,7 +11077,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Bryce Miller",
             "record": {
               "wins": 59,
@@ -11423,24 +11409,17 @@
       ],
       "injuries": [
         {
+          "name": "Taylor Ward",
+          "status": "Day-To-Day",
+          "comment": "Ward (quadriceps) remains out of the lineup for Tuesday's game in Milwaukee.",
+          "date": "2026-08-18T20:26Z",
+          "position": null
+        },
+        {
           "name": "Bryan Woo",
           "status": "Day-To-Day",
           "comment": "Woo did not factor into Tuesday's decision against the Yankees, allowing three hits and one walk while striking out five across five scoreless innings.",
           "date": "2026-08-17T02:51Z",
-          "position": null
-        },
-        {
-          "name": "Victor Robles",
-          "status": "Day-To-Day",
-          "comment": "Robles is out of the lineup for Sunday's game against Houston due to a sore right shoulder, Adam Jude of The Seattle Times reports.",
-          "date": "2026-08-16T21:44Z",
-          "position": null
-        },
-        {
-          "name": "Taylor Ward",
-          "status": "Day-To-Day",
-          "comment": "Ward (quadriceps) is out of the starting lineup for Sunday's series finale against the Astros.",
-          "date": "2026-08-16T21:34Z",
           "position": null
         },
         {
@@ -11507,7 +11486,7 @@
           "position": null
         }
       ],
-      "injuryCount": 12,
+      "injuryCount": 11,
       "weekAgo": {
         "wildCardRank": 9,
         "wildCardGamesBack": "4.0",
@@ -13344,9 +13323,9 @@
       "gamesInSeries": 3,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 46.8,
-      "awayWinPct": 53.2,
-      "helpsTorPct": 46.8,
+      "homeWinPct": 46.6,
+      "awayWinPct": 53.4,
+      "helpsTorPct": 46.6,
       "wantWinnerId": 110
     },
     {
@@ -13587,10 +13566,10 @@
       "gameDate": "2026-08-18T23:40:00Z",
       "dayNight": "night",
       "venue": "Target Field",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 142,
         "name": "Minnesota Twins",
@@ -13600,7 +13579,7 @@
         "fileCode": "min",
         "logo": "https://www.mlbstatic.com/team-logos/142.svg",
         "color": "#002B5C",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Zebby Matthews",
         "record": {
           "wins": 61,
@@ -13618,7 +13597,7 @@
         "fileCode": "atl",
         "logo": "https://www.mlbstatic.com/team-logos/144.svg",
         "color": "#1D4ED8",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Tyler Mahle",
         "record": {
           "wins": 74,
@@ -13645,10 +13624,10 @@
       "gameDate": "2026-08-18T23:40:00Z",
       "dayNight": "night",
       "venue": "American Family Field",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 158,
         "name": "Milwaukee Brewers",
@@ -13658,7 +13637,7 @@
         "fileCode": "mil",
         "logo": "https://www.mlbstatic.com/team-logos/158.svg",
         "color": "#1D4ED8",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Kyle Harrison",
         "record": {
           "wins": 77,
@@ -13676,7 +13655,7 @@
         "fileCode": "sea",
         "logo": "https://www.mlbstatic.com/team-logos/136.svg",
         "color": "#0C2C56",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Bryce Miller",
         "record": {
           "wins": 59,
@@ -13692,9 +13671,9 @@
       "gamesInSeries": 3,
       "interest": "Keep them down",
       "note": "Do not let SEA sneak closer.",
-      "homeWinPct": 71.5,
-      "awayWinPct": 28.5,
-      "helpsTorPct": 71.5,
+      "homeWinPct": 71.2,
+      "awayWinPct": 28.8,
+      "helpsTorPct": 71.2,
       "wantWinnerId": 158
     },
     {
@@ -13703,10 +13682,10 @@
       "gameDate": "2026-08-19T00:05:00Z",
       "dayNight": "night",
       "venue": "Globe Life Field",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 140,
         "name": "Texas Rangers",
@@ -13716,7 +13695,7 @@
         "fileCode": "tex",
         "logo": "https://www.mlbstatic.com/team-logos/140.svg",
         "color": "#003278",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Cal Quantrill",
         "record": {
           "wins": 61,
@@ -13734,7 +13713,7 @@
         "fileCode": "was",
         "logo": "https://www.mlbstatic.com/team-logos/120.svg",
         "color": "#1D4ED8",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Jackson Kent",
         "record": {
           "wins": 60,
@@ -13750,9 +13729,9 @@
       "gamesInSeries": 3,
       "interest": "Need a loss",
       "note": "A TEX loss trims the club Toronto is chasing.",
-      "homeWinPct": 48.7,
-      "awayWinPct": 51.3,
-      "helpsTorPct": 51.3,
+      "homeWinPct": 49.0,
+      "awayWinPct": 51.0,
+      "helpsTorPct": 51.0,
       "wantWinnerId": 120
     },
     {
@@ -13982,9 +13961,9 @@
       "gamesInSeries": 3,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 46.8,
-      "awayWinPct": 53.2,
-      "helpsTorPct": 46.8,
+      "homeWinPct": 46.6,
+      "awayWinPct": 53.4,
+      "helpsTorPct": 46.6,
       "wantWinnerId": 110
     },
     {
@@ -14156,9 +14135,9 @@
       "gamesInSeries": 3,
       "interest": "Keep them down",
       "note": "Do not let SEA sneak closer.",
-      "homeWinPct": 71.5,
-      "awayWinPct": 28.5,
-      "helpsTorPct": 71.5,
+      "homeWinPct": 71.2,
+      "awayWinPct": 28.8,
+      "helpsTorPct": 71.2,
       "wantWinnerId": 158
     },
     {
@@ -14214,9 +14193,9 @@
       "gamesInSeries": 3,
       "interest": "Need a loss",
       "note": "A TEX loss trims the club Toronto is chasing.",
-      "homeWinPct": 48.7,
-      "awayWinPct": 51.3,
-      "helpsTorPct": 51.3,
+      "homeWinPct": 49.0,
+      "awayWinPct": 51.0,
+      "helpsTorPct": 51.0,
       "wantWinnerId": 120
     },
     {
@@ -14338,17 +14317,24 @@
   ],
   "injuries": [
     {
-      "name": "Spencer Arrighetti",
+      "name": "Jameson Taillon",
       "status": "15-Day-IL",
-      "comment": "Arrighetti (foot) threw 3.2 innings for Triple-A Buffalo on Sunday, allowing two runs on three hits and a walk. He struck out three.",
-      "date": "2026-08-17T16:26Z",
+      "comment": "Taillon (forearm) resumed a throwing program with some flat-ground work Tuesday, Arden Zwelling of Sportsnet.ca reports.",
+      "date": "2026-08-18T20:15Z",
       "position": null
     },
     {
       "name": "Vladimir Guerrero Jr.",
       "status": "7-Day IL",
-      "comment": "The Blue Jays placed Guerrero on the 7-day concussion IL on Saturday, Mitch Bannon of The Athletic reports.",
-      "date": "2026-08-15T17:02Z",
+      "comment": "Guerrero (concussion) participated in a light on-field workout Tuesday that included activation drills, jogging and higher-intensity running, Arden Zwelling of Sportsnet.ca reports.",
+      "date": "2026-08-18T19:58Z",
+      "position": null
+    },
+    {
+      "name": "Spencer Arrighetti",
+      "status": "15-Day-IL",
+      "comment": "Arrighetti (foot) threw 3.2 innings for Triple-A Buffalo on Sunday, allowing two runs on three hits and a walk. He struck out three.",
+      "date": "2026-08-17T16:26Z",
       "position": null
     },
     {
@@ -14363,13 +14349,6 @@
       "status": "15-Day-IL",
       "comment": "Yesavage (knee) underwent surgery to repair his torn meniscus Tuesday and is considered week-to-week, Mitch Bannon of The Athletic reports.",
       "date": "2026-08-11T20:22Z",
-      "position": null
-    },
-    {
-      "name": "Jameson Taillon",
-      "status": "15-Day-IL",
-      "comment": "Toronto placed Taillon on the 15-day injured list with right forearm tendinitis on Tuesday, Keegan Matheson of MLB.com reports.",
-      "date": "2026-08-11T19:30Z",
       "position": null
     },
     {
@@ -15221,13 +15200,13 @@
     ]
   },
   "playoffOdds": {
-    "percent": 28.9,
+    "percent": 28.7,
     "sims": 5000,
-    "made": 1447,
+    "made": 1437,
     "gamesModeled": 351,
     "talent": 0.483,
     "method": "Monte Carlo of remaining American League games. Each game uses log5 win odds from Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag.",
-    "note": "28.9% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 351 remaining games involving AL clubs.",
+    "note": "28.7% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 351 remaining games involving AL clubs.",
     "gb": "0.5",
     "gamesLeft": 36
   },
