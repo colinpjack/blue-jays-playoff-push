@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T16:35:47.181984-04:00",
+  "generatedAt": "2026-08-18T17:34:40.784243-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -414,7 +414,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Will Warren",
             "record": {
               "wins": 69,
               "losses": 55,
@@ -1262,7 +1262,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Will Warren",
             "record": {
               "wins": 69,
               "losses": 55,
@@ -2112,7 +2112,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Will Warren",
             "record": {
               "wins": 69,
               "losses": 55,
@@ -2960,7 +2960,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Will Warren",
             "record": {
               "wins": 69,
               "losses": 55,
@@ -3717,8 +3717,8 @@
           "venue": "PNC Park",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 134,
             "name": "Pittsburgh Pirates",
@@ -3728,7 +3728,7 @@
             "fileCode": "pit",
             "logo": "https://www.mlbstatic.com/team-logos/134.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Braxton Ashcraft",
             "record": {
               "wins": 61,
@@ -3746,7 +3746,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Keider Montero",
             "record": {
               "wins": 61,
@@ -5202,7 +5202,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Joey Cantillo",
             "record": {
               "wins": 60,
               "losses": 65,
@@ -5263,7 +5263,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Tanner Bibee",
             "record": {
               "wins": 60,
               "losses": 65,
@@ -5837,8 +5837,8 @@
           "venue": "Kauffman Stadium",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 118,
             "name": "Kansas City Royals",
@@ -5848,7 +5848,7 @@
             "fileCode": "kc",
             "logo": "https://www.mlbstatic.com/team-logos/118.svg",
             "color": "#004687",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Daniel Lynch IV",
             "record": {
               "wins": 52,
@@ -5866,8 +5866,8 @@
             "fileCode": "ath",
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
-            "score": null,
-            "probablePitcher": "Jack Perkins",
+            "score": 0,
+            "probablePitcher": "Brady Basso",
             "record": {
               "wins": 49,
               "losses": 76,
@@ -6148,7 +6148,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Will Warren",
             "record": {
               "wins": 69,
               "losses": 55,
@@ -6651,7 +6651,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Will Warren",
             "record": {
               "wins": 69,
               "losses": 55,
@@ -6921,6 +6921,20 @@
       ],
       "injuries": [
         {
+          "name": "Max Fried",
+          "status": "15-Day-IL",
+          "comment": "Yankees manager Aaron Boone said Tuesday that Fried (elbow) could return from the injured list immediately after his 15 days are up, Bryan Hoch of MLB.com reports.",
+          "date": "2026-08-18T21:03Z",
+          "position": null
+        },
+        {
+          "name": "Aaron Judge",
+          "status": "60-Day-IL",
+          "comment": "Yankees manager Aaron Boone said Tuesday that Judge (ribs) will begin a hitting progression this week, Bryan Hoch of MLB.com reports.",
+          "date": "2026-08-18T20:58Z",
+          "position": null
+        },
+        {
           "name": "Cody Bellinger",
           "status": "10-Day-IL",
           "comment": "Bellinger (hamstring) will begin a rehab assignment Thursday at Triple-A Scranton/Wilkes-Barre and is expected to play in at least two games before potentially rejoining the Yankees, Chris Kirschner of The Athletic reports.",
@@ -6939,20 +6953,6 @@
           "status": "10-Day-IL",
           "comment": "Manager Aaron Boone said that Stanton (calf) did some baserunning Saturday, but the Yankees remain uncertain when the five-time All-Star will be ready to begin a rehab assignment, MLB.com reports.",
           "date": "2026-08-18T17:00Z",
-          "position": null
-        },
-        {
-          "name": "Max Fried",
-          "status": "15-Day-IL",
-          "comment": "The Yankees placed Fried on the 15-day injured list Monday due to a left elbow bone bruise.",
-          "date": "2026-08-17T23:24Z",
-          "position": null
-        },
-        {
-          "name": "Aaron Judge",
-          "status": "60-Day-IL",
-          "comment": "Judge (ribs) began playing catch Friday, Gary Phillips of the New York Daily News reports.",
-          "date": "2026-08-15T17:27Z",
           "position": null
         },
         {
@@ -7454,6 +7454,20 @@
       ],
       "injuries": [
         {
+          "name": "Masataka Yoshida",
+          "status": "10-Day-IL",
+          "comment": "Interim manager Chad Tracy reveled that Yoshida has a \"significant\" left hamstring injury that will keep him out until the near end of the season at minimum, Tim Healey of The Boston Globe reports.",
+          "date": "2026-08-18T21:28Z",
+          "position": null
+        },
+        {
+          "name": "Tanner Houck",
+          "status": "60-Day-IL",
+          "comment": "Houck (elbow) tossed a live bullpen session to batters Tuesday, Tim Healey of The Boston Globe reports.",
+          "date": "2026-08-18T21:27Z",
+          "position": null
+        },
+        {
           "name": "Jahmai Jones",
           "status": "Day-To-Day",
           "comment": "Jones was scratched from Monday's lineup in Baltimore, Jen McCaffrey of The Athletic reports.",
@@ -7472,13 +7486,6 @@
           "status": "15-Day-IL",
           "comment": "The Red Sox placed Slaten (elbow) on the 15-day injured list Sunday.",
           "date": "2026-08-16T15:19Z",
-          "position": null
-        },
-        {
-          "name": "Masataka Yoshida",
-          "status": "10-Day-IL",
-          "comment": "The Red Sox are expected to place Yoshida (hamstring) on the 10-day injured list prior to Sunday's game against the Pirates, Alex Speier of The Boston Globe reports.",
-          "date": "2026-08-16T15:13Z",
           "position": null
         },
         {
@@ -7528,13 +7535,6 @@
           "status": "60-Day-IL",
           "comment": "The Red Sox recalled Kelly (elbow) from Triple-A Worcester and placed him on the 60-day injured list Tuesday, Tim Healey of The Boston Globe reports.",
           "date": "2026-07-21T17:29Z",
-          "position": null
-        },
-        {
-          "name": "Tanner Houck",
-          "status": "60-Day-IL",
-          "comment": "Houck (elbow) has started throwing two bullpen sessions per week, MLB.com reports.",
-          "date": "2026-07-17T20:28Z",
           "position": null
         },
         {
@@ -7773,7 +7773,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Will Warren",
             "record": {
               "wins": 69,
               "losses": 55,
@@ -8043,10 +8043,17 @@
       ],
       "injuries": [
         {
+          "name": "Blaze Alexander",
+          "status": "10-Day-IL",
+          "comment": "Alexander (hand) is expected to begin a rehab assignment within the next week, Jake Rill of MLB.com reports.",
+          "date": "2026-08-18T21:23Z",
+          "position": null
+        },
+        {
           "name": "Felix Bautista",
           "status": "60-Day-IL",
-          "comment": "Bautista (shoulder) could begin a minor-league rehab assignment in late August, per MLB.com.",
-          "date": "2026-08-16T03:35Z",
+          "comment": "Bautista (shoulder) could begin a rehab assignment within the next week, Roch Kubatko of MASN Sports reports.",
+          "date": "2026-08-18T20:40Z",
           "position": null
         },
         {
@@ -8054,13 +8061,6 @@
           "status": "10-Day-IL",
           "comment": "Basallo (shoulder) will begin a rehab assignment at Triple-A Norfolk on Sunday, Jacob Calvin Meyer of The Baltimore Sun reports.",
           "date": "2026-08-15T20:42Z",
-          "position": null
-        },
-        {
-          "name": "Blaze Alexander",
-          "status": "10-Day-IL",
-          "comment": "Alexander (hand) hit in the batting cage Friday, per MLB.com.",
-          "date": "2026-08-15T02:44Z",
           "position": null
         },
         {
@@ -8797,8 +8797,8 @@
           "venue": "PNC Park",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 134,
             "name": "Pittsburgh Pirates",
@@ -8808,7 +8808,7 @@
             "fileCode": "pit",
             "logo": "https://www.mlbstatic.com/team-logos/134.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Braxton Ashcraft",
             "record": {
               "wins": 61,
@@ -8826,7 +8826,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Keider Montero",
             "record": {
               "wins": 61,
@@ -10742,7 +10742,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Joey Cantillo",
             "record": {
               "wins": 60,
               "losses": 65,
@@ -10803,7 +10803,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Tanner Bibee",
             "record": {
               "wins": 60,
               "losses": 65,
@@ -13336,8 +13336,8 @@
       "venue": "PNC Park",
       "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 134,
         "name": "Pittsburgh Pirates",
@@ -13347,7 +13347,7 @@
         "fileCode": "pit",
         "logo": "https://www.mlbstatic.com/team-logos/134.svg",
         "color": "#1D4ED8",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Braxton Ashcraft",
         "record": {
           "wins": 61,
@@ -13365,7 +13365,7 @@
         "fileCode": "det",
         "logo": "https://www.mlbstatic.com/team-logos/116.svg",
         "color": "#0C2340",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Keider Montero",
         "record": {
           "wins": 61,
@@ -13946,7 +13946,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/147.svg",
         "color": "#0C2340",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Will Warren",
         "record": {
           "wins": 69,
           "losses": 55,
