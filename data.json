@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T17:36:26.506627-04:00",
+  "generatedAt": "2026-08-19T18:36:49.518825-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -150,8 +150,8 @@
           "gameDate": "2026-08-19T22:40:00Z",
           "dayNight": "night",
           "venue": "Tropicana Field",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "Warmup",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -321,8 +321,8 @@
           "gameDate": "2026-08-19T22:35:00Z",
           "dayNight": "night",
           "venue": "Oriole Park at Camden Yards",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -747,7 +747,7 @@
           "venue": "Fenway Park",
           "status": "In Progress",
           "abstractState": "Live",
-          "inning": 5,
+          "inning": 7,
           "inningState": "Bottom",
           "home": {
             "id": 111,
@@ -758,7 +758,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": 2,
+            "score": 5,
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 68,
@@ -776,7 +776,7 @@
             "fileCode": "ari",
             "logo": "https://www.mlbstatic.com/team-logos/109.svg",
             "color": "#1D4ED8",
-            "score": 3,
+            "score": 5,
             "probablePitcher": "Brandon Pfaadt",
             "record": {
               "wins": 66,
@@ -1169,8 +1169,8 @@
           "gameDate": "2026-08-19T22:40:00Z",
           "dayNight": "night",
           "venue": "Tropicana Field",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "Warmup",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -1593,8 +1593,8 @@
           "gameDate": "2026-08-19T22:35:00Z",
           "dayNight": "night",
           "venue": "Oriole Park at Camden Yards",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -2019,8 +2019,8 @@
           "gameDate": "2026-08-19T22:35:00Z",
           "dayNight": "night",
           "venue": "Oriole Park at Camden Yards",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -2445,7 +2445,7 @@
           "venue": "Fenway Park",
           "status": "In Progress",
           "abstractState": "Live",
-          "inning": 5,
+          "inning": 7,
           "inningState": "Bottom",
           "home": {
             "id": 111,
@@ -2456,7 +2456,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": 2,
+            "score": 5,
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 68,
@@ -2474,7 +2474,7 @@
             "fileCode": "ari",
             "logo": "https://www.mlbstatic.com/team-logos/109.svg",
             "color": "#1D4ED8",
-            "score": 3,
+            "score": 5,
             "probablePitcher": "Brandon Pfaadt",
             "record": {
               "wins": 66,
@@ -3366,7 +3366,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jacob deGrom",
             "record": {
               "wins": 62,
               "losses": 64,
@@ -3715,8 +3715,8 @@
           "gameDate": "2026-08-19T22:40:00Z",
           "dayNight": "night",
           "venue": "Tropicana Field",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "Warmup",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -4139,8 +4139,8 @@
           "gameDate": "2026-08-19T22:40:00Z",
           "dayNight": "night",
           "venue": "Progressive Field",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "Warmup",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -4415,7 +4415,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Foster Griffin",
             "record": {
               "wins": 61,
               "losses": 65,
@@ -4563,8 +4563,8 @@
           "gameDate": "2026-08-19T22:35:00Z",
           "dayNight": "night",
           "venue": "Oriole Park at Camden Yards",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -6519,37 +6519,37 @@
         "runs": 467
       },
       "hittingL10": {
-        "avg": ".203",
-        "obp": ".287",
-        "slg": ".345",
-        "ops": ".632",
-        "runs": 32,
-        "hits": 64,
+        "avg": ".206",
+        "obp": ".281",
+        "slg": ".355",
+        "ops": ".636",
+        "runs": 29,
+        "hits": 58,
         "homeRuns": 8,
-        "rbi": 31,
+        "rbi": 28,
         "stolenBases": 12,
-        "strikeOuts": 103,
-        "baseOnBalls": 34,
-        "babip": ".271"
+        "strikeOuts": 88,
+        "baseOnBalls": 27,
+        "babip": ".267"
       },
       "pitchingL10": {
-        "era": "2.18",
-        "whip": "1.04",
-        "wins": 6,
+        "era": "2.22",
+        "whip": "1.06",
+        "wins": 5,
         "losses": 4,
         "saves": 4,
-        "strikeOuts": 92,
-        "baseOnBalls": 29,
-        "inningsPitched": "91.0",
-        "strikeoutsPer9Inn": "9.10",
-        "walksPer9Inn": "2.87",
-        "homeRunsPer9": "1.09",
+        "strikeOuts": 81,
+        "baseOnBalls": 27,
+        "inningsPitched": "81.0",
+        "strikeoutsPer9Inn": "9.00",
+        "walksPer9Inn": "3.00",
+        "homeRunsPer9": "1.00",
         "holds": 7,
         "blownSaves": 1,
-        "winPercentage": ".600",
-        "runs": 26
+        "winPercentage": ".556",
+        "runs": 24
       },
-      "runDifferentialL10": 6,
+      "runDifferentialL10": 5,
       "momentum": 85,
       "nextGames": [
         {
@@ -6558,8 +6558,8 @@
           "gameDate": "2026-08-19T22:35:00Z",
           "dayNight": "night",
           "venue": "Oriole Park at Camden Yards",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -7022,67 +7022,67 @@
       "divisionLeader": false,
       "hitting": {
         "avg": ".250",
-        "obp": ".322",
-        "slg": ".405",
-        "ops": ".727",
-        "runs": 571,
-        "hits": 1058,
-        "homeRuns": 130,
-        "rbi": 546,
+        "obp": ".323",
+        "slg": ".406",
+        "ops": ".729",
+        "runs": 574,
+        "hits": 1063,
+        "homeRuns": 131,
+        "rbi": 549,
         "stolenBases": 96,
-        "strikeOuts": 1031,
-        "baseOnBalls": 402,
+        "strikeOuts": 1033,
+        "baseOnBalls": 403,
         "babip": ".298"
       },
       "pitching": {
-        "era": "3.51",
+        "era": "3.52",
         "whip": "1.22",
         "wins": 68,
         "losses": 58,
         "saves": 34,
-        "strikeOuts": 1079,
-        "baseOnBalls": 354,
-        "inningsPitched": "1124.1",
-        "strikeoutsPer9Inn": "8.64",
-        "walksPer9Inn": "2.83",
-        "homeRunsPer9": "0.96",
+        "strikeOuts": 1082,
+        "baseOnBalls": 356,
+        "inningsPitched": "1126.1",
+        "strikeoutsPer9Inn": "8.65",
+        "walksPer9Inn": "2.84",
+        "homeRunsPer9": "0.97",
         "holds": 77,
         "blownSaves": 11,
         "winPercentage": ".540",
-        "runs": 476
+        "runs": 478
       },
       "hittingL10": {
-        "avg": ".274",
-        "obp": ".351",
-        "slg": ".450",
-        "ops": ".801",
-        "runs": 48,
-        "hits": 87,
-        "homeRuns": 12,
-        "rbi": 47,
+        "avg": ".277",
+        "obp": ".354",
+        "slg": ".456",
+        "ops": ".810",
+        "runs": 51,
+        "hits": 91,
+        "homeRuns": 13,
+        "rbi": 50,
         "stolenBases": 6,
-        "strikeOuts": 70,
-        "baseOnBalls": 40,
-        "babip": ".309"
+        "strikeOuts": 72,
+        "baseOnBalls": 41,
+        "babip": ".311"
       },
       "pitchingL10": {
-        "era": "3.67",
-        "whip": "1.20",
+        "era": "3.80",
+        "whip": "1.23",
         "wins": 4,
         "losses": 5,
         "saves": 0,
-        "strikeOuts": 66,
-        "baseOnBalls": 23,
-        "inningsPitched": "81.0",
-        "strikeoutsPer9Inn": "7.33",
-        "walksPer9Inn": "2.56",
-        "homeRunsPer9": "0.44",
+        "strikeOuts": 69,
+        "baseOnBalls": 25,
+        "inningsPitched": "83.0",
+        "strikeoutsPer9Inn": "7.48",
+        "walksPer9Inn": "2.71",
+        "homeRunsPer9": "0.54",
         "holds": 2,
         "blownSaves": 0,
         "winPercentage": ".444",
-        "runs": 37
+        "runs": 39
       },
-      "runDifferentialL10": 11,
+      "runDifferentialL10": 12,
       "momentum": 70,
       "nextGames": [
         {
@@ -7093,7 +7093,7 @@
           "venue": "Fenway Park",
           "status": "In Progress",
           "abstractState": "Live",
-          "inning": 5,
+          "inning": 7,
           "inningState": "Bottom",
           "home": {
             "id": 111,
@@ -7104,7 +7104,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": 2,
+            "score": 5,
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 68,
@@ -7122,7 +7122,7 @@
             "fileCode": "ari",
             "logo": "https://www.mlbstatic.com/team-logos/109.svg",
             "color": "#1D4ED8",
-            "score": 3,
+            "score": 5,
             "probablePitcher": "Brandon Pfaadt",
             "record": {
               "wins": 66,
@@ -8302,7 +8302,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jacob deGrom",
             "record": {
               "wins": 62,
               "losses": 64,
@@ -8592,7 +8592,7 @@
         {
           "name": "Jacob deGrom",
           "status": "Day-To-Day",
-          "comment": "DeGrom (triceps) will take to the mound against the Nationals on Thursday, Evan Grant of The Dallas Morning News reports.",
+          "comment": "DeGrom (triceps) will take the mound against the Nationals on Thursday, Evan Grant of The Dallas Morning News reports.",
           "date": "2026-08-19T21:20Z",
           "position": null
         },
@@ -8788,8 +8788,8 @@
           "gameDate": "2026-08-19T22:40:00Z",
           "dayNight": "night",
           "venue": "Tropicana Field",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "Warmup",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -9391,8 +9391,8 @@
           "gameDate": "2026-08-19T22:40:00Z",
           "dayNight": "night",
           "venue": "Progressive Field",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "Warmup",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -9667,7 +9667,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Foster Griffin",
             "record": {
               "wins": 61,
               "losses": 65,
@@ -9754,6 +9754,13 @@
       ],
       "injuries": [
         {
+          "name": "Slade Cecconi",
+          "status": "15-Day-IL",
+          "comment": "Cecconi (arm) recently threw a bullpen session and is scheduled for another bullpen this week before beginning a rehab assignment, Tim Stebbins of MLB.com reports.",
+          "date": "2026-08-19T22:18Z",
+          "position": null
+        },
+        {
           "name": "Rhys Hoskins",
           "status": "10-Day-IL",
           "comment": "Hoskins went 2-for-3 with a two-run home run and a walk in Saturday's 6-3 loss to the White Sox.",
@@ -9763,14 +9770,14 @@
         {
           "name": "Chase DeLauter",
           "status": "Day-To-Day",
-          "comment": "DeLauter (hamstring) remains out of the lineup for Wednesday's game against the Giants.",
+          "comment": "DeLauter (hamstring) is out of the lineup for Wednesday's game against the Giants.",
           "date": "2026-08-19T18:49Z",
           "position": null
         },
         {
           "name": "Jo Adell",
           "status": "Day-To-Day",
-          "comment": "Adell (knee) is not in the lineup for Wednesday's game versus the Giants.",
+          "comment": "Adell (knee) is out of the lineup for Wednesday's game versus the Giants.",
           "date": "2026-08-19T18:46Z",
           "position": null
         },
@@ -9779,13 +9786,6 @@
           "status": "Day-To-Day",
           "comment": "Holderman was removed from Saturday's 6-1 win over the Padres due to right wrist inflammation, Tim Stebbins of MLB.com reports. He was credited with a hold while hitting a batter and retiring the other two hitters he faced.",
           "date": "2026-08-16T14:16Z",
-          "position": null
-        },
-        {
-          "name": "Slade Cecconi",
-          "status": "15-Day-IL",
-          "comment": "Cecconi (arm) underwent an MRI that confirmed no structural damage, MLB.com reports.",
-          "date": "2026-08-15T13:10Z",
           "position": null
         },
         {
@@ -9885,37 +9885,37 @@
         "runs": 599
       },
       "hittingL10": {
-        "avg": ".266",
-        "obp": ".336",
-        "slg": ".477",
-        "ops": ".813",
-        "runs": 53,
-        "hits": 94,
-        "homeRuns": 19,
-        "rbi": 52,
+        "avg": ".272",
+        "obp": ".343",
+        "slg": ".486",
+        "ops": ".829",
+        "runs": 52,
+        "hits": 88,
+        "homeRuns": 18,
+        "rbi": 51,
         "stolenBases": 4,
-        "strikeOuts": 94,
-        "baseOnBalls": 35,
-        "babip": ".310"
+        "strikeOuts": 84,
+        "baseOnBalls": 32,
+        "babip": ".315"
       },
       "pitchingL10": {
-        "era": "4.76",
-        "whip": "1.48",
+        "era": "4.78",
+        "whip": "1.54",
         "wins": 5,
-        "losses": 5,
+        "losses": 4,
         "saves": 3,
-        "strikeOuts": 81,
-        "baseOnBalls": 34,
-        "inningsPitched": "87.0",
-        "strikeoutsPer9Inn": "8.38",
-        "walksPer9Inn": "3.52",
-        "homeRunsPer9": "0.93",
+        "strikeOuts": 72,
+        "baseOnBalls": 32,
+        "inningsPitched": "79.0",
+        "strikeoutsPer9Inn": "8.20",
+        "walksPer9Inn": "3.65",
+        "homeRunsPer9": "0.91",
         "holds": 6,
         "blownSaves": 2,
-        "winPercentage": ".500",
-        "runs": 48
+        "winPercentage": ".556",
+        "runs": 43
       },
-      "runDifferentialL10": 5,
+      "runDifferentialL10": 9,
       "momentum": 49,
       "nextGames": [
         {
@@ -9924,8 +9924,8 @@
           "gameDate": "2026-08-19T22:35:00Z",
           "dayNight": "night",
           "venue": "Oriole Park at Camden Yards",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -11423,6 +11423,13 @@
       ],
       "injuries": [
         {
+          "name": "Luke Raley",
+          "status": "60-Day-IL",
+          "comment": "The Mariners transferred Raley (forearm) to the 60-day injured list Wednesday, retroactive to July 31.",
+          "date": "2026-08-19T21:56Z",
+          "position": null
+        },
+        {
           "name": "J.P. Crawford",
           "status": "10-Day-IL",
           "comment": "Crawford (wrist) will start a rehab assignment with Triple-A Tacoma on Thursday, Tim Booth of The Seattle Times reports.",
@@ -11472,13 +11479,6 @@
           "position": null
         },
         {
-          "name": "Luke Raley",
-          "status": "10-Day-IL",
-          "comment": "Mariners general manager Justin Hollander said Tuesday that Raley is expected to miss the rest of the season after sustaining a left forearm strain, Adam Jude of The Seattle Times reports.",
-          "date": "2026-08-05T16:36Z",
-          "position": null
-        },
-        {
           "name": "Will Wilson",
           "status": "60-Day-IL",
           "comment": "Wilson (thumb) has gone 3-for-9 with two RBI and a 1:2 BB:K in his first three rehab games between High-A Everett and Triple-A Tacoma.",
@@ -11512,8 +11512,8 @@
       "gameDate": "2026-08-19T22:40:00Z",
       "dayNight": "night",
       "venue": "Tropicana Field",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
+      "status": "Warmup",
+      "abstractState": "Live",
       "inning": 1,
       "inningState": "Top",
       "home": {
@@ -13397,7 +13397,7 @@
       "venue": "Fenway Park",
       "status": "In Progress",
       "abstractState": "Live",
-      "inning": 5,
+      "inning": 7,
       "inningState": "Bottom",
       "home": {
         "id": 111,
@@ -13408,7 +13408,7 @@
         "fileCode": "bos",
         "logo": "https://www.mlbstatic.com/team-logos/111.svg",
         "color": "#BD3039",
-        "score": 2,
+        "score": 5,
         "probablePitcher": "Payton Tolle",
         "record": {
           "wins": 68,
@@ -13426,7 +13426,7 @@
         "fileCode": "ari",
         "logo": "https://www.mlbstatic.com/team-logos/109.svg",
         "color": "#1D4ED8",
-        "score": 3,
+        "score": 5,
         "probablePitcher": "Brandon Pfaadt",
         "record": {
           "wins": 66,
@@ -13453,8 +13453,8 @@
       "gameDate": "2026-08-19T22:35:00Z",
       "dayNight": "night",
       "venue": "Oriole Park at Camden Yards",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
+      "status": "In Progress",
+      "abstractState": "Live",
       "inning": 1,
       "inningState": "Top",
       "home": {
@@ -13511,8 +13511,8 @@
       "gameDate": "2026-08-19T22:40:00Z",
       "dayNight": "night",
       "venue": "Tropicana Field",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
+      "status": "Warmup",
+      "abstractState": "Live",
       "inning": 1,
       "inningState": "Top",
       "home": {
@@ -13569,8 +13569,8 @@
       "gameDate": "2026-08-19T22:40:00Z",
       "dayNight": "night",
       "venue": "Progressive Field",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
+      "status": "Warmup",
+      "abstractState": "Live",
       "inning": 1,
       "inningState": "Top",
       "home": {
@@ -13989,7 +13989,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/140.svg",
         "color": "#003278",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Jacob deGrom",
         "record": {
           "wins": 62,
           "losses": 64,
