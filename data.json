@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T11:42:13.490556-04:00",
+  "generatedAt": "2026-08-19T12:43:13.532157-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -745,7 +745,7 @@
           "gameDate": "2026-08-19T20:10:00Z",
           "dayNight": "day",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -2443,7 +2443,7 @@
           "gameDate": "2026-08-19T20:10:00Z",
           "dayNight": "day",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -3293,8 +3293,8 @@
           "venue": "Target Field",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -3304,7 +3304,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Taj Bradley",
             "record": {
               "wins": 62,
@@ -3322,7 +3322,7 @@
             "fileCode": "atl",
             "logo": "https://www.mlbstatic.com/team-logos/144.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "AJ Smith-Shawver",
             "record": {
               "wins": 74,
@@ -4987,8 +4987,8 @@
           "gameDate": "2026-08-19T16:35:00Z",
           "dayNight": "day",
           "venue": "PNC Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -7091,7 +7091,7 @@
           "gameDate": "2026-08-19T20:10:00Z",
           "dayNight": "day",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -8243,8 +8243,8 @@
           "venue": "Target Field",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -8254,7 +8254,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Taj Bradley",
             "record": {
               "wins": 62,
@@ -8272,7 +8272,7 @@
             "fileCode": "atl",
             "logo": "https://www.mlbstatic.com/team-logos/144.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "AJ Smith-Shawver",
             "record": {
               "wins": 74,
@@ -8604,17 +8604,17 @@
       ],
       "injuries": [
         {
+          "name": "Joe Ryan",
+          "status": "15-Day-IL",
+          "comment": "Ryan (glute) threw a 25-pitch bullpen session Tuesday, Dan Hayes of The Athletic reports.",
+          "date": "2026-08-19T16:21Z",
+          "position": null
+        },
+        {
           "name": "Austin Martin",
           "status": "10-Day-IL",
           "comment": "Twins manager Derek Shelton said that Martin sustained a left hamstring strain in the eighth inning of Sunday's 7-5 loss to the Phillies and will be sent in for an MRI, Aaron Gleeman of Aaron Gleeman.com reports.",
           "date": "2026-08-17T17:08Z",
-          "position": null
-        },
-        {
-          "name": "Joe Ryan",
-          "status": "15-Day-IL",
-          "comment": "Ryan (glute) threw on flat ground Monday, Aaron Gleeman of AaronGleeman.com reports.",
-          "date": "2026-08-11T17:04Z",
           "position": null
         },
         {
@@ -10404,7 +10404,7 @@
         "rbi": 547,
         "stolenBases": 36,
         "strikeOuts": 1078,
-        "baseOnBalls": 446,
+        "baseOnBalls": 447,
         "babip": ".288"
       },
       "pitching": {
@@ -10425,37 +10425,37 @@
         "runs": 491
       },
       "hittingL10": {
-        "avg": ".228",
-        "obp": ".305",
-        "slg": ".363",
-        "ops": ".668",
-        "runs": 46,
-        "hits": 78,
+        "avg": ".223",
+        "obp": ".295",
+        "slg": ".357",
+        "ops": ".652",
+        "runs": 38,
+        "hits": 68,
         "homeRuns": 8,
-        "rbi": 43,
+        "rbi": 35,
         "stolenBases": 1,
-        "strikeOuts": 72,
-        "baseOnBalls": 34,
-        "babip": ".267"
+        "strikeOuts": 67,
+        "baseOnBalls": 27,
+        "babip": ".261"
       },
       "pitchingL10": {
-        "era": "3.70",
-        "whip": "1.24",
-        "wins": 5,
+        "era": "4.11",
+        "whip": "1.35",
+        "wins": 4,
         "losses": 5,
         "saves": 4,
-        "strikeOuts": 72,
-        "baseOnBalls": 35,
-        "inningsPitched": "90.0",
-        "strikeoutsPer9Inn": "7.20",
-        "walksPer9Inn": "3.50",
-        "homeRunsPer9": "1.10",
-        "holds": 6,
+        "strikeOuts": 65,
+        "baseOnBalls": 34,
+        "inningsPitched": "81.0",
+        "strikeoutsPer9Inn": "7.22",
+        "walksPer9Inn": "3.78",
+        "homeRunsPer9": "1.22",
+        "holds": 5,
         "blownSaves": 2,
-        "winPercentage": ".500",
+        "winPercentage": ".444",
         "runs": 40
       },
-      "runDifferentialL10": 6,
+      "runDifferentialL10": -2,
       "momentum": 77,
       "nextGames": [
         {
@@ -10464,8 +10464,8 @@
           "gameDate": "2026-08-19T16:35:00Z",
           "dayNight": "day",
           "venue": "PNC Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -13279,8 +13279,8 @@
       "gameDate": "2026-08-19T16:35:00Z",
       "dayNight": "day",
       "venue": "PNC Park",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
+      "status": "In Progress",
+      "abstractState": "Live",
       "inning": 1,
       "inningState": "Top",
       "home": {
@@ -13339,8 +13339,8 @@
       "venue": "Target Field",
       "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 142,
         "name": "Minnesota Twins",
@@ -13350,7 +13350,7 @@
         "fileCode": "min",
         "logo": "https://www.mlbstatic.com/team-logos/142.svg",
         "color": "#002B5C",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Taj Bradley",
         "record": {
           "wins": 62,
@@ -13368,7 +13368,7 @@
         "fileCode": "atl",
         "logo": "https://www.mlbstatic.com/team-logos/144.svg",
         "color": "#1D4ED8",
-        "score": null,
+        "score": 0,
         "probablePitcher": "AJ Smith-Shawver",
         "record": {
           "wins": 74,
@@ -13395,7 +13395,7 @@
       "gameDate": "2026-08-19T20:10:00Z",
       "dayNight": "day",
       "venue": "Fenway Park",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
       "inning": null,
       "inningState": null,
