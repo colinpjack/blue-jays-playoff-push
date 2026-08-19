@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T12:43:13.532157-04:00",
+  "generatedAt": "2026-08-19T13:36:37.384443-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -3291,8 +3291,8 @@
           "gameDate": "2026-08-19T17:40:00Z",
           "dayNight": "day",
           "venue": "Target Field",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "Warmup",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -3384,7 +3384,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Connor Prielipp",
             "record": {
               "wins": 62,
               "losses": 65,
@@ -3427,7 +3427,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/135.svg",
             "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Casey Mize",
             "record": {
               "wins": 68,
               "losses": 59,
@@ -3445,7 +3445,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Dean Kremer",
             "record": {
               "wins": 62,
               "losses": 65,
@@ -3488,7 +3488,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/135.svg",
             "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Walker Buehler",
             "record": {
               "wins": 68,
               "losses": 59,
@@ -3506,7 +3506,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Bailey Ober",
             "record": {
               "wins": 62,
               "losses": 65,
@@ -4989,8 +4989,8 @@
           "venue": "PNC Park",
           "status": "In Progress",
           "abstractState": "Live",
-          "inning": 1,
-          "inningState": "Top",
+          "inning": 4,
+          "inningState": "Middle",
           "home": {
             "id": 134,
             "name": "Pittsburgh Pirates",
@@ -5000,7 +5000,7 @@
             "fileCode": "pit",
             "logo": "https://www.mlbstatic.com/team-logos/134.svg",
             "color": "#1D4ED8",
-            "score": 0,
+            "score": 1,
             "probablePitcher": "Paul Skenes",
             "record": {
               "wins": 62,
@@ -5018,7 +5018,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": 0,
+            "score": 1,
             "probablePitcher": "Jackson Jobe",
             "record": {
               "wins": 61,
@@ -7454,6 +7454,13 @@
       ],
       "injuries": [
         {
+          "name": "Jahmai Jones",
+          "status": "Day-To-Day",
+          "comment": "Red Sox interim manager Chad Tracy said that Jones was scratched from the lineup ahead of Monday's 11-1 win over the Diamondbacks due to left hip tightness, Gabrielle Starr of the Boston Herald reports.",
+          "date": "2026-08-19T16:53Z",
+          "position": null
+        },
+        {
           "name": "Roman Anthony",
           "status": "60-Day-IL",
           "comment": "Anthony (finger) served as the designated hitter and went 2-for-2 with two walks, a home run and two RBI for Double-A Portland on Tuesday.",
@@ -7472,13 +7479,6 @@
           "status": "60-Day-IL",
           "comment": "Houck (elbow) tossed a live bullpen session to batters Tuesday, Tim Healey of The Boston Globe reports.",
           "date": "2026-08-18T21:27Z",
-          "position": null
-        },
-        {
-          "name": "Jahmai Jones",
-          "status": "Day-To-Day",
-          "comment": "Jones was scratched from Monday's lineup in Baltimore, Jen McCaffrey of The Athletic reports.",
-          "date": "2026-08-17T20:53Z",
           "position": null
         },
         {
@@ -8241,8 +8241,8 @@
           "gameDate": "2026-08-19T17:40:00Z",
           "dayNight": "day",
           "venue": "Target Field",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "Warmup",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -8334,7 +8334,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Connor Prielipp",
             "record": {
               "wins": 62,
               "losses": 65,
@@ -8377,7 +8377,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/135.svg",
             "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Casey Mize",
             "record": {
               "wins": 68,
               "losses": 59,
@@ -8395,7 +8395,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Dean Kremer",
             "record": {
               "wins": 62,
               "losses": 65,
@@ -8438,7 +8438,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/135.svg",
             "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Walker Buehler",
             "record": {
               "wins": 68,
               "losses": 59,
@@ -8456,7 +8456,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Bailey Ober",
             "record": {
               "wins": 62,
               "losses": 65,
@@ -10396,15 +10396,15 @@
       "hitting": {
         "avg": ".243",
         "obp": ".319",
-        "slg": ".407",
-        "ops": ".726",
-        "runs": 574,
-        "hits": 1034,
+        "slg": ".406",
+        "ops": ".725",
+        "runs": 575,
+        "hits": 1036,
         "homeRuns": 152,
-        "rbi": 547,
+        "rbi": 548,
         "stolenBases": 36,
-        "strikeOuts": 1078,
-        "baseOnBalls": 447,
+        "strikeOuts": 1082,
+        "baseOnBalls": 449,
         "babip": ".288"
       },
       "pitching": {
@@ -10413,47 +10413,47 @@
         "wins": 61,
         "losses": 65,
         "saves": 26,
-        "strikeOuts": 1035,
-        "baseOnBalls": 387,
-        "inningsPitched": "1116.2",
+        "strikeOuts": 1037,
+        "baseOnBalls": 388,
+        "inningsPitched": "1119.2",
         "strikeoutsPer9Inn": "8.34",
         "walksPer9Inn": "3.12",
         "homeRunsPer9": "1.00",
         "holds": 56,
         "blownSaves": 27,
         "winPercentage": ".484",
-        "runs": 491
+        "runs": 492
       },
       "hittingL10": {
-        "avg": ".223",
-        "obp": ".295",
-        "slg": ".357",
-        "ops": ".652",
-        "runs": 38,
-        "hits": 68,
+        "avg": ".221",
+        "obp": ".291",
+        "slg": ".350",
+        "ops": ".641",
+        "runs": 39,
+        "hits": 70,
         "homeRuns": 8,
-        "rbi": 35,
+        "rbi": 36,
         "stolenBases": 1,
-        "strikeOuts": 67,
-        "baseOnBalls": 27,
-        "babip": ".261"
+        "strikeOuts": 71,
+        "baseOnBalls": 28,
+        "babip": ".259"
       },
       "pitchingL10": {
-        "era": "4.11",
-        "whip": "1.35",
+        "era": "4.07",
+        "whip": "1.33",
         "wins": 4,
         "losses": 5,
         "saves": 4,
-        "strikeOuts": 65,
-        "baseOnBalls": 34,
-        "inningsPitched": "81.0",
-        "strikeoutsPer9Inn": "7.22",
-        "walksPer9Inn": "3.78",
-        "homeRunsPer9": "1.22",
+        "strikeOuts": 67,
+        "baseOnBalls": 35,
+        "inningsPitched": "84.0",
+        "strikeoutsPer9Inn": "7.18",
+        "walksPer9Inn": "3.75",
+        "homeRunsPer9": "1.18",
         "holds": 5,
         "blownSaves": 2,
         "winPercentage": ".444",
-        "runs": 40
+        "runs": 41
       },
       "runDifferentialL10": -2,
       "momentum": 77,
@@ -10466,8 +10466,8 @@
           "venue": "PNC Park",
           "status": "In Progress",
           "abstractState": "Live",
-          "inning": 1,
-          "inningState": "Top",
+          "inning": 4,
+          "inningState": "Middle",
           "home": {
             "id": 134,
             "name": "Pittsburgh Pirates",
@@ -10477,7 +10477,7 @@
             "fileCode": "pit",
             "logo": "https://www.mlbstatic.com/team-logos/134.svg",
             "color": "#1D4ED8",
-            "score": 0,
+            "score": 1,
             "probablePitcher": "Paul Skenes",
             "record": {
               "wins": 62,
@@ -10495,7 +10495,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": 0,
+            "score": 1,
             "probablePitcher": "Jackson Jobe",
             "record": {
               "wins": 61,
@@ -13281,8 +13281,8 @@
       "venue": "PNC Park",
       "status": "In Progress",
       "abstractState": "Live",
-      "inning": 1,
-      "inningState": "Top",
+      "inning": 4,
+      "inningState": "Middle",
       "home": {
         "id": 134,
         "name": "Pittsburgh Pirates",
@@ -13292,7 +13292,7 @@
         "fileCode": "pit",
         "logo": "https://www.mlbstatic.com/team-logos/134.svg",
         "color": "#1D4ED8",
-        "score": 0,
+        "score": 1,
         "probablePitcher": "Paul Skenes",
         "record": {
           "wins": 62,
@@ -13310,7 +13310,7 @@
         "fileCode": "det",
         "logo": "https://www.mlbstatic.com/team-logos/116.svg",
         "color": "#0C2340",
-        "score": 0,
+        "score": 1,
         "probablePitcher": "Jackson Jobe",
         "record": {
           "wins": 61,
@@ -13337,8 +13337,8 @@
       "gameDate": "2026-08-19T17:40:00Z",
       "dayNight": "day",
       "venue": "Target Field",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
+      "status": "Warmup",
+      "abstractState": "Live",
       "inning": 1,
       "inningState": "Top",
       "home": {
