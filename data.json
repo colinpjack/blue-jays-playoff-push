@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T10:50:35.026424-04:00",
+  "generatedAt": "2026-08-20T11:45:55.622685-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -80,7 +80,7 @@
       "runs": 561
     },
     "momentum": 58,
-    "injuryCount": 17,
+    "injuryCount": 16,
     "weekAgo": {
       "wildCardRank": 7,
       "wildCardGamesBack": "2.0",
@@ -5837,8 +5837,8 @@
           "venue": "Kauffman Stadium",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 118,
             "name": "Kansas City Royals",
@@ -5848,7 +5848,7 @@
             "fileCode": "kc",
             "logo": "https://www.mlbstatic.com/team-logos/118.svg",
             "color": "#004687",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Randy Dobnak",
             "record": {
               "wins": 54,
@@ -5866,7 +5866,7 @@
             "fileCode": "ath",
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Gage Jump",
             "record": {
               "wins": 49,
@@ -9144,17 +9144,17 @@
       ],
       "injuries": [
         {
+          "name": "Brett Bateman",
+          "status": "Day-To-Day",
+          "comment": "Bateman (hamstring) is not in the lineup for Thursday's contest versus the Rays.",
+          "date": "2026-08-20T14:43Z",
+          "position": null
+        },
+        {
           "name": "Joe Mantiply",
           "status": "60-Day-IL",
           "comment": "Mantiply (knee) began a rehab assignment with Single-A Dunedin on Wednesday, striking out one in a perfect inning.",
           "date": "2026-08-20T13:42Z",
-          "position": null
-        },
-        {
-          "name": "Brett Bateman",
-          "status": "Day-To-Day",
-          "comment": "Bateman is absent from the lineup for Thursday's game against the Red Sox.",
-          "date": "2026-08-20T00:35Z",
           "position": null
         },
         {
@@ -9169,13 +9169,6 @@
           "status": "7-Day IL",
           "comment": "Guerrero (concussion) will go through a full workout Wednesday and is targeting a return to the Blue Jays' active roster Saturday, Arden Zwelling of Sportsnet reports.",
           "date": "2026-08-19T20:35Z",
-          "position": null
-        },
-        {
-          "name": "Ernie Clement",
-          "status": "Day-To-Day",
-          "comment": "Clement is absent from the lineup for Wednesday's game versus the Rays.",
-          "date": "2026-08-19T20:22Z",
           "position": null
         },
         {
@@ -9263,7 +9256,7 @@
           "position": null
         }
       ],
-      "injuryCount": 17,
+      "injuryCount": 16,
       "weekAgo": {
         "wildCardRank": 7,
         "wildCardGamesBack": "2.0",
@@ -14316,17 +14309,17 @@
   ],
   "injuries": [
     {
+      "name": "Brett Bateman",
+      "status": "Day-To-Day",
+      "comment": "Bateman (hamstring) is not in the lineup for Thursday's contest versus the Rays.",
+      "date": "2026-08-20T14:43Z",
+      "position": null
+    },
+    {
       "name": "Joe Mantiply",
       "status": "60-Day-IL",
       "comment": "Mantiply (knee) began a rehab assignment with Single-A Dunedin on Wednesday, striking out one in a perfect inning.",
       "date": "2026-08-20T13:42Z",
-      "position": null
-    },
-    {
-      "name": "Brett Bateman",
-      "status": "Day-To-Day",
-      "comment": "Bateman is absent from the lineup for Thursday's game against the Red Sox.",
-      "date": "2026-08-20T00:35Z",
       "position": null
     },
     {
@@ -14341,13 +14334,6 @@
       "status": "7-Day IL",
       "comment": "Guerrero (concussion) will go through a full workout Wednesday and is targeting a return to the Blue Jays' active roster Saturday, Arden Zwelling of Sportsnet reports.",
       "date": "2026-08-19T20:35Z",
-      "position": null
-    },
-    {
-      "name": "Ernie Clement",
-      "status": "Day-To-Day",
-      "comment": "Clement is absent from the lineup for Wednesday's game versus the Rays.",
-      "date": "2026-08-19T20:22Z",
       "position": null
     },
     {
@@ -15221,13 +15207,13 @@
     ]
   },
   "playoffOdds": {
-    "percent": 24.9,
+    "percent": 23.8,
     "sims": 5000,
-    "made": 1246,
+    "made": 1191,
     "gamesModeled": 329,
     "talent": 0.46,
     "method": "Monte Carlo of remaining American League games. Each game uses log5 win odds from Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag.",
-    "note": "24.9% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 329 remaining games involving AL clubs.",
+    "note": "23.8% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 329 remaining games involving AL clubs.",
     "gb": "1.0",
     "gamesLeft": 34
   },
