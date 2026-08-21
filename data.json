@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T21:54:27.777975-04:00",
+  "generatedAt": "2026-08-20T23:13:06.172506-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -17,8 +17,8 @@
     "gamesPlayed": 129,
     "gamesRemaining": 33,
     "divisionRank": 4,
-    "leagueRank": 7,
-    "wildCardRank": 4,
+    "leagueRank": 8,
+    "wildCardRank": 5,
     "gamesBack": "14.0",
     "wildCardGamesBack": "0.5",
     "wildCardGamesBackNum": 0.5,
@@ -79,7 +79,7 @@
       "winPercentage": ".488",
       "runs": 562
     },
-    "momentum": 80,
+    "momentum": 77,
     "injuryCount": 17,
     "weekAgo": {
       "wildCardRank": 7,
@@ -87,7 +87,7 @@
       "wins": 59,
       "losses": 64,
       "gbDelta": -1.5,
-      "rankDelta": -3,
+      "rankDelta": -2,
       "direction": "up"
     }
   },
@@ -600,9 +600,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 64,
-              "losses": 63,
+              "losses": 64,
               "ties": 0,
-              "pct": ".504"
+              "pct": ".500"
             }
           },
           "isHome": true,
@@ -661,9 +661,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 64,
-              "losses": 63,
+              "losses": 64,
               "ties": 0,
-              "pct": ".504"
+              "pct": ".500"
             }
           },
           "isHome": true,
@@ -1131,8 +1131,8 @@
       "gamesPlayed": 129,
       "gamesRemaining": 33,
       "divisionRank": 4,
-      "leagueRank": 7,
-      "wildCardRank": 4,
+      "leagueRank": 8,
+      "wildCardRank": 5,
       "gamesBack": "14.0",
       "wildCardGamesBack": "0.5",
       "wildCardGamesBackNum": 0.5,
@@ -1536,7 +1536,7 @@
         "wins": 59,
         "losses": 64,
         "gbDelta": -1.5,
-        "rankDelta": -3,
+        "rankDelta": -2,
         "direction": "up"
       }
     },
@@ -2298,9 +2298,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 64,
-              "losses": 63,
+              "losses": 64,
               "ties": 0,
-              "pct": ".504"
+              "pct": ".500"
             }
           },
           "isHome": true,
@@ -2359,9 +2359,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 64,
-              "losses": 63,
+              "losses": 64,
               "ties": 0,
-              "pct": ".504"
+              "pct": ".500"
             }
           },
           "isHome": true,
@@ -3239,6 +3239,430 @@
       }
     },
     {
+      "id": 140,
+      "name": "Texas Rangers",
+      "teamName": "Rangers",
+      "location": "Arlington",
+      "abbr": "TEX",
+      "fileCode": "tex",
+      "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+      "color": "#003278",
+      "wins": 63,
+      "losses": 65,
+      "pct": ".492",
+      "gamesPlayed": 128,
+      "gamesRemaining": 34,
+      "divisionRank": 2,
+      "leagueRank": 7,
+      "wildCardRank": 4,
+      "gamesBack": "1.0",
+      "wildCardGamesBack": "-",
+      "wildCardGamesBackNum": 0.0,
+      "divisionName": "American League East",
+      "streak": "W1",
+      "streakType": "wins",
+      "streakNumber": 1,
+      "lastTen": "4-6",
+      "lastTenWins": 4,
+      "lastTenLosses": 6,
+      "home": "34-28",
+      "away": "29-37",
+      "oneRun": "21-13",
+      "extraInning": "3-1",
+      "day": "20-22",
+      "night": "43-43",
+      "vsLeft": "18-15",
+      "vsRight": "45-50",
+      "runsScored": 514,
+      "runsAllowed": 560,
+      "runDifferential": -46,
+      "pythagWins": 59,
+      "pythagLosses": 69,
+      "pythagPct": 0.461,
+      "expectedRecord": "59-69",
+      "eliminationNumber": "34",
+      "wildCardEliminationNumber": "35",
+      "clinched": false,
+      "divisionLeader": false,
+      "nextGames": [
+        {
+          "gamePk": 822861,
+          "date": "2026-08-20",
+          "gameDate": "2026-08-21T00:05:00Z",
+          "dayNight": "night",
+          "venue": "Globe Life Field",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Top",
+          "home": {
+            "id": 140,
+            "name": "Texas Rangers",
+            "teamName": "Rangers",
+            "location": "Arlington",
+            "abbr": "TEX",
+            "fileCode": "tex",
+            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+            "color": "#003278",
+            "score": 2,
+            "probablePitcher": "Jacob deGrom",
+            "record": {
+              "wins": 63,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".492"
+            }
+          },
+          "away": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "teamName": "Nationals",
+            "location": "Washington",
+            "abbr": "WSH",
+            "fileCode": "was",
+            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
+            "color": "#1D4ED8",
+            "score": 0,
+            "probablePitcher": "Andrew Alvarez",
+            "record": {
+              "wins": 61,
+              "losses": 68,
+              "ties": 0,
+              "pct": ".473"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "teamName": "Nationals",
+            "location": "Washington",
+            "abbr": "WSH",
+            "fileCode": "was",
+            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
+            "color": "#1D4ED8"
+          },
+          "result": "W",
+          "seriesGameNumber": 3,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 822857,
+          "date": "2026-08-21",
+          "gameDate": "2026-08-22T00:15:00Z",
+          "dayNight": "night",
+          "venue": "Globe Life Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 140,
+            "name": "Texas Rangers",
+            "teamName": "Rangers",
+            "location": "Arlington",
+            "abbr": "TEX",
+            "fileCode": "tex",
+            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+            "color": "#003278",
+            "score": null,
+            "probablePitcher": "MacKenzie Gore",
+            "record": {
+              "wins": 63,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".492"
+            }
+          },
+          "away": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "teamName": "Angels",
+            "location": "Anaheim",
+            "abbr": "LAA",
+            "fileCode": "ana",
+            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": "Reid Detmers",
+            "record": {
+              "wins": 51,
+              "losses": 77,
+              "ties": 0,
+              "pct": ".398"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "teamName": "Angels",
+            "location": "Anaheim",
+            "abbr": "LAA",
+            "fileCode": "ana",
+            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 822858,
+          "date": "2026-08-22",
+          "gameDate": "2026-08-22T23:05:00Z",
+          "dayNight": "night",
+          "venue": "Globe Life Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 140,
+            "name": "Texas Rangers",
+            "teamName": "Rangers",
+            "location": "Arlington",
+            "abbr": "TEX",
+            "fileCode": "tex",
+            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+            "color": "#003278",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 63,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".492"
+            }
+          },
+          "away": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "teamName": "Angels",
+            "location": "Anaheim",
+            "abbr": "LAA",
+            "fileCode": "ana",
+            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": "Ryan Johnson",
+            "record": {
+              "wins": 51,
+              "losses": 77,
+              "ties": 0,
+              "pct": ".398"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "teamName": "Angels",
+            "location": "Anaheim",
+            "abbr": "LAA",
+            "fileCode": "ana",
+            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 2,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 822856,
+          "date": "2026-08-23",
+          "gameDate": "2026-08-23T18:35:00Z",
+          "dayNight": "day",
+          "venue": "Globe Life Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 140,
+            "name": "Texas Rangers",
+            "teamName": "Rangers",
+            "location": "Arlington",
+            "abbr": "TEX",
+            "fileCode": "tex",
+            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+            "color": "#003278",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 63,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".492"
+            }
+          },
+          "away": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "teamName": "Angels",
+            "location": "Anaheim",
+            "abbr": "LAA",
+            "fileCode": "ana",
+            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 51,
+              "losses": 77,
+              "ties": 0,
+              "pct": ".398"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "teamName": "Angels",
+            "location": "Anaheim",
+            "abbr": "LAA",
+            "fileCode": "ana",
+            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 3,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824557,
+          "date": "2026-08-24",
+          "gameDate": "2026-08-24T23:40:00Z",
+          "dayNight": "night",
+          "venue": "Rate Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 145,
+            "name": "Chicago White Sox",
+            "teamName": "White Sox",
+            "location": "Chicago",
+            "abbr": "CWS",
+            "fileCode": "cws",
+            "logo": "https://www.mlbstatic.com/team-logos/145.svg",
+            "color": "#27251F",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 66,
+              "losses": 61,
+              "ties": 0,
+              "pct": ".520"
+            }
+          },
+          "away": {
+            "id": 140,
+            "name": "Texas Rangers",
+            "teamName": "Rangers",
+            "location": "Arlington",
+            "abbr": "TEX",
+            "fileCode": "tex",
+            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+            "color": "#003278",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 63,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".492"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 145,
+            "name": "Chicago White Sox",
+            "teamName": "White Sox",
+            "location": "Chicago",
+            "abbr": "CWS",
+            "fileCode": "cws",
+            "logo": "https://www.mlbstatic.com/team-logos/145.svg",
+            "color": "#27251F"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824556,
+          "date": "2026-08-25",
+          "gameDate": "2026-08-25T23:40:00Z",
+          "dayNight": "night",
+          "venue": "Rate Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 145,
+            "name": "Chicago White Sox",
+            "teamName": "White Sox",
+            "location": "Chicago",
+            "abbr": "CWS",
+            "fileCode": "cws",
+            "logo": "https://www.mlbstatic.com/team-logos/145.svg",
+            "color": "#27251F",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 66,
+              "losses": 61,
+              "ties": 0,
+              "pct": ".520"
+            }
+          },
+          "away": {
+            "id": 140,
+            "name": "Texas Rangers",
+            "teamName": "Rangers",
+            "location": "Arlington",
+            "abbr": "TEX",
+            "fileCode": "tex",
+            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+            "color": "#003278",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 63,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".492"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 145,
+            "name": "Chicago White Sox",
+            "teamName": "White Sox",
+            "location": "Chicago",
+            "abbr": "CWS",
+            "fileCode": "cws",
+            "logo": "https://www.mlbstatic.com/team-logos/145.svg",
+            "color": "#27251F"
+          },
+          "result": null,
+          "seriesGameNumber": 2,
+          "gamesInSeries": 3
+        }
+      ],
+      "weekAgo": {
+        "wildCardRank": 4,
+        "wildCardGamesBack": "0.5",
+        "wins": 60,
+        "losses": 62,
+        "gbDelta": -0.5,
+        "rankDelta": 0,
+        "direction": "up"
+      }
+    },
+    {
       "id": 141,
       "name": "Toronto Blue Jays",
       "teamName": "Blue Jays",
@@ -3253,8 +3677,8 @@
       "gamesPlayed": 129,
       "gamesRemaining": 33,
       "divisionRank": 4,
-      "leagueRank": 7,
-      "wildCardRank": 4,
+      "leagueRank": 8,
+      "wildCardRank": 5,
       "gamesBack": "14.0",
       "wildCardGamesBack": "0.5",
       "wildCardGamesBackNum": 0.5,
@@ -3658,432 +4082,8 @@
         "wins": 59,
         "losses": 64,
         "gbDelta": -1.5,
-        "rankDelta": -3,
+        "rankDelta": -2,
         "direction": "up"
-      }
-    },
-    {
-      "id": 140,
-      "name": "Texas Rangers",
-      "teamName": "Rangers",
-      "location": "Arlington",
-      "abbr": "TEX",
-      "fileCode": "tex",
-      "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-      "color": "#003278",
-      "wins": 62,
-      "losses": 65,
-      "pct": ".488",
-      "gamesPlayed": 127,
-      "gamesRemaining": 35,
-      "divisionRank": 2,
-      "leagueRank": 8,
-      "wildCardRank": 5,
-      "gamesBack": "2.0",
-      "wildCardGamesBack": "0.5",
-      "wildCardGamesBackNum": 0.5,
-      "divisionName": "American League East",
-      "streak": "L1",
-      "streakType": "losses",
-      "streakNumber": 1,
-      "lastTen": "3-7",
-      "lastTenWins": 3,
-      "lastTenLosses": 7,
-      "home": "33-28",
-      "away": "29-37",
-      "oneRun": "21-13",
-      "extraInning": "3-1",
-      "day": "20-22",
-      "night": "42-43",
-      "vsLeft": "17-15",
-      "vsRight": "45-50",
-      "runsScored": 512,
-      "runsAllowed": 560,
-      "runDifferential": -48,
-      "pythagWins": 58,
-      "pythagLosses": 69,
-      "pythagPct": 0.459,
-      "expectedRecord": "58-69",
-      "eliminationNumber": "34",
-      "wildCardEliminationNumber": "35",
-      "clinched": false,
-      "divisionLeader": false,
-      "nextGames": [
-        {
-          "gamePk": 822861,
-          "date": "2026-08-20",
-          "gameDate": "2026-08-21T00:05:00Z",
-          "dayNight": "night",
-          "venue": "Globe Life Field",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 7,
-          "inningState": "Middle",
-          "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": 1,
-            "probablePitcher": "Jacob deGrom",
-            "record": {
-              "wins": 62,
-              "losses": 65,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "away": {
-            "id": 120,
-            "name": "Washington Nationals",
-            "teamName": "Nationals",
-            "location": "Washington",
-            "abbr": "WSH",
-            "fileCode": "was",
-            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
-            "color": "#1D4ED8",
-            "score": 0,
-            "probablePitcher": "Andrew Alvarez",
-            "record": {
-              "wins": 61,
-              "losses": 67,
-              "ties": 0,
-              "pct": ".477"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 120,
-            "name": "Washington Nationals",
-            "teamName": "Nationals",
-            "location": "Washington",
-            "abbr": "WSH",
-            "fileCode": "was",
-            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 3,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 822857,
-          "date": "2026-08-21",
-          "gameDate": "2026-08-22T00:15:00Z",
-          "dayNight": "night",
-          "venue": "Globe Life Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": null,
-            "probablePitcher": "MacKenzie Gore",
-            "record": {
-              "wins": 62,
-              "losses": 65,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "away": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": "Reid Detmers",
-            "record": {
-              "wins": 50,
-              "losses": 77,
-              "ties": 0,
-              "pct": ".394"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 822858,
-          "date": "2026-08-22",
-          "gameDate": "2026-08-22T23:05:00Z",
-          "dayNight": "night",
-          "venue": "Globe Life Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 62,
-              "losses": 65,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "away": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": "Ryan Johnson",
-            "record": {
-              "wins": 50,
-              "losses": 77,
-              "ties": 0,
-              "pct": ".394"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 822856,
-          "date": "2026-08-23",
-          "gameDate": "2026-08-23T18:35:00Z",
-          "dayNight": "day",
-          "venue": "Globe Life Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 62,
-              "losses": 65,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "away": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 50,
-              "losses": 77,
-              "ties": 0,
-              "pct": ".394"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 3,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824557,
-          "date": "2026-08-24",
-          "gameDate": "2026-08-24T23:40:00Z",
-          "dayNight": "night",
-          "venue": "Rate Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 145,
-            "name": "Chicago White Sox",
-            "teamName": "White Sox",
-            "location": "Chicago",
-            "abbr": "CWS",
-            "fileCode": "cws",
-            "logo": "https://www.mlbstatic.com/team-logos/145.svg",
-            "color": "#27251F",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 66,
-              "losses": 61,
-              "ties": 0,
-              "pct": ".520"
-            }
-          },
-          "away": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 62,
-              "losses": 65,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 145,
-            "name": "Chicago White Sox",
-            "teamName": "White Sox",
-            "location": "Chicago",
-            "abbr": "CWS",
-            "fileCode": "cws",
-            "logo": "https://www.mlbstatic.com/team-logos/145.svg",
-            "color": "#27251F"
-          },
-          "result": null,
-          "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824556,
-          "date": "2026-08-25",
-          "gameDate": "2026-08-25T23:40:00Z",
-          "dayNight": "night",
-          "venue": "Rate Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 145,
-            "name": "Chicago White Sox",
-            "teamName": "White Sox",
-            "location": "Chicago",
-            "abbr": "CWS",
-            "fileCode": "cws",
-            "logo": "https://www.mlbstatic.com/team-logos/145.svg",
-            "color": "#27251F",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 66,
-              "losses": 61,
-              "ties": 0,
-              "pct": ".520"
-            }
-          },
-          "away": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 62,
-              "losses": 65,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 145,
-            "name": "Chicago White Sox",
-            "teamName": "White Sox",
-            "location": "Chicago",
-            "abbr": "CWS",
-            "fileCode": "cws",
-            "logo": "https://www.mlbstatic.com/team-logos/145.svg",
-            "color": "#27251F"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
-          "gamesInSeries": 3
-        }
-      ],
-      "weekAgo": {
-        "wildCardRank": 4,
-        "wildCardGamesBack": "0.5",
-        "wins": 60,
-        "losses": 62,
-        "gbDelta": 0.0,
-        "rankDelta": 1,
-        "direction": "flat"
       }
     },
     {
@@ -4399,10 +4399,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 50,
+              "wins": 51,
               "losses": 77,
               "ties": 0,
-              "pct": ".394"
+              "pct": ".398"
             }
           },
           "away": {
@@ -4460,10 +4460,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 50,
+              "wins": 51,
               "losses": 77,
               "ties": 0,
-              "pct": ".394"
+              "pct": ".398"
             }
           },
           "away": {
@@ -5375,7 +5375,7 @@
       "divisionRank": 3,
       "leagueRank": 12,
       "wildCardRank": 9,
-      "gamesBack": "4.5",
+      "gamesBack": "4.0",
       "wildCardGamesBack": "3.0",
       "wildCardGamesBackNum": 3.0,
       "divisionName": "American League East",
@@ -5996,8 +5996,8 @@
       "logo": "https://www.mlbstatic.com/team-logos/117.svg",
       "color": "#002D62",
       "wins": 64,
-      "losses": 63,
-      "pct": ".504",
+      "losses": 64,
+      "pct": ".500",
       "divisionName": "American League West"
     }
   ],
@@ -6427,7 +6427,7 @@
       }
     },
     "jaysGamesBack": "0.5",
-    "teamsAhead": 3
+    "teamsAhead": 4
   },
   "magicNumber": {
     "kind": "clinch",
@@ -6837,9 +6837,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 64,
-              "losses": 63,
+              "losses": 64,
               "ties": 0,
-              "pct": ".504"
+              "pct": ".500"
             }
           },
           "isHome": true,
@@ -6898,9 +6898,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 64,
-              "losses": 63,
+              "losses": 64,
               "ties": 0,
-              "pct": ".504"
+              "pct": ".500"
             }
           },
           "isHome": true,
@@ -8111,6 +8111,560 @@
       }
     },
     {
+      "id": 140,
+      "name": "Texas Rangers",
+      "teamName": "Rangers",
+      "location": "Arlington",
+      "abbr": "TEX",
+      "fileCode": "tex",
+      "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+      "color": "#003278",
+      "wins": 63,
+      "losses": 65,
+      "pct": ".492",
+      "gamesPlayed": 128,
+      "gamesRemaining": 34,
+      "divisionRank": 2,
+      "leagueRank": 7,
+      "wildCardRank": 4,
+      "gamesBack": "1.0",
+      "wildCardGamesBack": "-",
+      "wildCardGamesBackNum": 0.0,
+      "divisionName": "American League East",
+      "streak": "W1",
+      "streakType": "wins",
+      "streakNumber": 1,
+      "lastTen": "4-6",
+      "lastTenWins": 4,
+      "lastTenLosses": 6,
+      "home": "34-28",
+      "away": "29-37",
+      "oneRun": "21-13",
+      "extraInning": "3-1",
+      "day": "20-22",
+      "night": "43-43",
+      "vsLeft": "18-15",
+      "vsRight": "45-50",
+      "runsScored": 514,
+      "runsAllowed": 560,
+      "runDifferential": -46,
+      "pythagWins": 59,
+      "pythagLosses": 69,
+      "pythagPct": 0.461,
+      "expectedRecord": "59-69",
+      "eliminationNumber": "34",
+      "wildCardEliminationNumber": "35",
+      "clinched": false,
+      "divisionLeader": false,
+      "hitting": {
+        "avg": ".242",
+        "obp": ".315",
+        "slg": ".393",
+        "ops": ".708",
+        "runs": 514,
+        "hits": 1027,
+        "homeRuns": 141,
+        "rbi": 496,
+        "stolenBases": 62,
+        "strikeOuts": 1095,
+        "baseOnBalls": 408,
+        "babip": ".292"
+      },
+      "pitching": {
+        "era": "4.25",
+        "whip": "1.30",
+        "wins": 63,
+        "losses": 65,
+        "saves": 36,
+        "strikeOuts": 1072,
+        "baseOnBalls": 382,
+        "inningsPitched": "1120.1",
+        "strikeoutsPer9Inn": "8.61",
+        "walksPer9Inn": "3.07",
+        "homeRunsPer9": "1.25",
+        "holds": 65,
+        "blownSaves": 16,
+        "winPercentage": ".492",
+        "runs": 560
+      },
+      "hittingL10": {
+        "avg": ".212",
+        "obp": ".281",
+        "slg": ".310",
+        "ops": ".591",
+        "runs": 25,
+        "hits": 69,
+        "homeRuns": 7,
+        "rbi": 24,
+        "stolenBases": 4,
+        "strikeOuts": 93,
+        "baseOnBalls": 31,
+        "babip": ".273"
+      },
+      "pitchingL10": {
+        "era": "3.87",
+        "whip": "1.35",
+        "wins": 4,
+        "losses": 6,
+        "saves": 3,
+        "strikeOuts": 81,
+        "baseOnBalls": 34,
+        "inningsPitched": "86.0",
+        "strikeoutsPer9Inn": "8.48",
+        "walksPer9Inn": "3.56",
+        "homeRunsPer9": "0.94",
+        "holds": 4,
+        "blownSaves": 1,
+        "winPercentage": ".400",
+        "runs": 38
+      },
+      "runDifferentialL10": -13,
+      "momentum": 68,
+      "nextGames": [
+        {
+          "gamePk": 822861,
+          "date": "2026-08-20",
+          "gameDate": "2026-08-21T00:05:00Z",
+          "dayNight": "night",
+          "venue": "Globe Life Field",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Top",
+          "home": {
+            "id": 140,
+            "name": "Texas Rangers",
+            "teamName": "Rangers",
+            "location": "Arlington",
+            "abbr": "TEX",
+            "fileCode": "tex",
+            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+            "color": "#003278",
+            "score": 2,
+            "probablePitcher": "Jacob deGrom",
+            "record": {
+              "wins": 63,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".492"
+            }
+          },
+          "away": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "teamName": "Nationals",
+            "location": "Washington",
+            "abbr": "WSH",
+            "fileCode": "was",
+            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
+            "color": "#1D4ED8",
+            "score": 0,
+            "probablePitcher": "Andrew Alvarez",
+            "record": {
+              "wins": 61,
+              "losses": 68,
+              "ties": 0,
+              "pct": ".473"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "teamName": "Nationals",
+            "location": "Washington",
+            "abbr": "WSH",
+            "fileCode": "was",
+            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
+            "color": "#1D4ED8"
+          },
+          "result": "W",
+          "seriesGameNumber": 3,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 822857,
+          "date": "2026-08-21",
+          "gameDate": "2026-08-22T00:15:00Z",
+          "dayNight": "night",
+          "venue": "Globe Life Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 140,
+            "name": "Texas Rangers",
+            "teamName": "Rangers",
+            "location": "Arlington",
+            "abbr": "TEX",
+            "fileCode": "tex",
+            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+            "color": "#003278",
+            "score": null,
+            "probablePitcher": "MacKenzie Gore",
+            "record": {
+              "wins": 63,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".492"
+            }
+          },
+          "away": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "teamName": "Angels",
+            "location": "Anaheim",
+            "abbr": "LAA",
+            "fileCode": "ana",
+            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": "Reid Detmers",
+            "record": {
+              "wins": 51,
+              "losses": 77,
+              "ties": 0,
+              "pct": ".398"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "teamName": "Angels",
+            "location": "Anaheim",
+            "abbr": "LAA",
+            "fileCode": "ana",
+            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 822858,
+          "date": "2026-08-22",
+          "gameDate": "2026-08-22T23:05:00Z",
+          "dayNight": "night",
+          "venue": "Globe Life Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 140,
+            "name": "Texas Rangers",
+            "teamName": "Rangers",
+            "location": "Arlington",
+            "abbr": "TEX",
+            "fileCode": "tex",
+            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+            "color": "#003278",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 63,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".492"
+            }
+          },
+          "away": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "teamName": "Angels",
+            "location": "Anaheim",
+            "abbr": "LAA",
+            "fileCode": "ana",
+            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": "Ryan Johnson",
+            "record": {
+              "wins": 51,
+              "losses": 77,
+              "ties": 0,
+              "pct": ".398"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "teamName": "Angels",
+            "location": "Anaheim",
+            "abbr": "LAA",
+            "fileCode": "ana",
+            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 2,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 822856,
+          "date": "2026-08-23",
+          "gameDate": "2026-08-23T18:35:00Z",
+          "dayNight": "day",
+          "venue": "Globe Life Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 140,
+            "name": "Texas Rangers",
+            "teamName": "Rangers",
+            "location": "Arlington",
+            "abbr": "TEX",
+            "fileCode": "tex",
+            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+            "color": "#003278",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 63,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".492"
+            }
+          },
+          "away": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "teamName": "Angels",
+            "location": "Anaheim",
+            "abbr": "LAA",
+            "fileCode": "ana",
+            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+            "color": "#1D4ED8",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 51,
+              "losses": 77,
+              "ties": 0,
+              "pct": ".398"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "teamName": "Angels",
+            "location": "Anaheim",
+            "abbr": "LAA",
+            "fileCode": "ana",
+            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+            "color": "#1D4ED8"
+          },
+          "result": null,
+          "seriesGameNumber": 3,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824557,
+          "date": "2026-08-24",
+          "gameDate": "2026-08-24T23:40:00Z",
+          "dayNight": "night",
+          "venue": "Rate Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 145,
+            "name": "Chicago White Sox",
+            "teamName": "White Sox",
+            "location": "Chicago",
+            "abbr": "CWS",
+            "fileCode": "cws",
+            "logo": "https://www.mlbstatic.com/team-logos/145.svg",
+            "color": "#27251F",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 66,
+              "losses": 61,
+              "ties": 0,
+              "pct": ".520"
+            }
+          },
+          "away": {
+            "id": 140,
+            "name": "Texas Rangers",
+            "teamName": "Rangers",
+            "location": "Arlington",
+            "abbr": "TEX",
+            "fileCode": "tex",
+            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+            "color": "#003278",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 63,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".492"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 145,
+            "name": "Chicago White Sox",
+            "teamName": "White Sox",
+            "location": "Chicago",
+            "abbr": "CWS",
+            "fileCode": "cws",
+            "logo": "https://www.mlbstatic.com/team-logos/145.svg",
+            "color": "#27251F"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 824556,
+          "date": "2026-08-25",
+          "gameDate": "2026-08-25T23:40:00Z",
+          "dayNight": "night",
+          "venue": "Rate Field",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 145,
+            "name": "Chicago White Sox",
+            "teamName": "White Sox",
+            "location": "Chicago",
+            "abbr": "CWS",
+            "fileCode": "cws",
+            "logo": "https://www.mlbstatic.com/team-logos/145.svg",
+            "color": "#27251F",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 66,
+              "losses": 61,
+              "ties": 0,
+              "pct": ".520"
+            }
+          },
+          "away": {
+            "id": 140,
+            "name": "Texas Rangers",
+            "teamName": "Rangers",
+            "location": "Arlington",
+            "abbr": "TEX",
+            "fileCode": "tex",
+            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+            "color": "#003278",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 63,
+              "losses": 65,
+              "ties": 0,
+              "pct": ".492"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 145,
+            "name": "Chicago White Sox",
+            "teamName": "White Sox",
+            "location": "Chicago",
+            "abbr": "CWS",
+            "fileCode": "cws",
+            "logo": "https://www.mlbstatic.com/team-logos/145.svg",
+            "color": "#27251F"
+          },
+          "result": null,
+          "seriesGameNumber": 2,
+          "gamesInSeries": 3
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Jack Leiter",
+          "status": "60-Day-IL",
+          "comment": "Leiter (ankle) said Tuesday that he will make at least one more rehab start this week before potentially coming off the injured list, Jeff Wilson of AllDLLS.com reports.",
+          "date": "2026-08-18T21:58Z",
+          "position": null
+        },
+        {
+          "name": "Josh Jung",
+          "status": "10-Day-IL",
+          "comment": "Jung (calf) did some running on the field Sunday and could be cleared to begin a defensive progression within the next few days, Shawn McFarland of The Dallas Morning News reports.",
+          "date": "2026-08-16T20:54Z",
+          "position": null
+        },
+        {
+          "name": "Nathan Eovaldi",
+          "status": "15-Day-IL",
+          "comment": "The Rangers placed Eovaldi on the 15-day injured list Monday with right posterior elbow inflammation.",
+          "date": "2026-08-10T22:28Z",
+          "position": null
+        },
+        {
+          "name": "Jose Corniell",
+          "status": "60-Day-IL",
+          "comment": "The Rangers placed Corniell on the 15-day injured list Tuesday with an elbow injury, Jeff Wilson of AllDLLS.com reports.",
+          "date": "2026-07-30T01:57Z",
+          "position": null
+        },
+        {
+          "name": "Jalen Beeks",
+          "status": "60-Day-IL",
+          "comment": "The Rangers transferred Beeks (forearm) to the 60-day injured list Tuesday.",
+          "date": "2026-07-21T23:05Z",
+          "position": null
+        },
+        {
+          "name": "Kyle Higashioka",
+          "status": "10-Day-IL",
+          "comment": "Higashioka is not in the lineup for Monday's game against the White Sox.",
+          "date": "2026-07-21T23:01Z",
+          "position": null
+        },
+        {
+          "name": "Michael Helman",
+          "status": "60-Day-IL",
+          "comment": "Texas transferred Helman (hand) to the 60-day injured list Friday.",
+          "date": "2026-06-19T20:17Z",
+          "position": null
+        },
+        {
+          "name": "Robert Garcia",
+          "status": "60-Day-IL",
+          "comment": "The Rangers transferred Garcia (shoulder) from the 15-day injured list to the 60-day IL on Monday.",
+          "date": "2026-06-01T22:21Z",
+          "position": null
+        },
+        {
+          "name": "Carter Baumler",
+          "status": "60-Day-IL",
+          "comment": "Baumler (intercostal) has been shut down from his rehab assignment, MLB.com reports.",
+          "date": "2026-05-23T18:16Z",
+          "position": null
+        }
+      ],
+      "injuryCount": 9,
+      "weekAgo": {
+        "wildCardRank": 4,
+        "wildCardGamesBack": "0.5",
+        "wins": 60,
+        "losses": 62,
+        "gbDelta": -0.5,
+        "rankDelta": 0,
+        "direction": "up"
+      }
+    },
+    {
       "id": 141,
       "name": "Toronto Blue Jays",
       "teamName": "Blue Jays",
@@ -8125,8 +8679,8 @@
       "gamesPlayed": 129,
       "gamesRemaining": 33,
       "divisionRank": 4,
-      "leagueRank": 7,
-      "wildCardRank": 4,
+      "leagueRank": 8,
+      "wildCardRank": 5,
       "gamesBack": "14.0",
       "wildCardGamesBack": "0.5",
       "wildCardGamesBackNum": 0.5,
@@ -8219,7 +8773,7 @@
         "runs": 34
       },
       "runDifferentialL10": 10,
-      "momentum": 80,
+      "momentum": 77,
       "nextGames": [
         {
           "gamePk": 822934,
@@ -8716,562 +9270,8 @@
         "wins": 59,
         "losses": 64,
         "gbDelta": -1.5,
-        "rankDelta": -3,
+        "rankDelta": -2,
         "direction": "up"
-      }
-    },
-    {
-      "id": 140,
-      "name": "Texas Rangers",
-      "teamName": "Rangers",
-      "location": "Arlington",
-      "abbr": "TEX",
-      "fileCode": "tex",
-      "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-      "color": "#003278",
-      "wins": 62,
-      "losses": 65,
-      "pct": ".488",
-      "gamesPlayed": 127,
-      "gamesRemaining": 35,
-      "divisionRank": 2,
-      "leagueRank": 8,
-      "wildCardRank": 5,
-      "gamesBack": "2.0",
-      "wildCardGamesBack": "0.5",
-      "wildCardGamesBackNum": 0.5,
-      "divisionName": "American League East",
-      "streak": "L1",
-      "streakType": "losses",
-      "streakNumber": 1,
-      "lastTen": "3-7",
-      "lastTenWins": 3,
-      "lastTenLosses": 7,
-      "home": "33-28",
-      "away": "29-37",
-      "oneRun": "21-13",
-      "extraInning": "3-1",
-      "day": "20-22",
-      "night": "42-43",
-      "vsLeft": "17-15",
-      "vsRight": "45-50",
-      "runsScored": 512,
-      "runsAllowed": 560,
-      "runDifferential": -48,
-      "pythagWins": 58,
-      "pythagLosses": 69,
-      "pythagPct": 0.459,
-      "expectedRecord": "58-69",
-      "eliminationNumber": "34",
-      "wildCardEliminationNumber": "35",
-      "clinched": false,
-      "divisionLeader": false,
-      "hitting": {
-        "avg": ".242",
-        "obp": ".315",
-        "slg": ".393",
-        "ops": ".708",
-        "runs": 513,
-        "hits": 1026,
-        "homeRuns": 141,
-        "rbi": 495,
-        "stolenBases": 61,
-        "strikeOuts": 1094,
-        "baseOnBalls": 407,
-        "babip": ".292"
-      },
-      "pitching": {
-        "era": "4.26",
-        "whip": "1.30",
-        "wins": 62,
-        "losses": 65,
-        "saves": 35,
-        "strikeOuts": 1067,
-        "baseOnBalls": 381,
-        "inningsPitched": "1118.1",
-        "strikeoutsPer9Inn": "8.59",
-        "walksPer9Inn": "3.07",
-        "homeRunsPer9": "1.25",
-        "holds": 63,
-        "blownSaves": 16,
-        "winPercentage": ".488",
-        "runs": 560
-      },
-      "hittingL10": {
-        "avg": ".213",
-        "obp": ".282",
-        "slg": ".306",
-        "ops": ".588",
-        "runs": 24,
-        "hits": 68,
-        "homeRuns": 7,
-        "rbi": 23,
-        "stolenBases": 3,
-        "strikeOuts": 92,
-        "baseOnBalls": 30,
-        "babip": ".276"
-      },
-      "pitchingL10": {
-        "era": "3.96",
-        "whip": "1.37",
-        "wins": 3,
-        "losses": 6,
-        "saves": 2,
-        "strikeOuts": 76,
-        "baseOnBalls": 33,
-        "inningsPitched": "84.0",
-        "strikeoutsPer9Inn": "8.14",
-        "walksPer9Inn": "3.54",
-        "homeRunsPer9": "0.96",
-        "holds": 2,
-        "blownSaves": 1,
-        "winPercentage": ".333",
-        "runs": 38
-      },
-      "runDifferentialL10": -14,
-      "momentum": 47,
-      "nextGames": [
-        {
-          "gamePk": 822861,
-          "date": "2026-08-20",
-          "gameDate": "2026-08-21T00:05:00Z",
-          "dayNight": "night",
-          "venue": "Globe Life Field",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 7,
-          "inningState": "Middle",
-          "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": 1,
-            "probablePitcher": "Jacob deGrom",
-            "record": {
-              "wins": 62,
-              "losses": 65,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "away": {
-            "id": 120,
-            "name": "Washington Nationals",
-            "teamName": "Nationals",
-            "location": "Washington",
-            "abbr": "WSH",
-            "fileCode": "was",
-            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
-            "color": "#1D4ED8",
-            "score": 0,
-            "probablePitcher": "Andrew Alvarez",
-            "record": {
-              "wins": 61,
-              "losses": 67,
-              "ties": 0,
-              "pct": ".477"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 120,
-            "name": "Washington Nationals",
-            "teamName": "Nationals",
-            "location": "Washington",
-            "abbr": "WSH",
-            "fileCode": "was",
-            "logo": "https://www.mlbstatic.com/team-logos/120.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 3,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 822857,
-          "date": "2026-08-21",
-          "gameDate": "2026-08-22T00:15:00Z",
-          "dayNight": "night",
-          "venue": "Globe Life Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": null,
-            "probablePitcher": "MacKenzie Gore",
-            "record": {
-              "wins": 62,
-              "losses": 65,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "away": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": "Reid Detmers",
-            "record": {
-              "wins": 50,
-              "losses": 77,
-              "ties": 0,
-              "pct": ".394"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 822858,
-          "date": "2026-08-22",
-          "gameDate": "2026-08-22T23:05:00Z",
-          "dayNight": "night",
-          "venue": "Globe Life Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 62,
-              "losses": 65,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "away": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": "Ryan Johnson",
-            "record": {
-              "wins": 50,
-              "losses": 77,
-              "ties": 0,
-              "pct": ".394"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 822856,
-          "date": "2026-08-23",
-          "gameDate": "2026-08-23T18:35:00Z",
-          "dayNight": "day",
-          "venue": "Globe Life Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 62,
-              "losses": 65,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "away": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 50,
-              "losses": 77,
-              "ties": 0,
-              "pct": ".394"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 108,
-            "name": "Los Angeles Angels",
-            "teamName": "Angels",
-            "location": "Anaheim",
-            "abbr": "LAA",
-            "fileCode": "ana",
-            "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-            "color": "#1D4ED8"
-          },
-          "result": null,
-          "seriesGameNumber": 3,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824557,
-          "date": "2026-08-24",
-          "gameDate": "2026-08-24T23:40:00Z",
-          "dayNight": "night",
-          "venue": "Rate Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 145,
-            "name": "Chicago White Sox",
-            "teamName": "White Sox",
-            "location": "Chicago",
-            "abbr": "CWS",
-            "fileCode": "cws",
-            "logo": "https://www.mlbstatic.com/team-logos/145.svg",
-            "color": "#27251F",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 66,
-              "losses": 61,
-              "ties": 0,
-              "pct": ".520"
-            }
-          },
-          "away": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 62,
-              "losses": 65,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 145,
-            "name": "Chicago White Sox",
-            "teamName": "White Sox",
-            "location": "Chicago",
-            "abbr": "CWS",
-            "fileCode": "cws",
-            "logo": "https://www.mlbstatic.com/team-logos/145.svg",
-            "color": "#27251F"
-          },
-          "result": null,
-          "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 824556,
-          "date": "2026-08-25",
-          "gameDate": "2026-08-25T23:40:00Z",
-          "dayNight": "night",
-          "venue": "Rate Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 145,
-            "name": "Chicago White Sox",
-            "teamName": "White Sox",
-            "location": "Chicago",
-            "abbr": "CWS",
-            "fileCode": "cws",
-            "logo": "https://www.mlbstatic.com/team-logos/145.svg",
-            "color": "#27251F",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 66,
-              "losses": 61,
-              "ties": 0,
-              "pct": ".520"
-            }
-          },
-          "away": {
-            "id": 140,
-            "name": "Texas Rangers",
-            "teamName": "Rangers",
-            "location": "Arlington",
-            "abbr": "TEX",
-            "fileCode": "tex",
-            "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-            "color": "#003278",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 62,
-              "losses": 65,
-              "ties": 0,
-              "pct": ".488"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 145,
-            "name": "Chicago White Sox",
-            "teamName": "White Sox",
-            "location": "Chicago",
-            "abbr": "CWS",
-            "fileCode": "cws",
-            "logo": "https://www.mlbstatic.com/team-logos/145.svg",
-            "color": "#27251F"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
-          "gamesInSeries": 3
-        }
-      ],
-      "injuries": [
-        {
-          "name": "Jack Leiter",
-          "status": "60-Day-IL",
-          "comment": "Leiter (ankle) said Tuesday that he will make at least one more rehab start this week before potentially coming off the injured list, Jeff Wilson of AllDLLS.com reports.",
-          "date": "2026-08-18T21:58Z",
-          "position": null
-        },
-        {
-          "name": "Josh Jung",
-          "status": "10-Day-IL",
-          "comment": "Jung (calf) did some running on the field Sunday and could be cleared to begin a defensive progression within the next few days, Shawn McFarland of The Dallas Morning News reports.",
-          "date": "2026-08-16T20:54Z",
-          "position": null
-        },
-        {
-          "name": "Nathan Eovaldi",
-          "status": "15-Day-IL",
-          "comment": "The Rangers placed Eovaldi on the 15-day injured list Monday with right posterior elbow inflammation.",
-          "date": "2026-08-10T22:28Z",
-          "position": null
-        },
-        {
-          "name": "Jose Corniell",
-          "status": "60-Day-IL",
-          "comment": "The Rangers placed Corniell on the 15-day injured list Tuesday with an elbow injury, Jeff Wilson of AllDLLS.com reports.",
-          "date": "2026-07-30T01:57Z",
-          "position": null
-        },
-        {
-          "name": "Jalen Beeks",
-          "status": "60-Day-IL",
-          "comment": "The Rangers transferred Beeks (forearm) to the 60-day injured list Tuesday.",
-          "date": "2026-07-21T23:05Z",
-          "position": null
-        },
-        {
-          "name": "Kyle Higashioka",
-          "status": "10-Day-IL",
-          "comment": "Higashioka is not in the lineup for Monday's game against the White Sox.",
-          "date": "2026-07-21T23:01Z",
-          "position": null
-        },
-        {
-          "name": "Michael Helman",
-          "status": "60-Day-IL",
-          "comment": "Texas transferred Helman (hand) to the 60-day injured list Friday.",
-          "date": "2026-06-19T20:17Z",
-          "position": null
-        },
-        {
-          "name": "Robert Garcia",
-          "status": "60-Day-IL",
-          "comment": "The Rangers transferred Garcia (shoulder) from the 15-day injured list to the 60-day IL on Monday.",
-          "date": "2026-06-01T22:21Z",
-          "position": null
-        },
-        {
-          "name": "Carter Baumler",
-          "status": "60-Day-IL",
-          "comment": "Baumler (intercostal) has been shut down from his rehab assignment, MLB.com reports.",
-          "date": "2026-05-23T18:16Z",
-          "position": null
-        }
-      ],
-      "injuryCount": 9,
-      "weekAgo": {
-        "wildCardRank": 4,
-        "wildCardGamesBack": "0.5",
-        "wins": 60,
-        "losses": 62,
-        "gbDelta": 0.0,
-        "rankDelta": 1,
-        "direction": "flat"
       }
     },
     {
@@ -9651,10 +9651,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 50,
+              "wins": 51,
               "losses": 77,
               "ties": 0,
-              "pct": ".394"
+              "pct": ".398"
             }
           },
           "away": {
@@ -9712,10 +9712,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 50,
+              "wins": 51,
               "losses": 77,
               "ties": 0,
-              "pct": ".394"
+              "pct": ".398"
             }
           },
           "away": {
@@ -10960,7 +10960,7 @@
       "divisionRank": 3,
       "leagueRank": 12,
       "wildCardRank": 9,
-      "gamesBack": "4.5",
+      "gamesBack": "4.0",
       "wildCardGamesBack": "3.0",
       "wildCardGamesBackNum": 3.0,
       "divisionName": "American League East",
@@ -13507,10 +13507,10 @@
       "gameDate": "2026-08-21T00:05:00Z",
       "dayNight": "night",
       "venue": "Globe Life Field",
-      "status": "In Progress",
-      "abstractState": "Live",
-      "inning": 7,
-      "inningState": "Middle",
+      "status": "Final",
+      "abstractState": "Final",
+      "inning": 9,
+      "inningState": "Top",
       "home": {
         "id": 140,
         "name": "Texas Rangers",
@@ -13520,13 +13520,13 @@
         "fileCode": "tex",
         "logo": "https://www.mlbstatic.com/team-logos/140.svg",
         "color": "#003278",
-        "score": 1,
+        "score": 2,
         "probablePitcher": "Jacob deGrom",
         "record": {
-          "wins": 62,
+          "wins": 63,
           "losses": 65,
           "ties": 0,
-          "pct": ".488"
+          "pct": ".492"
         }
       },
       "away": {
@@ -13542,9 +13542,9 @@
         "probablePitcher": "Andrew Alvarez",
         "record": {
           "wins": 61,
-          "losses": 67,
+          "losses": 68,
           "ties": 0,
-          "pct": ".477"
+          "pct": ".473"
         }
       },
       "isHome": null,
@@ -13552,11 +13552,11 @@
       "result": null,
       "seriesGameNumber": 3,
       "gamesInSeries": 3,
-      "interest": "Keep them down",
-      "note": "Do not let TEX sneak closer.",
-      "homeWinPct": 46.7,
-      "awayWinPct": 53.3,
-      "helpsTorPct": 53.3,
+      "interest": "Need a loss",
+      "note": "A TEX loss trims the club Toronto is chasing.",
+      "homeWinPct": 52.1,
+      "awayWinPct": 47.9,
+      "helpsTorPct": 47.9,
       "wantWinnerId": 120
     },
     {
@@ -13813,10 +13813,10 @@
         "score": null,
         "probablePitcher": "MacKenzie Gore",
         "record": {
-          "wins": 62,
+          "wins": 63,
           "losses": 65,
           "ties": 0,
-          "pct": ".488"
+          "pct": ".492"
         }
       },
       "away": {
@@ -13831,10 +13831,10 @@
         "score": null,
         "probablePitcher": "Reid Detmers",
         "record": {
-          "wins": 50,
+          "wins": 51,
           "losses": 77,
           "ties": 0,
-          "pct": ".394"
+          "pct": ".398"
         }
       },
       "isHome": null,
@@ -13842,11 +13842,11 @@
       "result": null,
       "seriesGameNumber": 1,
       "gamesInSeries": 3,
-      "interest": "Keep them down",
-      "note": "Do not let TEX sneak closer.",
-      "homeWinPct": 50.4,
-      "awayWinPct": 49.6,
-      "helpsTorPct": 49.6,
+      "interest": "Need a loss",
+      "note": "A TEX loss trims the club Toronto is chasing.",
+      "homeWinPct": 49.9,
+      "awayWinPct": 50.1,
+      "helpsTorPct": 50.1,
       "wantWinnerId": 108
     },
     {
@@ -14103,10 +14103,10 @@
         "score": null,
         "probablePitcher": null,
         "record": {
-          "wins": 62,
+          "wins": 63,
           "losses": 65,
           "ties": 0,
-          "pct": ".488"
+          "pct": ".492"
         }
       },
       "away": {
@@ -14121,10 +14121,10 @@
         "score": null,
         "probablePitcher": "Ryan Johnson",
         "record": {
-          "wins": 50,
+          "wins": 51,
           "losses": 77,
           "ties": 0,
-          "pct": ".394"
+          "pct": ".398"
         }
       },
       "isHome": null,
@@ -14132,11 +14132,11 @@
       "result": null,
       "seriesGameNumber": 2,
       "gamesInSeries": 3,
-      "interest": "Keep them down",
-      "note": "Do not let TEX sneak closer.",
-      "homeWinPct": 50.4,
-      "awayWinPct": 49.6,
-      "helpsTorPct": 49.6,
+      "interest": "Need a loss",
+      "note": "A TEX loss trims the club Toronto is chasing.",
+      "homeWinPct": 49.9,
+      "awayWinPct": 50.1,
+      "helpsTorPct": 50.1,
       "wantWinnerId": 108
     },
     {
@@ -15146,11 +15146,11 @@
       "wins": 59,
       "losses": 64,
       "gbDelta": -1.5,
-      "rankDelta": -3,
+      "rankDelta": -2,
       "direction": "up"
     },
     "gbDelta": -1.5,
-    "rankDelta": -3,
+    "rankDelta": -2,
     "last14": {
       "ops": ".728",
       "avg": ".270",
@@ -15178,7 +15178,7 @@
       },
       {
         "label": "WC rank",
-        "value": "#4",
+        "value": "#5",
         "detail": "Was #7 a week ago",
         "direction": "up"
       },
@@ -15211,13 +15211,13 @@
     ]
   },
   "playoffOdds": {
-    "percent": 40.4,
+    "percent": 39.2,
     "sims": 5000,
-    "made": 2020,
-    "gamesModeled": 323,
+    "made": 1962,
+    "gamesModeled": 321,
     "talent": 0.488,
     "method": "Monte Carlo of remaining American League games. Each game uses log5 win odds from Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag.",
-    "note": "40.4% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 323 remaining games involving AL clubs.",
+    "note": "39.2% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 321 remaining games involving AL clubs.",
     "gb": "0.5",
     "gamesLeft": 33
   },
@@ -15231,7 +15231,7 @@
     },
     {
       "label": "WC Rank",
-      "value": "#4",
+      "value": "#5",
       "hint": "Among AL non-division leaders",
       "trend": "up",
       "stat": "WC"
