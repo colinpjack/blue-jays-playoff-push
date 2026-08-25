@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T17:38:49.887265-04:00",
+  "generatedAt": "2026-08-25T18:40:08.177850-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -80,7 +80,7 @@
       "runs": 576
     },
     "momentum": 39,
-    "injuryCount": 16,
+    "injuryCount": 15,
     "weekAgo": {
       "wildCardRank": 5,
       "wildCardGamesBack": "0.5",
@@ -150,8 +150,8 @@
           "gameDate": "2026-08-25T22:40:00Z",
           "dayNight": "night",
           "venue": "Comerica Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -745,8 +745,8 @@
           "gameDate": "2026-08-25T22:40:00Z",
           "dayNight": "night",
           "venue": "loanDepot park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -2443,8 +2443,8 @@
           "gameDate": "2026-08-25T22:40:00Z",
           "dayNight": "night",
           "venue": "loanDepot park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -3488,7 +3488,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/121.svg",
             "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Christian Scott",
             "record": {
               "wins": 59,
               "losses": 72,
@@ -3549,7 +3549,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/121.svg",
             "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Nolan McLean",
             "record": {
               "wins": 59,
               "losses": 72,
@@ -3708,8 +3708,8 @@
           "venue": "Sutter Health Park",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 133,
             "name": "Athletics",
@@ -3719,7 +3719,7 @@
             "fileCode": "ath",
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Gage Jump",
             "record": {
               "wins": 51,
@@ -3737,7 +3737,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Taj Bradley",
             "record": {
               "wins": 64,
@@ -4980,8 +4980,8 @@
           "venue": "T-Mobile Park",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 136,
             "name": "Seattle Mariners",
@@ -4991,7 +4991,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "George Kirby",
             "record": {
               "wins": 63,
@@ -5009,7 +5009,7 @@
             "fileCode": "phi",
             "logo": "https://www.mlbstatic.com/team-logos/143.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Aaron Nola",
             "record": {
               "wins": 73,
@@ -5402,8 +5402,8 @@
           "gameDate": "2026-08-25T22:40:00Z",
           "dayNight": "night",
           "venue": "Comerica Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -7089,8 +7089,8 @@
           "gameDate": "2026-08-25T22:40:00Z",
           "dayNight": "night",
           "venue": "loanDepot park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -7452,6 +7452,13 @@
       ],
       "injuries": [
         {
+          "name": "Adley Rutschman",
+          "status": "Day-To-Day",
+          "comment": "Interim manager Chad Tracy said that Rutschman will sit out Tuesday's game against Miami due to right elbow irritation, Christopher Smith of MassLive.com reports.",
+          "date": "2026-08-25T21:25Z",
+          "position": null
+        },
+        {
           "name": "Roman Anthony",
           "status": "60-Day-IL",
           "comment": "Anthony (finger) said Tuesday that he could be ready to return from the 60-day injured list Friday against the Yankees, Chris Cotillo of MassLive.com reports.",
@@ -7543,7 +7550,7 @@
           "position": null
         }
       ],
-      "injuryCount": 13,
+      "injuryCount": 14,
       "weekAgo": {
         "wildCardRank": 2,
         "wildCardGamesBack": "+6.0",
@@ -8034,17 +8041,17 @@
       ],
       "injuries": [
         {
+          "name": "Slade Cecconi",
+          "status": "15-Day-IL",
+          "comment": "The Guardians assigned Cecconi (arm) to Triple-A Columbus on Tuesday to begin a rehab assignment.",
+          "date": "2026-08-25T21:31Z",
+          "position": null
+        },
+        {
           "name": "Chase DeLauter",
           "status": "Day-To-Day",
           "comment": "The Guardians are optimistic that DeLauter (hamstring) will be back in the starting lineup for Tuesday's game against the Angels, Tim Stebbins of MLB.com reports.",
           "date": "2026-08-25T05:22Z",
-          "position": null
-        },
-        {
-          "name": "Slade Cecconi",
-          "status": "15-Day-IL",
-          "comment": "Cecconi (arm) recently threw a bullpen session and is scheduled for another bullpen this week before beginning a rehab assignment, Tim Stebbins of MLB.com reports.",
-          "date": "2026-08-19T22:18Z",
           "position": null
         },
         {
@@ -8387,7 +8394,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/121.svg",
             "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Christian Scott",
             "record": {
               "wins": 59,
               "losses": 72,
@@ -8448,7 +8455,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/121.svg",
             "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Nolan McLean",
             "record": {
               "wins": 59,
               "losses": 72,
@@ -8702,8 +8709,8 @@
           "venue": "Sutter Health Park",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 133,
             "name": "Athletics",
@@ -8713,7 +8720,7 @@
             "fileCode": "ath",
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Gage Jump",
             "record": {
               "wins": 51,
@@ -8731,7 +8738,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Taj Bradley",
             "record": {
               "wins": 64,
@@ -9624,13 +9631,6 @@
           "position": null
         },
         {
-          "name": "Andres Gimenez",
-          "status": "Day-To-Day",
-          "comment": "Gimenez (hamstring) is out of the lineup for Sunday's game against the Yankees.",
-          "date": "2026-08-23T15:53Z",
-          "position": null
-        },
-        {
           "name": "Josh Smith",
           "status": "10-Day-IL",
           "comment": "Smith went 2-for-4 with a two-run homer during the Blue Jays' 10-5 win over the Rays on Tuesday.",
@@ -9722,7 +9722,7 @@
           "position": null
         }
       ],
-      "injuryCount": 16,
+      "injuryCount": 15,
       "weekAgo": {
         "wildCardRank": 5,
         "wildCardGamesBack": "0.5",
@@ -10213,6 +10213,13 @@
       ],
       "injuries": [
         {
+          "name": "Tyler O'Neill",
+          "status": "Day-To-Day",
+          "comment": "Manager Craig Albernaz said that O'Neil is dealing with right shoulder soreness and is set to get an MRI Tuesday evening, Jacob Calvin Meyer of The Baltimore Sun reports.",
+          "date": "2026-08-25T22:06Z",
+          "position": null
+        },
+        {
           "name": "Ryan Helsley",
           "status": "60-Day-IL",
           "comment": "Helsley (elbow) threw a bullpen session over the weekend, Andy Kostka of TheBanner.com reports.",
@@ -10269,7 +10276,7 @@
           "position": null
         }
       ],
-      "injuryCount": 8,
+      "injuryCount": 9,
       "weekAgo": {
         "wildCardRank": 7,
         "wildCardGamesBack": "1.0",
@@ -10399,8 +10406,8 @@
           "venue": "T-Mobile Park",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 136,
             "name": "Seattle Mariners",
@@ -10410,7 +10417,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "George Kirby",
             "record": {
               "wins": 63,
@@ -10428,7 +10435,7 @@
             "fileCode": "phi",
             "logo": "https://www.mlbstatic.com/team-logos/143.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Aaron Nola",
             "record": {
               "wins": 73,
@@ -10944,8 +10951,8 @@
           "gameDate": "2026-08-25T22:40:00Z",
           "dayNight": "night",
           "venue": "Comerica Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -13176,8 +13183,8 @@
       "gameDate": "2026-08-25T22:40:00Z",
       "dayNight": "night",
       "venue": "loanDepot park",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
+      "status": "In Progress",
+      "abstractState": "Live",
       "inning": 1,
       "inningState": "Top",
       "home": {
@@ -13234,8 +13241,8 @@
       "gameDate": "2026-08-25T22:40:00Z",
       "dayNight": "night",
       "venue": "Comerica Park",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
+      "status": "In Progress",
+      "abstractState": "Live",
       "inning": 1,
       "inningState": "Top",
       "home": {
@@ -13455,9 +13462,9 @@
       "gamesInSeries": 3,
       "interest": "Keep them down",
       "note": "Do not let BAL sneak closer.",
-      "homeWinPct": 57.7,
-      "awayWinPct": 42.3,
-      "helpsTorPct": 57.7,
+      "homeWinPct": 58.0,
+      "awayWinPct": 42.0,
+      "helpsTorPct": 58.0,
       "wantWinnerId": 138
     },
     {
@@ -13526,8 +13533,8 @@
       "venue": "Sutter Health Park",
       "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 133,
         "name": "Athletics",
@@ -13537,7 +13544,7 @@
         "fileCode": "ath",
         "logo": "https://www.mlbstatic.com/team-logos/133.svg",
         "color": "#003831",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Gage Jump",
         "record": {
           "wins": 51,
@@ -13555,7 +13562,7 @@
         "fileCode": "min",
         "logo": "https://www.mlbstatic.com/team-logos/142.svg",
         "color": "#002B5C",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Taj Bradley",
         "record": {
           "wins": 64,
@@ -13584,8 +13591,8 @@
       "venue": "T-Mobile Park",
       "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 136,
         "name": "Seattle Mariners",
@@ -13595,7 +13602,7 @@
         "fileCode": "sea",
         "logo": "https://www.mlbstatic.com/team-logos/136.svg",
         "color": "#0C2C56",
-        "score": null,
+        "score": 0,
         "probablePitcher": "George Kirby",
         "record": {
           "wins": 63,
@@ -13613,7 +13620,7 @@
         "fileCode": "phi",
         "logo": "https://www.mlbstatic.com/team-logos/143.svg",
         "color": "#1D4ED8",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Aaron Nola",
         "record": {
           "wins": 73,
@@ -14035,9 +14042,9 @@
       "gamesInSeries": 3,
       "interest": "Keep them down",
       "note": "Do not let BAL sneak closer.",
-      "homeWinPct": 57.7,
-      "awayWinPct": 42.3,
-      "helpsTorPct": 57.7,
+      "homeWinPct": 58.0,
+      "awayWinPct": 42.0,
+      "helpsTorPct": 58.0,
       "wantWinnerId": 138
     },
     {
@@ -14151,9 +14158,9 @@
       "gamesInSeries": 3,
       "interest": "Keep them down",
       "note": "Do not let BAL sneak closer.",
-      "homeWinPct": 57.7,
-      "awayWinPct": 42.3,
-      "helpsTorPct": 57.7,
+      "homeWinPct": 58.0,
+      "awayWinPct": 42.0,
+      "helpsTorPct": 58.0,
       "wantWinnerId": 138
     },
     {
@@ -14228,13 +14235,6 @@
       "status": "15-Day-IL",
       "comment": "The Blue Jays placed Bieber on the 15-day injured list Tuesday with right teres major inflammation, Arden Zwelling of Sportsnet.ca reports.",
       "date": "2026-08-25T18:31Z",
-      "position": null
-    },
-    {
-      "name": "Andres Gimenez",
-      "status": "Day-To-Day",
-      "comment": "Gimenez (hamstring) is out of the lineup for Sunday's game against the Yankees.",
-      "date": "2026-08-23T15:53Z",
       "position": null
     },
     {
@@ -15148,13 +15148,13 @@
     ]
   },
   "playoffOdds": {
-    "percent": 5.6,
+    "percent": 5.8,
     "sims": 5000,
-    "made": 280,
+    "made": 288,
     "gamesModeled": 285,
     "talent": 0.435,
     "method": "Monte Carlo of remaining American League games. Each game uses log5 win odds from Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag.",
-    "note": "5.6% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 285 remaining games involving AL clubs.",
+    "note": "5.8% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 285 remaining games involving AL clubs.",
     "gb": "2.0",
     "gamesLeft": 30
   },
