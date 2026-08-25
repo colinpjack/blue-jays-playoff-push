@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T13:41:43.696197-04:00",
+  "generatedAt": "2026-08-25T14:53:51.839597-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -80,7 +80,7 @@
       "runs": 576
     },
     "momentum": 39,
-    "injuryCount": 15,
+    "injuryCount": 16,
     "weekAgo": {
       "wildCardRank": 5,
       "wildCardGamesBack": "0.5",
@@ -745,7 +745,7 @@
           "gameDate": "2026-08-25T22:40:00Z",
           "dayNight": "night",
           "venue": "loanDepot park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -759,7 +759,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/146.svg",
             "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Tyler Phillips",
             "record": {
               "wins": 67,
               "losses": 65,
@@ -1244,7 +1244,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": "Shane Bieber",
+            "probablePitcher": null,
             "record": {
               "wins": 64,
               "losses": 68,
@@ -2443,7 +2443,7 @@
           "gameDate": "2026-08-25T22:40:00Z",
           "dayNight": "night",
           "venue": "loanDepot park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -2457,7 +2457,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/146.svg",
             "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Tyler Phillips",
             "record": {
               "wins": 67,
               "losses": 65,
@@ -4205,7 +4205,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": "Shane Bieber",
+            "probablePitcher": null,
             "record": {
               "wins": 64,
               "losses": 68,
@@ -5901,7 +5901,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": "Shane Bieber",
+            "probablePitcher": null,
             "record": {
               "wins": 64,
               "losses": 68,
@@ -6912,6 +6912,13 @@
       ],
       "injuries": [
         {
+          "name": "Giancarlo Stanton",
+          "status": "60-Day-IL",
+          "comment": "Manager Aaron Boone said Saturday that Stanton strained his left calf while running the bases, Jorge Castillo of ESPN.com reports.",
+          "date": "2026-08-25T18:33Z",
+          "position": null
+        },
+        {
           "name": "Ryan Weathers",
           "status": "15-Day-IL",
           "comment": "Yankees manager Aaron Boone said that Weathers (forearm) will be shut down from throwing for 2-to-4 weeks but has a \"great chance\" to pitch again before the end of the season, Bryan Hoch of MLB.com reports.",
@@ -6930,13 +6937,6 @@
           "status": "60-Day-IL",
           "comment": "Schmidt (elbow) is scheduled to throw live batting practice Tuesday, Bryan Hoch of MLB.com reports.",
           "date": "2026-08-23T19:11Z",
-          "position": null
-        },
-        {
-          "name": "Giancarlo Stanton",
-          "status": "10-Day-IL",
-          "comment": "Manager Aaron Boone said Saturday that Stanton strained his left calf while running the bases, Jorge Castillo of ESPN.com reports.",
-          "date": "2026-08-22T15:43Z",
           "position": null
         },
         {
@@ -7089,7 +7089,7 @@
           "gameDate": "2026-08-25T22:40:00Z",
           "dayNight": "night",
           "venue": "loanDepot park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -7103,7 +7103,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/146.svg",
             "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Tyler Phillips",
             "record": {
               "wins": 67,
               "losses": 65,
@@ -9322,7 +9322,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": "Shane Bieber",
+            "probablePitcher": null,
             "record": {
               "wins": 64,
               "losses": 68,
@@ -9610,6 +9610,13 @@
       ],
       "injuries": [
         {
+          "name": "Shane Bieber",
+          "status": "15-Day-IL",
+          "comment": "The Blue Jays placed Bieber on the 15-day injured list Tuesday with right teres major inflammation, Arden Zwelling of Sportsnet.ca reports.",
+          "date": "2026-08-25T18:31Z",
+          "position": null
+        },
+        {
           "name": "Andres Gimenez",
           "status": "Day-To-Day",
           "comment": "Gimenez (hamstring) is out of the lineup for Sunday's game against the Yankees.",
@@ -9715,7 +9722,7 @@
           "position": null
         }
       ],
-      "injuryCount": 15,
+      "injuryCount": 16,
       "weekAgo": {
         "wildCardRank": 5,
         "wildCardGamesBack": "0.5",
@@ -10755,14 +10762,14 @@
         {
           "name": "Brendan Donovan",
           "status": "7-Day IL",
-          "comment": "The Mariners stated Monday that Donovan's concussion symptoms are starting to improve, Daniel Kramer of MLB.com reports.",
+          "comment": "The Mariners said Monday that Donovan's concussion symptoms are starting to improve, Daniel Kramer of MLB.com reports.",
           "date": "2026-08-24T23:23Z",
           "position": null
         },
         {
           "name": "Colt Emerson",
           "status": "10-Day-IL",
-          "comment": "Emerson will undergo season-ending left wrist surgery Wednesday, Adam Jude of The Seattle Times reports.",
+          "comment": "Mariners general manager Justin Hollander said that Emerson will undergo season-ending left wrist surgery Wednesday, Adam Jude of The Seattle Times reports.",
           "date": "2026-08-24T22:07Z",
           "position": null
         },
@@ -11496,7 +11503,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/141.svg",
         "color": "#134A8E",
         "score": null,
-        "probablePitcher": "Shane Bieber",
+        "probablePitcher": null,
         "record": {
           "wins": 64,
           "losses": 68,
@@ -11535,11 +11542,7 @@
       },
       "result": null,
       "seriesGameNumber": 2,
-      "gamesInSeries": 3,
-      "homeWinPct": 42.2,
-      "awayWinPct": 57.8,
-      "helpsTorPct": 42.2,
-      "wantWinnerId": 141
+      "gamesInSeries": 3
     },
     {
       "gamePk": 822771,
@@ -13176,7 +13179,7 @@
       "gameDate": "2026-08-25T22:40:00Z",
       "dayNight": "night",
       "venue": "loanDepot park",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
       "inning": null,
       "inningState": null,
@@ -13190,7 +13193,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/146.svg",
         "color": "#1D4ED8",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Tyler Phillips",
         "record": {
           "wins": 67,
           "losses": 65,
@@ -13944,7 +13947,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/141.svg",
         "color": "#134A8E",
         "score": null,
-        "probablePitcher": "Shane Bieber",
+        "probablePitcher": null,
         "record": {
           "wins": 64,
           "losses": 68,
@@ -14216,6 +14219,13 @@
     }
   ],
   "injuries": [
+    {
+      "name": "Shane Bieber",
+      "status": "15-Day-IL",
+      "comment": "The Blue Jays placed Bieber on the 15-day injured list Tuesday with right teres major inflammation, Arden Zwelling of Sportsnet.ca reports.",
+      "date": "2026-08-25T18:31Z",
+      "position": null
+    },
     {
       "name": "Andres Gimenez",
       "status": "Day-To-Day",
@@ -14751,33 +14761,6 @@
         }
       },
       {
-        "id": 669456,
-        "name": "Shane Bieber",
-        "position": "P",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_180,q_auto:best/v1/people/669456/headshot/67/current",
-        "era": "4.37",
-        "whip": "1.42",
-        "ip": "55.2",
-        "w": 5,
-        "l": 2,
-        "so": 44,
-        "sv": 0,
-        "hld": 0,
-        "gs": 11,
-        "g": 11,
-        "k9": "7.11",
-        "role": "SP",
-        "trend": {
-          "window": "L14",
-          "era": "0.69",
-          "whip": "0.62",
-          "ip": "13.0",
-          "so": 12,
-          "delta": -3.68,
-          "direction": "up"
-        }
-      },
-      {
         "id": 453286,
         "name": "Max Scherzer",
         "position": "P",
@@ -15021,6 +15004,25 @@
         }
       },
       {
+        "id": 689149,
+        "name": "Chad Dallas",
+        "position": "P",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_180,q_auto:best/v1/people/689149/headshot/67/current",
+        "era": "8.22",
+        "whip": "2.09",
+        "ip": "7.2",
+        "w": 1,
+        "l": 1,
+        "so": 6,
+        "sv": 0,
+        "hld": 1,
+        "gs": 0,
+        "g": 3,
+        "k9": "7.04",
+        "role": "RP",
+        "trend": null
+      },
+      {
         "id": 681293,
         "name": "Spencer Arrighetti",
         "position": "P",
@@ -15149,13 +15151,13 @@
     ]
   },
   "playoffOdds": {
-    "percent": 5.8,
+    "percent": 5.6,
     "sims": 5000,
-    "made": 289,
+    "made": 281,
     "gamesModeled": 285,
     "talent": 0.435,
     "method": "Monte Carlo of remaining American League games. Each game uses log5 win odds from Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag.",
-    "note": "5.8% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 285 remaining games involving AL clubs.",
+    "note": "5.6% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 285 remaining games involving AL clubs.",
     "gb": "2.0",
     "gamesLeft": 30
   },
