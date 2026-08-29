@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T05:24:19.334052-04:00",
+  "generatedAt": "2026-08-29T10:39:01.599046-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -321,7 +321,7 @@
           "gameDate": "2026-08-29T17:05:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -745,7 +745,7 @@
           "gameDate": "2026-08-29T17:05:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -2019,7 +2019,7 @@
           "gameDate": "2026-08-29T17:05:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -2443,7 +2443,7 @@
           "gameDate": "2026-08-29T17:05:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -5411,10 +5411,10 @@
           "gameDate": "2026-08-29T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -5424,7 +5424,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Keider Montero",
             "record": {
               "wins": 62,
@@ -5442,7 +5442,7 @@
             "fileCode": "la",
             "logo": "https://www.mlbstatic.com/team-logos/119.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Blake Snell",
             "record": {
               "wins": 81,
@@ -6558,7 +6558,7 @@
           "gameDate": "2026-08-29T17:05:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -7105,7 +7105,7 @@
           "gameDate": "2026-08-29T17:05:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -7468,13 +7468,6 @@
       ],
       "injuries": [
         {
-          "name": "Garrett Whitlock",
-          "status": "15-Day-IL",
-          "comment": "The Red Sox are expected to activate Whitlock (elbow) from the injured list before one of the games of Saturday's doubleheader against the Yankees, Tim Healey of The Boston Globe reports.",
-          "date": "2026-08-28T22:11Z",
-          "position": null
-        },
-        {
           "name": "Tanner Houck",
           "status": "60-Day-IL",
           "comment": "Houck (elbow) will begin a rehab assignment at the Red Sox's complex in Florida on Tuesday, Rob Bradford of WEEI.com reports.",
@@ -7559,7 +7552,7 @@
           "position": null
         }
       ],
-      "injuryCount": 13,
+      "injuryCount": 12,
       "weekAgo": {
         "wildCardRank": 2,
         "wildCardGamesBack": "+6.5",
@@ -8564,7 +8557,7 @@
         {
           "name": "Jack Leiter",
           "status": "60-Day-IL",
-          "comment": "Leiter (ankle) reported biceps soreness after the first inning of his latest rehab start at Triple-A Round Rock on Wednesday, Zach Sweet of MLB.com reports.",
+          "comment": "Leiter (ankle) reported biceps soreness after the first inning of his latest rehab outing at Triple-A Round Rock on Wednesday, Zach Sweet of MLB.com reports.",
           "date": "2026-08-29T01:23Z",
           "position": null
         },
@@ -10997,10 +10990,10 @@
           "gameDate": "2026-08-29T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -11010,7 +11003,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Keider Montero",
             "record": {
               "wins": 62,
@@ -11028,7 +11021,7 @@
             "fileCode": "la",
             "logo": "https://www.mlbstatic.com/team-logos/119.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Blake Snell",
             "record": {
               "wins": 81,
@@ -13229,7 +13222,7 @@
       "gameDate": "2026-08-29T17:05:00Z",
       "dayNight": "day",
       "venue": "Yankee Stadium",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
       "inning": null,
       "inningState": null,
@@ -13276,9 +13269,9 @@
       "gamesInSeries": 4,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 56.0,
-      "awayWinPct": 44.0,
-      "helpsTorPct": 44.0,
+      "homeWinPct": 55.8,
+      "awayWinPct": 44.2,
+      "helpsTorPct": 44.2,
       "wantWinnerId": 111
     },
     {
@@ -13287,10 +13280,10 @@
       "gameDate": "2026-08-29T17:10:00Z",
       "dayNight": "day",
       "venue": "Comerica Park",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 116,
         "name": "Detroit Tigers",
@@ -13300,7 +13293,7 @@
         "fileCode": "det",
         "logo": "https://www.mlbstatic.com/team-logos/116.svg",
         "color": "#0C2340",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Keider Montero",
         "record": {
           "wins": 62,
@@ -13318,7 +13311,7 @@
         "fileCode": "la",
         "logo": "https://www.mlbstatic.com/team-logos/119.svg",
         "color": "#1D4ED8",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Blake Snell",
         "record": {
           "wins": 81,
@@ -13566,9 +13559,9 @@
       "gamesInSeries": 4,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 56.0,
-      "awayWinPct": 44.0,
-      "helpsTorPct": 44.0,
+      "homeWinPct": 55.8,
+      "awayWinPct": 44.2,
+      "helpsTorPct": 44.2,
       "wantWinnerId": 111
     },
     {
@@ -13740,9 +13733,9 @@
       "gamesInSeries": 4,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 56.0,
-      "awayWinPct": 44.0,
-      "helpsTorPct": 44.0,
+      "homeWinPct": 55.8,
+      "awayWinPct": 44.2,
+      "helpsTorPct": 44.2,
       "wantWinnerId": 111
     },
     {
@@ -14146,9 +14139,9 @@
       "gamesInSeries": 3,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 65.4,
-      "awayWinPct": 34.6,
-      "helpsTorPct": 34.6,
+      "homeWinPct": 65.5,
+      "awayWinPct": 34.5,
+      "helpsTorPct": 34.5,
       "wantWinnerId": 136
     },
     {
