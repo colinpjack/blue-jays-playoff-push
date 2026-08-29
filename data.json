@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T10:39:01.599046-04:00",
+  "generatedAt": "2026-08-29T13:55:31.225273-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -150,10 +150,10 @@
           "gameDate": "2026-08-29T20:10:00Z",
           "dayNight": "day",
           "venue": "Tropicana Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 139,
             "name": "Tampa Bay Rays",
@@ -163,7 +163,7 @@
             "fileCode": "tb",
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Nick Martinez",
             "record": {
               "wins": 80,
@@ -181,7 +181,7 @@
             "fileCode": "sd",
             "logo": "https://www.mlbstatic.com/team-logos/135.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Walker Buehler",
             "record": {
               "wins": 72,
@@ -321,10 +321,10 @@
           "gameDate": "2026-08-29T17:05:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 3,
+          "inningState": "Bottom",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -334,7 +334,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Carlos Rod\u00f3n",
             "record": {
               "wins": 76,
@@ -352,7 +352,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 1,
             "probablePitcher": "Jake Bennett",
             "record": {
               "wins": 73,
@@ -536,7 +536,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Elmer Rodr\u00edguez",
             "record": {
               "wins": 76,
               "losses": 58,
@@ -745,10 +745,10 @@
           "gameDate": "2026-08-29T17:05:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 3,
+          "inningState": "Bottom",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -758,7 +758,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Carlos Rod\u00f3n",
             "record": {
               "wins": 76,
@@ -776,7 +776,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 1,
             "probablePitcher": "Jake Bennett",
             "record": {
               "wins": 73,
@@ -1593,10 +1593,10 @@
           "gameDate": "2026-08-29T19:07:00Z",
           "dayNight": "day",
           "venue": "Rogers Centre",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 141,
             "name": "Toronto Blue Jays",
@@ -1606,7 +1606,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 66,
@@ -1624,7 +1624,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Kade Anderson",
             "record": {
               "wins": 64,
@@ -1747,7 +1747,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Spencer Arrighetti",
             "record": {
               "wins": 66,
               "losses": 70,
@@ -1808,7 +1808,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Dylan Cease",
             "record": {
               "wins": 66,
               "losses": 70,
@@ -1869,7 +1869,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 66,
               "losses": 70,
@@ -2019,10 +2019,10 @@
           "gameDate": "2026-08-29T17:05:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 3,
+          "inningState": "Bottom",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -2032,7 +2032,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Carlos Rod\u00f3n",
             "record": {
               "wins": 76,
@@ -2050,7 +2050,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 1,
             "probablePitcher": "Jake Bennett",
             "record": {
               "wins": 73,
@@ -2234,7 +2234,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Elmer Rodr\u00edguez",
             "record": {
               "wins": 76,
               "losses": 58,
@@ -2443,10 +2443,10 @@
           "gameDate": "2026-08-29T17:05:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 3,
+          "inningState": "Bottom",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -2456,7 +2456,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Carlos Rod\u00f3n",
             "record": {
               "wins": 76,
@@ -2474,7 +2474,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 1,
             "probablePitcher": "Jake Bennett",
             "record": {
               "wins": 73,
@@ -2867,10 +2867,10 @@
           "gameDate": "2026-08-29T20:10:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -2880,7 +2880,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Foster Griffin",
             "record": {
               "wins": 68,
@@ -2898,7 +2898,7 @@
             "fileCode": "kc",
             "logo": "https://www.mlbstatic.com/team-logos/118.svg",
             "color": "#004687",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Daniel Lynch IV",
             "record": {
               "wins": 61,
@@ -3021,7 +3021,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Spencer Arrighetti",
             "record": {
               "wins": 66,
               "losses": 70,
@@ -3082,7 +3082,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Dylan Cease",
             "record": {
               "wins": 66,
               "losses": 70,
@@ -3143,7 +3143,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 66,
               "losses": 70,
@@ -4139,10 +4139,10 @@
           "gameDate": "2026-08-29T19:07:00Z",
           "dayNight": "day",
           "venue": "Rogers Centre",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 141,
             "name": "Toronto Blue Jays",
@@ -4152,7 +4152,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 66,
@@ -4170,7 +4170,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Kade Anderson",
             "record": {
               "wins": 64,
@@ -4293,7 +4293,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Spencer Arrighetti",
             "record": {
               "wins": 66,
               "losses": 70,
@@ -4354,7 +4354,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Dylan Cease",
             "record": {
               "wins": 66,
               "losses": 70,
@@ -4415,7 +4415,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 66,
               "losses": 70,
@@ -4563,10 +4563,10 @@
           "gameDate": "2026-08-29T19:07:00Z",
           "dayNight": "day",
           "venue": "Rogers Centre",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 141,
             "name": "Toronto Blue Jays",
@@ -4576,7 +4576,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 66,
@@ -4594,7 +4594,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Kade Anderson",
             "record": {
               "wins": 64,
@@ -4987,10 +4987,10 @@
           "gameDate": "2026-08-29T18:10:00Z",
           "dayNight": "day",
           "venue": "Target Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "Warmup",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -5000,7 +5000,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Bailey Ober",
             "record": {
               "wins": 64,
@@ -5018,7 +5018,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Erick Fedde",
             "record": {
               "wins": 71,
@@ -5411,10 +5411,10 @@
           "gameDate": "2026-08-29T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": 1,
-          "inningState": "Top",
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 3,
+          "inningState": "Bottom",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -5424,7 +5424,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": 0,
+            "score": 1,
             "probablePitcher": "Keider Montero",
             "record": {
               "wins": 62,
@@ -5835,10 +5835,10 @@
           "gameDate": "2026-08-29T20:10:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -5848,7 +5848,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Foster Griffin",
             "record": {
               "wins": 68,
@@ -5866,7 +5866,7 @@
             "fileCode": "kc",
             "logo": "https://www.mlbstatic.com/team-logos/118.svg",
             "color": "#004687",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Daniel Lynch IV",
             "record": {
               "wins": 61,
@@ -6055,10 +6055,10 @@
           "gameDate": "2026-08-29T20:10:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -6068,7 +6068,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Foster Griffin",
             "record": {
               "wins": 68,
@@ -6086,7 +6086,7 @@
             "fileCode": "kc",
             "logo": "https://www.mlbstatic.com/team-logos/118.svg",
             "color": "#004687",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Daniel Lynch IV",
             "record": {
               "wins": 61,
@@ -6209,7 +6209,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Spencer Arrighetti",
             "record": {
               "wins": 66,
               "losses": 70,
@@ -6270,7 +6270,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Dylan Cease",
             "record": {
               "wins": 66,
               "losses": 70,
@@ -6331,7 +6331,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 66,
               "losses": 70,
@@ -6489,15 +6489,15 @@
       "divisionLeader": false,
       "hitting": {
         "avg": ".230",
-        "obp": ".310",
+        "obp": ".309",
         "slg": ".407",
-        "ops": ".717",
+        "ops": ".716",
         "runs": 597,
-        "hits": 1016,
+        "hits": 1017,
         "homeRuns": 184,
         "rbi": 569,
         "stolenBases": 130,
-        "strikeOuts": 1237,
+        "strikeOuts": 1239,
         "baseOnBalls": 489,
         "babip": ".275"
       },
@@ -6507,49 +6507,49 @@
         "wins": 76,
         "losses": 58,
         "saves": 40,
-        "strikeOuts": 1200,
+        "strikeOuts": 1204,
         "baseOnBalls": 410,
-        "inningsPitched": "1197.2",
+        "inningsPitched": "1200.2",
         "strikeoutsPer9Inn": "9.02",
-        "walksPer9Inn": "3.08",
+        "walksPer9Inn": "3.07",
         "homeRunsPer9": "1.00",
         "holds": 74,
         "blownSaves": 26,
         "winPercentage": ".567",
-        "runs": 496
+        "runs": 497
       },
       "hittingL10": {
-        "avg": ".237",
-        "obp": ".326",
-        "slg": ".402",
-        "ops": ".728",
-        "runs": 46,
-        "hits": 76,
-        "homeRuns": 13,
-        "rbi": 44,
+        "avg": ".242",
+        "obp": ".329",
+        "slg": ".411",
+        "ops": ".740",
+        "runs": 43,
+        "hits": 72,
+        "homeRuns": 12,
+        "rbi": 41,
         "stolenBases": 10,
-        "strikeOuts": 102,
-        "baseOnBalls": 38,
-        "babip": ".301"
+        "strikeOuts": 90,
+        "baseOnBalls": 35,
+        "babip": ".303"
       },
       "pitchingL10": {
-        "era": "2.70",
+        "era": "2.89",
         "whip": "1.17",
-        "wins": 7,
+        "wins": 6,
         "losses": 3,
-        "saves": 5,
-        "strikeOuts": 87,
-        "baseOnBalls": 30,
-        "inningsPitched": "90.0",
-        "strikeoutsPer9Inn": "8.70",
-        "walksPer9Inn": "3.00",
-        "homeRunsPer9": "1.10",
-        "holds": 9,
+        "saves": 4,
+        "strikeOuts": 82,
+        "baseOnBalls": 26,
+        "inningsPitched": "84.0",
+        "strikeoutsPer9Inn": "8.79",
+        "walksPer9Inn": "2.79",
+        "homeRunsPer9": "1.18",
+        "holds": 6,
         "blownSaves": 4,
-        "winPercentage": ".700",
+        "winPercentage": ".667",
         "runs": 30
       },
-      "runDifferentialL10": 16,
+      "runDifferentialL10": 13,
       "momentum": 87,
       "nextGames": [
         {
@@ -6558,10 +6558,10 @@
           "gameDate": "2026-08-29T17:05:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 3,
+          "inningState": "Bottom",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -6571,7 +6571,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Carlos Rod\u00f3n",
             "record": {
               "wins": 76,
@@ -6589,7 +6589,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 1,
             "probablePitcher": "Jake Bennett",
             "record": {
               "wins": 73,
@@ -6773,7 +6773,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Elmer Rodr\u00edguez",
             "record": {
               "wins": 76,
               "losses": 58,
@@ -6921,17 +6921,24 @@
       ],
       "injuries": [
         {
+          "name": "Clarke Schmidt",
+          "status": "60-Day-IL",
+          "comment": "Schmidt (elbow) will begin a rehab assignment with Double-A Somerset on Saturday, Gary Phillips of the New York Daily News reports.",
+          "date": "2026-08-29T16:23Z",
+          "position": null
+        },
+        {
+          "name": "Ryan McMahon",
+          "status": "10-Day-IL",
+          "comment": "McMahon (thumb) will begin a rehab assignment with Double-A Somerset on Saturday, Gary Phillips of the New York Daily News reports.",
+          "date": "2026-08-29T16:12Z",
+          "position": null
+        },
+        {
           "name": "Max Fried",
           "status": "15-Day-IL",
           "comment": "Yankees manager Aaron Boone confirmed Friday that Fried (elbow) will return to the rotation during Saturday's doubleheader versus the Red Sox, Gary Phillips of the New York Daily News reports.",
           "date": "2026-08-28T20:19Z",
-          "position": null
-        },
-        {
-          "name": "Clarke Schmidt",
-          "status": "60-Day-IL",
-          "comment": "Schmidt (elbow) is expected to begin a rehab assignment Saturday, Meredith Marakovits of YES Network reports.",
-          "date": "2026-08-27T19:56Z",
           "position": null
         },
         {
@@ -6967,13 +6974,6 @@
           "status": "15-Day-IL",
           "comment": "Yankees manager Aaron Boone said that Weathers (forearm) will be shut down from throwing for 2-to-4 weeks but has a \"great chance\" to pitch again before the end of the season, Bryan Hoch of MLB.com reports.",
           "date": "2026-08-24T02:59Z",
-          "position": null
-        },
-        {
-          "name": "Ryan McMahon",
-          "status": "10-Day-IL",
-          "comment": "McMahon said that he was diagnosed with a Grade 2 left thumb sprain after the Yankees placed him on the 10-day injured list Friday, Randy Miller of NJ.com reports.",
-          "date": "2026-08-24T02:50Z",
           "position": null
         }
       ],
@@ -7036,67 +7036,67 @@
       "divisionLeader": false,
       "hitting": {
         "avg": ".249",
-        "obp": ".324",
+        "obp": ".323",
         "slg": ".404",
-        "ops": ".728",
-        "runs": 600,
-        "hits": 1120,
-        "homeRuns": 136,
-        "rbi": 573,
+        "ops": ".727",
+        "runs": 601,
+        "hits": 1121,
+        "homeRuns": 137,
+        "rbi": 574,
         "stolenBases": 97,
-        "strikeOuts": 1080,
+        "strikeOuts": 1084,
         "baseOnBalls": 434,
         "babip": ".296"
       },
       "pitching": {
-        "era": "3.46",
+        "era": "3.45",
         "whip": "1.22",
         "wins": 73,
         "losses": 61,
         "saves": 37,
-        "strikeOuts": 1150,
+        "strikeOuts": 1152,
         "baseOnBalls": 386,
-        "inningsPitched": "1192.1",
+        "inningsPitched": "1194.2",
         "strikeoutsPer9Inn": "8.68",
         "walksPer9Inn": "2.91",
-        "homeRunsPer9": "0.97",
+        "homeRunsPer9": "0.96",
         "holds": 80,
         "blownSaves": 12,
         "winPercentage": ".545",
         "runs": 500
       },
       "hittingL10": {
-        "avg": ".271",
-        "obp": ".361",
-        "slg": ".452",
-        "ops": ".813",
-        "runs": 51,
-        "hits": 94,
-        "homeRuns": 12,
-        "rbi": 48,
-        "stolenBases": 4,
-        "strikeOuts": 59,
-        "baseOnBalls": 41,
-        "babip": ".295"
+        "avg": ".249",
+        "obp": ".345",
+        "slg": ".416",
+        "ops": ".761",
+        "runs": 41,
+        "hits": 79,
+        "homeRuns": 11,
+        "rbi": 38,
+        "stolenBases": 3,
+        "strikeOuts": 63,
+        "baseOnBalls": 38,
+        "babip": ".279"
       },
       "pitchingL10": {
-        "era": "2.67",
-        "whip": "1.22",
-        "wins": 7,
+        "era": "2.77",
+        "whip": "1.27",
+        "wins": 6,
         "losses": 3,
         "saves": 3,
-        "strikeOuts": 91,
-        "baseOnBalls": 38,
-        "inningsPitched": "91.0",
-        "strikeoutsPer9Inn": "9.00",
-        "walksPer9Inn": "3.76",
-        "homeRunsPer9": "0.89",
+        "strikeOuts": 85,
+        "baseOnBalls": 37,
+        "inningsPitched": "84.1",
+        "strikeoutsPer9Inn": "9.07",
+        "walksPer9Inn": "3.95",
+        "homeRunsPer9": "0.96",
         "holds": 4,
         "blownSaves": 1,
-        "winPercentage": ".700",
-        "runs": 32
+        "winPercentage": ".667",
+        "runs": 31
       },
-      "runDifferentialL10": 19,
+      "runDifferentialL10": 10,
       "momentum": 74,
       "nextGames": [
         {
@@ -7105,10 +7105,10 @@
           "gameDate": "2026-08-29T17:05:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 3,
+          "inningState": "Bottom",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -7118,7 +7118,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Carlos Rod\u00f3n",
             "record": {
               "wins": 76,
@@ -7136,7 +7136,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 1,
             "probablePitcher": "Jake Bennett",
             "record": {
               "wins": 73,
@@ -7468,6 +7468,13 @@
       ],
       "injuries": [
         {
+          "name": "Roman Anthony",
+          "status": "60-Day-IL",
+          "comment": "Anthony (finger) will play in another rehab game with Triple-A Worcester on Saturday, Tim Healey of The Boston Globe reports.",
+          "date": "2026-08-29T17:04Z",
+          "position": null
+        },
+        {
           "name": "Tanner Houck",
           "status": "60-Day-IL",
           "comment": "Houck (elbow) will begin a rehab assignment at the Red Sox's complex in Florida on Tuesday, Rob Bradford of WEEI.com reports.",
@@ -7479,13 +7486,6 @@
           "status": "60-Day-IL",
           "comment": "Story (sports hernia) remains with Triple-A Worcester on his rehab assignment Friday, Chris Cotillo of MassLive.com reports.",
           "date": "2026-08-28T18:30Z",
-          "position": null
-        },
-        {
-          "name": "Roman Anthony",
-          "status": "60-Day-IL",
-          "comment": "Anthony (finger) was spotted Friday at Polar Park with Triple-A Worcester, Tommy Cassell of the Worcester Telegram &amp; Gazette reports.",
-          "date": "2026-08-28T17:19Z",
           "position": null
         },
         {
@@ -7680,10 +7680,10 @@
           "gameDate": "2026-08-29T20:10:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -7693,7 +7693,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Foster Griffin",
             "record": {
               "wins": 68,
@@ -7711,7 +7711,7 @@
             "fileCode": "kc",
             "logo": "https://www.mlbstatic.com/team-logos/118.svg",
             "color": "#004687",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Daniel Lynch IV",
             "record": {
               "wins": 61,
@@ -7834,7 +7834,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Spencer Arrighetti",
             "record": {
               "wins": 66,
               "losses": 70,
@@ -7895,7 +7895,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Dylan Cease",
             "record": {
               "wins": 66,
               "losses": 70,
@@ -7956,7 +7956,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 66,
               "losses": 70,
@@ -9293,10 +9293,10 @@
           "gameDate": "2026-08-29T19:07:00Z",
           "dayNight": "day",
           "venue": "Rogers Centre",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 141,
             "name": "Toronto Blue Jays",
@@ -9306,7 +9306,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 66,
@@ -9324,7 +9324,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Kade Anderson",
             "record": {
               "wins": 64,
@@ -9447,7 +9447,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Spencer Arrighetti",
             "record": {
               "wins": 66,
               "losses": 70,
@@ -9508,7 +9508,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Dylan Cease",
             "record": {
               "wins": 66,
               "losses": 70,
@@ -9569,7 +9569,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 66,
               "losses": 70,
@@ -9656,6 +9656,20 @@
       ],
       "injuries": [
         {
+          "name": "Josh Smith",
+          "status": "10-Day-IL",
+          "comment": "Smith (hamstring) will play in one more rehab game with Triple-A Buffalo on Saturday, Arden Zwelling of Sportsnet.ca reports.",
+          "date": "2026-08-29T16:55Z",
+          "position": null
+        },
+        {
+          "name": "Jameson Taillon",
+          "status": "15-Day-IL",
+          "comment": "Taillon (forearm) gave up four runs on three hits and two walks over 3.1 innings for Triple-A Buffalo on Friday. He struck out two.",
+          "date": "2026-08-29T15:14Z",
+          "position": null
+        },
+        {
           "name": "Anthony Santander",
           "status": "60-Day-IL",
           "comment": "Santander (shoulder) has been hitting off a pitching machine at the Blue Jays' spring training complex and still hopes to return before the end of the season, Keegan Matheson of MLB.com reports.",
@@ -9670,24 +9684,10 @@
           "position": null
         },
         {
-          "name": "Josh Smith",
-          "status": "10-Day-IL",
-          "comment": "Smith (hamstring) will begin a rehab assignment with Triple-A Buffalo on Thursday, Arden Zwelling of Sportsnet.ca reports.",
-          "date": "2026-08-27T20:30Z",
-          "position": null
-        },
-        {
           "name": "Yimi Garcia",
           "status": "60-Day-IL",
           "comment": "Garcia (elbow/neck/biceps) underwent thoracic outlet surgery Thursday and will miss the rest of the season, Arden Zwelling of Sportsnet.ca reports.",
           "date": "2026-08-26T17:56Z",
-          "position": null
-        },
-        {
-          "name": "Jameson Taillon",
-          "status": "15-Day-IL",
-          "comment": "Taillon (forearm) is scheduled to throw about 50 pitches in a rehab start with Triple-A Buffalo on Friday, Arden Zwelling of Sportsnet.ca reports.",
-          "date": "2026-08-25T21:10Z",
           "position": null
         },
         {
@@ -9889,10 +9889,10 @@
           "gameDate": "2026-08-29T19:07:00Z",
           "dayNight": "day",
           "venue": "Rogers Centre",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 141,
             "name": "Toronto Blue Jays",
@@ -9902,7 +9902,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 66,
@@ -9920,7 +9920,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Kade Anderson",
             "record": {
               "wins": 64,
@@ -10252,6 +10252,13 @@
       ],
       "injuries": [
         {
+          "name": "Emerson Hancock",
+          "status": "Day-To-Day",
+          "comment": "Hancock (leg) was moving around well Saturday, per Shannon Drayer of SeattleSports.com.",
+          "date": "2026-08-29T17:19Z",
+          "position": null
+        },
+        {
           "name": "Brendan Donovan",
           "status": "7-Day IL",
           "comment": "Donovan (concussion) traveled with the Mariners to Toronto as his team begins a road trip, Daniel Kramer of MLB.com reports.",
@@ -10308,7 +10315,7 @@
           "position": null
         }
       ],
-      "injuryCount": 8,
+      "injuryCount": 9,
       "weekAgo": {
         "wildCardRank": 8,
         "wildCardGamesBack": "2.0",
@@ -10436,10 +10443,10 @@
           "gameDate": "2026-08-29T18:10:00Z",
           "dayNight": "day",
           "venue": "Target Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "Warmup",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -10449,7 +10456,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Bailey Ober",
             "record": {
               "wins": 64,
@@ -10467,7 +10474,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Erick Fedde",
             "record": {
               "wins": 71,
@@ -10801,8 +10808,8 @@
         {
           "name": "Byron Buxton",
           "status": "Day-To-Day",
-          "comment": "Buxton (hip) is out of the lineup for Minnesota's matchup with the White Sox on Friday.",
-          "date": "2026-08-28T20:10Z",
+          "comment": "Buxton (hip) isn't in the lineup for Saturday's game against the White Sox.",
+          "date": "2026-08-29T16:01Z",
           "position": null
         },
         {
@@ -10924,64 +10931,64 @@
         "obp": ".315",
         "slg": ".400",
         "ops": ".715",
-        "runs": 593,
-        "hits": 1080,
+        "runs": 594,
+        "hits": 1082,
         "homeRuns": 155,
-        "rbi": 565,
+        "rbi": 566,
         "stolenBases": 38,
-        "strikeOuts": 1146,
-        "baseOnBalls": 468,
+        "strikeOuts": 1149,
+        "baseOnBalls": 469,
         "babip": ".285"
       },
       "pitching": {
-        "era": "3.58",
+        "era": "3.57",
         "whip": "1.22",
         "wins": 62,
         "losses": 72,
         "saves": 27,
-        "strikeOuts": 1086,
-        "baseOnBalls": 417,
-        "inningsPitched": "1185.1",
-        "strikeoutsPer9Inn": "8.25",
+        "strikeOuts": 1088,
+        "baseOnBalls": 418,
+        "inningsPitched": "1188.1",
+        "strikeoutsPer9Inn": "8.24",
         "walksPer9Inn": "3.17",
-        "homeRunsPer9": "1.03",
+        "homeRunsPer9": "1.02",
         "holds": 62,
         "blownSaves": 28,
         "winPercentage": ".463",
         "runs": 524
       },
       "hittingL10": {
-        "avg": ".199",
-        "obp": ".271",
-        "slg": ".303",
-        "ops": ".574",
-        "runs": 28,
-        "hits": 65,
-        "homeRuns": 5,
-        "rbi": 27,
+        "avg": ".180",
+        "obp": ".245",
+        "slg": ".285",
+        "ops": ".530",
+        "runs": 21,
+        "hits": 53,
+        "homeRuns": 4,
+        "rbi": 20,
         "stolenBases": 2,
-        "strikeOuts": 82,
-        "baseOnBalls": 29,
-        "babip": ".248"
+        "strikeOuts": 77,
+        "baseOnBalls": 23,
+        "babip": ".227"
       },
       "pitchingL10": {
-        "era": "4.20",
-        "whip": "1.34",
-        "wins": 2,
+        "era": "4.07",
+        "whip": "1.33",
+        "wins": 1,
         "losses": 8,
-        "saves": 2,
-        "strikeOuts": 67,
-        "baseOnBalls": 36,
-        "inningsPitched": "85.2",
-        "strikeoutsPer9Inn": "7.04",
-        "walksPer9Inn": "3.78",
-        "homeRunsPer9": "1.26",
-        "holds": 7,
+        "saves": 1,
+        "strikeOuts": 58,
+        "baseOnBalls": 32,
+        "inningsPitched": "79.2",
+        "strikeoutsPer9Inn": "6.55",
+        "walksPer9Inn": "3.62",
+        "homeRunsPer9": "1.36",
+        "holds": 6,
         "blownSaves": 1,
-        "winPercentage": ".200",
-        "runs": 42
+        "winPercentage": ".111",
+        "runs": 37
       },
-      "runDifferentialL10": -14,
+      "runDifferentialL10": -16,
       "momentum": 23,
       "nextGames": [
         {
@@ -10990,10 +10997,10 @@
           "gameDate": "2026-08-29T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": 1,
-          "inningState": "Top",
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 3,
+          "inningState": "Bottom",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -11003,7 +11010,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": 0,
+            "score": 1,
             "probablePitcher": "Keider Montero",
             "record": {
               "wins": 62,
@@ -11353,17 +11360,17 @@
       ],
       "injuries": [
         {
+          "name": "Riley Greene",
+          "status": "10-Day-IL",
+          "comment": "Greene (hamstring) will begin a rehab assignment at Triple-A Toledo on Saturday, Jason Beck of MLB.com reports.",
+          "date": "2026-08-29T15:44Z",
+          "position": null
+        },
+        {
           "name": "Matt Vierling",
           "status": "10-Day-IL",
           "comment": "Vierling (adductor) encountered a setback recently when he suffered a heel injury, Cody Stavenhagen of The Athletic reports.",
           "date": "2026-08-28T20:13Z",
-          "position": null
-        },
-        {
-          "name": "Riley Greene",
-          "status": "10-Day-IL",
-          "comment": "Tigers manager A.J. Hinch said Friday that Greene (hamstring) is \"doing really well,\" and the outfielder could be ready to begin a rehab assignment this weekend, Evan Woodbery of MLive.com reports.",
-          "date": "2026-08-28T20:03Z",
           "position": null
         },
         {
@@ -11463,10 +11470,10 @@
       "gameDate": "2026-08-29T19:07:00Z",
       "dayNight": "day",
       "venue": "Rogers Centre",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 141,
         "name": "Toronto Blue Jays",
@@ -11476,7 +11483,7 @@
         "fileCode": "tor",
         "logo": "https://www.mlbstatic.com/team-logos/141.svg",
         "color": "#134A8E",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Jos\u00e9 Soriano",
         "record": {
           "wins": 66,
@@ -11494,7 +11501,7 @@
         "fileCode": "sea",
         "logo": "https://www.mlbstatic.com/team-logos/136.svg",
         "color": "#0C2C56",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Kade Anderson",
         "record": {
           "wins": 64,
@@ -11517,9 +11524,9 @@
       "result": null,
       "seriesGameNumber": 2,
       "gamesInSeries": 3,
-      "homeWinPct": 52.6,
-      "awayWinPct": 47.4,
-      "helpsTorPct": 52.6,
+      "homeWinPct": 52.9,
+      "awayWinPct": 47.1,
+      "helpsTorPct": 52.9,
       "wantWinnerId": 141
     },
     {
@@ -11582,9 +11589,9 @@
       "result": null,
       "seriesGameNumber": 3,
       "gamesInSeries": 3,
-      "homeWinPct": 52.6,
-      "awayWinPct": 47.4,
-      "helpsTorPct": 52.6,
+      "homeWinPct": 52.9,
+      "awayWinPct": 47.1,
+      "helpsTorPct": 52.9,
       "wantWinnerId": 141
     },
     {
@@ -11625,7 +11632,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/141.svg",
         "color": "#134A8E",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Spencer Arrighetti",
         "record": {
           "wins": 66,
           "losses": 70,
@@ -11646,7 +11653,11 @@
       },
       "result": null,
       "seriesGameNumber": 1,
-      "gamesInSeries": 3
+      "gamesInSeries": 3,
+      "homeWinPct": 66.4,
+      "awayWinPct": 33.6,
+      "helpsTorPct": 33.6,
+      "wantWinnerId": 141
     },
     {
       "gamePk": 824390,
@@ -11686,7 +11697,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/141.svg",
         "color": "#134A8E",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Dylan Cease",
         "record": {
           "wins": 66,
           "losses": 70,
@@ -11747,7 +11758,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/141.svg",
         "color": "#134A8E",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Jos\u00e9 Soriano",
         "record": {
           "wins": 66,
           "losses": 70,
@@ -13222,10 +13233,10 @@
       "gameDate": "2026-08-29T17:05:00Z",
       "dayNight": "day",
       "venue": "Yankee Stadium",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "status": "In Progress",
+      "abstractState": "Live",
+      "inning": 3,
+      "inningState": "Bottom",
       "home": {
         "id": 147,
         "name": "New York Yankees",
@@ -13235,7 +13246,7 @@
         "fileCode": "nyy",
         "logo": "https://www.mlbstatic.com/team-logos/147.svg",
         "color": "#0C2340",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Carlos Rod\u00f3n",
         "record": {
           "wins": 76,
@@ -13253,7 +13264,7 @@
         "fileCode": "bos",
         "logo": "https://www.mlbstatic.com/team-logos/111.svg",
         "color": "#BD3039",
-        "score": null,
+        "score": 1,
         "probablePitcher": "Jake Bennett",
         "record": {
           "wins": 73,
@@ -13280,10 +13291,10 @@
       "gameDate": "2026-08-29T17:10:00Z",
       "dayNight": "day",
       "venue": "Comerica Park",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
-      "inning": 1,
-      "inningState": "Top",
+      "status": "In Progress",
+      "abstractState": "Live",
+      "inning": 3,
+      "inningState": "Bottom",
       "home": {
         "id": 116,
         "name": "Detroit Tigers",
@@ -13293,7 +13304,7 @@
         "fileCode": "det",
         "logo": "https://www.mlbstatic.com/team-logos/116.svg",
         "color": "#0C2340",
-        "score": 0,
+        "score": 1,
         "probablePitcher": "Keider Montero",
         "record": {
           "wins": 62,
@@ -13338,10 +13349,10 @@
       "gameDate": "2026-08-29T18:10:00Z",
       "dayNight": "day",
       "venue": "Target Field",
-      "status": "Scheduled",
-      "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "status": "Warmup",
+      "abstractState": "Live",
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 142,
         "name": "Minnesota Twins",
@@ -13351,7 +13362,7 @@
         "fileCode": "min",
         "logo": "https://www.mlbstatic.com/team-logos/142.svg",
         "color": "#002B5C",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Bailey Ober",
         "record": {
           "wins": 64,
@@ -13369,7 +13380,7 @@
         "fileCode": "cws",
         "logo": "https://www.mlbstatic.com/team-logos/145.svg",
         "color": "#27251F",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Erick Fedde",
         "record": {
           "wins": 71,
@@ -13396,10 +13407,10 @@
       "gameDate": "2026-08-29T19:07:00Z",
       "dayNight": "day",
       "venue": "Rogers Centre",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 141,
         "name": "Toronto Blue Jays",
@@ -13409,7 +13420,7 @@
         "fileCode": "tor",
         "logo": "https://www.mlbstatic.com/team-logos/141.svg",
         "color": "#134A8E",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Jos\u00e9 Soriano",
         "record": {
           "wins": 66,
@@ -13427,7 +13438,7 @@
         "fileCode": "sea",
         "logo": "https://www.mlbstatic.com/team-logos/136.svg",
         "color": "#0C2C56",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Kade Anderson",
         "record": {
           "wins": 64,
@@ -13443,9 +13454,9 @@
       "gamesInSeries": 3,
       "interest": "Jays game",
       "note": "Get the W.",
-      "homeWinPct": 52.6,
-      "awayWinPct": 47.4,
-      "helpsTorPct": 52.6,
+      "homeWinPct": 52.9,
+      "awayWinPct": 47.1,
+      "helpsTorPct": 52.9,
       "wantWinnerId": 141
     },
     {
@@ -13454,10 +13465,10 @@
       "gameDate": "2026-08-29T20:10:00Z",
       "dayNight": "day",
       "venue": "Progressive Field",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 114,
         "name": "Cleveland Guardians",
@@ -13467,7 +13478,7 @@
         "fileCode": "cle",
         "logo": "https://www.mlbstatic.com/team-logos/114.svg",
         "color": "#00385D",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Foster Griffin",
         "record": {
           "wins": 68,
@@ -13485,7 +13496,7 @@
         "fileCode": "kc",
         "logo": "https://www.mlbstatic.com/team-logos/118.svg",
         "color": "#004687",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Daniel Lynch IV",
         "record": {
           "wins": 61,
@@ -13791,9 +13802,9 @@
       "gamesInSeries": 3,
       "interest": "Jays game",
       "note": "Get the W.",
-      "homeWinPct": 52.6,
-      "awayWinPct": 47.4,
-      "helpsTorPct": 52.6,
+      "homeWinPct": 52.9,
+      "awayWinPct": 47.1,
+      "helpsTorPct": 52.9,
       "wantWinnerId": 141
     },
     {
@@ -14139,9 +14150,9 @@
       "gamesInSeries": 3,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 65.5,
-      "awayWinPct": 34.5,
-      "helpsTorPct": 34.5,
+      "homeWinPct": 65.8,
+      "awayWinPct": 34.2,
+      "helpsTorPct": 34.2,
       "wantWinnerId": 136
     },
     {
@@ -14263,6 +14274,20 @@
   ],
   "injuries": [
     {
+      "name": "Josh Smith",
+      "status": "10-Day-IL",
+      "comment": "Smith (hamstring) will play in one more rehab game with Triple-A Buffalo on Saturday, Arden Zwelling of Sportsnet.ca reports.",
+      "date": "2026-08-29T16:55Z",
+      "position": null
+    },
+    {
+      "name": "Jameson Taillon",
+      "status": "15-Day-IL",
+      "comment": "Taillon (forearm) gave up four runs on three hits and two walks over 3.1 innings for Triple-A Buffalo on Friday. He struck out two.",
+      "date": "2026-08-29T15:14Z",
+      "position": null
+    },
+    {
       "name": "Anthony Santander",
       "status": "60-Day-IL",
       "comment": "Santander (shoulder) has been hitting off a pitching machine at the Blue Jays' spring training complex and still hopes to return before the end of the season, Keegan Matheson of MLB.com reports.",
@@ -14277,24 +14302,10 @@
       "position": null
     },
     {
-      "name": "Josh Smith",
-      "status": "10-Day-IL",
-      "comment": "Smith (hamstring) will begin a rehab assignment with Triple-A Buffalo on Thursday, Arden Zwelling of Sportsnet.ca reports.",
-      "date": "2026-08-27T20:30Z",
-      "position": null
-    },
-    {
       "name": "Yimi Garcia",
       "status": "60-Day-IL",
       "comment": "Garcia (elbow/neck/biceps) underwent thoracic outlet surgery Thursday and will miss the rest of the season, Arden Zwelling of Sportsnet.ca reports.",
       "date": "2026-08-26T17:56Z",
-      "position": null
-    },
-    {
-      "name": "Jameson Taillon",
-      "status": "15-Day-IL",
-      "comment": "Taillon (forearm) is scheduled to throw about 50 pitches in a rehab start with Triple-A Buffalo on Friday, Arden Zwelling of Sportsnet.ca reports.",
-      "date": "2026-08-25T21:10Z",
       "position": null
     },
     {
@@ -15197,7 +15208,7 @@
   "playoffOdds": {
     "percent": 4.0,
     "sims": 5000,
-    "made": 199,
+    "made": 202,
     "gamesModeled": 254,
     "talent": 0.434,
     "method": "Monte Carlo of remaining American League games. Each game uses log5 win odds from Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag.",
