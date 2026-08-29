@@ -1,8 +1,10 @@
 name: Update playoff dashboard
 
+# GitHub often delays or skips a single hourly cron on public repos.
+# Several slots per hour so a missed tick does not leave the page stale.
 on:
   schedule:
-    - cron: "12 * * * *"
+    - cron: "7,27,47 * * * *"
   workflow_dispatch:
   push:
     branches: [main, master]
@@ -12,6 +14,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: dashboard-refresh
+  cancel-in-progress: false
 
 jobs:
   refresh:
@@ -37,5 +43,6 @@ jobs:
             echo "No standings or schedule changes this hour."
           else
             git commit -m "chore: refresh Blue Jays playoff dashboard"
+            git pull --rebase origin HEAD
             git push
           fi
