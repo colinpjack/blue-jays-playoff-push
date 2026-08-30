@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T16:08:49.271557-04:00",
+  "generatedAt": "2026-08-30T18:42:34.184734-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -19,9 +19,9 @@
     "divisionRank": 4,
     "leagueRank": 7,
     "wildCardRank": 4,
-    "gamesBack": "14.5",
-    "wildCardGamesBack": "1.0",
-    "wildCardGamesBackNum": 1.0,
+    "gamesBack": "15.0",
+    "wildCardGamesBack": "1.5",
+    "wildCardGamesBackNum": 1.5,
     "divisionName": "American League East",
     "streak": "W3",
     "streakType": "wins",
@@ -44,8 +44,8 @@
     "pythagLosses": 75,
     "pythagPct": 0.46,
     "expectedRecord": "63-75",
-    "eliminationNumber": "12",
-    "wildCardEliminationNumber": "25",
+    "eliminationNumber": "11",
+    "wildCardEliminationNumber": "24",
     "clinched": false,
     "divisionLeader": false,
     "hitting": {
@@ -79,16 +79,16 @@
       "winPercentage": ".493",
       "runs": 598
     },
-    "momentum": 77,
+    "momentum": 72,
     "injuryCount": 15,
     "weekAgo": {
       "wildCardRank": 5,
       "wildCardGamesBack": "1.5",
       "wins": 64,
       "losses": 68,
-      "gbDelta": -0.5,
+      "gbDelta": 0.0,
       "rankDelta": -1,
-      "direction": "up"
+      "direction": "flat"
     }
   },
   "narrative": {
@@ -106,11 +106,11 @@
       "fileCode": "tb",
       "logo": "https://www.mlbstatic.com/team-logos/139.svg",
       "color": "#092C5C",
-      "wins": 81,
+      "wins": 82,
       "losses": 54,
-      "pct": ".600",
-      "gamesPlayed": 135,
-      "gamesRemaining": 27,
+      "pct": ".603",
+      "gamesPlayed": 136,
+      "gamesRemaining": 26,
       "divisionRank": 1,
       "leagueRank": 1,
       "wildCardRank": null,
@@ -118,27 +118,27 @@
       "wildCardGamesBack": "-",
       "wildCardGamesBackNum": 0.0,
       "divisionName": "American League East",
-      "streak": "W3",
+      "streak": "W4",
       "streakType": "wins",
-      "streakNumber": 3,
+      "streakNumber": 4,
       "lastTen": "6-4",
       "lastTenWins": 6,
       "lastTenLosses": 4,
-      "home": "45-23",
+      "home": "46-23",
       "away": "36-31",
-      "oneRun": "19-13",
-      "extraInning": "6-6",
-      "day": "30-26",
+      "oneRun": "20-13",
+      "extraInning": "7-6",
+      "day": "31-26",
       "night": "51-28",
-      "vsLeft": "24-13",
+      "vsLeft": "25-13",
       "vsRight": "57-41",
-      "runsScored": 611,
-      "runsAllowed": 558,
-      "runDifferential": 53,
-      "pythagWins": 73,
+      "runsScored": 616,
+      "runsAllowed": 562,
+      "runDifferential": 54,
+      "pythagWins": 74,
       "pythagLosses": 62,
-      "pythagPct": 0.541,
-      "expectedRecord": "73-62",
+      "pythagPct": 0.542,
+      "expectedRecord": "74-62",
       "eliminationNumber": "-",
       "wildCardEliminationNumber": "-",
       "clinched": false,
@@ -150,10 +150,10 @@
           "gameDate": "2026-08-30T17:40:00Z",
           "dayNight": "day",
           "venue": "Tropicana Field",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 9,
-          "inningState": "Middle",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 11,
+          "inningState": "Bottom",
           "home": {
             "id": 139,
             "name": "Tampa Bay Rays",
@@ -163,13 +163,13 @@
             "fileCode": "tb",
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
-            "score": 1,
+            "score": 5,
             "probablePitcher": "Drew Rasmussen",
             "record": {
-              "wins": 81,
+              "wins": 82,
               "losses": 54,
               "ties": 0,
-              "pct": ".600"
+              "pct": ".603"
             }
           },
           "away": {
@@ -181,13 +181,13 @@
             "fileCode": "sd",
             "logo": "https://www.mlbstatic.com/team-logos/135.svg",
             "color": "#1D4ED8",
-            "score": 3,
+            "score": 4,
             "probablePitcher": "Robbie Ray",
             "record": {
               "wins": 72,
-              "losses": 64,
+              "losses": 65,
               "ties": 0,
-              "pct": ".529"
+              "pct": ".526"
             }
           },
           "isHome": true,
@@ -201,7 +201,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/135.svg",
             "color": "#1D4ED8"
           },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 3,
           "gamesInSeries": 3
         },
@@ -227,10 +227,10 @@
             "score": null,
             "probablePitcher": "Ian Seymour",
             "record": {
-              "wins": 81,
+              "wins": 82,
               "losses": 54,
               "ties": 0,
-              "pct": ".600"
+              "pct": ".603"
             }
           },
           "away": {
@@ -246,9 +246,9 @@
             "probablePitcher": "Robert Stock",
             "record": {
               "wins": 61,
-              "losses": 75,
+              "losses": 76,
               "ties": 0,
-              "pct": ".449"
+              "pct": ".445"
             }
           },
           "isHome": true,
@@ -277,11 +277,11 @@
       "fileCode": "nyy",
       "logo": "https://www.mlbstatic.com/team-logos/147.svg",
       "color": "#0C2340",
-      "wins": 77,
+      "wins": 78,
       "losses": 59,
-      "pct": ".566",
-      "gamesPlayed": 136,
-      "gamesRemaining": 26,
+      "pct": ".569",
+      "gamesPlayed": 137,
+      "gamesRemaining": 25,
       "divisionRank": 2,
       "leagueRank": 2,
       "wildCardRank": 1,
@@ -289,28 +289,28 @@
       "wildCardGamesBack": "+9.0",
       "wildCardGamesBackNum": 9.0,
       "divisionName": "American League East",
-      "streak": "W1",
+      "streak": "W2",
       "streakType": "wins",
-      "streakNumber": 1,
+      "streakNumber": 2,
       "lastTen": "6-4",
       "lastTenWins": 6,
       "lastTenLosses": 4,
-      "home": "36-31",
+      "home": "37-31",
       "away": "41-28",
       "oneRun": "17-19",
       "extraInning": "3-9",
-      "day": "28-23",
+      "day": "29-23",
       "night": "49-36",
-      "vsLeft": "30-18",
+      "vsLeft": "31-18",
       "vsRight": "47-41",
-      "runsScored": 606,
-      "runsAllowed": 504,
-      "runDifferential": 102,
-      "pythagWins": 79,
-      "pythagLosses": 57,
-      "pythagPct": 0.584,
-      "expectedRecord": "79-57",
-      "eliminationNumber": "23",
+      "runsScored": 622,
+      "runsAllowed": 505,
+      "runDifferential": 117,
+      "pythagWins": 81,
+      "pythagLosses": 56,
+      "pythagPct": 0.594,
+      "expectedRecord": "81-56",
+      "eliminationNumber": "22",
       "wildCardEliminationNumber": "-",
       "clinched": false,
       "divisionLeader": false,
@@ -321,10 +321,10 @@
           "gameDate": "2026-08-30T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 8,
-          "inningState": "Bottom",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Top",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -334,13 +334,13 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": 10,
+            "score": 16,
             "probablePitcher": "Will Warren",
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "away": {
@@ -356,9 +356,9 @@
             "probablePitcher": "Ranger Suarez",
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "isHome": true,
@@ -372,7 +372,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039"
           },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 4,
           "gamesInSeries": 4
         },
@@ -416,10 +416,10 @@
             "score": null,
             "probablePitcher": "Elmer Rodr\u00edguez",
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "isHome": false,
@@ -477,10 +477,10 @@
             "score": null,
             "probablePitcher": "Gerrit Cole",
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "isHome": false,
@@ -538,10 +538,10 @@
             "score": null,
             "probablePitcher": "Cam Schlittler",
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "isHome": false,
@@ -582,9 +582,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 72,
-              "losses": 64,
+              "losses": 65,
               "ties": 0,
-              "pct": ".529"
+              "pct": ".526"
             }
           },
           "away": {
@@ -599,10 +599,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "isHome": false,
@@ -643,9 +643,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 72,
-              "losses": 64,
+              "losses": 65,
               "ties": 0,
-              "pct": ".529"
+              "pct": ".526"
             }
           },
           "away": {
@@ -660,10 +660,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "isHome": false,
@@ -702,39 +702,39 @@
       "logo": "https://www.mlbstatic.com/team-logos/111.svg",
       "color": "#BD3039",
       "wins": 74,
-      "losses": 62,
-      "pct": ".544",
-      "gamesPlayed": 136,
-      "gamesRemaining": 26,
+      "losses": 63,
+      "pct": ".540",
+      "gamesPlayed": 137,
+      "gamesRemaining": 25,
       "divisionRank": 3,
       "leagueRank": 3,
       "wildCardRank": 2,
-      "gamesBack": "7.5",
-      "wildCardGamesBack": "+6.0",
-      "wildCardGamesBackNum": 6.0,
+      "gamesBack": "8.5",
+      "wildCardGamesBack": "+5.0",
+      "wildCardGamesBackNum": 5.0,
       "divisionName": "American League East",
-      "streak": "L1",
+      "streak": "L2",
       "streakType": "losses",
-      "streakNumber": 1,
+      "streakNumber": 2,
       "lastTen": "6-4",
       "lastTenWins": 6,
       "lastTenLosses": 4,
       "home": "34-32",
-      "away": "40-30",
+      "away": "40-31",
       "oneRun": "15-17",
       "extraInning": "6-4",
-      "day": "25-29",
+      "day": "25-30",
       "night": "49-33",
       "vsLeft": "21-13",
-      "vsRight": "53-49",
-      "runsScored": 608,
-      "runsAllowed": 509,
-      "runDifferential": 99,
-      "pythagWins": 79,
-      "pythagLosses": 57,
-      "pythagPct": 0.581,
-      "expectedRecord": "79-57",
-      "eliminationNumber": "20",
+      "vsRight": "53-50",
+      "runsScored": 609,
+      "runsAllowed": 525,
+      "runDifferential": 84,
+      "pythagWins": 78,
+      "pythagLosses": 59,
+      "pythagPct": 0.567,
+      "expectedRecord": "78-59",
+      "eliminationNumber": "18",
       "wildCardEliminationNumber": "-",
       "clinched": false,
       "divisionLeader": false,
@@ -745,10 +745,10 @@
           "gameDate": "2026-08-30T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 8,
-          "inningState": "Bottom",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Top",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -758,13 +758,13 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": 10,
+            "score": 16,
             "probablePitcher": "Will Warren",
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "away": {
@@ -780,9 +780,9 @@
             "probablePitcher": "Ranger Suarez",
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "isHome": false,
@@ -796,7 +796,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340"
           },
-          "result": null,
+          "result": "L",
           "seriesGameNumber": 4,
           "gamesInSeries": 4
         },
@@ -823,9 +823,9 @@
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "away": {
@@ -884,9 +884,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "away": {
@@ -945,9 +945,9 @@
             "probablePitcher": "Patrick Sandoval",
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "away": {
@@ -1024,9 +1024,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "isHome": false,
@@ -1085,9 +1085,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "isHome": false,
@@ -1111,7 +1111,7 @@
         "wildCardGamesBack": "+6.5",
         "wins": 71,
         "losses": 59,
-        "gbDelta": 0.5,
+        "gbDelta": 1.5,
         "rankDelta": 0,
         "direction": "down"
       }
@@ -1133,9 +1133,9 @@
       "divisionRank": 4,
       "leagueRank": 7,
       "wildCardRank": 4,
-      "gamesBack": "14.5",
-      "wildCardGamesBack": "1.0",
-      "wildCardGamesBackNum": 1.0,
+      "gamesBack": "15.0",
+      "wildCardGamesBack": "1.5",
+      "wildCardGamesBackNum": 1.5,
       "divisionName": "American League East",
       "streak": "W3",
       "streakType": "wins",
@@ -1158,8 +1158,8 @@
       "pythagLosses": 75,
       "pythagPct": 0.46,
       "expectedRecord": "63-75",
-      "eliminationNumber": "12",
-      "wildCardEliminationNumber": "25",
+      "eliminationNumber": "11",
+      "wildCardEliminationNumber": "24",
       "clinched": false,
       "divisionLeader": false,
       "nextGames": [
@@ -1169,7 +1169,7 @@
           "gameDate": "2026-08-30T17:37:00Z",
           "dayNight": "day",
           "venue": "Rogers Centre",
-          "status": "Game Over",
+          "status": "Final",
           "abstractState": "Final",
           "inning": 9,
           "inningState": "Top",
@@ -1246,10 +1246,10 @@
             "score": null,
             "probablePitcher": "Gavin Williams",
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -1307,10 +1307,10 @@
             "score": null,
             "probablePitcher": "Joey Cantillo",
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -1368,10 +1368,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -1430,9 +1430,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 62,
-              "losses": 75,
+              "losses": 76,
               "ties": 0,
-              "pct": ".453"
+              "pct": ".449"
             }
           },
           "away": {
@@ -1491,9 +1491,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 62,
-              "losses": 75,
+              "losses": 76,
               "ties": 0,
-              "pct": ".453"
+              "pct": ".449"
             }
           },
           "away": {
@@ -1535,9 +1535,9 @@
         "wildCardGamesBack": "1.5",
         "wins": 64,
         "losses": 68,
-        "gbDelta": -0.5,
+        "gbDelta": 0.0,
         "rankDelta": -1,
-        "direction": "up"
+        "direction": "flat"
       }
     },
     {
@@ -1557,9 +1557,9 @@
       "divisionRank": 5,
       "leagueRank": 8,
       "wildCardRank": 5,
-      "gamesBack": "14.5",
-      "wildCardGamesBack": "1.0",
-      "wildCardGamesBackNum": 1.0,
+      "gamesBack": "15.0",
+      "wildCardGamesBack": "1.5",
+      "wildCardGamesBackNum": 1.5,
       "divisionName": "American League East",
       "streak": "W2",
       "streakType": "wins",
@@ -1582,8 +1582,8 @@
       "pythagLosses": 70,
       "pythagPct": 0.485,
       "expectedRecord": "66-70",
-      "eliminationNumber": "13",
-      "wildCardEliminationNumber": "26",
+      "eliminationNumber": "12",
+      "wildCardEliminationNumber": "25",
       "clinched": false,
       "divisionLeader": false,
       "nextGames": [
@@ -1595,7 +1595,7 @@
           "venue": "Sutter Health Park",
           "status": "In Progress",
           "abstractState": "Live",
-          "inning": 1,
+          "inning": 9,
           "inningState": "Top",
           "home": {
             "id": 133,
@@ -1606,7 +1606,7 @@
             "fileCode": "ath",
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
-            "score": 0,
+            "score": 5,
             "probablePitcher": "Jeffrey Springs",
             "record": {
               "wins": 53,
@@ -1624,7 +1624,7 @@
             "fileCode": "bal",
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
-            "score": 0,
+            "score": 8,
             "probablePitcher": "Chris Bassitt",
             "record": {
               "wins": 67,
@@ -1671,9 +1671,9 @@
             "probablePitcher": "Tanner Gordon",
             "record": {
               "wins": 52,
-              "losses": 84,
+              "losses": 85,
               "ties": 0,
-              "pct": ".382"
+              "pct": ".380"
             }
           },
           "away": {
@@ -1732,9 +1732,9 @@
             "probablePitcher": "Gabriel Hughes",
             "record": {
               "wins": 52,
-              "losses": 84,
+              "losses": 85,
               "ties": 0,
-              "pct": ".382"
+              "pct": ".380"
             }
           },
           "away": {
@@ -1793,9 +1793,9 @@
             "probablePitcher": "Tomoyuki Sugano",
             "record": {
               "wins": 52,
-              "losses": 84,
+              "losses": 85,
               "ties": 0,
-              "pct": ".382"
+              "pct": ".380"
             }
           },
           "away": {
@@ -1872,9 +1872,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "isHome": true,
@@ -1933,9 +1933,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "isHome": true,
@@ -1959,7 +1959,7 @@
         "wildCardGamesBack": "2.0",
         "wins": 63,
         "losses": 68,
-        "gbDelta": -1.0,
+        "gbDelta": -0.5,
         "rankDelta": -2,
         "direction": "up"
       }
@@ -1975,11 +1975,11 @@
       "fileCode": "nyy",
       "logo": "https://www.mlbstatic.com/team-logos/147.svg",
       "color": "#0C2340",
-      "wins": 77,
+      "wins": 78,
       "losses": 59,
-      "pct": ".566",
-      "gamesPlayed": 136,
-      "gamesRemaining": 26,
+      "pct": ".569",
+      "gamesPlayed": 137,
+      "gamesRemaining": 25,
       "divisionRank": 2,
       "leagueRank": 2,
       "wildCardRank": 1,
@@ -1987,28 +1987,28 @@
       "wildCardGamesBack": "+9.0",
       "wildCardGamesBackNum": 9.0,
       "divisionName": "American League East",
-      "streak": "W1",
+      "streak": "W2",
       "streakType": "wins",
-      "streakNumber": 1,
+      "streakNumber": 2,
       "lastTen": "6-4",
       "lastTenWins": 6,
       "lastTenLosses": 4,
-      "home": "36-31",
+      "home": "37-31",
       "away": "41-28",
       "oneRun": "17-19",
       "extraInning": "3-9",
-      "day": "28-23",
+      "day": "29-23",
       "night": "49-36",
-      "vsLeft": "30-18",
+      "vsLeft": "31-18",
       "vsRight": "47-41",
-      "runsScored": 606,
-      "runsAllowed": 504,
-      "runDifferential": 102,
-      "pythagWins": 79,
-      "pythagLosses": 57,
-      "pythagPct": 0.584,
-      "expectedRecord": "79-57",
-      "eliminationNumber": "23",
+      "runsScored": 622,
+      "runsAllowed": 505,
+      "runDifferential": 117,
+      "pythagWins": 81,
+      "pythagLosses": 56,
+      "pythagPct": 0.594,
+      "expectedRecord": "81-56",
+      "eliminationNumber": "22",
       "wildCardEliminationNumber": "-",
       "clinched": false,
       "divisionLeader": false,
@@ -2019,10 +2019,10 @@
           "gameDate": "2026-08-30T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 8,
-          "inningState": "Bottom",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Top",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -2032,13 +2032,13 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": 10,
+            "score": 16,
             "probablePitcher": "Will Warren",
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "away": {
@@ -2054,9 +2054,9 @@
             "probablePitcher": "Ranger Suarez",
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "isHome": true,
@@ -2070,7 +2070,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039"
           },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 4,
           "gamesInSeries": 4
         },
@@ -2114,10 +2114,10 @@
             "score": null,
             "probablePitcher": "Elmer Rodr\u00edguez",
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "isHome": false,
@@ -2175,10 +2175,10 @@
             "score": null,
             "probablePitcher": "Gerrit Cole",
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "isHome": false,
@@ -2236,10 +2236,10 @@
             "score": null,
             "probablePitcher": "Cam Schlittler",
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "isHome": false,
@@ -2280,9 +2280,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 72,
-              "losses": 64,
+              "losses": 65,
               "ties": 0,
-              "pct": ".529"
+              "pct": ".526"
             }
           },
           "away": {
@@ -2297,10 +2297,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "isHome": false,
@@ -2341,9 +2341,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 72,
-              "losses": 64,
+              "losses": 65,
               "ties": 0,
-              "pct": ".529"
+              "pct": ".526"
             }
           },
           "away": {
@@ -2358,10 +2358,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "isHome": false,
@@ -2400,39 +2400,39 @@
       "logo": "https://www.mlbstatic.com/team-logos/111.svg",
       "color": "#BD3039",
       "wins": 74,
-      "losses": 62,
-      "pct": ".544",
-      "gamesPlayed": 136,
-      "gamesRemaining": 26,
+      "losses": 63,
+      "pct": ".540",
+      "gamesPlayed": 137,
+      "gamesRemaining": 25,
       "divisionRank": 3,
       "leagueRank": 3,
       "wildCardRank": 2,
-      "gamesBack": "7.5",
-      "wildCardGamesBack": "+6.0",
-      "wildCardGamesBackNum": 6.0,
+      "gamesBack": "8.5",
+      "wildCardGamesBack": "+5.0",
+      "wildCardGamesBackNum": 5.0,
       "divisionName": "American League East",
-      "streak": "L1",
+      "streak": "L2",
       "streakType": "losses",
-      "streakNumber": 1,
+      "streakNumber": 2,
       "lastTen": "6-4",
       "lastTenWins": 6,
       "lastTenLosses": 4,
       "home": "34-32",
-      "away": "40-30",
+      "away": "40-31",
       "oneRun": "15-17",
       "extraInning": "6-4",
-      "day": "25-29",
+      "day": "25-30",
       "night": "49-33",
       "vsLeft": "21-13",
-      "vsRight": "53-49",
-      "runsScored": 608,
-      "runsAllowed": 509,
-      "runDifferential": 99,
-      "pythagWins": 79,
-      "pythagLosses": 57,
-      "pythagPct": 0.581,
-      "expectedRecord": "79-57",
-      "eliminationNumber": "20",
+      "vsRight": "53-50",
+      "runsScored": 609,
+      "runsAllowed": 525,
+      "runDifferential": 84,
+      "pythagWins": 78,
+      "pythagLosses": 59,
+      "pythagPct": 0.567,
+      "expectedRecord": "78-59",
+      "eliminationNumber": "18",
       "wildCardEliminationNumber": "-",
       "clinched": false,
       "divisionLeader": false,
@@ -2443,10 +2443,10 @@
           "gameDate": "2026-08-30T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 8,
-          "inningState": "Bottom",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Top",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -2456,13 +2456,13 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": 10,
+            "score": 16,
             "probablePitcher": "Will Warren",
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "away": {
@@ -2478,9 +2478,9 @@
             "probablePitcher": "Ranger Suarez",
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "isHome": false,
@@ -2494,7 +2494,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340"
           },
-          "result": null,
+          "result": "L",
           "seriesGameNumber": 4,
           "gamesInSeries": 4
         },
@@ -2521,9 +2521,9 @@
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "away": {
@@ -2582,9 +2582,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "away": {
@@ -2643,9 +2643,9 @@
             "probablePitcher": "Patrick Sandoval",
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "away": {
@@ -2722,9 +2722,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "isHome": false,
@@ -2783,9 +2783,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "isHome": false,
@@ -2809,7 +2809,7 @@
         "wildCardGamesBack": "+6.5",
         "wins": 71,
         "losses": 59,
-        "gbDelta": 0.5,
+        "gbDelta": 1.5,
         "rankDelta": 0,
         "direction": "down"
       }
@@ -2823,39 +2823,39 @@
       "fileCode": "cle",
       "logo": "https://www.mlbstatic.com/team-logos/114.svg",
       "color": "#00385D",
-      "wins": 68,
+      "wins": 69,
       "losses": 68,
-      "pct": ".500",
-      "gamesPlayed": 136,
-      "gamesRemaining": 26,
+      "pct": ".504",
+      "gamesPlayed": 137,
+      "gamesRemaining": 25,
       "divisionRank": 2,
       "leagueRank": 6,
       "wildCardRank": 3,
-      "gamesBack": "4.5",
+      "gamesBack": "3.5",
       "wildCardGamesBack": "-",
       "wildCardGamesBackNum": 0.0,
       "divisionName": "American League East",
-      "streak": "L2",
-      "streakType": "losses",
-      "streakNumber": 2,
-      "lastTen": "7-3",
-      "lastTenWins": 7,
-      "lastTenLosses": 3,
-      "home": "31-36",
+      "streak": "W1",
+      "streakType": "wins",
+      "streakNumber": 1,
+      "lastTen": "8-2",
+      "lastTenWins": 8,
+      "lastTenLosses": 2,
+      "home": "32-36",
       "away": "37-32",
       "oneRun": "20-19",
       "extraInning": "5-5",
-      "day": "26-25",
+      "day": "27-25",
       "night": "42-43",
       "vsLeft": "26-21",
-      "vsRight": "42-47",
-      "runsScored": 546,
-      "runsAllowed": 558,
-      "runDifferential": -12,
-      "pythagWins": 67,
+      "vsRight": "43-47",
+      "runsScored": 557,
+      "runsAllowed": 559,
+      "runDifferential": -2,
+      "pythagWins": 68,
       "pythagLosses": 69,
-      "pythagPct": 0.49,
-      "expectedRecord": "67-69",
+      "pythagPct": 0.498,
+      "expectedRecord": "68-69",
       "eliminationNumber": "23",
       "wildCardEliminationNumber": "-",
       "clinched": false,
@@ -2867,10 +2867,10 @@
           "gameDate": "2026-08-30T17:40:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 7,
-          "inningState": "Middle",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -2883,10 +2883,10 @@
             "score": 11,
             "probablePitcher": "Parker Messick",
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -2902,9 +2902,9 @@
             "probablePitcher": "Seth Lugo",
             "record": {
               "wins": 62,
-              "losses": 75,
+              "losses": 76,
               "ties": 0,
-              "pct": ".453"
+              "pct": ".449"
             }
           },
           "isHome": true,
@@ -2918,7 +2918,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/118.svg",
             "color": "#004687"
           },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 3,
           "gamesInSeries": 3
         },
@@ -2944,10 +2944,10 @@
             "score": null,
             "probablePitcher": "Gavin Williams",
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -3005,10 +3005,10 @@
             "score": null,
             "probablePitcher": "Joey Cantillo",
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -3066,10 +3066,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -3127,10 +3127,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -3146,9 +3146,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": true,
@@ -3188,10 +3188,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -3207,9 +3207,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": true,
@@ -3255,9 +3255,9 @@
       "divisionRank": 4,
       "leagueRank": 7,
       "wildCardRank": 4,
-      "gamesBack": "14.5",
-      "wildCardGamesBack": "1.0",
-      "wildCardGamesBackNum": 1.0,
+      "gamesBack": "15.0",
+      "wildCardGamesBack": "1.5",
+      "wildCardGamesBackNum": 1.5,
       "divisionName": "American League East",
       "streak": "W3",
       "streakType": "wins",
@@ -3280,8 +3280,8 @@
       "pythagLosses": 75,
       "pythagPct": 0.46,
       "expectedRecord": "63-75",
-      "eliminationNumber": "12",
-      "wildCardEliminationNumber": "25",
+      "eliminationNumber": "11",
+      "wildCardEliminationNumber": "24",
       "clinched": false,
       "divisionLeader": false,
       "nextGames": [
@@ -3291,7 +3291,7 @@
           "gameDate": "2026-08-30T17:37:00Z",
           "dayNight": "day",
           "venue": "Rogers Centre",
-          "status": "Game Over",
+          "status": "Final",
           "abstractState": "Final",
           "inning": 9,
           "inningState": "Top",
@@ -3368,10 +3368,10 @@
             "score": null,
             "probablePitcher": "Gavin Williams",
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -3429,10 +3429,10 @@
             "score": null,
             "probablePitcher": "Joey Cantillo",
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -3490,10 +3490,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -3552,9 +3552,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 62,
-              "losses": 75,
+              "losses": 76,
               "ties": 0,
-              "pct": ".453"
+              "pct": ".449"
             }
           },
           "away": {
@@ -3613,9 +3613,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 62,
-              "losses": 75,
+              "losses": 76,
               "ties": 0,
-              "pct": ".453"
+              "pct": ".449"
             }
           },
           "away": {
@@ -3657,9 +3657,9 @@
         "wildCardGamesBack": "1.5",
         "wins": 64,
         "losses": 68,
-        "gbDelta": -0.5,
+        "gbDelta": 0.0,
         "rankDelta": -1,
-        "direction": "up"
+        "direction": "flat"
       }
     },
     {
@@ -3679,9 +3679,9 @@
       "divisionRank": 5,
       "leagueRank": 8,
       "wildCardRank": 5,
-      "gamesBack": "14.5",
-      "wildCardGamesBack": "1.0",
-      "wildCardGamesBackNum": 1.0,
+      "gamesBack": "15.0",
+      "wildCardGamesBack": "1.5",
+      "wildCardGamesBackNum": 1.5,
       "divisionName": "American League East",
       "streak": "W2",
       "streakType": "wins",
@@ -3704,8 +3704,8 @@
       "pythagLosses": 70,
       "pythagPct": 0.485,
       "expectedRecord": "66-70",
-      "eliminationNumber": "13",
-      "wildCardEliminationNumber": "26",
+      "eliminationNumber": "12",
+      "wildCardEliminationNumber": "25",
       "clinched": false,
       "divisionLeader": false,
       "nextGames": [
@@ -3717,7 +3717,7 @@
           "venue": "Sutter Health Park",
           "status": "In Progress",
           "abstractState": "Live",
-          "inning": 1,
+          "inning": 9,
           "inningState": "Top",
           "home": {
             "id": 133,
@@ -3728,7 +3728,7 @@
             "fileCode": "ath",
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
-            "score": 0,
+            "score": 5,
             "probablePitcher": "Jeffrey Springs",
             "record": {
               "wins": 53,
@@ -3746,7 +3746,7 @@
             "fileCode": "bal",
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
-            "score": 0,
+            "score": 8,
             "probablePitcher": "Chris Bassitt",
             "record": {
               "wins": 67,
@@ -3793,9 +3793,9 @@
             "probablePitcher": "Tanner Gordon",
             "record": {
               "wins": 52,
-              "losses": 84,
+              "losses": 85,
               "ties": 0,
-              "pct": ".382"
+              "pct": ".380"
             }
           },
           "away": {
@@ -3854,9 +3854,9 @@
             "probablePitcher": "Gabriel Hughes",
             "record": {
               "wins": 52,
-              "losses": 84,
+              "losses": 85,
               "ties": 0,
-              "pct": ".382"
+              "pct": ".380"
             }
           },
           "away": {
@@ -3915,9 +3915,9 @@
             "probablePitcher": "Tomoyuki Sugano",
             "record": {
               "wins": 52,
-              "losses": 84,
+              "losses": 85,
               "ties": 0,
-              "pct": ".382"
+              "pct": ".380"
             }
           },
           "away": {
@@ -3994,9 +3994,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "isHome": true,
@@ -4055,9 +4055,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "isHome": true,
@@ -4081,7 +4081,7 @@
         "wildCardGamesBack": "2.0",
         "wins": 63,
         "losses": 68,
-        "gbDelta": -1.0,
+        "gbDelta": -0.5,
         "rankDelta": -2,
         "direction": "up"
       }
@@ -4095,11 +4095,11 @@
       "fileCode": "tex",
       "logo": "https://www.mlbstatic.com/team-logos/140.svg",
       "color": "#003278",
-      "wins": 66,
+      "wins": 67,
       "losses": 70,
-      "pct": ".485",
-      "gamesPlayed": 136,
-      "gamesRemaining": 26,
+      "pct": ".489",
+      "gamesPlayed": 137,
+      "gamesRemaining": 25,
       "divisionRank": 2,
       "leagueRank": 9,
       "wildCardRank": 6,
@@ -4107,29 +4107,29 @@
       "wildCardGamesBack": "2.0",
       "wildCardGamesBackNum": 2.0,
       "divisionName": "American League East",
-      "streak": "L4",
-      "streakType": "losses",
-      "streakNumber": 4,
-      "lastTen": "4-6",
-      "lastTenWins": 4,
-      "lastTenLosses": 6,
+      "streak": "W1",
+      "streakType": "wins",
+      "streakNumber": 1,
+      "lastTen": "5-5",
+      "lastTenWins": 5,
+      "lastTenLosses": 5,
       "home": "36-29",
-      "away": "30-41",
+      "away": "31-41",
       "oneRun": "22-13",
       "extraInning": "4-1",
-      "day": "21-22",
+      "day": "22-22",
       "night": "45-48",
       "vsLeft": "20-17",
-      "vsRight": "46-53",
-      "runsScored": 547,
-      "runsAllowed": 601,
-      "runDifferential": -54,
-      "pythagWins": 62,
+      "vsRight": "47-53",
+      "runsScored": 554,
+      "runsAllowed": 605,
+      "runDifferential": -51,
+      "pythagWins": 63,
       "pythagLosses": 74,
-      "pythagPct": 0.457,
-      "expectedRecord": "62-74",
-      "eliminationNumber": "25",
-      "wildCardEliminationNumber": "25",
+      "pythagPct": 0.46,
+      "expectedRecord": "63-74",
+      "eliminationNumber": "24",
+      "wildCardEliminationNumber": "24",
       "clinched": false,
       "divisionLeader": false,
       "nextGames": [
@@ -4139,9 +4139,9 @@
           "gameDate": "2026-08-30T18:10:00Z",
           "dayNight": "day",
           "venue": "American Family Field",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 5,
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
           "inningState": "Bottom",
           "home": {
             "id": 158,
@@ -4152,13 +4152,13 @@
             "fileCode": "mil",
             "logo": "https://www.mlbstatic.com/team-logos/158.svg",
             "color": "#1D4ED8",
-            "score": 2,
+            "score": 4,
             "probablePitcher": "Dustin May",
             "record": {
               "wins": 85,
-              "losses": 51,
+              "losses": 52,
               "ties": 0,
-              "pct": ".625"
+              "pct": ".620"
             }
           },
           "away": {
@@ -4170,13 +4170,13 @@
             "fileCode": "tex",
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
-            "score": 4,
+            "score": 7,
             "probablePitcher": "Kumar Rocker",
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 70,
               "ties": 0,
-              "pct": ".485"
+              "pct": ".489"
             }
           },
           "isHome": false,
@@ -4190,7 +4190,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/158.svg",
             "color": "#1D4ED8"
           },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 3,
           "gamesInSeries": 3
         },
@@ -4216,10 +4216,10 @@
             "score": null,
             "probablePitcher": "Jacob deGrom",
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 70,
               "ties": 0,
-              "pct": ".485"
+              "pct": ".489"
             }
           },
           "away": {
@@ -4277,10 +4277,10 @@
             "score": null,
             "probablePitcher": "MacKenzie Gore",
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 70,
               "ties": 0,
-              "pct": ".485"
+              "pct": ".489"
             }
           },
           "away": {
@@ -4338,10 +4338,10 @@
             "score": null,
             "probablePitcher": "Cody Bradford",
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 70,
               "ties": 0,
-              "pct": ".485"
+              "pct": ".489"
             }
           },
           "away": {
@@ -4399,10 +4399,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 70,
               "ties": 0,
-              "pct": ".485"
+              "pct": ".489"
             }
           },
           "away": {
@@ -4417,10 +4417,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 81,
+              "wins": 82,
               "losses": 54,
               "ties": 0,
-              "pct": ".600"
+              "pct": ".603"
             }
           },
           "isHome": true,
@@ -4460,10 +4460,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 70,
               "ties": 0,
-              "pct": ".485"
+              "pct": ".489"
             }
           },
           "away": {
@@ -4478,10 +4478,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 81,
+              "wins": 82,
               "losses": 54,
               "ties": 0,
-              "pct": ".600"
+              "pct": ".603"
             }
           },
           "isHome": true,
@@ -4519,41 +4519,41 @@
       "fileCode": "min",
       "logo": "https://www.mlbstatic.com/team-logos/142.svg",
       "color": "#002B5C",
-      "wins": 64,
+      "wins": 65,
       "losses": 72,
-      "pct": ".471",
-      "gamesPlayed": 136,
-      "gamesRemaining": 26,
+      "pct": ".474",
+      "gamesPlayed": 137,
+      "gamesRemaining": 25,
       "divisionRank": 3,
       "leagueRank": 10,
       "wildCardRank": 7,
-      "gamesBack": "8.5",
+      "gamesBack": "7.5",
       "wildCardGamesBack": "4.0",
       "wildCardGamesBackNum": 4.0,
       "divisionName": "American League East",
-      "streak": "L4",
-      "streakType": "losses",
-      "streakNumber": 4,
+      "streak": "W1",
+      "streakType": "wins",
+      "streakNumber": 1,
       "lastTen": "3-7",
       "lastTenWins": 3,
       "lastTenLosses": 7,
-      "home": "35-33",
+      "home": "36-33",
       "away": "29-39",
       "oneRun": "14-20",
       "extraInning": "4-3",
-      "day": "26-30",
+      "day": "27-30",
       "night": "38-42",
       "vsLeft": "20-23",
-      "vsRight": "44-49",
-      "runsScored": 621,
-      "runsAllowed": 681,
-      "runDifferential": -60,
-      "pythagWins": 62,
+      "vsRight": "45-49",
+      "runsScored": 626,
+      "runsAllowed": 682,
+      "runDifferential": -56,
+      "pythagWins": 63,
       "pythagLosses": 74,
-      "pythagPct": 0.458,
-      "expectedRecord": "62-74",
+      "pythagPct": 0.461,
+      "expectedRecord": "63-74",
       "eliminationNumber": "19",
-      "wildCardEliminationNumber": "23",
+      "wildCardEliminationNumber": "22",
       "clinched": false,
       "divisionLeader": false,
       "nextGames": [
@@ -4563,10 +4563,10 @@
           "gameDate": "2026-08-30T18:10:00Z",
           "dayNight": "day",
           "venue": "Target Field",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 8,
-          "inningState": "Bottom",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -4579,10 +4579,10 @@
             "score": 5,
             "probablePitcher": "Zebby Matthews",
             "record": {
-              "wins": 64,
+              "wins": 65,
               "losses": 72,
               "ties": 0,
-              "pct": ".471"
+              "pct": ".474"
             }
           },
           "away": {
@@ -4594,13 +4594,13 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": 0,
+            "score": 1,
             "probablePitcher": "Jordan Hicks",
             "record": {
               "wins": 72,
-              "losses": 63,
+              "losses": 64,
               "ties": 0,
-              "pct": ".533"
+              "pct": ".529"
             }
           },
           "isHome": true,
@@ -4614,7 +4614,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F"
           },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 3,
           "gamesInSeries": 3
         },
@@ -4640,10 +4640,10 @@
             "score": null,
             "probablePitcher": "Taj Bradley",
             "record": {
-              "wins": 64,
+              "wins": 65,
               "losses": 72,
               "ties": 0,
-              "pct": ".471"
+              "pct": ".474"
             }
           },
           "away": {
@@ -4659,9 +4659,9 @@
             "probablePitcher": "Jackson Jobe",
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": true,
@@ -4701,10 +4701,10 @@
             "score": null,
             "probablePitcher": "Connor Prielipp",
             "record": {
-              "wins": 64,
+              "wins": 65,
               "losses": 72,
               "ties": 0,
-              "pct": ".471"
+              "pct": ".474"
             }
           },
           "away": {
@@ -4720,9 +4720,9 @@
             "probablePitcher": "Troy Melton",
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": true,
@@ -4762,10 +4762,10 @@
             "score": null,
             "probablePitcher": "Dean Kremer",
             "record": {
-              "wins": 64,
+              "wins": 65,
               "losses": 72,
               "ties": 0,
-              "pct": ".471"
+              "pct": ".474"
             }
           },
           "away": {
@@ -4781,9 +4781,9 @@
             "probablePitcher": "Drew Anderson",
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": true,
@@ -4824,9 +4824,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 72,
-              "losses": 63,
+              "losses": 64,
               "ties": 0,
-              "pct": ".533"
+              "pct": ".529"
             }
           },
           "away": {
@@ -4841,10 +4841,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 64,
+              "wins": 65,
               "losses": 72,
               "ties": 0,
-              "pct": ".471"
+              "pct": ".474"
             }
           },
           "isHome": false,
@@ -4885,9 +4885,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 72,
-              "losses": 63,
+              "losses": 64,
               "ties": 0,
-              "pct": ".533"
+              "pct": ".529"
             }
           },
           "away": {
@@ -4902,10 +4902,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 64,
+              "wins": 65,
               "losses": 72,
               "ties": 0,
-              "pct": ".471"
+              "pct": ".474"
             }
           },
           "isHome": false,
@@ -4951,9 +4951,9 @@
       "divisionRank": 3,
       "leagueRank": 11,
       "wildCardRank": 8,
-      "gamesBack": "4.5",
-      "wildCardGamesBack": "4.5",
-      "wildCardGamesBackNum": 4.5,
+      "gamesBack": "5.0",
+      "wildCardGamesBack": "5.0",
+      "wildCardGamesBackNum": 5.0,
       "divisionName": "American League East",
       "streak": "L4",
       "streakType": "losses",
@@ -4976,8 +4976,8 @@
       "pythagLosses": 76,
       "pythagPct": 0.442,
       "expectedRecord": "61-76",
-      "eliminationNumber": "22",
-      "wildCardEliminationNumber": "22",
+      "eliminationNumber": "21",
+      "wildCardEliminationNumber": "21",
       "clinched": false,
       "divisionLeader": false,
       "nextGames": [
@@ -4987,7 +4987,7 @@
           "gameDate": "2026-08-30T17:37:00Z",
           "dayNight": "day",
           "venue": "Rogers Centre",
-          "status": "Game Over",
+          "status": "Final",
           "abstractState": "Final",
           "inning": 9,
           "inningState": "Top",
@@ -5065,9 +5065,9 @@
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "away": {
@@ -5126,9 +5126,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "away": {
@@ -5187,9 +5187,9 @@
             "probablePitcher": "Patrick Sandoval",
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "away": {
@@ -5353,7 +5353,7 @@
         "wildCardGamesBack": "3.0",
         "wins": 62,
         "losses": 69,
-        "gbDelta": 1.5,
+        "gbDelta": 2.0,
         "rankDelta": 0,
         "direction": "down"
       }
@@ -5368,40 +5368,40 @@
       "logo": "https://www.mlbstatic.com/team-logos/116.svg",
       "color": "#0C2340",
       "wins": 63,
-      "losses": 72,
-      "pct": ".467",
-      "gamesPlayed": 135,
-      "gamesRemaining": 27,
+      "losses": 73,
+      "pct": ".463",
+      "gamesPlayed": 136,
+      "gamesRemaining": 26,
       "divisionRank": 4,
       "leagueRank": 12,
       "wildCardRank": 9,
       "gamesBack": "9.0",
-      "wildCardGamesBack": "4.5",
-      "wildCardGamesBackNum": 4.5,
+      "wildCardGamesBack": "5.5",
+      "wildCardGamesBackNum": 5.5,
       "divisionName": "American League East",
-      "streak": "W1",
-      "streakType": "wins",
+      "streak": "L1",
+      "streakType": "losses",
       "streakNumber": 1,
       "lastTen": "2-8",
       "lastTenWins": 2,
       "lastTenLosses": 8,
-      "home": "34-34",
+      "home": "34-35",
       "away": "29-38",
       "oneRun": "13-23",
       "extraInning": "4-7",
-      "day": "25-25",
+      "day": "25-26",
       "night": "38-47",
       "vsLeft": "17-26",
-      "vsRight": "46-46",
-      "runsScored": 595,
-      "runsAllowed": 525,
-      "runDifferential": 70,
+      "vsRight": "46-47",
+      "runsScored": 596,
+      "runsAllowed": 531,
+      "runDifferential": 65,
       "pythagWins": 75,
-      "pythagLosses": 60,
-      "pythagPct": 0.557,
-      "expectedRecord": "75-60",
-      "eliminationNumber": "19",
-      "wildCardEliminationNumber": "23",
+      "pythagLosses": 61,
+      "pythagPct": 0.553,
+      "expectedRecord": "75-61",
+      "eliminationNumber": "18",
+      "wildCardEliminationNumber": "21",
       "clinched": false,
       "divisionLeader": false,
       "nextGames": [
@@ -5411,10 +5411,10 @@
           "gameDate": "2026-08-30T17:40:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 6,
-          "inningState": "Top",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Bottom",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -5428,9 +5428,9 @@
             "probablePitcher": "Framber Valdez",
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "away": {
@@ -5442,13 +5442,13 @@
             "fileCode": "la",
             "logo": "https://www.mlbstatic.com/team-logos/119.svg",
             "color": "#1D4ED8",
-            "score": 3,
+            "score": 6,
             "probablePitcher": "Tyler Glasnow",
             "record": {
-              "wins": 81,
+              "wins": 82,
               "losses": 55,
               "ties": 0,
-              "pct": ".596"
+              "pct": ".599"
             }
           },
           "isHome": true,
@@ -5462,7 +5462,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/119.svg",
             "color": "#1D4ED8"
           },
-          "result": null,
+          "result": "L",
           "seriesGameNumber": 3,
           "gamesInSeries": 3
         },
@@ -5488,10 +5488,10 @@
             "score": null,
             "probablePitcher": "Taj Bradley",
             "record": {
-              "wins": 64,
+              "wins": 65,
               "losses": 72,
               "ties": 0,
-              "pct": ".471"
+              "pct": ".474"
             }
           },
           "away": {
@@ -5507,9 +5507,9 @@
             "probablePitcher": "Jackson Jobe",
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": false,
@@ -5549,10 +5549,10 @@
             "score": null,
             "probablePitcher": "Connor Prielipp",
             "record": {
-              "wins": 64,
+              "wins": 65,
               "losses": 72,
               "ties": 0,
-              "pct": ".471"
+              "pct": ".474"
             }
           },
           "away": {
@@ -5568,9 +5568,9 @@
             "probablePitcher": "Troy Melton",
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": false,
@@ -5610,10 +5610,10 @@
             "score": null,
             "probablePitcher": "Dean Kremer",
             "record": {
-              "wins": 64,
+              "wins": 65,
               "losses": 72,
               "ties": 0,
-              "pct": ".471"
+              "pct": ".474"
             }
           },
           "away": {
@@ -5629,9 +5629,9 @@
             "probablePitcher": "Drew Anderson",
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": false,
@@ -5671,10 +5671,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -5690,9 +5690,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": false,
@@ -5732,10 +5732,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -5751,9 +5751,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": false,
@@ -5777,7 +5777,7 @@
         "wildCardGamesBack": "3.5",
         "wins": 61,
         "losses": 69,
-        "gbDelta": 1.0,
+        "gbDelta": 2.0,
         "rankDelta": 0,
         "direction": "down"
       }
@@ -5792,40 +5792,40 @@
       "logo": "https://www.mlbstatic.com/team-logos/118.svg",
       "color": "#004687",
       "wins": 62,
-      "losses": 75,
-      "pct": ".453",
-      "gamesPlayed": 137,
-      "gamesRemaining": 25,
+      "losses": 76,
+      "pct": ".449",
+      "gamesPlayed": 138,
+      "gamesRemaining": 24,
       "divisionRank": 5,
       "leagueRank": 13,
       "wildCardRank": 10,
       "gamesBack": "11.0",
-      "wildCardGamesBack": "6.5",
-      "wildCardGamesBackNum": 6.5,
+      "wildCardGamesBack": "7.5",
+      "wildCardGamesBackNum": 7.5,
       "divisionName": "American League East",
-      "streak": "W3",
-      "streakType": "wins",
-      "streakNumber": 3,
-      "lastTen": "9-1",
-      "lastTenWins": 9,
-      "lastTenLosses": 1,
+      "streak": "L1",
+      "streakType": "losses",
+      "streakNumber": 1,
+      "lastTen": "8-2",
+      "lastTenWins": 8,
+      "lastTenLosses": 2,
       "home": "36-30",
-      "away": "26-45",
+      "away": "26-46",
       "oneRun": "18-22",
       "extraInning": "4-5",
-      "day": "23-25",
+      "day": "23-26",
       "night": "39-50",
-      "vsLeft": "13-28",
+      "vsLeft": "13-29",
       "vsRight": "49-47",
-      "runsScored": 589,
-      "runsAllowed": 662,
-      "runDifferential": -73,
+      "runsScored": 590,
+      "runsAllowed": 673,
+      "runDifferential": -83,
       "pythagWins": 61,
-      "pythagLosses": 76,
-      "pythagPct": 0.447,
-      "expectedRecord": "61-76",
-      "eliminationNumber": "16",
-      "wildCardEliminationNumber": "20",
+      "pythagLosses": 77,
+      "pythagPct": 0.44,
+      "expectedRecord": "61-77",
+      "eliminationNumber": "15",
+      "wildCardEliminationNumber": "18",
       "clinched": false,
       "divisionLeader": false,
       "nextGames": [
@@ -5835,10 +5835,10 @@
           "gameDate": "2026-08-30T17:40:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 7,
-          "inningState": "Middle",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -5851,10 +5851,10 @@
             "score": 11,
             "probablePitcher": "Parker Messick",
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -5870,9 +5870,9 @@
             "probablePitcher": "Seth Lugo",
             "record": {
               "wins": 62,
-              "losses": 75,
+              "losses": 76,
               "ties": 0,
-              "pct": ".453"
+              "pct": ".449"
             }
           },
           "isHome": false,
@@ -5886,7 +5886,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D"
           },
-          "result": null,
+          "result": "L",
           "seriesGameNumber": 3,
           "gamesInSeries": 3
         },
@@ -5913,9 +5913,9 @@
             "probablePitcher": "Randy Dobnak",
             "record": {
               "wins": 62,
-              "losses": 75,
+              "losses": 76,
               "ties": 0,
-              "pct": ".453"
+              "pct": ".449"
             }
           },
           "away": {
@@ -5957,9 +5957,9 @@
         "wildCardGamesBack": "7.5",
         "wins": 58,
         "losses": 74,
-        "gbDelta": -1.0,
+        "gbDelta": 0.0,
         "rankDelta": 0,
-        "direction": "up"
+        "direction": "flat"
       }
     }
   ],
@@ -5971,9 +5971,9 @@
       "abbr": "TB",
       "logo": "https://www.mlbstatic.com/team-logos/139.svg",
       "color": "#092C5C",
-      "wins": 81,
+      "wins": 82,
       "losses": 54,
-      "pct": ".600",
+      "pct": ".603",
       "divisionName": "American League East"
     },
     {
@@ -5984,8 +5984,8 @@
       "logo": "https://www.mlbstatic.com/team-logos/145.svg",
       "color": "#27251F",
       "wins": 72,
-      "losses": 63,
-      "pct": ".533",
+      "losses": 64,
+      "pct": ".529",
       "divisionName": "American League Central"
     },
     {
@@ -5995,9 +5995,9 @@
       "abbr": "HOU",
       "logo": "https://www.mlbstatic.com/team-logos/117.svg",
       "color": "#002D62",
-      "wins": 68,
+      "wins": 69,
       "losses": 68,
-      "pct": ".500",
+      "pct": ".504",
       "divisionName": "American League West"
     }
   ],
@@ -6011,39 +6011,39 @@
       "fileCode": "cle",
       "logo": "https://www.mlbstatic.com/team-logos/114.svg",
       "color": "#00385D",
-      "wins": 68,
+      "wins": 69,
       "losses": 68,
-      "pct": ".500",
-      "gamesPlayed": 136,
-      "gamesRemaining": 26,
+      "pct": ".504",
+      "gamesPlayed": 137,
+      "gamesRemaining": 25,
       "divisionRank": 2,
       "leagueRank": 6,
       "wildCardRank": 3,
-      "gamesBack": "4.5",
+      "gamesBack": "3.5",
       "wildCardGamesBack": "-",
       "wildCardGamesBackNum": 0.0,
       "divisionName": "American League East",
-      "streak": "L2",
-      "streakType": "losses",
-      "streakNumber": 2,
-      "lastTen": "7-3",
-      "lastTenWins": 7,
-      "lastTenLosses": 3,
-      "home": "31-36",
+      "streak": "W1",
+      "streakType": "wins",
+      "streakNumber": 1,
+      "lastTen": "8-2",
+      "lastTenWins": 8,
+      "lastTenLosses": 2,
+      "home": "32-36",
       "away": "37-32",
       "oneRun": "20-19",
       "extraInning": "5-5",
-      "day": "26-25",
+      "day": "27-25",
       "night": "42-43",
       "vsLeft": "26-21",
-      "vsRight": "42-47",
-      "runsScored": 546,
-      "runsAllowed": 558,
-      "runDifferential": -12,
-      "pythagWins": 67,
+      "vsRight": "43-47",
+      "runsScored": 557,
+      "runsAllowed": 559,
+      "runDifferential": -2,
+      "pythagWins": 68,
       "pythagLosses": 69,
-      "pythagPct": 0.49,
-      "expectedRecord": "67-69",
+      "pythagPct": 0.498,
+      "expectedRecord": "68-69",
       "eliminationNumber": "23",
       "wildCardEliminationNumber": "-",
       "clinched": false,
@@ -6055,10 +6055,10 @@
           "gameDate": "2026-08-30T17:40:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 7,
-          "inningState": "Middle",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -6071,10 +6071,10 @@
             "score": 11,
             "probablePitcher": "Parker Messick",
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -6090,9 +6090,9 @@
             "probablePitcher": "Seth Lugo",
             "record": {
               "wins": 62,
-              "losses": 75,
+              "losses": 76,
               "ties": 0,
-              "pct": ".453"
+              "pct": ".449"
             }
           },
           "isHome": true,
@@ -6106,7 +6106,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/118.svg",
             "color": "#004687"
           },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 3,
           "gamesInSeries": 3
         },
@@ -6132,10 +6132,10 @@
             "score": null,
             "probablePitcher": "Gavin Williams",
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -6193,10 +6193,10 @@
             "score": null,
             "probablePitcher": "Joey Cantillo",
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -6254,10 +6254,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -6315,10 +6315,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -6334,9 +6334,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": true,
@@ -6376,10 +6376,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -6395,9 +6395,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": true,
@@ -6426,7 +6426,7 @@
         "direction": "flat"
       }
     },
-    "jaysGamesBack": "1.0",
+    "jaysGamesBack": "1.5",
     "teamsAhead": 3
   },
   "magicNumber": {
@@ -6450,11 +6450,11 @@
       "fileCode": "nyy",
       "logo": "https://www.mlbstatic.com/team-logos/147.svg",
       "color": "#0C2340",
-      "wins": 77,
+      "wins": 78,
       "losses": 59,
-      "pct": ".566",
-      "gamesPlayed": 136,
-      "gamesRemaining": 26,
+      "pct": ".569",
+      "gamesPlayed": 137,
+      "gamesRemaining": 25,
       "divisionRank": 2,
       "leagueRank": 2,
       "wildCardRank": 1,
@@ -6462,95 +6462,95 @@
       "wildCardGamesBack": "+9.0",
       "wildCardGamesBackNum": 9.0,
       "divisionName": "American League East",
-      "streak": "W1",
+      "streak": "W2",
       "streakType": "wins",
-      "streakNumber": 1,
+      "streakNumber": 2,
       "lastTen": "6-4",
       "lastTenWins": 6,
       "lastTenLosses": 4,
-      "home": "36-31",
+      "home": "37-31",
       "away": "41-28",
       "oneRun": "17-19",
       "extraInning": "3-9",
-      "day": "28-23",
+      "day": "29-23",
       "night": "49-36",
-      "vsLeft": "30-18",
+      "vsLeft": "31-18",
       "vsRight": "47-41",
-      "runsScored": 606,
-      "runsAllowed": 504,
-      "runDifferential": 102,
-      "pythagWins": 79,
-      "pythagLosses": 57,
-      "pythagPct": 0.584,
-      "expectedRecord": "79-57",
-      "eliminationNumber": "23",
+      "runsScored": 622,
+      "runsAllowed": 505,
+      "runDifferential": 117,
+      "pythagWins": 81,
+      "pythagLosses": 56,
+      "pythagPct": 0.594,
+      "expectedRecord": "81-56",
+      "eliminationNumber": "22",
       "wildCardEliminationNumber": "-",
       "clinched": false,
       "divisionLeader": false,
       "hitting": {
         "avg": ".232",
-        "obp": ".310",
-        "slg": ".408",
-        "ops": ".718",
-        "runs": 616,
-        "hits": 1047,
-        "homeRuns": 187,
-        "rbi": 588,
+        "obp": ".311",
+        "slg": ".409",
+        "ops": ".720",
+        "runs": 622,
+        "hits": 1051,
+        "homeRuns": 189,
+        "rbi": 594,
         "stolenBases": 135,
         "strikeOuts": 1255,
-        "baseOnBalls": 494,
+        "baseOnBalls": 497,
         "babip": ".277"
       },
       "pitching": {
         "era": "3.21",
         "whip": "1.17",
-        "wins": 77,
+        "wins": 78,
         "losses": 59,
         "saves": 40,
         "strikeOuts": 1225,
         "baseOnBalls": 416,
-        "inningsPitched": "1223.2",
-        "strikeoutsPer9Inn": "9.01",
+        "inningsPitched": "1224.2",
+        "strikeoutsPer9Inn": "9.00",
         "walksPer9Inn": "3.06",
         "homeRunsPer9": "0.99",
         "holds": 77,
         "blownSaves": 26,
-        "winPercentage": ".566",
+        "winPercentage": ".569",
         "runs": 505
       },
       "hittingL10": {
-        "avg": ".256",
-        "obp": ".332",
-        "slg": ".407",
-        "ops": ".739",
-        "runs": 51,
-        "hits": 81,
-        "homeRuns": 12,
-        "rbi": 50,
+        "avg": ".263",
+        "obp": ".342",
+        "slg": ".430",
+        "ops": ".772",
+        "runs": 57,
+        "hits": 85,
+        "homeRuns": 14,
+        "rbi": 56,
         "stolenBases": 13,
         "strikeOuts": 87,
-        "baseOnBalls": 35,
-        "babip": ".309"
+        "baseOnBalls": 38,
+        "babip": ".311"
       },
       "pitchingL10": {
-        "era": "3.13",
-        "whip": "1.24",
-        "wins": 5,
+        "era": "3.10",
+        "whip": "1.23",
+        "wins": 6,
         "losses": 4,
         "saves": 2,
         "strikeOuts": 80,
         "baseOnBalls": 28,
-        "inningsPitched": "89.0",
-        "strikeoutsPer9Inn": "8.09",
-        "walksPer9Inn": "2.83",
-        "homeRunsPer9": "0.91",
+        "inningsPitched": "90.0",
+        "strikeoutsPer9Inn": "8.00",
+        "walksPer9Inn": "2.80",
+        "homeRunsPer9": "0.90",
         "holds": 8,
         "blownSaves": 3,
-        "winPercentage": ".556",
+        "winPercentage": ".600",
         "runs": 34
       },
-      "runDifferentialL10": 17,
-      "momentum": 81,
+      "runDifferentialL10": 23,
+      "momentum": 85,
       "nextGames": [
         {
           "gamePk": 823502,
@@ -6558,10 +6558,10 @@
           "gameDate": "2026-08-30T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 8,
-          "inningState": "Bottom",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Top",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -6571,13 +6571,13 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": 10,
+            "score": 16,
             "probablePitcher": "Will Warren",
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "away": {
@@ -6593,9 +6593,9 @@
             "probablePitcher": "Ranger Suarez",
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "isHome": true,
@@ -6609,7 +6609,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039"
           },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 4,
           "gamesInSeries": 4
         },
@@ -6653,10 +6653,10 @@
             "score": null,
             "probablePitcher": "Elmer Rodr\u00edguez",
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "isHome": false,
@@ -6714,10 +6714,10 @@
             "score": null,
             "probablePitcher": "Gerrit Cole",
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "isHome": false,
@@ -6775,10 +6775,10 @@
             "score": null,
             "probablePitcher": "Cam Schlittler",
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "isHome": false,
@@ -6819,9 +6819,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 72,
-              "losses": 64,
+              "losses": 65,
               "ties": 0,
-              "pct": ".529"
+              "pct": ".526"
             }
           },
           "away": {
@@ -6836,10 +6836,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "isHome": false,
@@ -6880,9 +6880,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 72,
-              "losses": 64,
+              "losses": 65,
               "ties": 0,
-              "pct": ".529"
+              "pct": ".526"
             }
           },
           "away": {
@@ -6897,10 +6897,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "isHome": false,
@@ -6998,39 +6998,39 @@
       "logo": "https://www.mlbstatic.com/team-logos/111.svg",
       "color": "#BD3039",
       "wins": 74,
-      "losses": 62,
-      "pct": ".544",
-      "gamesPlayed": 136,
-      "gamesRemaining": 26,
+      "losses": 63,
+      "pct": ".540",
+      "gamesPlayed": 137,
+      "gamesRemaining": 25,
       "divisionRank": 3,
       "leagueRank": 3,
       "wildCardRank": 2,
-      "gamesBack": "7.5",
-      "wildCardGamesBack": "+6.0",
-      "wildCardGamesBackNum": 6.0,
+      "gamesBack": "8.5",
+      "wildCardGamesBack": "+5.0",
+      "wildCardGamesBackNum": 5.0,
       "divisionName": "American League East",
-      "streak": "L1",
+      "streak": "L2",
       "streakType": "losses",
-      "streakNumber": 1,
+      "streakNumber": 2,
       "lastTen": "6-4",
       "lastTenWins": 6,
       "lastTenLosses": 4,
       "home": "34-32",
-      "away": "40-30",
+      "away": "40-31",
       "oneRun": "15-17",
       "extraInning": "6-4",
-      "day": "25-29",
+      "day": "25-30",
       "night": "49-33",
       "vsLeft": "21-13",
-      "vsRight": "53-49",
-      "runsScored": 608,
-      "runsAllowed": 509,
-      "runDifferential": 99,
-      "pythagWins": 79,
-      "pythagLosses": 57,
-      "pythagPct": 0.581,
-      "expectedRecord": "79-57",
-      "eliminationNumber": "20",
+      "vsRight": "53-50",
+      "runsScored": 609,
+      "runsAllowed": 525,
+      "runDifferential": 84,
+      "pythagWins": 78,
+      "pythagLosses": 59,
+      "pythagPct": 0.567,
+      "expectedRecord": "78-59",
+      "eliminationNumber": "18",
       "wildCardEliminationNumber": "-",
       "clinched": false,
       "divisionLeader": false,
@@ -7040,7 +7040,7 @@
         "slg": ".403",
         "ops": ".726",
         "runs": 609,
-        "hits": 1141,
+        "hits": 1142,
         "homeRuns": 138,
         "rbi": 581,
         "stolenBases": 97,
@@ -7049,29 +7049,29 @@
         "babip": ".296"
       },
       "pitching": {
-        "era": "3.53",
+        "era": "3.57",
         "whip": "1.23",
         "wins": 74,
-        "losses": 62,
+        "losses": 63,
         "saves": 37,
         "strikeOuts": 1168,
-        "baseOnBalls": 391,
-        "inningsPitched": "1216.1",
+        "baseOnBalls": 394,
+        "inningsPitched": "1217.1",
         "strikeoutsPer9Inn": "8.64",
-        "walksPer9Inn": "2.89",
-        "homeRunsPer9": "0.97",
+        "walksPer9Inn": "2.91",
+        "homeRunsPer9": "0.98",
         "holds": 82,
         "blownSaves": 12,
-        "winPercentage": ".544",
-        "runs": 519
+        "winPercentage": ".540",
+        "runs": 525
       },
       "hittingL10": {
-        "avg": ".232",
+        "avg": ".233",
         "obp": ".324",
         "slg": ".370",
         "ops": ".694",
         "runs": 34,
-        "hits": 77,
+        "hits": 78,
         "homeRuns": 7,
         "rbi": 31,
         "stolenBases": 1,
@@ -7080,24 +7080,24 @@
         "babip": ".276"
       },
       "pitchingL10": {
-        "era": "3.62",
-        "whip": "1.31",
+        "era": "4.19",
+        "whip": "1.38",
         "wins": 6,
-        "losses": 3,
+        "losses": 4,
         "saves": 3,
         "strikeOuts": 85,
-        "baseOnBalls": 31,
-        "inningsPitched": "87.0",
-        "strikeoutsPer9Inn": "8.79",
-        "walksPer9Inn": "3.21",
-        "homeRunsPer9": "1.03",
+        "baseOnBalls": 34,
+        "inningsPitched": "88.0",
+        "strikeoutsPer9Inn": "8.69",
+        "walksPer9Inn": "3.48",
+        "homeRunsPer9": "1.23",
         "holds": 5,
         "blownSaves": 1,
-        "winPercentage": ".667",
-        "runs": 39
+        "winPercentage": ".600",
+        "runs": 45
       },
-      "runDifferentialL10": -5,
-      "momentum": 71,
+      "runDifferentialL10": -11,
+      "momentum": 68,
       "nextGames": [
         {
           "gamePk": 823502,
@@ -7105,10 +7105,10 @@
           "gameDate": "2026-08-30T17:35:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 8,
-          "inningState": "Bottom",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Top",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -7118,13 +7118,13 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": 10,
+            "score": 16,
             "probablePitcher": "Will Warren",
             "record": {
-              "wins": 77,
+              "wins": 78,
               "losses": 59,
               "ties": 0,
-              "pct": ".566"
+              "pct": ".569"
             }
           },
           "away": {
@@ -7140,9 +7140,9 @@
             "probablePitcher": "Ranger Suarez",
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "isHome": false,
@@ -7156,7 +7156,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340"
           },
-          "result": null,
+          "result": "L",
           "seriesGameNumber": 4,
           "gamesInSeries": 4
         },
@@ -7183,9 +7183,9 @@
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "away": {
@@ -7244,9 +7244,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "away": {
@@ -7305,9 +7305,9 @@
             "probablePitcher": "Patrick Sandoval",
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "away": {
@@ -7384,9 +7384,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "isHome": false,
@@ -7445,9 +7445,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "isHome": false,
@@ -7467,6 +7467,13 @@
         }
       ],
       "injuries": [
+        {
+          "name": "Willson Contreras",
+          "status": "Day-To-Day",
+          "comment": "Contreras (hamstring) was removed from Sunday's 16-1 loss to the Yankees in the seventh inning, Christopher Smith of MassLive.com reports.",
+          "date": "2026-08-30T21:52Z",
+          "position": null
+        },
         {
           "name": "Tanner Houck",
           "status": "60-Day-IL",
@@ -7538,13 +7545,13 @@
           "position": null
         }
       ],
-      "injuryCount": 10,
+      "injuryCount": 11,
       "weekAgo": {
         "wildCardRank": 2,
         "wildCardGamesBack": "+6.5",
         "wins": 71,
         "losses": 59,
-        "gbDelta": 0.5,
+        "gbDelta": 1.5,
         "rankDelta": 0,
         "direction": "down"
       }
@@ -7558,39 +7565,39 @@
       "fileCode": "cle",
       "logo": "https://www.mlbstatic.com/team-logos/114.svg",
       "color": "#00385D",
-      "wins": 68,
+      "wins": 69,
       "losses": 68,
-      "pct": ".500",
-      "gamesPlayed": 136,
-      "gamesRemaining": 26,
+      "pct": ".504",
+      "gamesPlayed": 137,
+      "gamesRemaining": 25,
       "divisionRank": 2,
       "leagueRank": 6,
       "wildCardRank": 3,
-      "gamesBack": "4.5",
+      "gamesBack": "3.5",
       "wildCardGamesBack": "-",
       "wildCardGamesBackNum": 0.0,
       "divisionName": "American League East",
-      "streak": "L2",
-      "streakType": "losses",
-      "streakNumber": 2,
-      "lastTen": "7-3",
-      "lastTenWins": 7,
-      "lastTenLosses": 3,
-      "home": "31-36",
+      "streak": "W1",
+      "streakType": "wins",
+      "streakNumber": 1,
+      "lastTen": "8-2",
+      "lastTenWins": 8,
+      "lastTenLosses": 2,
+      "home": "32-36",
       "away": "37-32",
       "oneRun": "20-19",
       "extraInning": "5-5",
-      "day": "26-25",
+      "day": "27-25",
       "night": "42-43",
       "vsLeft": "26-21",
-      "vsRight": "42-47",
-      "runsScored": 546,
-      "runsAllowed": 558,
-      "runDifferential": -12,
-      "pythagWins": 67,
+      "vsRight": "43-47",
+      "runsScored": 557,
+      "runsAllowed": 559,
+      "runDifferential": -2,
+      "pythagWins": 68,
       "pythagLosses": 69,
-      "pythagPct": 0.49,
-      "expectedRecord": "67-69",
+      "pythagPct": 0.498,
+      "expectedRecord": "68-69",
       "eliminationNumber": "23",
       "wildCardEliminationNumber": "-",
       "clinched": false,
@@ -7598,67 +7605,67 @@
       "hitting": {
         "avg": ".237",
         "obp": ".315",
-        "slg": ".372",
-        "ops": ".687",
+        "slg": ".371",
+        "ops": ".686",
         "runs": 557,
-        "hits": 1080,
+        "hits": 1081,
         "homeRuns": 127,
         "rbi": 534,
         "stolenBases": 129,
-        "strikeOuts": 1106,
-        "baseOnBalls": 494,
+        "strikeOuts": 1108,
+        "baseOnBalls": 495,
         "babip": ".283"
       },
       "pitching": {
-        "era": "3.74",
+        "era": "3.73",
         "whip": "1.26",
-        "wins": 68,
+        "wins": 69,
         "losses": 68,
         "saves": 40,
-        "strikeOuts": 1271,
-        "baseOnBalls": 449,
-        "inningsPitched": "1213.2",
+        "strikeOuts": 1274,
+        "baseOnBalls": 450,
+        "inningsPitched": "1215.2",
         "strikeoutsPer9Inn": "9.43",
         "walksPer9Inn": "3.33",
         "homeRunsPer9": "1.14",
         "holds": 100,
         "blownSaves": 14,
-        "winPercentage": ".500",
+        "winPercentage": ".504",
         "runs": 559
       },
       "hittingL10": {
-        "avg": ".282",
-        "obp": ".344",
-        "slg": ".403",
-        "ops": ".747",
+        "avg": ".280",
+        "obp": ".342",
+        "slg": ".398",
+        "ops": ".740",
         "runs": 55,
-        "hits": 98,
+        "hits": 99,
         "homeRuns": 7,
         "rbi": 55,
         "stolenBases": 7,
-        "strikeOuts": 67,
-        "baseOnBalls": 34,
-        "babip": ".325"
+        "strikeOuts": 69,
+        "baseOnBalls": 35,
+        "babip": ".323"
       },
       "pitchingL10": {
-        "era": "2.93",
-        "whip": "1.18",
-        "wins": 7,
+        "era": "2.87",
+        "whip": "1.16",
+        "wins": 8,
         "losses": 2,
         "saves": 5,
-        "strikeOuts": 89,
-        "baseOnBalls": 34,
-        "inningsPitched": "89.0",
-        "strikeoutsPer9Inn": "9.00",
-        "walksPer9Inn": "3.44",
-        "homeRunsPer9": "0.81",
+        "strikeOuts": 92,
+        "baseOnBalls": 35,
+        "inningsPitched": "91.0",
+        "strikeoutsPer9Inn": "9.10",
+        "walksPer9Inn": "3.46",
+        "homeRunsPer9": "0.79",
         "holds": 7,
         "blownSaves": 0,
-        "winPercentage": ".778",
+        "winPercentage": ".800",
         "runs": 31
       },
       "runDifferentialL10": 24,
-      "momentum": 88,
+      "momentum": 100,
       "nextGames": [
         {
           "gamePk": 824393,
@@ -7666,10 +7673,10 @@
           "gameDate": "2026-08-30T17:40:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 7,
-          "inningState": "Middle",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -7682,10 +7689,10 @@
             "score": 11,
             "probablePitcher": "Parker Messick",
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -7701,9 +7708,9 @@
             "probablePitcher": "Seth Lugo",
             "record": {
               "wins": 62,
-              "losses": 75,
+              "losses": 76,
               "ties": 0,
-              "pct": ".453"
+              "pct": ".449"
             }
           },
           "isHome": true,
@@ -7717,7 +7724,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/118.svg",
             "color": "#004687"
           },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 3,
           "gamesInSeries": 3
         },
@@ -7743,10 +7750,10 @@
             "score": null,
             "probablePitcher": "Gavin Williams",
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -7804,10 +7811,10 @@
             "score": null,
             "probablePitcher": "Joey Cantillo",
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -7865,10 +7872,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -7926,10 +7933,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -7945,9 +7952,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": true,
@@ -7987,10 +7994,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -8006,9 +8013,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": true,
@@ -8078,9 +8085,9 @@
       "divisionRank": 4,
       "leagueRank": 7,
       "wildCardRank": 4,
-      "gamesBack": "14.5",
-      "wildCardGamesBack": "1.0",
-      "wildCardGamesBackNum": 1.0,
+      "gamesBack": "15.0",
+      "wildCardGamesBack": "1.5",
+      "wildCardGamesBackNum": 1.5,
       "divisionName": "American League East",
       "streak": "W3",
       "streakType": "wins",
@@ -8103,8 +8110,8 @@
       "pythagLosses": 75,
       "pythagPct": 0.46,
       "expectedRecord": "63-75",
-      "eliminationNumber": "12",
-      "wildCardEliminationNumber": "25",
+      "eliminationNumber": "11",
+      "wildCardEliminationNumber": "24",
       "clinched": false,
       "divisionLeader": false,
       "hitting": {
@@ -8170,7 +8177,7 @@
         "runs": 37
       },
       "runDifferentialL10": 3,
-      "momentum": 77,
+      "momentum": 72,
       "nextGames": [
         {
           "gamePk": 822766,
@@ -8178,7 +8185,7 @@
           "gameDate": "2026-08-30T17:37:00Z",
           "dayNight": "day",
           "venue": "Rogers Centre",
-          "status": "Game Over",
+          "status": "Final",
           "abstractState": "Final",
           "inning": 9,
           "inningState": "Top",
@@ -8255,10 +8262,10 @@
             "score": null,
             "probablePitcher": "Gavin Williams",
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -8316,10 +8323,10 @@
             "score": null,
             "probablePitcher": "Joey Cantillo",
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -8377,10 +8384,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -8439,9 +8446,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 62,
-              "losses": 75,
+              "losses": 76,
               "ties": 0,
-              "pct": ".453"
+              "pct": ".449"
             }
           },
           "away": {
@@ -8500,9 +8507,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 62,
-              "losses": 75,
+              "losses": 76,
               "ties": 0,
-              "pct": ".453"
+              "pct": ".449"
             }
           },
           "away": {
@@ -8652,9 +8659,9 @@
         "wildCardGamesBack": "1.5",
         "wins": 64,
         "losses": 68,
-        "gbDelta": -0.5,
+        "gbDelta": 0.0,
         "rankDelta": -1,
-        "direction": "up"
+        "direction": "flat"
       }
     },
     {
@@ -8674,9 +8681,9 @@
       "divisionRank": 5,
       "leagueRank": 8,
       "wildCardRank": 5,
-      "gamesBack": "14.5",
-      "wildCardGamesBack": "1.0",
-      "wildCardGamesBackNum": 1.0,
+      "gamesBack": "15.0",
+      "wildCardGamesBack": "1.5",
+      "wildCardGamesBackNum": 1.5,
       "divisionName": "American League East",
       "streak": "W2",
       "streakType": "wins",
@@ -8699,74 +8706,74 @@
       "pythagLosses": 70,
       "pythagPct": 0.485,
       "expectedRecord": "66-70",
-      "eliminationNumber": "13",
-      "wildCardEliminationNumber": "26",
+      "eliminationNumber": "12",
+      "wildCardEliminationNumber": "25",
       "clinched": false,
       "divisionLeader": false,
       "hitting": {
         "avg": ".236",
         "obp": ".318",
-        "slg": ".397",
-        "ops": ".715",
-        "runs": 618,
-        "hits": 1069,
-        "homeRuns": 165,
-        "rbi": 596,
+        "slg": ".399",
+        "ops": ".717",
+        "runs": 626,
+        "hits": 1076,
+        "homeRuns": 168,
+        "rbi": 604,
         "stolenBases": 71,
-        "strikeOuts": 1255,
-        "baseOnBalls": 510,
+        "strikeOuts": 1266,
+        "baseOnBalls": 511,
         "babip": ".287"
       },
       "pitching": {
         "era": "4.19",
-        "whip": "1.34",
+        "whip": "1.35",
         "wins": 67,
         "losses": 69,
         "saves": 37,
-        "strikeOuts": 1082,
-        "baseOnBalls": 450,
-        "inningsPitched": "1210.2",
+        "strikeOuts": 1089,
+        "baseOnBalls": 453,
+        "inningsPitched": "1218.2",
         "strikeoutsPer9Inn": "8.04",
         "walksPer9Inn": "3.35",
         "homeRunsPer9": "1.07",
         "holds": 72,
         "blownSaves": 19,
         "winPercentage": ".493",
-        "runs": 639
+        "runs": 644
       },
       "hittingL10": {
         "avg": ".231",
-        "obp": ".289",
-        "slg": ".393",
-        "ops": ".682",
-        "runs": 45,
-        "hits": 71,
-        "homeRuns": 11,
-        "rbi": 43,
+        "obp": ".288",
+        "slg": ".411",
+        "ops": ".699",
+        "runs": 53,
+        "hits": 78,
+        "homeRuns": 14,
+        "rbi": 51,
         "stolenBases": 3,
-        "strikeOuts": 85,
-        "baseOnBalls": 22,
-        "babip": ".280"
+        "strikeOuts": 96,
+        "baseOnBalls": 23,
+        "babip": ".278"
       },
       "pitchingL10": {
-        "era": "3.51",
-        "whip": "1.28",
+        "era": "3.70",
+        "whip": "1.30",
         "wins": 6,
         "losses": 3,
         "saves": 4,
-        "strikeOuts": 70,
-        "baseOnBalls": 26,
-        "inningsPitched": "82.0",
-        "strikeoutsPer9Inn": "7.68",
-        "walksPer9Inn": "2.85",
-        "homeRunsPer9": "0.99",
+        "strikeOuts": 77,
+        "baseOnBalls": 29,
+        "inningsPitched": "90.0",
+        "strikeoutsPer9Inn": "7.70",
+        "walksPer9Inn": "2.90",
+        "homeRunsPer9": "1.00",
         "holds": 5,
         "blownSaves": 1,
         "winPercentage": ".667",
-        "runs": 35
+        "runs": 40
       },
-      "runDifferentialL10": 10,
-      "momentum": 77,
+      "runDifferentialL10": 13,
+      "momentum": 72,
       "nextGames": [
         {
           "gamePk": 824959,
@@ -8776,7 +8783,7 @@
           "venue": "Sutter Health Park",
           "status": "In Progress",
           "abstractState": "Live",
-          "inning": 1,
+          "inning": 9,
           "inningState": "Top",
           "home": {
             "id": 133,
@@ -8787,7 +8794,7 @@
             "fileCode": "ath",
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
-            "score": 0,
+            "score": 5,
             "probablePitcher": "Jeffrey Springs",
             "record": {
               "wins": 53,
@@ -8805,7 +8812,7 @@
             "fileCode": "bal",
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
-            "score": 0,
+            "score": 8,
             "probablePitcher": "Chris Bassitt",
             "record": {
               "wins": 67,
@@ -8852,9 +8859,9 @@
             "probablePitcher": "Tanner Gordon",
             "record": {
               "wins": 52,
-              "losses": 84,
+              "losses": 85,
               "ties": 0,
-              "pct": ".382"
+              "pct": ".380"
             }
           },
           "away": {
@@ -8913,9 +8920,9 @@
             "probablePitcher": "Gabriel Hughes",
             "record": {
               "wins": 52,
-              "losses": 84,
+              "losses": 85,
               "ties": 0,
-              "pct": ".382"
+              "pct": ".380"
             }
           },
           "away": {
@@ -8974,9 +8981,9 @@
             "probablePitcher": "Tomoyuki Sugano",
             "record": {
               "wins": 52,
-              "losses": 84,
+              "losses": 85,
               "ties": 0,
-              "pct": ".382"
+              "pct": ".380"
             }
           },
           "away": {
@@ -9053,9 +9060,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "isHome": true,
@@ -9114,9 +9121,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "isHome": true,
@@ -9206,7 +9213,7 @@
         "wildCardGamesBack": "2.0",
         "wins": 63,
         "losses": 68,
-        "gbDelta": -1.0,
+        "gbDelta": -0.5,
         "rankDelta": -2,
         "direction": "up"
       }
@@ -9220,11 +9227,11 @@
       "fileCode": "tex",
       "logo": "https://www.mlbstatic.com/team-logos/140.svg",
       "color": "#003278",
-      "wins": 66,
+      "wins": 67,
       "losses": 70,
-      "pct": ".485",
-      "gamesPlayed": 136,
-      "gamesRemaining": 26,
+      "pct": ".489",
+      "gamesPlayed": 137,
+      "gamesRemaining": 25,
       "divisionRank": 2,
       "leagueRank": 9,
       "wildCardRank": 6,
@@ -9232,29 +9239,29 @@
       "wildCardGamesBack": "2.0",
       "wildCardGamesBackNum": 2.0,
       "divisionName": "American League East",
-      "streak": "L4",
-      "streakType": "losses",
-      "streakNumber": 4,
-      "lastTen": "4-6",
-      "lastTenWins": 4,
-      "lastTenLosses": 6,
+      "streak": "W1",
+      "streakType": "wins",
+      "streakNumber": 1,
+      "lastTen": "5-5",
+      "lastTenWins": 5,
+      "lastTenLosses": 5,
       "home": "36-29",
-      "away": "30-41",
+      "away": "31-41",
       "oneRun": "22-13",
       "extraInning": "4-1",
-      "day": "21-22",
+      "day": "22-22",
       "night": "45-48",
       "vsLeft": "20-17",
-      "vsRight": "46-53",
-      "runsScored": 547,
-      "runsAllowed": 601,
-      "runDifferential": -54,
-      "pythagWins": 62,
+      "vsRight": "47-53",
+      "runsScored": 554,
+      "runsAllowed": 605,
+      "runDifferential": -51,
+      "pythagWins": 63,
       "pythagLosses": 74,
-      "pythagPct": 0.457,
-      "expectedRecord": "62-74",
-      "eliminationNumber": "25",
-      "wildCardEliminationNumber": "25",
+      "pythagPct": 0.46,
+      "expectedRecord": "63-74",
+      "eliminationNumber": "24",
+      "wildCardEliminationNumber": "24",
       "clinched": false,
       "divisionLeader": false,
       "hitting": {
@@ -9262,65 +9269,65 @@
         "obp": ".317",
         "slg": ".396",
         "ops": ".713",
-        "runs": 551,
-        "hits": 1096,
-        "homeRuns": 153,
-        "rbi": 531,
+        "runs": 554,
+        "hits": 1100,
+        "homeRuns": 154,
+        "rbi": 534,
         "stolenBases": 64,
-        "strikeOuts": 1163,
-        "baseOnBalls": 445,
-        "babip": ".291"
+        "strikeOuts": 1166,
+        "baseOnBalls": 446,
+        "babip": ".290"
       },
       "pitching": {
         "era": "4.29",
         "whip": "1.31",
-        "wins": 66,
+        "wins": 67,
         "losses": 70,
-        "saves": 37,
-        "strikeOuts": 1151,
-        "baseOnBalls": 414,
-        "inningsPitched": "1193.2",
-        "strikeoutsPer9Inn": "8.68",
+        "saves": 38,
+        "strikeOuts": 1155,
+        "baseOnBalls": 416,
+        "inningsPitched": "1198.1",
+        "strikeoutsPer9Inn": "8.67",
         "walksPer9Inn": "3.12",
         "homeRunsPer9": "1.22",
-        "holds": 66,
+        "holds": 68,
         "blownSaves": 16,
-        "winPercentage": ".485",
-        "runs": 603
+        "winPercentage": ".489",
+        "runs": 605
       },
       "hittingL10": {
-        "avg": ".240",
-        "obp": ".342",
-        "slg": ".444",
-        "ops": ".786",
-        "runs": 39,
-        "hits": 75,
-        "homeRuns": 13,
-        "rbi": 37,
+        "avg": ".239",
+        "obp": ".339",
+        "slg": ".442",
+        "ops": ".781",
+        "runs": 42,
+        "hits": 79,
+        "homeRuns": 14,
+        "rbi": 40,
         "stolenBases": 4,
-        "strikeOuts": 76,
-        "baseOnBalls": 41,
-        "babip": ".273"
+        "strikeOuts": 79,
+        "baseOnBalls": 42,
+        "babip": ".271"
       },
       "pitchingL10": {
-        "era": "4.48",
-        "whip": "1.46",
-        "wins": 4,
+        "era": "4.45",
+        "whip": "1.44",
+        "wins": 5,
         "losses": 5,
-        "saves": 2,
-        "strikeOuts": 94,
-        "baseOnBalls": 36,
-        "inningsPitched": "82.1",
-        "strikeoutsPer9Inn": "10.28",
-        "walksPer9Inn": "3.94",
-        "homeRunsPer9": "0.77",
-        "holds": 3,
+        "saves": 3,
+        "strikeOuts": 98,
+        "baseOnBalls": 38,
+        "inningsPitched": "87.0",
+        "strikeoutsPer9Inn": "10.14",
+        "walksPer9Inn": "3.93",
+        "homeRunsPer9": "0.83",
+        "holds": 5,
         "blownSaves": 0,
-        "winPercentage": ".444",
-        "runs": 43
+        "winPercentage": ".500",
+        "runs": 45
       },
-      "runDifferentialL10": -4,
-      "momentum": 24,
+      "runDifferentialL10": -3,
+      "momentum": 47,
       "nextGames": [
         {
           "gamePk": 823740,
@@ -9328,9 +9335,9 @@
           "gameDate": "2026-08-30T18:10:00Z",
           "dayNight": "day",
           "venue": "American Family Field",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 5,
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
           "inningState": "Bottom",
           "home": {
             "id": 158,
@@ -9341,13 +9348,13 @@
             "fileCode": "mil",
             "logo": "https://www.mlbstatic.com/team-logos/158.svg",
             "color": "#1D4ED8",
-            "score": 2,
+            "score": 4,
             "probablePitcher": "Dustin May",
             "record": {
               "wins": 85,
-              "losses": 51,
+              "losses": 52,
               "ties": 0,
-              "pct": ".625"
+              "pct": ".620"
             }
           },
           "away": {
@@ -9359,13 +9366,13 @@
             "fileCode": "tex",
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
-            "score": 4,
+            "score": 7,
             "probablePitcher": "Kumar Rocker",
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 70,
               "ties": 0,
-              "pct": ".485"
+              "pct": ".489"
             }
           },
           "isHome": false,
@@ -9379,7 +9386,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/158.svg",
             "color": "#1D4ED8"
           },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 3,
           "gamesInSeries": 3
         },
@@ -9405,10 +9412,10 @@
             "score": null,
             "probablePitcher": "Jacob deGrom",
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 70,
               "ties": 0,
-              "pct": ".485"
+              "pct": ".489"
             }
           },
           "away": {
@@ -9466,10 +9473,10 @@
             "score": null,
             "probablePitcher": "MacKenzie Gore",
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 70,
               "ties": 0,
-              "pct": ".485"
+              "pct": ".489"
             }
           },
           "away": {
@@ -9527,10 +9534,10 @@
             "score": null,
             "probablePitcher": "Cody Bradford",
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 70,
               "ties": 0,
-              "pct": ".485"
+              "pct": ".489"
             }
           },
           "away": {
@@ -9588,10 +9595,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 70,
               "ties": 0,
-              "pct": ".485"
+              "pct": ".489"
             }
           },
           "away": {
@@ -9606,10 +9613,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 81,
+              "wins": 82,
               "losses": 54,
               "ties": 0,
-              "pct": ".600"
+              "pct": ".603"
             }
           },
           "isHome": true,
@@ -9649,10 +9656,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 66,
+              "wins": 67,
               "losses": 70,
               "ties": 0,
-              "pct": ".485"
+              "pct": ".489"
             }
           },
           "away": {
@@ -9667,10 +9674,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 81,
+              "wins": 82,
               "losses": 54,
               "ties": 0,
-              "pct": ".600"
+              "pct": ".603"
             }
           },
           "isHome": true,
@@ -9774,48 +9781,48 @@
       "fileCode": "min",
       "logo": "https://www.mlbstatic.com/team-logos/142.svg",
       "color": "#002B5C",
-      "wins": 64,
+      "wins": 65,
       "losses": 72,
-      "pct": ".471",
-      "gamesPlayed": 136,
-      "gamesRemaining": 26,
+      "pct": ".474",
+      "gamesPlayed": 137,
+      "gamesRemaining": 25,
       "divisionRank": 3,
       "leagueRank": 10,
       "wildCardRank": 7,
-      "gamesBack": "8.5",
+      "gamesBack": "7.5",
       "wildCardGamesBack": "4.0",
       "wildCardGamesBackNum": 4.0,
       "divisionName": "American League East",
-      "streak": "L4",
-      "streakType": "losses",
-      "streakNumber": 4,
+      "streak": "W1",
+      "streakType": "wins",
+      "streakNumber": 1,
       "lastTen": "3-7",
       "lastTenWins": 3,
       "lastTenLosses": 7,
-      "home": "35-33",
+      "home": "36-33",
       "away": "29-39",
       "oneRun": "14-20",
       "extraInning": "4-3",
-      "day": "26-30",
+      "day": "27-30",
       "night": "38-42",
       "vsLeft": "20-23",
-      "vsRight": "44-49",
-      "runsScored": 621,
-      "runsAllowed": 681,
-      "runDifferential": -60,
-      "pythagWins": 62,
+      "vsRight": "45-49",
+      "runsScored": 626,
+      "runsAllowed": 682,
+      "runDifferential": -56,
+      "pythagWins": 63,
       "pythagLosses": 74,
-      "pythagPct": 0.458,
-      "expectedRecord": "62-74",
+      "pythagPct": 0.461,
+      "expectedRecord": "63-74",
       "eliminationNumber": "19",
-      "wildCardEliminationNumber": "23",
+      "wildCardEliminationNumber": "22",
       "clinched": false,
       "divisionLeader": false,
       "hitting": {
         "avg": ".246",
-        "obp": ".319",
-        "slg": ".406",
-        "ops": ".725",
+        "obp": ".318",
+        "slg": ".405",
+        "ops": ".723",
         "runs": 626,
         "hits": 1134,
         "homeRuns": 158,
@@ -9828,25 +9835,25 @@
       "pitching": {
         "era": "4.65",
         "whip": "1.38",
-        "wins": 64,
+        "wins": 65,
         "losses": 72,
         "saves": 38,
         "strikeOuts": 1131,
         "baseOnBalls": 497,
-        "inningsPitched": "1205.2",
+        "inningsPitched": "1206.2",
         "strikeoutsPer9Inn": "8.44",
         "walksPer9Inn": "3.71",
         "homeRunsPer9": "1.16",
         "holds": 89,
         "blownSaves": 16,
-        "winPercentage": ".471",
-        "runs": 681
+        "winPercentage": ".474",
+        "runs": 682
       },
       "hittingL10": {
-        "avg": ".247",
-        "obp": ".297",
-        "slg": ".401",
-        "ops": ".698",
+        "avg": ".246",
+        "obp": ".296",
+        "slg": ".398",
+        "ops": ".694",
         "runs": 40,
         "hits": 82,
         "homeRuns": 11,
@@ -9854,27 +9861,27 @@
         "stolenBases": 6,
         "strikeOuts": 58,
         "baseOnBalls": 21,
-        "babip": ".267"
+        "babip": ".265"
       },
       "pitchingL10": {
-        "era": "5.04",
-        "whip": "1.39",
-        "wins": 2,
+        "era": "5.08",
+        "whip": "1.41",
+        "wins": 3,
         "losses": 7,
         "saves": 2,
         "strikeOuts": 87,
         "baseOnBalls": 35,
-        "inningsPitched": "84.0",
-        "strikeoutsPer9Inn": "9.32",
-        "walksPer9Inn": "3.75",
-        "homeRunsPer9": "0.96",
+        "inningsPitched": "85.0",
+        "strikeoutsPer9Inn": "9.21",
+        "walksPer9Inn": "3.71",
+        "homeRunsPer9": "0.95",
         "holds": 3,
         "blownSaves": 3,
-        "winPercentage": ".222",
-        "runs": 52
+        "winPercentage": ".300",
+        "runs": 53
       },
-      "runDifferentialL10": -12,
-      "momentum": 0,
+      "runDifferentialL10": -13,
+      "momentum": 11,
       "nextGames": [
         {
           "gamePk": 823662,
@@ -9882,10 +9889,10 @@
           "gameDate": "2026-08-30T18:10:00Z",
           "dayNight": "day",
           "venue": "Target Field",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 8,
-          "inningState": "Bottom",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -9898,10 +9905,10 @@
             "score": 5,
             "probablePitcher": "Zebby Matthews",
             "record": {
-              "wins": 64,
+              "wins": 65,
               "losses": 72,
               "ties": 0,
-              "pct": ".471"
+              "pct": ".474"
             }
           },
           "away": {
@@ -9913,13 +9920,13 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": 0,
+            "score": 1,
             "probablePitcher": "Jordan Hicks",
             "record": {
               "wins": 72,
-              "losses": 63,
+              "losses": 64,
               "ties": 0,
-              "pct": ".533"
+              "pct": ".529"
             }
           },
           "isHome": true,
@@ -9933,7 +9940,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F"
           },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 3,
           "gamesInSeries": 3
         },
@@ -9959,10 +9966,10 @@
             "score": null,
             "probablePitcher": "Taj Bradley",
             "record": {
-              "wins": 64,
+              "wins": 65,
               "losses": 72,
               "ties": 0,
-              "pct": ".471"
+              "pct": ".474"
             }
           },
           "away": {
@@ -9978,9 +9985,9 @@
             "probablePitcher": "Jackson Jobe",
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": true,
@@ -10020,10 +10027,10 @@
             "score": null,
             "probablePitcher": "Connor Prielipp",
             "record": {
-              "wins": 64,
+              "wins": 65,
               "losses": 72,
               "ties": 0,
-              "pct": ".471"
+              "pct": ".474"
             }
           },
           "away": {
@@ -10039,9 +10046,9 @@
             "probablePitcher": "Troy Melton",
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": true,
@@ -10081,10 +10088,10 @@
             "score": null,
             "probablePitcher": "Dean Kremer",
             "record": {
-              "wins": 64,
+              "wins": 65,
               "losses": 72,
               "ties": 0,
-              "pct": ".471"
+              "pct": ".474"
             }
           },
           "away": {
@@ -10100,9 +10107,9 @@
             "probablePitcher": "Drew Anderson",
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": true,
@@ -10143,9 +10150,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 72,
-              "losses": 63,
+              "losses": 64,
               "ties": 0,
-              "pct": ".533"
+              "pct": ".529"
             }
           },
           "away": {
@@ -10160,10 +10167,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 64,
+              "wins": 65,
               "losses": 72,
               "ties": 0,
-              "pct": ".471"
+              "pct": ".474"
             }
           },
           "isHome": false,
@@ -10204,9 +10211,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 72,
-              "losses": 63,
+              "losses": 64,
               "ties": 0,
-              "pct": ".533"
+              "pct": ".529"
             }
           },
           "away": {
@@ -10221,10 +10228,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 64,
+              "wins": 65,
               "losses": 72,
               "ties": 0,
-              "pct": ".471"
+              "pct": ".474"
             }
           },
           "isHome": false,
@@ -10336,9 +10343,9 @@
       "divisionRank": 3,
       "leagueRank": 11,
       "wildCardRank": 8,
-      "gamesBack": "4.5",
-      "wildCardGamesBack": "4.5",
-      "wildCardGamesBackNum": 4.5,
+      "gamesBack": "5.0",
+      "wildCardGamesBack": "5.0",
+      "wildCardGamesBackNum": 5.0,
       "divisionName": "American League East",
       "streak": "L4",
       "streakType": "losses",
@@ -10361,8 +10368,8 @@
       "pythagLosses": 76,
       "pythagPct": 0.442,
       "expectedRecord": "61-76",
-      "eliminationNumber": "22",
-      "wildCardEliminationNumber": "22",
+      "eliminationNumber": "21",
+      "wildCardEliminationNumber": "21",
       "clinched": false,
       "divisionLeader": false,
       "hitting": {
@@ -10436,7 +10443,7 @@
           "gameDate": "2026-08-30T17:37:00Z",
           "dayNight": "day",
           "venue": "Rogers Centre",
-          "status": "Game Over",
+          "status": "Final",
           "abstractState": "Final",
           "inning": 9,
           "inningState": "Top",
@@ -10514,9 +10521,9 @@
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "away": {
@@ -10575,9 +10582,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "away": {
@@ -10636,9 +10643,9 @@
             "probablePitcher": "Patrick Sandoval",
             "record": {
               "wins": 74,
-              "losses": 62,
+              "losses": 63,
               "ties": 0,
-              "pct": ".544"
+              "pct": ".540"
             }
           },
           "away": {
@@ -10868,7 +10875,7 @@
         "wildCardGamesBack": "3.0",
         "wins": 62,
         "losses": 69,
-        "gbDelta": 1.5,
+        "gbDelta": 2.0,
         "rankDelta": 0,
         "direction": "down"
       }
@@ -10883,106 +10890,106 @@
       "logo": "https://www.mlbstatic.com/team-logos/116.svg",
       "color": "#0C2340",
       "wins": 63,
-      "losses": 72,
-      "pct": ".467",
-      "gamesPlayed": 135,
-      "gamesRemaining": 27,
+      "losses": 73,
+      "pct": ".463",
+      "gamesPlayed": 136,
+      "gamesRemaining": 26,
       "divisionRank": 4,
       "leagueRank": 12,
       "wildCardRank": 9,
       "gamesBack": "9.0",
-      "wildCardGamesBack": "4.5",
-      "wildCardGamesBackNum": 4.5,
+      "wildCardGamesBack": "5.5",
+      "wildCardGamesBackNum": 5.5,
       "divisionName": "American League East",
-      "streak": "W1",
-      "streakType": "wins",
+      "streak": "L1",
+      "streakType": "losses",
       "streakNumber": 1,
       "lastTen": "2-8",
       "lastTenWins": 2,
       "lastTenLosses": 8,
-      "home": "34-34",
+      "home": "34-35",
       "away": "29-38",
       "oneRun": "13-23",
       "extraInning": "4-7",
-      "day": "25-25",
+      "day": "25-26",
       "night": "38-47",
       "vsLeft": "17-26",
-      "vsRight": "46-46",
-      "runsScored": 595,
-      "runsAllowed": 525,
-      "runDifferential": 70,
+      "vsRight": "46-47",
+      "runsScored": 596,
+      "runsAllowed": 531,
+      "runDifferential": 65,
       "pythagWins": 75,
-      "pythagLosses": 60,
-      "pythagPct": 0.557,
-      "expectedRecord": "75-60",
-      "eliminationNumber": "19",
-      "wildCardEliminationNumber": "23",
+      "pythagLosses": 61,
+      "pythagPct": 0.553,
+      "expectedRecord": "75-61",
+      "eliminationNumber": "18",
+      "wildCardEliminationNumber": "21",
       "clinched": false,
       "divisionLeader": false,
       "hitting": {
-        "avg": ".239",
+        "avg": ".238",
         "obp": ".315",
-        "slg": ".399",
-        "ops": ".714",
+        "slg": ".398",
+        "ops": ".713",
         "runs": 596,
         "hits": 1088,
         "homeRuns": 155,
         "rbi": 568,
         "stolenBases": 40,
-        "strikeOuts": 1163,
-        "baseOnBalls": 474,
-        "babip": ".285"
+        "strikeOuts": 1164,
+        "baseOnBalls": 475,
+        "babip": ".284"
       },
       "pitching": {
-        "era": "3.57",
+        "era": "3.58",
         "whip": "1.22",
         "wins": 63,
-        "losses": 72,
+        "losses": 73,
         "saves": 27,
-        "strikeOuts": 1095,
-        "baseOnBalls": 420,
-        "inningsPitched": "1199.2",
-        "strikeoutsPer9Inn": "8.21",
-        "walksPer9Inn": "3.15",
+        "strikeOuts": 1099,
+        "baseOnBalls": 422,
+        "inningsPitched": "1203.1",
+        "strikeoutsPer9Inn": "8.22",
+        "walksPer9Inn": "3.16",
         "homeRunsPer9": "1.02",
         "holds": 62,
         "blownSaves": 28,
-        "winPercentage": ".467",
-        "runs": 528
+        "winPercentage": ".463",
+        "runs": 531
       },
       "hittingL10": {
-        "avg": ".179",
-        "obp": ".259",
-        "slg": ".279",
-        "ops": ".538",
+        "avg": ".173",
+        "obp": ".252",
+        "slg": ".268",
+        "ops": ".520",
         "runs": 22,
         "hits": 54,
         "homeRuns": 3,
         "rbi": 21,
         "stolenBases": 4,
-        "strikeOuts": 85,
-        "baseOnBalls": 28,
-        "babip": ".237"
+        "strikeOuts": 86,
+        "baseOnBalls": 29,
+        "babip": ".226"
       },
       "pitchingL10": {
-        "era": "3.90",
+        "era": "4.05",
         "whip": "1.35",
         "wins": 2,
-        "losses": 7,
+        "losses": 8,
         "saves": 1,
-        "strikeOuts": 60,
-        "baseOnBalls": 33,
-        "inningsPitched": "83.0",
-        "strikeoutsPer9Inn": "6.51",
-        "walksPer9Inn": "3.58",
-        "homeRunsPer9": "1.30",
+        "strikeOuts": 64,
+        "baseOnBalls": 35,
+        "inningsPitched": "86.2",
+        "strikeoutsPer9Inn": "6.65",
+        "walksPer9Inn": "3.63",
+        "homeRunsPer9": "1.25",
         "holds": 6,
         "blownSaves": 1,
-        "winPercentage": ".222",
-        "runs": 37
+        "winPercentage": ".200",
+        "runs": 40
       },
-      "runDifferentialL10": -15,
-      "momentum": 33,
+      "runDifferentialL10": -18,
+      "momentum": 25,
       "nextGames": [
         {
           "gamePk": 824232,
@@ -10990,10 +10997,10 @@
           "gameDate": "2026-08-30T17:40:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "In Progress",
-          "abstractState": "Live",
-          "inning": 6,
-          "inningState": "Top",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Bottom",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -11007,9 +11014,9 @@
             "probablePitcher": "Framber Valdez",
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "away": {
@@ -11021,13 +11028,13 @@
             "fileCode": "la",
             "logo": "https://www.mlbstatic.com/team-logos/119.svg",
             "color": "#1D4ED8",
-            "score": 3,
+            "score": 6,
             "probablePitcher": "Tyler Glasnow",
             "record": {
-              "wins": 81,
+              "wins": 82,
               "losses": 55,
               "ties": 0,
-              "pct": ".596"
+              "pct": ".599"
             }
           },
           "isHome": true,
@@ -11041,7 +11048,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/119.svg",
             "color": "#1D4ED8"
           },
-          "result": null,
+          "result": "L",
           "seriesGameNumber": 3,
           "gamesInSeries": 3
         },
@@ -11067,10 +11074,10 @@
             "score": null,
             "probablePitcher": "Taj Bradley",
             "record": {
-              "wins": 64,
+              "wins": 65,
               "losses": 72,
               "ties": 0,
-              "pct": ".471"
+              "pct": ".474"
             }
           },
           "away": {
@@ -11086,9 +11093,9 @@
             "probablePitcher": "Jackson Jobe",
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": false,
@@ -11128,10 +11135,10 @@
             "score": null,
             "probablePitcher": "Connor Prielipp",
             "record": {
-              "wins": 64,
+              "wins": 65,
               "losses": 72,
               "ties": 0,
-              "pct": ".471"
+              "pct": ".474"
             }
           },
           "away": {
@@ -11147,9 +11154,9 @@
             "probablePitcher": "Troy Melton",
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": false,
@@ -11189,10 +11196,10 @@
             "score": null,
             "probablePitcher": "Dean Kremer",
             "record": {
-              "wins": 64,
+              "wins": 65,
               "losses": 72,
               "ties": 0,
-              "pct": ".471"
+              "pct": ".474"
             }
           },
           "away": {
@@ -11208,9 +11215,9 @@
             "probablePitcher": "Drew Anderson",
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": false,
@@ -11250,10 +11257,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -11269,9 +11276,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": false,
@@ -11311,10 +11318,10 @@
             "score": null,
             "probablePitcher": null,
             "record": {
-              "wins": 68,
+              "wins": 69,
               "losses": 68,
               "ties": 0,
-              "pct": ".500"
+              "pct": ".504"
             }
           },
           "away": {
@@ -11330,9 +11337,9 @@
             "probablePitcher": null,
             "record": {
               "wins": 63,
-              "losses": 72,
+              "losses": 73,
               "ties": 0,
-              "pct": ".467"
+              "pct": ".463"
             }
           },
           "isHome": false,
@@ -11450,7 +11457,7 @@
         "wildCardGamesBack": "3.5",
         "wins": 61,
         "losses": 69,
-        "gbDelta": 1.0,
+        "gbDelta": 2.0,
         "rankDelta": 0,
         "direction": "down"
       }
@@ -11463,7 +11470,7 @@
       "gameDate": "2026-08-30T17:37:00Z",
       "dayNight": "day",
       "venue": "Rogers Centre",
-      "status": "Game Over",
+      "status": "Final",
       "abstractState": "Final",
       "inning": 9,
       "inningState": "Top",
@@ -11540,10 +11547,10 @@
         "score": null,
         "probablePitcher": "Gavin Williams",
         "record": {
-          "wins": 68,
+          "wins": 69,
           "losses": 68,
           "ties": 0,
-          "pct": ".500"
+          "pct": ".504"
         }
       },
       "away": {
@@ -11578,9 +11585,9 @@
       "result": null,
       "seriesGameNumber": 1,
       "gamesInSeries": 3,
-      "homeWinPct": 60.9,
-      "awayWinPct": 39.1,
-      "helpsTorPct": 39.1,
+      "homeWinPct": 63.8,
+      "awayWinPct": 36.2,
+      "helpsTorPct": 36.2,
       "wantWinnerId": 141
     },
     {
@@ -11605,10 +11612,10 @@
         "score": null,
         "probablePitcher": "Joey Cantillo",
         "record": {
-          "wins": 68,
+          "wins": 69,
           "losses": 68,
           "ties": 0,
-          "pct": ".500"
+          "pct": ".504"
         }
       },
       "away": {
@@ -11643,9 +11650,9 @@
       "result": null,
       "seriesGameNumber": 2,
       "gamesInSeries": 3,
-      "homeWinPct": 60.9,
-      "awayWinPct": 39.1,
-      "helpsTorPct": 39.1,
+      "homeWinPct": 63.8,
+      "awayWinPct": 36.2,
+      "helpsTorPct": 36.2,
       "wantWinnerId": 141
     },
     {
@@ -11670,10 +11677,10 @@
         "score": null,
         "probablePitcher": null,
         "record": {
-          "wins": 68,
+          "wins": 69,
           "losses": 68,
           "ties": 0,
-          "pct": ".500"
+          "pct": ".504"
         }
       },
       "away": {
@@ -11732,9 +11739,9 @@
         "probablePitcher": null,
         "record": {
           "wins": 62,
-          "losses": 75,
+          "losses": 76,
           "ties": 0,
-          "pct": ".453"
+          "pct": ".449"
         }
       },
       "away": {
@@ -11793,9 +11800,9 @@
         "probablePitcher": null,
         "record": {
           "wins": 62,
-          "losses": 75,
+          "losses": 76,
           "ties": 0,
-          "pct": ".453"
+          "pct": ".449"
         }
       },
       "away": {
@@ -11854,9 +11861,9 @@
         "probablePitcher": null,
         "record": {
           "wins": 62,
-          "losses": 75,
+          "losses": 76,
           "ties": 0,
-          "pct": ".453"
+          "pct": ".449"
         }
       },
       "away": {
@@ -12299,9 +12306,9 @@
         "probablePitcher": null,
         "record": {
           "wins": 63,
-          "losses": 72,
+          "losses": 73,
           "ties": 0,
-          "pct": ".467"
+          "pct": ".463"
         }
       },
       "isHome": true,
@@ -12360,9 +12367,9 @@
         "probablePitcher": null,
         "record": {
           "wins": 63,
-          "losses": 72,
+          "losses": 73,
           "ties": 0,
-          "pct": ".467"
+          "pct": ".463"
         }
       },
       "isHome": true,
@@ -12421,9 +12428,9 @@
         "probablePitcher": null,
         "record": {
           "wins": 63,
-          "losses": 72,
+          "losses": 73,
           "ties": 0,
-          "pct": ".467"
+          "pct": ".463"
         }
       },
       "isHome": true,
@@ -12463,10 +12470,10 @@
         "score": null,
         "probablePitcher": null,
         "record": {
-          "wins": 66,
+          "wins": 67,
           "losses": 70,
           "ties": 0,
-          "pct": ".485"
+          "pct": ".489"
         }
       },
       "away": {
@@ -12524,10 +12531,10 @@
         "score": null,
         "probablePitcher": null,
         "record": {
-          "wins": 66,
+          "wins": 67,
           "losses": 70,
           "ties": 0,
-          "pct": ".485"
+          "pct": ".489"
         }
       },
       "away": {
@@ -13120,7 +13127,7 @@
       "gameDate": "2026-08-30T17:37:00Z",
       "dayNight": "day",
       "venue": "Rogers Centre",
-      "status": "Game Over",
+      "status": "Final",
       "abstractState": "Final",
       "inning": 9,
       "inningState": "Top",
@@ -13218,10 +13225,10 @@
       "gameDate": "2026-08-30T17:35:00Z",
       "dayNight": "day",
       "venue": "Yankee Stadium",
-      "status": "In Progress",
-      "abstractState": "Live",
-      "inning": 8,
-      "inningState": "Bottom",
+      "status": "Final",
+      "abstractState": "Final",
+      "inning": 9,
+      "inningState": "Top",
       "home": {
         "id": 147,
         "name": "New York Yankees",
@@ -13231,13 +13238,13 @@
         "fileCode": "nyy",
         "logo": "https://www.mlbstatic.com/team-logos/147.svg",
         "color": "#0C2340",
-        "score": 10,
+        "score": 16,
         "probablePitcher": "Will Warren",
         "record": {
-          "wins": 77,
+          "wins": 78,
           "losses": 59,
           "ties": 0,
-          "pct": ".566"
+          "pct": ".569"
         }
       },
       "away": {
@@ -13253,9 +13260,9 @@
         "probablePitcher": "Ranger Suarez",
         "record": {
           "wins": 74,
-          "losses": 62,
+          "losses": 63,
           "ties": 0,
-          "pct": ".544"
+          "pct": ".540"
         }
       },
       "isHome": null,
@@ -13265,9 +13272,9 @@
       "gamesInSeries": 4,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 55.3,
-      "awayWinPct": 44.7,
-      "helpsTorPct": 44.7,
+      "homeWinPct": 56.8,
+      "awayWinPct": 43.2,
+      "helpsTorPct": 43.2,
       "wantWinnerId": 111
     },
     {
@@ -13276,7 +13283,7 @@
       "gameDate": "2026-08-30T17:37:00Z",
       "dayNight": "day",
       "venue": "Rogers Centre",
-      "status": "Game Over",
+      "status": "Final",
       "abstractState": "Final",
       "inning": 9,
       "inningState": "Top",
@@ -13334,10 +13341,10 @@
       "gameDate": "2026-08-30T17:40:00Z",
       "dayNight": "day",
       "venue": "Progressive Field",
-      "status": "In Progress",
-      "abstractState": "Live",
-      "inning": 7,
-      "inningState": "Middle",
+      "status": "Final",
+      "abstractState": "Final",
+      "inning": 9,
+      "inningState": "Top",
       "home": {
         "id": 114,
         "name": "Cleveland Guardians",
@@ -13350,10 +13357,10 @@
         "score": 11,
         "probablePitcher": "Parker Messick",
         "record": {
-          "wins": 68,
+          "wins": 69,
           "losses": 68,
           "ties": 0,
-          "pct": ".500"
+          "pct": ".504"
         }
       },
       "away": {
@@ -13369,9 +13376,9 @@
         "probablePitcher": "Seth Lugo",
         "record": {
           "wins": 62,
-          "losses": 75,
+          "losses": 76,
           "ties": 0,
-          "pct": ".453"
+          "pct": ".449"
         }
       },
       "isHome": null,
@@ -13381,9 +13388,9 @@
       "gamesInSeries": 3,
       "interest": "Need a loss",
       "note": "Root against CLE \u2014 they are holding a wild-card spot.",
-      "homeWinPct": 51.3,
-      "awayWinPct": 48.7,
-      "helpsTorPct": 48.7,
+      "homeWinPct": 57.3,
+      "awayWinPct": 42.7,
+      "helpsTorPct": 42.7,
       "wantWinnerId": 118
     },
     {
@@ -13392,10 +13399,10 @@
       "gameDate": "2026-08-30T17:40:00Z",
       "dayNight": "day",
       "venue": "Comerica Park",
-      "status": "In Progress",
-      "abstractState": "Live",
-      "inning": 6,
-      "inningState": "Top",
+      "status": "Final",
+      "abstractState": "Final",
+      "inning": 9,
+      "inningState": "Bottom",
       "home": {
         "id": 116,
         "name": "Detroit Tigers",
@@ -13409,9 +13416,9 @@
         "probablePitcher": "Framber Valdez",
         "record": {
           "wins": 63,
-          "losses": 72,
+          "losses": 73,
           "ties": 0,
-          "pct": ".467"
+          "pct": ".463"
         }
       },
       "away": {
@@ -13423,13 +13430,13 @@
         "fileCode": "la",
         "logo": "https://www.mlbstatic.com/team-logos/119.svg",
         "color": "#1D4ED8",
-        "score": 3,
+        "score": 6,
         "probablePitcher": "Tyler Glasnow",
         "record": {
-          "wins": 81,
+          "wins": 82,
           "losses": 55,
           "ties": 0,
-          "pct": ".596"
+          "pct": ".599"
         }
       },
       "isHome": null,
@@ -13439,9 +13446,9 @@
       "gamesInSeries": 3,
       "interest": "Keep them down",
       "note": "Do not let DET sneak closer.",
-      "homeWinPct": 34.3,
-      "awayWinPct": 65.7,
-      "helpsTorPct": 65.7,
+      "homeWinPct": 33.8,
+      "awayWinPct": 66.2,
+      "helpsTorPct": 66.2,
       "wantWinnerId": 119
     },
     {
@@ -13450,9 +13457,9 @@
       "gameDate": "2026-08-30T18:10:00Z",
       "dayNight": "day",
       "venue": "American Family Field",
-      "status": "In Progress",
-      "abstractState": "Live",
-      "inning": 5,
+      "status": "Final",
+      "abstractState": "Final",
+      "inning": 9,
       "inningState": "Bottom",
       "home": {
         "id": 158,
@@ -13463,13 +13470,13 @@
         "fileCode": "mil",
         "logo": "https://www.mlbstatic.com/team-logos/158.svg",
         "color": "#1D4ED8",
-        "score": 2,
+        "score": 4,
         "probablePitcher": "Dustin May",
         "record": {
           "wins": 85,
-          "losses": 51,
+          "losses": 52,
           "ties": 0,
-          "pct": ".625"
+          "pct": ".620"
         }
       },
       "away": {
@@ -13481,13 +13488,13 @@
         "fileCode": "tex",
         "logo": "https://www.mlbstatic.com/team-logos/140.svg",
         "color": "#003278",
-        "score": 4,
+        "score": 7,
         "probablePitcher": "Kumar Rocker",
         "record": {
-          "wins": 66,
+          "wins": 67,
           "losses": 70,
           "ties": 0,
-          "pct": ".485"
+          "pct": ".489"
         }
       },
       "isHome": null,
@@ -13497,9 +13504,9 @@
       "gamesInSeries": 3,
       "interest": "Keep them down",
       "note": "Do not let TEX sneak closer.",
-      "homeWinPct": 74.7,
-      "awayWinPct": 25.3,
-      "helpsTorPct": 74.7,
+      "homeWinPct": 72.3,
+      "awayWinPct": 27.7,
+      "helpsTorPct": 72.3,
       "wantWinnerId": 158
     },
     {
@@ -13508,10 +13515,10 @@
       "gameDate": "2026-08-30T18:10:00Z",
       "dayNight": "day",
       "venue": "Target Field",
-      "status": "In Progress",
-      "abstractState": "Live",
-      "inning": 8,
-      "inningState": "Bottom",
+      "status": "Final",
+      "abstractState": "Final",
+      "inning": 9,
+      "inningState": "Top",
       "home": {
         "id": 142,
         "name": "Minnesota Twins",
@@ -13524,10 +13531,10 @@
         "score": 5,
         "probablePitcher": "Zebby Matthews",
         "record": {
-          "wins": 64,
+          "wins": 65,
           "losses": 72,
           "ties": 0,
-          "pct": ".471"
+          "pct": ".474"
         }
       },
       "away": {
@@ -13539,13 +13546,13 @@
         "fileCode": "cws",
         "logo": "https://www.mlbstatic.com/team-logos/145.svg",
         "color": "#27251F",
-        "score": 0,
+        "score": 1,
         "probablePitcher": "Jordan Hicks",
         "record": {
           "wins": 72,
-          "losses": 63,
+          "losses": 64,
           "ties": 0,
-          "pct": ".533"
+          "pct": ".529"
         }
       },
       "isHome": null,
@@ -13555,9 +13562,9 @@
       "gamesInSeries": 3,
       "interest": "Keep them down",
       "note": "Do not let MIN sneak closer.",
-      "homeWinPct": 36.2,
-      "awayWinPct": 63.8,
-      "helpsTorPct": 63.8,
+      "homeWinPct": 39.1,
+      "awayWinPct": 60.9,
+      "helpsTorPct": 60.9,
       "wantWinnerId": 145
     },
     {
@@ -13568,7 +13575,7 @@
       "venue": "Sutter Health Park",
       "status": "In Progress",
       "abstractState": "Live",
-      "inning": 1,
+      "inning": 9,
       "inningState": "Top",
       "home": {
         "id": 133,
@@ -13579,7 +13586,7 @@
         "fileCode": "ath",
         "logo": "https://www.mlbstatic.com/team-logos/133.svg",
         "color": "#003831",
-        "score": 0,
+        "score": 5,
         "probablePitcher": "Jeffrey Springs",
         "record": {
           "wins": 53,
@@ -13597,7 +13604,7 @@
         "fileCode": "bal",
         "logo": "https://www.mlbstatic.com/team-logos/110.svg",
         "color": "#DF4601",
-        "score": 0,
+        "score": 8,
         "probablePitcher": "Chris Bassitt",
         "record": {
           "wins": 67,
@@ -13641,9 +13648,9 @@
         "probablePitcher": "Payton Tolle",
         "record": {
           "wins": 74,
-          "losses": 62,
+          "losses": 63,
           "ties": 0,
-          "pct": ".544"
+          "pct": ".540"
         }
       },
       "away": {
@@ -13671,9 +13678,9 @@
       "gamesInSeries": 3,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 66.6,
-      "awayWinPct": 33.4,
-      "helpsTorPct": 33.4,
+      "homeWinPct": 65.7,
+      "awayWinPct": 34.3,
+      "helpsTorPct": 34.3,
       "wantWinnerId": 136
     },
     {
@@ -13698,10 +13705,10 @@
         "score": null,
         "probablePitcher": "Taj Bradley",
         "record": {
-          "wins": 64,
+          "wins": 65,
           "losses": 72,
           "ties": 0,
-          "pct": ".471"
+          "pct": ".474"
         }
       },
       "away": {
@@ -13717,9 +13724,9 @@
         "probablePitcher": "Jackson Jobe",
         "record": {
           "wins": 63,
-          "losses": 72,
+          "losses": 73,
           "ties": 0,
-          "pct": ".467"
+          "pct": ".463"
         }
       },
       "isHome": null,
@@ -13729,9 +13736,9 @@
       "gamesInSeries": 3,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 53.0,
-      "awayWinPct": 47.0,
-      "helpsTorPct": 47.0,
+      "homeWinPct": 53.6,
+      "awayWinPct": 46.4,
+      "helpsTorPct": 46.4,
       "wantWinnerId": 116
     },
     {
@@ -13756,10 +13763,10 @@
         "score": null,
         "probablePitcher": "Jacob deGrom",
         "record": {
-          "wins": 66,
+          "wins": 67,
           "losses": 70,
           "ties": 0,
-          "pct": ".485"
+          "pct": ".489"
         }
       },
       "away": {
@@ -13787,9 +13794,9 @@
       "gamesInSeries": 3,
       "interest": "Keep them down",
       "note": "Do not let TEX sneak closer.",
-      "homeWinPct": 57.9,
-      "awayWinPct": 42.1,
-      "helpsTorPct": 42.1,
+      "homeWinPct": 60.6,
+      "awayWinPct": 39.4,
+      "helpsTorPct": 39.4,
       "wantWinnerId": 133
     },
     {
@@ -13815,9 +13822,9 @@
         "probablePitcher": "Tanner Gordon",
         "record": {
           "wins": 52,
-          "losses": 84,
+          "losses": 85,
           "ties": 0,
-          "pct": ".382"
+          "pct": ".380"
         }
       },
       "away": {
@@ -13845,9 +13852,9 @@
       "gamesInSeries": 3,
       "interest": "Keep them down",
       "note": "Do not let BAL sneak closer.",
-      "homeWinPct": 39.6,
-      "awayWinPct": 60.4,
-      "helpsTorPct": 39.6,
+      "homeWinPct": 39.5,
+      "awayWinPct": 60.5,
+      "helpsTorPct": 39.5,
       "wantWinnerId": 115
     },
     {
@@ -13890,10 +13897,10 @@
         "score": null,
         "probablePitcher": "Elmer Rodr\u00edguez",
         "record": {
-          "wins": 77,
+          "wins": 78,
           "losses": 59,
           "ties": 0,
-          "pct": ".566"
+          "pct": ".569"
         }
       },
       "isHome": null,
@@ -13903,9 +13910,9 @@
       "gamesInSeries": 3,
       "interest": "Need a loss",
       "note": "Root against NYY \u2014 they are holding a wild-card spot.",
-      "homeWinPct": 34.4,
-      "awayWinPct": 65.6,
-      "helpsTorPct": 34.4,
+      "homeWinPct": 33.9,
+      "awayWinPct": 66.1,
+      "helpsTorPct": 33.9,
       "wantWinnerId": 108
     },
     {
@@ -13930,10 +13937,10 @@
         "score": null,
         "probablePitcher": "Gavin Williams",
         "record": {
-          "wins": 68,
+          "wins": 69,
           "losses": 68,
           "ties": 0,
-          "pct": ".500"
+          "pct": ".504"
         }
       },
       "away": {
@@ -13961,9 +13968,9 @@
       "gamesInSeries": 3,
       "interest": "Jays game",
       "note": "Get the W.",
-      "homeWinPct": 60.9,
-      "awayWinPct": 39.1,
-      "helpsTorPct": 39.1,
+      "homeWinPct": 63.8,
+      "awayWinPct": 36.2,
+      "helpsTorPct": 36.2,
       "wantWinnerId": 141
     },
     {
@@ -13989,9 +13996,9 @@
         "probablePitcher": null,
         "record": {
           "wins": 74,
-          "losses": 62,
+          "losses": 63,
           "ties": 0,
-          "pct": ".544"
+          "pct": ".540"
         }
       },
       "away": {
@@ -14019,9 +14026,9 @@
       "gamesInSeries": 3,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 66.6,
-      "awayWinPct": 33.4,
-      "helpsTorPct": 33.4,
+      "homeWinPct": 65.7,
+      "awayWinPct": 34.3,
+      "helpsTorPct": 34.3,
       "wantWinnerId": 136
     },
     {
@@ -14046,10 +14053,10 @@
         "score": null,
         "probablePitcher": "Connor Prielipp",
         "record": {
-          "wins": 64,
+          "wins": 65,
           "losses": 72,
           "ties": 0,
-          "pct": ".471"
+          "pct": ".474"
         }
       },
       "away": {
@@ -14065,9 +14072,9 @@
         "probablePitcher": "Troy Melton",
         "record": {
           "wins": 63,
-          "losses": 72,
+          "losses": 73,
           "ties": 0,
-          "pct": ".467"
+          "pct": ".463"
         }
       },
       "isHome": null,
@@ -14077,9 +14084,9 @@
       "gamesInSeries": 3,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 53.0,
-      "awayWinPct": 47.0,
-      "helpsTorPct": 47.0,
+      "homeWinPct": 53.6,
+      "awayWinPct": 46.4,
+      "helpsTorPct": 46.4,
       "wantWinnerId": 116
     },
     {
@@ -14104,10 +14111,10 @@
         "score": null,
         "probablePitcher": "MacKenzie Gore",
         "record": {
-          "wins": 66,
+          "wins": 67,
           "losses": 70,
           "ties": 0,
-          "pct": ".485"
+          "pct": ".489"
         }
       },
       "away": {
@@ -14135,9 +14142,9 @@
       "gamesInSeries": 3,
       "interest": "Keep them down",
       "note": "Do not let TEX sneak closer.",
-      "homeWinPct": 57.9,
-      "awayWinPct": 42.1,
-      "helpsTorPct": 42.1,
+      "homeWinPct": 60.6,
+      "awayWinPct": 39.4,
+      "helpsTorPct": 39.4,
       "wantWinnerId": 133
     },
     {
@@ -14163,9 +14170,9 @@
         "probablePitcher": "Gabriel Hughes",
         "record": {
           "wins": 52,
-          "losses": 84,
+          "losses": 85,
           "ties": 0,
-          "pct": ".382"
+          "pct": ".380"
         }
       },
       "away": {
@@ -14193,9 +14200,9 @@
       "gamesInSeries": 3,
       "interest": "Keep them down",
       "note": "Do not let BAL sneak closer.",
-      "homeWinPct": 39.6,
-      "awayWinPct": 60.4,
-      "helpsTorPct": 39.6,
+      "homeWinPct": 39.5,
+      "awayWinPct": 60.5,
+      "helpsTorPct": 39.5,
       "wantWinnerId": 115
     },
     {
@@ -14238,10 +14245,10 @@
         "score": null,
         "probablePitcher": "Gerrit Cole",
         "record": {
-          "wins": 77,
+          "wins": 78,
           "losses": 59,
           "ties": 0,
-          "pct": ".566"
+          "pct": ".569"
         }
       },
       "isHome": null,
@@ -14251,9 +14258,9 @@
       "gamesInSeries": 3,
       "interest": "Need a loss",
       "note": "Root against NYY \u2014 they are holding a wild-card spot.",
-      "homeWinPct": 34.4,
-      "awayWinPct": 65.6,
-      "helpsTorPct": 34.4,
+      "homeWinPct": 33.9,
+      "awayWinPct": 66.1,
+      "helpsTorPct": 33.9,
       "wantWinnerId": 108
     }
   ],
@@ -15125,11 +15132,11 @@
       "wildCardGamesBack": "1.5",
       "wins": 64,
       "losses": 68,
-      "gbDelta": -0.5,
+      "gbDelta": 0.0,
       "rankDelta": -1,
-      "direction": "up"
+      "direction": "flat"
     },
-    "gbDelta": -0.5,
+    "gbDelta": 0.0,
     "rankDelta": -1,
     "last14": {
       "ops": ".788",
@@ -15152,9 +15159,9 @@
     "cards": [
       {
         "label": "Wild-card gap",
-        "value": "1.0",
-        "detail": "0.5 closer than 7 days ago",
-        "direction": "up"
+        "value": "1.5",
+        "detail": "Gap to the 3rd AL wild card",
+        "direction": "flat"
       },
       {
         "label": "WC rank",
@@ -15191,22 +15198,22 @@
     ]
   },
   "playoffOdds": {
-    "percent": 14.6,
+    "percent": 8.4,
     "sims": 5000,
-    "made": 729,
-    "gamesModeled": 242,
+    "made": 419,
+    "gamesModeled": 235,
     "talent": 0.465,
     "method": "Monte Carlo of remaining American League games. Each game uses log5 win odds from Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag.",
-    "note": "14.6% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 242 remaining games involving AL clubs.",
-    "gb": "1.0",
+    "note": "8.4% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 235 remaining games involving AL clubs.",
+    "gb": "1.5",
     "gamesLeft": 24
   },
   "kpis": [
     {
       "label": "Wild Card GB",
-      "value": "1.0",
-      "hint": "0.5 closer than 7 days ago",
-      "trend": "up",
+      "value": "1.5",
+      "hint": "Gap to the 3rd AL wild card",
+      "trend": "flat",
       "stat": "GB"
     },
     {
@@ -15235,7 +15242,7 @@
     },
     {
       "label": "WC Elim #",
-      "value": "25",
+      "value": "24",
       "hint": "Jays losses + rival wins that ends it",
       "stat": "Elim"
     },
