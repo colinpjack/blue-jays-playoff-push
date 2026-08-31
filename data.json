@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T11:02:27.723041-04:00",
+  "generatedAt": "2026-08-31T16:48:03.486842-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -150,10 +150,10 @@
           "gameDate": "2026-08-31T22:40:00Z",
           "dayNight": "night",
           "venue": "Tropicana Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 139,
             "name": "Tampa Bay Rays",
@@ -163,7 +163,7 @@
             "fileCode": "tb",
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Ian Seymour",
             "record": {
               "wins": 82,
@@ -181,7 +181,7 @@
             "fileCode": "nym",
             "logo": "https://www.mlbstatic.com/team-logos/121.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Robert Stock",
             "record": {
               "wins": 61,
@@ -745,10 +745,10 @@
           "gameDate": "2026-08-31T22:45:00Z",
           "dayNight": "night",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 111,
             "name": "Boston Red Sox",
@@ -758,7 +758,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 74,
@@ -776,7 +776,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "George Kirby",
             "record": {
               "wins": 64,
@@ -1169,7 +1169,7 @@
           "gameDate": "2026-09-01T00:40:00Z",
           "dayNight": "night",
           "venue": "Coors Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -1201,7 +1201,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Cade Povich",
             "record": {
               "wins": 68,
               "losses": 69,
@@ -1262,7 +1262,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Kyle Bradish",
             "record": {
               "wins": 68,
               "losses": 69,
@@ -1323,7 +1323,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Trevor Rogers",
             "record": {
               "wins": 68,
               "losses": 69,
@@ -2443,10 +2443,10 @@
           "gameDate": "2026-08-31T22:45:00Z",
           "dayNight": "night",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 111,
             "name": "Boston Red Sox",
@@ -2456,7 +2456,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 74,
@@ -2474,7 +2474,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "George Kirby",
             "record": {
               "wins": 64,
@@ -3291,7 +3291,7 @@
           "gameDate": "2026-09-01T00:40:00Z",
           "dayNight": "night",
           "venue": "Coors Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -3323,7 +3323,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Cade Povich",
             "record": {
               "wins": 68,
               "losses": 69,
@@ -3384,7 +3384,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Kyle Bradish",
             "record": {
               "wins": 68,
               "losses": 69,
@@ -3445,7 +3445,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Trevor Rogers",
             "record": {
               "wins": 68,
               "losses": 69,
@@ -4139,10 +4139,10 @@
           "gameDate": "2026-09-01T00:05:00Z",
           "dayNight": "night",
           "venue": "Globe Life Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 140,
             "name": "Texas Rangers",
@@ -4152,7 +4152,7 @@
             "fileCode": "tex",
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jacob deGrom",
             "record": {
               "wins": 67,
@@ -4170,7 +4170,7 @@
             "fileCode": "ath",
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Gage Jump",
             "record": {
               "wins": 53,
@@ -4554,10 +4554,10 @@
           "gameDate": "2026-08-31T23:40:00Z",
           "dayNight": "night",
           "venue": "Target Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -4567,7 +4567,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Taj Bradley",
             "record": {
               "wins": 65,
@@ -4585,7 +4585,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jackson Jobe",
             "record": {
               "wins": 63,
@@ -4978,10 +4978,10 @@
           "gameDate": "2026-08-31T22:45:00Z",
           "dayNight": "night",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 111,
             "name": "Boston Red Sox",
@@ -4991,7 +4991,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 74,
@@ -5009,7 +5009,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "George Kirby",
             "record": {
               "wins": 64,
@@ -5402,10 +5402,10 @@
           "gameDate": "2026-08-31T23:40:00Z",
           "dayNight": "night",
           "venue": "Target Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -5415,7 +5415,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Taj Bradley",
             "record": {
               "wins": 65,
@@ -5433,7 +5433,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jackson Jobe",
             "record": {
               "wins": 63,
@@ -7096,10 +7096,10 @@
           "gameDate": "2026-08-31T22:45:00Z",
           "dayNight": "night",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 111,
             "name": "Boston Red Sox",
@@ -7109,7 +7109,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 74,
@@ -7127,7 +7127,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "George Kirby",
             "record": {
               "wins": 64,
@@ -7460,9 +7460,16 @@
       "injuries": [
         {
           "name": "Willson Contreras",
-          "status": "Day-To-Day",
+          "status": "10-Day-IL",
           "comment": "Contreras (hamstring) was removed from Sunday's 16-1 loss to the Yankees in the seventh inning, Christopher Smith of MassLive.com reports.",
-          "date": "2026-08-30T21:52Z",
+          "date": "2026-08-31T19:04Z",
+          "position": null
+        },
+        {
+          "name": "Curtis Mead",
+          "status": "10-Day-IL",
+          "comment": "Mead (wrist) played catch on the field at Fenway Park on Monday, Mac Cerullo of the Boston Herald reports.",
+          "date": "2026-08-31T18:43Z",
           "position": null
         },
         {
@@ -7470,13 +7477,6 @@
           "status": "60-Day-IL",
           "comment": "Houck (elbow) will begin a rehab assignment at the Red Sox's complex in Florida on Tuesday, Rob Bradford of WEEI.com reports.",
           "date": "2026-08-28T22:05Z",
-          "position": null
-        },
-        {
-          "name": "Curtis Mead",
-          "status": "10-Day-IL",
-          "comment": "Follow-up imagining on Mead's fractured left wrist came back clean Monday, and the infielder has been cleared to begin mobility exercises and progress toward strength work, MLB.com reports.",
-          "date": "2026-08-27T14:20Z",
           "position": null
         },
         {
@@ -8176,7 +8176,7 @@
           "gameDate": "2026-09-01T00:40:00Z",
           "dayNight": "night",
           "venue": "Coors Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -8208,7 +8208,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Cade Povich",
             "record": {
               "wins": 68,
               "losses": 69,
@@ -8269,7 +8269,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Kyle Bradish",
             "record": {
               "wins": 68,
               "losses": 69,
@@ -8330,7 +8330,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Trevor Rogers",
             "record": {
               "wins": 68,
               "losses": 69,
@@ -9326,10 +9326,10 @@
           "gameDate": "2026-09-01T00:05:00Z",
           "dayNight": "night",
           "venue": "Globe Life Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 140,
             "name": "Texas Rangers",
@@ -9339,7 +9339,7 @@
             "fileCode": "tex",
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jacob deGrom",
             "record": {
               "wins": 67,
@@ -9357,7 +9357,7 @@
             "fileCode": "ath",
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Gage Jump",
             "record": {
               "wins": 53,
@@ -9871,10 +9871,10 @@
           "gameDate": "2026-08-31T23:40:00Z",
           "dayNight": "night",
           "venue": "Target Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -9884,7 +9884,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Taj Bradley",
             "record": {
               "wins": 65,
@@ -9902,7 +9902,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jackson Jobe",
             "record": {
               "wins": 63,
@@ -10425,10 +10425,10 @@
           "gameDate": "2026-08-31T22:45:00Z",
           "dayNight": "night",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 111,
             "name": "Boston Red Sox",
@@ -10438,7 +10438,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 74,
@@ -10456,7 +10456,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "George Kirby",
             "record": {
               "wins": 64,
@@ -10788,6 +10788,20 @@
       ],
       "injuries": [
         {
+          "name": "Colt Emerson",
+          "status": "60-Day-IL",
+          "comment": "The Mariners transferred Emerson (wrist) to the 60-day injured list Monday.",
+          "date": "2026-08-31T20:15Z",
+          "position": null
+        },
+        {
+          "name": "Nick Davila",
+          "status": "15-Day-IL",
+          "comment": "The Mariners placed Davila on the 15-day injured list Monday with a right SC joint sprain.",
+          "date": "2026-08-31T20:12Z",
+          "position": null
+        },
+        {
           "name": "Emerson Hancock",
           "status": "15-Day-IL",
           "comment": "Seattle placed Hancock (groin) on the 15-day injured list Sunday with a left adductor strain, retroactive to Aug. 29.",
@@ -10809,24 +10823,10 @@
           "position": null
         },
         {
-          "name": "Colt Emerson",
-          "status": "10-Day-IL",
-          "comment": "Mariners general manager Justin Hollander said that Emerson will undergo season-ending left wrist surgery Wednesday, Adam Jude of The Seattle Times reports.",
-          "date": "2026-08-24T22:07Z",
-          "position": null
-        },
-        {
           "name": "Luke Raley",
           "status": "60-Day-IL",
           "comment": "The Mariners transferred Raley (forearm) from the 10-day injured list to the 60-day IL on Wednesday.",
           "date": "2026-08-19T21:56Z",
-          "position": null
-        },
-        {
-          "name": "Cooper Criswell",
-          "status": "60-Day-IL",
-          "comment": "Mariners general manager Justin Hollander said July 31 that Criswell (shoulder) has resumed a throwing progression, MLB.com reports.",
-          "date": "2026-08-09T19:33Z",
           "position": null
         },
         {
@@ -10979,10 +10979,10 @@
           "gameDate": "2026-08-31T23:40:00Z",
           "dayNight": "night",
           "venue": "Target Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -10992,7 +10992,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Taj Bradley",
             "record": {
               "wins": 65,
@@ -11010,7 +11010,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jackson Jobe",
             "record": {
               "wins": 63,
@@ -11342,6 +11342,13 @@
       ],
       "injuries": [
         {
+          "name": "Kerry Carpenter",
+          "status": "10-Day-IL",
+          "comment": "Carpenter (foot) was on track to have his walking boot removed this past weekend, MLB.com reports.",
+          "date": "2026-08-31T16:25Z",
+          "position": null
+        },
+        {
           "name": "Riley Greene",
           "status": "10-Day-IL",
           "comment": "Greene (hamstring) will begin a rehab assignment at Triple-A Toledo on Saturday, Jason Beck of MLB.com reports.",
@@ -11367,13 +11374,6 @@
           "status": "15-Day-IL",
           "comment": "Flaherty (forearm) threw a bullpen session Sunday in Kansas City, MLB.com reports.",
           "date": "2026-08-24T03:13Z",
-          "position": null
-        },
-        {
-          "name": "Kerry Carpenter",
-          "status": "10-Day-IL",
-          "comment": "Carpenter (foot) will pause his rehab program after suffering a setback, Jason Beck of MLB.com reports.",
-          "date": "2026-08-18T21:34Z",
           "position": null
         },
         {
@@ -13207,10 +13207,10 @@
       "gameDate": "2026-08-31T22:45:00Z",
       "dayNight": "night",
       "venue": "Fenway Park",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 111,
         "name": "Boston Red Sox",
@@ -13220,7 +13220,7 @@
         "fileCode": "bos",
         "logo": "https://www.mlbstatic.com/team-logos/111.svg",
         "color": "#BD3039",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Payton Tolle",
         "record": {
           "wins": 74,
@@ -13238,7 +13238,7 @@
         "fileCode": "sea",
         "logo": "https://www.mlbstatic.com/team-logos/136.svg",
         "color": "#0C2C56",
-        "score": null,
+        "score": 0,
         "probablePitcher": "George Kirby",
         "record": {
           "wins": 64,
@@ -13265,10 +13265,10 @@
       "gameDate": "2026-08-31T23:40:00Z",
       "dayNight": "night",
       "venue": "Target Field",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 142,
         "name": "Minnesota Twins",
@@ -13278,7 +13278,7 @@
         "fileCode": "min",
         "logo": "https://www.mlbstatic.com/team-logos/142.svg",
         "color": "#002B5C",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Taj Bradley",
         "record": {
           "wins": 65,
@@ -13296,7 +13296,7 @@
         "fileCode": "det",
         "logo": "https://www.mlbstatic.com/team-logos/116.svg",
         "color": "#0C2340",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Jackson Jobe",
         "record": {
           "wins": 63,
@@ -13323,10 +13323,10 @@
       "gameDate": "2026-09-01T00:05:00Z",
       "dayNight": "night",
       "venue": "Globe Life Field",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 140,
         "name": "Texas Rangers",
@@ -13336,7 +13336,7 @@
         "fileCode": "tex",
         "logo": "https://www.mlbstatic.com/team-logos/140.svg",
         "color": "#003278",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Jacob deGrom",
         "record": {
           "wins": 67,
@@ -13354,7 +13354,7 @@
         "fileCode": "ath",
         "logo": "https://www.mlbstatic.com/team-logos/133.svg",
         "color": "#003831",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Gage Jump",
         "record": {
           "wins": 53,
@@ -13381,7 +13381,7 @@
       "gameDate": "2026-09-01T00:40:00Z",
       "dayNight": "night",
       "venue": "Coors Field",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
       "inning": null,
       "inningState": null,
@@ -13413,7 +13413,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/110.svg",
         "color": "#DF4601",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Cade Povich",
         "record": {
           "wins": 68,
           "losses": 69,
@@ -13761,7 +13761,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/110.svg",
         "color": "#DF4601",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Kyle Bradish",
         "record": {
           "wins": 68,
           "losses": 69,
@@ -13935,7 +13935,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/110.svg",
         "color": "#DF4601",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Trevor Rogers",
         "record": {
           "wins": 68,
           "losses": 69,
