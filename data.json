@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T11:21:44.563160-04:00",
+  "generatedAt": "2026-09-02T14:50:53.597645-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -150,7 +150,7 @@
           "gameDate": "2026-09-02T22:40:00Z",
           "dayNight": "night",
           "venue": "Tropicana Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -225,7 +225,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Cal Quantrill",
             "record": {
               "wins": 69,
               "losses": 70,
@@ -745,10 +745,10 @@
           "gameDate": "2026-09-02T20:10:00Z",
           "dayNight": "day",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 111,
             "name": "Boston Red Sox",
@@ -758,7 +758,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Patrick Sandoval",
             "record": {
               "wins": 75,
@@ -776,7 +776,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Bryce Miller",
             "record": {
               "wins": 65,
@@ -838,7 +838,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jake Bennett",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -899,7 +899,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Ranger Suarez",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -960,7 +960,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Sonny Gray",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -1021,7 +1021,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -1169,10 +1169,10 @@
           "gameDate": "2026-09-02T19:10:00Z",
           "dayNight": "day",
           "venue": "Coors Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "Warmup",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 115,
             "name": "Colorado Rockies",
@@ -1182,7 +1182,7 @@
             "fileCode": "col",
             "logo": "https://www.mlbstatic.com/team-logos/115.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Tomoyuki Sugano",
             "record": {
               "wins": 53,
@@ -1200,7 +1200,7 @@
             "fileCode": "bal",
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Trevor Rogers",
             "record": {
               "wins": 69,
@@ -1262,7 +1262,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jake Bennett",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -1323,7 +1323,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Ranger Suarez",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -1384,7 +1384,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Sonny Gray",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -1445,7 +1445,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -1593,7 +1593,7 @@
           "gameDate": "2026-09-02T22:40:00Z",
           "dayNight": "night",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -2443,10 +2443,10 @@
           "gameDate": "2026-09-02T20:10:00Z",
           "dayNight": "day",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 111,
             "name": "Boston Red Sox",
@@ -2456,7 +2456,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Patrick Sandoval",
             "record": {
               "wins": 75,
@@ -2474,7 +2474,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Bryce Miller",
             "record": {
               "wins": 65,
@@ -2536,7 +2536,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jake Bennett",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -2597,7 +2597,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Ranger Suarez",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -2658,7 +2658,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Sonny Gray",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -2719,7 +2719,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -2867,7 +2867,7 @@
           "gameDate": "2026-09-02T22:40:00Z",
           "dayNight": "night",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -3291,10 +3291,10 @@
           "gameDate": "2026-09-02T18:35:00Z",
           "dayNight": "day",
           "venue": "Globe Life Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Bottom",
           "home": {
             "id": 140,
             "name": "Texas Rangers",
@@ -3304,7 +3304,7 @@
             "fileCode": "tex",
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
-            "score": null,
+            "score": 1,
             "probablePitcher": "Cody Bradford",
             "record": {
               "wins": 69,
@@ -3322,7 +3322,7 @@
             "fileCode": "ath",
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jacob Lopez",
             "record": {
               "wins": 53,
@@ -3366,7 +3366,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Cal Quantrill",
             "record": {
               "wins": 69,
               "losses": 70,
@@ -3427,7 +3427,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Kumar Rocker",
             "record": {
               "wins": 69,
               "losses": 70,
@@ -3488,7 +3488,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jacob deGrom",
             "record": {
               "wins": 69,
               "losses": 70,
@@ -3549,7 +3549,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "MacKenzie Gore",
             "record": {
               "wins": 69,
               "losses": 70,
@@ -3715,10 +3715,10 @@
           "gameDate": "2026-09-02T19:10:00Z",
           "dayNight": "day",
           "venue": "Coors Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "Warmup",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 115,
             "name": "Colorado Rockies",
@@ -3728,7 +3728,7 @@
             "fileCode": "col",
             "logo": "https://www.mlbstatic.com/team-logos/115.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Tomoyuki Sugano",
             "record": {
               "wins": 53,
@@ -3746,7 +3746,7 @@
             "fileCode": "bal",
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Trevor Rogers",
             "record": {
               "wins": 69,
@@ -3808,7 +3808,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jake Bennett",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -3869,7 +3869,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Ranger Suarez",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -3930,7 +3930,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Sonny Gray",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -3991,7 +3991,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -4139,7 +4139,7 @@
           "gameDate": "2026-09-02T22:40:00Z",
           "dayNight": "night",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -4987,10 +4987,10 @@
           "gameDate": "2026-09-02T20:10:00Z",
           "dayNight": "day",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 111,
             "name": "Boston Red Sox",
@@ -5000,7 +5000,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Patrick Sandoval",
             "record": {
               "wins": 75,
@@ -5018,7 +5018,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Bryce Miller",
             "record": {
               "wins": 65,
@@ -5062,7 +5062,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Kade Anderson",
             "record": {
               "wins": 65,
               "losses": 74,
@@ -5080,7 +5080,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jack Perkins",
             "record": {
               "wins": 53,
               "losses": 86,
@@ -5123,7 +5123,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Logan Gilbert",
             "record": {
               "wins": 65,
               "losses": 74,
@@ -5184,7 +5184,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "George Kirby",
             "record": {
               "wins": 65,
               "losses": 74,
@@ -5245,7 +5245,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Bryan Woo",
             "record": {
               "wins": 65,
               "losses": 74,
@@ -5263,7 +5263,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Gage Jump",
             "record": {
               "wins": 53,
               "losses": 86,
@@ -5811,7 +5811,7 @@
           "gameDate": "2026-09-02T22:40:00Z",
           "dayNight": "night",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -6677,6 +6677,13 @@
       ],
       "injuries": [
         {
+          "name": "Clarke Schmidt",
+          "status": "60-Day-IL",
+          "comment": "Schmidt (elbow) completed two-thirds of an inning in a rehab appearance with Double-A Somerset on Saturday, allowing two runs on two hits -- including one home run -- while striking out two batters.",
+          "date": "2026-09-02T17:12Z",
+          "position": null
+        },
+        {
           "name": "George Lombard Jr.",
           "status": "Day-To-Day",
           "comment": "Yankees manager Aaron Boone said on the \"Talkin' Yanks\" podcast by Jomboy Media that Lombard (knee) will remain out of the lineup for Tuesday's game versus the Angels.",
@@ -6695,13 +6702,6 @@
           "status": "60-Day-IL",
           "comment": "Manager Aaron Boone stated Monday that Judge (ribs) could be activated from the 60-day injured list during the Yankees' upcoming homestand, which runs from Sept. 8 - Sept. 13, Gary Phillips of the New York Daily News reports.",
           "date": "2026-09-01T00:08Z",
-          "position": null
-        },
-        {
-          "name": "Clarke Schmidt",
-          "status": "60-Day-IL",
-          "comment": "Schmidt (elbow) will begin a rehab assignment with Double-A Somerset on Saturday, Gary Phillips of the New York Daily News reports.",
-          "date": "2026-08-29T16:23Z",
           "position": null
         },
         {
@@ -6854,10 +6854,10 @@
           "gameDate": "2026-09-02T20:10:00Z",
           "dayNight": "day",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 111,
             "name": "Boston Red Sox",
@@ -6867,7 +6867,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Patrick Sandoval",
             "record": {
               "wins": 75,
@@ -6885,7 +6885,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Bryce Miller",
             "record": {
               "wins": 65,
@@ -6947,7 +6947,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jake Bennett",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -7008,7 +7008,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Ranger Suarez",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -7069,7 +7069,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Sonny Gray",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -7130,7 +7130,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -7217,6 +7217,20 @@
       ],
       "injuries": [
         {
+          "name": "Garrett Crochet",
+          "status": "60-Day-IL",
+          "comment": "Red Sox interim manager Chad Tracy said Wednesday that Crochet (lat/shoulder) will likely throw a bullpen session this weekend, Marco Grunfeld of ElEmergente.com reports.",
+          "date": "2026-09-02T17:52Z",
+          "position": null
+        },
+        {
+          "name": "Adley Rutschman",
+          "status": "Day-To-Day",
+          "comment": "Rutschman (elbow) remains out of the lineup for Wednesday's game versus the Mariners.",
+          "date": "2026-09-02T17:17Z",
+          "position": null
+        },
+        {
           "name": "Tyron Guerrero",
           "status": "15-Day-IL",
           "comment": "The Red Sox placed Guerrero on the 15-day injured list Tuesday with right shoulder inflammation.",
@@ -7224,24 +7238,10 @@
           "position": null
         },
         {
-          "name": "Adley Rutschman",
-          "status": "Day-To-Day",
-          "comment": "Red Sox interim manager Chad Tracy said in an interview on WEEI that Rutschman will not be in the lineup Tuesday versus the Mariners due to a lingering hyperextended right elbow injury, Tim Healey of The Boston Globe reports.",
-          "date": "2026-09-01T18:43Z",
-          "position": null
-        },
-        {
           "name": "Eduardo Rivera",
           "status": "60-Day-IL",
           "comment": "The Red Sox recalled Rivera from Triple-A Worcester and placed him on the 60-day injured list Tuesday due to a lumbar strain.",
           "date": "2026-09-01T15:59Z",
-          "position": null
-        },
-        {
-          "name": "Garrett Crochet",
-          "status": "60-Day-IL",
-          "comment": "Crochet (lat/shoulder) was spotted playing catch off the mound Monday, Mac Cerullo of the Boston Herald reports.",
-          "date": "2026-08-31T21:00Z",
           "position": null
         },
         {
@@ -7436,7 +7436,7 @@
           "gameDate": "2026-09-02T22:40:00Z",
           "dayNight": "night",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -7897,10 +7897,10 @@
         "wins": 69,
         "losses": 70,
         "saves": 39,
-        "strikeOuts": 1176,
+        "strikeOuts": 1179,
         "baseOnBalls": 423,
-        "inningsPitched": "1216.1",
-        "strikeoutsPer9Inn": "8.70",
+        "inningsPitched": "1217.1",
+        "strikeoutsPer9Inn": "8.72",
         "walksPer9Inn": "3.13",
         "homeRunsPer9": "1.21",
         "holds": 69,
@@ -7909,37 +7909,37 @@
         "runs": 611
       },
       "hittingL10": {
-        "avg": ".252",
-        "obp": ".351",
-        "slg": ".456",
-        "ops": ".807",
-        "runs": 54,
+        "avg": ".274",
+        "obp": ".370",
+        "slg": ".505",
+        "ops": ".875",
+        "runs": 55,
         "hits": 83,
-        "homeRuns": 14,
-        "rbi": 53,
+        "homeRuns": 15,
+        "rbi": 54,
         "stolenBases": 3,
-        "strikeOuts": 73,
-        "baseOnBalls": 44,
-        "babip": ".279"
+        "strikeOuts": 69,
+        "baseOnBalls": 41,
+        "babip": ".304"
       },
       "pitchingL10": {
-        "era": "5.13",
-        "whip": "1.57",
+        "era": "5.31",
+        "whip": "1.60",
         "wins": 5,
-        "losses": 5,
+        "losses": 4,
         "saves": 3,
-        "strikeOuts": 90,
-        "baseOnBalls": 38,
-        "inningsPitched": "86.0",
-        "strikeoutsPer9Inn": "9.42",
-        "walksPer9Inn": "3.98",
-        "homeRunsPer9": "0.94",
+        "strikeOuts": 85,
+        "baseOnBalls": 37,
+        "inningsPitched": "78.0",
+        "strikeoutsPer9Inn": "9.81",
+        "walksPer9Inn": "4.27",
+        "homeRunsPer9": "1.04",
         "holds": 4,
         "blownSaves": 0,
-        "winPercentage": ".500",
-        "runs": 50
+        "winPercentage": ".556",
+        "runs": 47
       },
-      "runDifferentialL10": 4,
+      "runDifferentialL10": 8,
       "momentum": 68,
       "nextGames": [
         {
@@ -7948,10 +7948,10 @@
           "gameDate": "2026-09-02T18:35:00Z",
           "dayNight": "day",
           "venue": "Globe Life Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Bottom",
           "home": {
             "id": 140,
             "name": "Texas Rangers",
@@ -7961,7 +7961,7 @@
             "fileCode": "tex",
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
-            "score": null,
+            "score": 1,
             "probablePitcher": "Cody Bradford",
             "record": {
               "wins": 69,
@@ -7979,7 +7979,7 @@
             "fileCode": "ath",
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jacob Lopez",
             "record": {
               "wins": 53,
@@ -8023,7 +8023,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Cal Quantrill",
             "record": {
               "wins": 69,
               "losses": 70,
@@ -8084,7 +8084,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Kumar Rocker",
             "record": {
               "wins": 69,
               "losses": 70,
@@ -8145,7 +8145,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jacob deGrom",
             "record": {
               "wins": 69,
               "losses": 70,
@@ -8206,7 +8206,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "MacKenzie Gore",
             "record": {
               "wins": 69,
               "losses": 70,
@@ -8516,10 +8516,10 @@
           "gameDate": "2026-09-02T19:10:00Z",
           "dayNight": "day",
           "venue": "Coors Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "Warmup",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 115,
             "name": "Colorado Rockies",
@@ -8529,7 +8529,7 @@
             "fileCode": "col",
             "logo": "https://www.mlbstatic.com/team-logos/115.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Tomoyuki Sugano",
             "record": {
               "wins": 53,
@@ -8547,7 +8547,7 @@
             "fileCode": "bal",
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Trevor Rogers",
             "record": {
               "wins": 69,
@@ -8609,7 +8609,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jake Bennett",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -8670,7 +8670,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Ranger Suarez",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -8731,7 +8731,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Sonny Gray",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -8792,7 +8792,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 75,
               "losses": 64,
@@ -9070,7 +9070,7 @@
           "gameDate": "2026-09-02T22:40:00Z",
           "dayNight": "night",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -10206,10 +10206,10 @@
           "gameDate": "2026-09-02T20:10:00Z",
           "dayNight": "day",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 111,
             "name": "Boston Red Sox",
@@ -10219,7 +10219,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Patrick Sandoval",
             "record": {
               "wins": 75,
@@ -10237,7 +10237,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Bryce Miller",
             "record": {
               "wins": 65,
@@ -10281,7 +10281,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Kade Anderson",
             "record": {
               "wins": 65,
               "losses": 74,
@@ -10299,7 +10299,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jack Perkins",
             "record": {
               "wins": 53,
               "losses": 86,
@@ -10342,7 +10342,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Logan Gilbert",
             "record": {
               "wins": 65,
               "losses": 74,
@@ -10403,7 +10403,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "George Kirby",
             "record": {
               "wins": 65,
               "losses": 74,
@@ -10464,7 +10464,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Bryan Woo",
             "record": {
               "wins": 65,
               "losses": 74,
@@ -10482,7 +10482,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Gage Jump",
             "record": {
               "wins": 53,
               "losses": 86,
@@ -10651,7 +10651,7 @@
       "gameDate": "2026-09-02T22:40:00Z",
       "dayNight": "night",
       "venue": "Progressive Field",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
       "inning": null,
       "inningState": null,
@@ -12406,10 +12406,10 @@
       "gameDate": "2026-09-02T18:35:00Z",
       "dayNight": "day",
       "venue": "Globe Life Field",
-      "status": "Scheduled",
-      "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "status": "In Progress",
+      "abstractState": "Live",
+      "inning": 1,
+      "inningState": "Bottom",
       "home": {
         "id": 140,
         "name": "Texas Rangers",
@@ -12419,7 +12419,7 @@
         "fileCode": "tex",
         "logo": "https://www.mlbstatic.com/team-logos/140.svg",
         "color": "#003278",
-        "score": null,
+        "score": 1,
         "probablePitcher": "Cody Bradford",
         "record": {
           "wins": 69,
@@ -12437,7 +12437,7 @@
         "fileCode": "ath",
         "logo": "https://www.mlbstatic.com/team-logos/133.svg",
         "color": "#003831",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Jacob Lopez",
         "record": {
           "wins": 53,
@@ -12464,10 +12464,10 @@
       "gameDate": "2026-09-02T19:10:00Z",
       "dayNight": "day",
       "venue": "Coors Field",
-      "status": "Scheduled",
-      "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "status": "Warmup",
+      "abstractState": "Live",
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 115,
         "name": "Colorado Rockies",
@@ -12477,7 +12477,7 @@
         "fileCode": "col",
         "logo": "https://www.mlbstatic.com/team-logos/115.svg",
         "color": "#1D4ED8",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Tomoyuki Sugano",
         "record": {
           "wins": 53,
@@ -12495,7 +12495,7 @@
         "fileCode": "bal",
         "logo": "https://www.mlbstatic.com/team-logos/110.svg",
         "color": "#DF4601",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Trevor Rogers",
         "record": {
           "wins": 69,
@@ -12522,10 +12522,10 @@
       "gameDate": "2026-09-02T20:10:00Z",
       "dayNight": "day",
       "venue": "Fenway Park",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 111,
         "name": "Boston Red Sox",
@@ -12535,7 +12535,7 @@
         "fileCode": "bos",
         "logo": "https://www.mlbstatic.com/team-logos/111.svg",
         "color": "#BD3039",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Patrick Sandoval",
         "record": {
           "wins": 75,
@@ -12553,7 +12553,7 @@
         "fileCode": "sea",
         "logo": "https://www.mlbstatic.com/team-logos/136.svg",
         "color": "#0C2C56",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Bryce Miller",
         "record": {
           "wins": 65,
@@ -12580,7 +12580,7 @@
       "gameDate": "2026-09-02T22:40:00Z",
       "dayNight": "night",
       "venue": "Progressive Field",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
       "inning": null,
       "inningState": null,
@@ -12844,7 +12844,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/111.svg",
         "color": "#BD3039",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Jake Bennett",
         "record": {
           "wins": 75,
           "losses": 64,
@@ -12884,7 +12884,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/140.svg",
         "color": "#003278",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Cal Quantrill",
         "record": {
           "wins": 69,
           "losses": 70,
@@ -12942,7 +12942,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/136.svg",
         "color": "#0C2C56",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Kade Anderson",
         "record": {
           "wins": 65,
           "losses": 74,
@@ -12960,7 +12960,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/133.svg",
         "color": "#003831",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Jack Perkins",
         "record": {
           "wins": 53,
           "losses": 86,
@@ -13076,7 +13076,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/111.svg",
         "color": "#BD3039",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Ranger Suarez",
         "record": {
           "wins": 75,
           "losses": 64,
@@ -13232,7 +13232,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/140.svg",
         "color": "#003278",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Kumar Rocker",
         "record": {
           "wins": 69,
           "losses": 70,
@@ -13406,7 +13406,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/136.svg",
         "color": "#0C2C56",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Logan Gilbert",
         "record": {
           "wins": 65,
           "losses": 74,
