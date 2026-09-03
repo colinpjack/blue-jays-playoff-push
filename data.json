@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T07:44:41.654069-04:00",
+  "generatedAt": "2026-09-03T11:14:41.913192-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -1169,10 +1169,10 @@
           "gameDate": "2026-09-03T17:10:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -1182,7 +1182,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Tanner Bibee",
             "record": {
               "wins": 70,
@@ -1200,7 +1200,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 69,
@@ -2867,10 +2867,10 @@
           "gameDate": "2026-09-03T17:10:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -2880,7 +2880,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Tanner Bibee",
             "record": {
               "wins": 70,
@@ -2898,7 +2898,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 69,
@@ -3715,10 +3715,10 @@
           "gameDate": "2026-09-03T17:10:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -3728,7 +3728,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Tanner Bibee",
             "record": {
               "wins": 70,
@@ -3746,7 +3746,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 69,
@@ -6055,10 +6055,10 @@
           "gameDate": "2026-09-03T17:10:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -6068,7 +6068,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Tanner Bibee",
             "record": {
               "wins": 70,
@@ -6086,7 +6086,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 69,
@@ -7687,10 +7687,10 @@
           "gameDate": "2026-09-03T17:10:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -7700,7 +7700,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Tanner Bibee",
             "record": {
               "wins": 70,
@@ -7718,7 +7718,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 69,
@@ -8562,6 +8562,13 @@
       ],
       "injuries": [
         {
+          "name": "Robert Garcia",
+          "status": "60-Day-IL",
+          "comment": "Garcia (shoulder) is likely to begin a rehab assignment at Triple-A Round Rock on Saturday, Drew Davison of MLB.com reports.",
+          "date": "2026-09-03T13:23Z",
+          "position": null
+        },
+        {
           "name": "Josh Jung",
           "status": "10-Day-IL",
           "comment": "Jung (calf) has been cleared for full baseball activities and could begin a rehab assignment as soon as this weekend, Jeff Wilson of AllDLLS.com reports.",
@@ -8580,13 +8587,6 @@
           "status": "15-Day-IL",
           "comment": "Texas placed Gray on the 15-day injured list Monday due to right elbow inflammation.",
           "date": "2026-08-31T22:25Z",
-          "position": null
-        },
-        {
-          "name": "Robert Garcia",
-          "status": "60-Day-IL",
-          "comment": "Garcia (shoulder) is set to begin a rehab assignment at Triple-A Round Rock, MLB.com reports.",
-          "date": "2026-08-31T13:01Z",
           "position": null
         },
         {
@@ -8767,10 +8767,10 @@
           "gameDate": "2026-09-03T17:10:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -8780,7 +8780,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Tanner Bibee",
             "record": {
               "wins": 70,
@@ -8798,7 +8798,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 69,
@@ -11477,10 +11477,10 @@
       "gameDate": "2026-09-03T17:10:00Z",
       "dayNight": "day",
       "venue": "Progressive Field",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 114,
         "name": "Cleveland Guardians",
@@ -11490,7 +11490,7 @@
         "fileCode": "cle",
         "logo": "https://www.mlbstatic.com/team-logos/114.svg",
         "color": "#00385D",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Tanner Bibee",
         "record": {
           "wins": 70,
@@ -11508,7 +11508,7 @@
         "fileCode": "tor",
         "logo": "https://www.mlbstatic.com/team-logos/141.svg",
         "color": "#134A8E",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Jos\u00e9 Soriano",
         "record": {
           "wins": 69,
@@ -13228,10 +13228,10 @@
       "gameDate": "2026-09-03T17:10:00Z",
       "dayNight": "day",
       "venue": "Progressive Field",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 114,
         "name": "Cleveland Guardians",
@@ -13241,7 +13241,7 @@
         "fileCode": "cle",
         "logo": "https://www.mlbstatic.com/team-logos/114.svg",
         "color": "#00385D",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Tanner Bibee",
         "record": {
           "wins": 70,
@@ -13259,7 +13259,7 @@
         "fileCode": "tor",
         "logo": "https://www.mlbstatic.com/team-logos/141.svg",
         "color": "#134A8E",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Jos\u00e9 Soriano",
         "record": {
           "wins": 69,
