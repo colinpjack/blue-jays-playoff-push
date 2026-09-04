@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T07:34:05.543435-04:00",
+  "generatedAt": "2026-09-04T11:08:43.668695-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -2867,10 +2867,10 @@
           "gameDate": "2026-09-04T18:10:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -2880,7 +2880,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Logan Allen",
             "record": {
               "wins": 70,
@@ -2898,7 +2898,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Keider Montero",
             "record": {
               "wins": 64,
@@ -5411,10 +5411,10 @@
           "gameDate": "2026-09-04T18:10:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -5424,7 +5424,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Logan Allen",
             "record": {
               "wins": 70,
@@ -5442,7 +5442,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Keider Montero",
             "record": {
               "wins": 64,
@@ -6055,10 +6055,10 @@
           "gameDate": "2026-09-04T18:10:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -6068,7 +6068,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Logan Allen",
             "record": {
               "wins": 70,
@@ -6086,7 +6086,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Keider Montero",
             "record": {
               "wins": 64,
@@ -7461,6 +7461,13 @@
       ],
       "injuries": [
         {
+          "name": "Tanner Houck",
+          "status": "60-Day-IL",
+          "comment": "Houck (elbow) will throw a simulated game Friday, MLB.com reports.",
+          "date": "2026-09-04T13:47Z",
+          "position": null
+        },
+        {
           "name": "Ceddanne Rafaela",
           "status": "Day-To-Day",
           "comment": "Rafaela (quad) isn't in the lineup for Thursday's game against the Orioles, Christopher Smith of MassLive.com reports.",
@@ -7500,13 +7507,6 @@
           "status": "10-Day-IL",
           "comment": "Mead (wrist) played catch on the field at Fenway Park on Monday, Mac Cerullo of the Boston Herald reports.",
           "date": "2026-08-31T18:43Z",
-          "position": null
-        },
-        {
-          "name": "Tanner Houck",
-          "status": "60-Day-IL",
-          "comment": "Houck (elbow) will begin a rehab assignment at the Red Sox's complex in Florida on Tuesday, Rob Bradford of WEEI.com reports.",
-          "date": "2026-08-28T22:05Z",
           "position": null
         },
         {
@@ -7680,10 +7680,10 @@
           "gameDate": "2026-09-04T18:10:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -7693,7 +7693,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Logan Allen",
             "record": {
               "wins": 70,
@@ -7711,7 +7711,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Keider Montero",
             "record": {
               "wins": 64,
@@ -9123,6 +9123,13 @@
       ],
       "injuries": [
         {
+          "name": "Shane Bieber",
+          "status": "15-Day-IL",
+          "comment": "Bieber (shoulder) was scheduled to throw off flat ground Thursday, but he remains without a timeline for his return to game action, Mitch Bannon of The Athletic reports.",
+          "date": "2026-09-04T14:57Z",
+          "position": null
+        },
+        {
           "name": "Anthony Santander",
           "status": "60-Day-IL",
           "comment": "Blue Jays manager John Schneider said Thursday that Santander (shoulder) has been facing live pitching this week at the team's spring training complex in Florida and could be ready for a rehab assignment next week, Hazel Mae of Sportsnet reports.",
@@ -9155,13 +9162,6 @@
           "status": "60-Day-IL",
           "comment": "Garcia (elbow/neck/biceps) underwent thoracic outlet surgery Thursday and will miss the rest of the season, Arden Zwelling of Sportsnet.ca reports.",
           "date": "2026-08-26T17:56Z",
-          "position": null
-        },
-        {
-          "name": "Shane Bieber",
-          "status": "15-Day-IL",
-          "comment": "The Blue Jays placed Bieber on the 15-day injured list Tuesday with right teres major inflammation, Arden Zwelling of Sportsnet.ca reports.",
-          "date": "2026-08-25T18:31Z",
           "position": null
         },
         {
@@ -11018,10 +11018,10 @@
           "gameDate": "2026-09-04T18:10:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -11031,7 +11031,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Logan Allen",
             "record": {
               "wins": 70,
@@ -11049,7 +11049,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Keider Montero",
             "record": {
               "wins": 64,
@@ -13235,10 +13235,10 @@
       "gameDate": "2026-09-04T18:10:00Z",
       "dayNight": "day",
       "venue": "Progressive Field",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 114,
         "name": "Cleveland Guardians",
@@ -13248,7 +13248,7 @@
         "fileCode": "cle",
         "logo": "https://www.mlbstatic.com/team-logos/114.svg",
         "color": "#00385D",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Logan Allen",
         "record": {
           "wins": 70,
@@ -13266,7 +13266,7 @@
         "fileCode": "det",
         "logo": "https://www.mlbstatic.com/team-logos/116.svg",
         "color": "#0C2340",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Keider Montero",
         "record": {
           "wins": 64,
@@ -14276,6 +14276,13 @@
   ],
   "injuries": [
     {
+      "name": "Shane Bieber",
+      "status": "15-Day-IL",
+      "comment": "Bieber (shoulder) was scheduled to throw off flat ground Thursday, but he remains without a timeline for his return to game action, Mitch Bannon of The Athletic reports.",
+      "date": "2026-09-04T14:57Z",
+      "position": null
+    },
+    {
       "name": "Anthony Santander",
       "status": "60-Day-IL",
       "comment": "Blue Jays manager John Schneider said Thursday that Santander (shoulder) has been facing live pitching this week at the team's spring training complex in Florida and could be ready for a rehab assignment next week, Hazel Mae of Sportsnet reports.",
@@ -14308,13 +14315,6 @@
       "status": "60-Day-IL",
       "comment": "Garcia (elbow/neck/biceps) underwent thoracic outlet surgery Thursday and will miss the rest of the season, Arden Zwelling of Sportsnet.ca reports.",
       "date": "2026-08-26T17:56Z",
-      "position": null
-    },
-    {
-      "name": "Shane Bieber",
-      "status": "15-Day-IL",
-      "comment": "The Blue Jays placed Bieber on the 15-day injured list Tuesday with right teres major inflammation, Arden Zwelling of Sportsnet.ca reports.",
-      "date": "2026-08-25T18:31Z",
       "position": null
     },
     {
