@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T13:35:11.530034-04:00",
+  "generatedAt": "2026-09-08T16:19:23.942279-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -150,7 +150,7 @@
           "gameDate": "2026-09-08T23:15:00Z",
           "dayNight": "night",
           "venue": "Truist Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -321,10 +321,10 @@
           "gameDate": "2026-09-08T23:05:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -334,7 +334,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cam Schlittler",
             "record": {
               "wins": 81,
@@ -352,7 +352,7 @@
             "fileCode": "col",
             "logo": "https://www.mlbstatic.com/team-logos/115.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Gabriel Hughes",
             "record": {
               "wins": 55,
@@ -745,10 +745,10 @@
           "gameDate": "2026-09-08T22:45:00Z",
           "dayNight": "night",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 111,
             "name": "Boston Red Sox",
@@ -758,7 +758,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Patrick Sandoval",
             "record": {
               "wins": 80,
@@ -776,7 +776,7 @@
             "fileCode": "ana",
             "logo": "https://www.mlbstatic.com/team-logos/108.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Reid Detmers",
             "record": {
               "wins": 54,
@@ -1593,10 +1593,10 @@
           "gameDate": "2026-09-08T22:35:00Z",
           "dayNight": "night",
           "venue": "Oriole Park at Camden Yards",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 110,
             "name": "Baltimore Orioles",
@@ -1606,7 +1606,7 @@
             "fileCode": "bal",
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Brandon Young",
             "record": {
               "wins": 70,
@@ -1624,7 +1624,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Tanner Bibee",
             "record": {
               "wins": 73,
@@ -2019,10 +2019,10 @@
           "gameDate": "2026-09-08T23:05:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -2032,7 +2032,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cam Schlittler",
             "record": {
               "wins": 81,
@@ -2050,7 +2050,7 @@
             "fileCode": "col",
             "logo": "https://www.mlbstatic.com/team-logos/115.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Gabriel Hughes",
             "record": {
               "wins": 55,
@@ -2443,10 +2443,10 @@
           "gameDate": "2026-09-08T22:45:00Z",
           "dayNight": "night",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 111,
             "name": "Boston Red Sox",
@@ -2456,7 +2456,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Patrick Sandoval",
             "record": {
               "wins": 80,
@@ -2474,7 +2474,7 @@
             "fileCode": "ana",
             "logo": "https://www.mlbstatic.com/team-logos/108.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Reid Detmers",
             "record": {
               "wins": 54,
@@ -2867,10 +2867,10 @@
           "gameDate": "2026-09-08T22:35:00Z",
           "dayNight": "night",
           "venue": "Oriole Park at Camden Yards",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 110,
             "name": "Baltimore Orioles",
@@ -2880,7 +2880,7 @@
             "fileCode": "bal",
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Brandon Young",
             "record": {
               "wins": 70,
@@ -2898,7 +2898,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Tanner Bibee",
             "record": {
               "wins": 73,
@@ -3747,7 +3747,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Cal Quantrill",
             "record": {
               "wins": 71,
               "losses": 73,
@@ -3808,7 +3808,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Cody Bradford",
             "record": {
               "wins": 71,
               "losses": 73,
@@ -3869,7 +3869,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jacob deGrom",
             "record": {
               "wins": 71,
               "losses": 73,
@@ -4139,10 +4139,10 @@
           "gameDate": "2026-09-08T22:35:00Z",
           "dayNight": "night",
           "venue": "Oriole Park at Camden Yards",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 110,
             "name": "Baltimore Orioles",
@@ -4152,7 +4152,7 @@
             "fileCode": "bal",
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Brandon Young",
             "record": {
               "wins": 70,
@@ -4170,7 +4170,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Tanner Bibee",
             "record": {
               "wins": 73,
@@ -4563,10 +4563,10 @@
           "gameDate": "2026-09-08T22:40:00Z",
           "dayNight": "night",
           "venue": "Comerica Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -4576,7 +4576,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Drew Anderson",
             "record": {
               "wins": 66,
@@ -4594,7 +4594,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Dean Kremer",
             "record": {
               "wins": 68,
@@ -5019,7 +5019,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Cal Quantrill",
             "record": {
               "wins": 71,
               "losses": 73,
@@ -5080,7 +5080,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Cody Bradford",
             "record": {
               "wins": 71,
               "losses": 73,
@@ -5141,7 +5141,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jacob deGrom",
             "record": {
               "wins": 71,
               "losses": 73,
@@ -5411,10 +5411,10 @@
           "gameDate": "2026-09-08T22:40:00Z",
           "dayNight": "night",
           "venue": "Comerica Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -5424,7 +5424,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Drew Anderson",
             "record": {
               "wins": 66,
@@ -5442,7 +5442,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Dean Kremer",
             "record": {
               "wins": 68,
@@ -5591,7 +5591,7 @@
           "gameDate": "2026-09-08T23:40:00Z",
           "dayNight": "night",
           "venue": "Kauffman Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -5811,10 +5811,10 @@
           "gameDate": "2026-09-08T22:35:00Z",
           "dayNight": "night",
           "venue": "Oriole Park at Camden Yards",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 110,
             "name": "Baltimore Orioles",
@@ -5824,7 +5824,7 @@
             "fileCode": "bal",
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Brandon Young",
             "record": {
               "wins": 70,
@@ -5842,7 +5842,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Tanner Bibee",
             "record": {
               "wins": 73,
@@ -6314,10 +6314,10 @@
           "gameDate": "2026-09-08T23:05:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -6327,7 +6327,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cam Schlittler",
             "record": {
               "wins": 81,
@@ -6345,7 +6345,7 @@
             "fileCode": "col",
             "logo": "https://www.mlbstatic.com/team-logos/115.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Gabriel Hughes",
             "record": {
               "wins": 55,
@@ -6677,6 +6677,13 @@
       ],
       "injuries": [
         {
+          "name": "Fernando Cruz",
+          "status": "15-Day-IL",
+          "comment": "Cruz (elbow) expects to resume a throwing program by the end of this week, Meredith Marakovits of YES Network reports.",
+          "date": "2026-09-08T19:49Z",
+          "position": null
+        },
+        {
           "name": "Trent Grisham",
           "status": "10-Day-IL",
           "comment": "Yankees manager Aaron Boone said Sunday that Grisham has been diagnosed with a Grade 2 right hamstring strain and is without a definitive recovery timetable but \"could be\" out for the remainder of the regular season, Chris Kirschner of The Athletic reports.",
@@ -6695,13 +6702,6 @@
           "status": "15-Day-IL",
           "comment": "The Yankees are hopeful that Weathers (forearm) will be cleared to resume throwing at some point this week, Gary Phillips of the New York Daily News reports.",
           "date": "2026-09-01T02:54Z",
-          "position": null
-        },
-        {
-          "name": "Fernando Cruz",
-          "status": "15-Day-IL",
-          "comment": "Cruz was diagnosed with a partial tear in his right UCL on Wednesday, Bryan Hoch of MLB.com reports.",
-          "date": "2026-08-27T02:33Z",
           "position": null
         },
         {
@@ -6847,10 +6847,10 @@
           "gameDate": "2026-09-08T22:45:00Z",
           "dayNight": "night",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 111,
             "name": "Boston Red Sox",
@@ -6860,7 +6860,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Patrick Sandoval",
             "record": {
               "wins": 80,
@@ -6878,7 +6878,7 @@
             "fileCode": "ana",
             "logo": "https://www.mlbstatic.com/team-logos/108.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Reid Detmers",
             "record": {
               "wins": 54,
@@ -7212,8 +7212,8 @@
         {
           "name": "Willson Contreras",
           "status": "10-Day-IL",
-          "comment": "Red Sox interim manager Chad Tracy said Monday that Contreras (hamstring) will resume running during the team's current series against the Angels and could be activated from the 10-day injured list as soon as Friday's series opener versus the Royals, Marcus Grunfeld of ElEmergente.com reports.",
-          "date": "2026-09-07T19:53Z",
+          "comment": "Contreras (hamstring) took batting practice on the field at Fenway Park on Tuesday, Tim Healey of The Boston Globe reports.",
+          "date": "2026-09-08T19:06Z",
           "position": null
         },
         {
@@ -7429,10 +7429,10 @@
           "gameDate": "2026-09-08T22:35:00Z",
           "dayNight": "night",
           "venue": "Oriole Park at Camden Yards",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 110,
             "name": "Baltimore Orioles",
@@ -7442,7 +7442,7 @@
             "fileCode": "bal",
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Brandon Young",
             "record": {
               "wins": 70,
@@ -7460,7 +7460,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Tanner Bibee",
             "record": {
               "wins": 73,
@@ -7794,8 +7794,8 @@
         {
           "name": "Chase DeLauter",
           "status": "Day-To-Day",
-          "comment": "Guardians manager Stephen Vogt said that DeLauter (wrist), who is out of the lineup for Monday's contest against the Orioles, is \"feeling a lot better\" and will do some hitting pregame, Tim Stebbins of MLB.com reports.",
-          "date": "2026-09-07T16:22Z",
+          "comment": "DeLauter (wrist) is absent from the lineup for Tuesday's tilt in Baltimore.",
+          "date": "2026-09-08T19:45Z",
           "position": null
         },
         {
@@ -8562,7 +8562,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Cal Quantrill",
             "record": {
               "wins": 71,
               "losses": 73,
@@ -8623,7 +8623,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Cody Bradford",
             "record": {
               "wins": 71,
               "losses": 73,
@@ -8684,7 +8684,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jacob deGrom",
             "record": {
               "wins": 71,
               "losses": 73,
@@ -9091,10 +9091,10 @@
           "gameDate": "2026-09-08T22:35:00Z",
           "dayNight": "night",
           "venue": "Oriole Park at Camden Yards",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 110,
             "name": "Baltimore Orioles",
@@ -9104,7 +9104,7 @@
             "fileCode": "bal",
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Brandon Young",
             "record": {
               "wins": 70,
@@ -9122,7 +9122,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Tanner Bibee",
             "record": {
               "wins": 73,
@@ -9454,6 +9454,27 @@
       ],
       "injuries": [
         {
+          "name": "Ryan Mountcastle",
+          "status": "60-Day-IL",
+          "comment": "Mountcastle (foot/oblique) has resumed a hitting progression, Jake Rill of MLB.com reports.",
+          "date": "2026-09-08T18:07Z",
+          "position": null
+        },
+        {
+          "name": "Christian Franklin",
+          "status": "10-Day-IL",
+          "comment": "Franklin (hand) has begun a hitting progression, Jake Rill of MLB.com reports.",
+          "date": "2026-09-08T18:04Z",
+          "position": null
+        },
+        {
+          "name": "Ryan Helsley",
+          "status": "60-Day-IL",
+          "comment": "Helsley (elbow) will throw a live batting practice session Tuesday, Jake Rill of MLB.com reports.",
+          "date": "2026-09-08T18:00Z",
+          "position": null
+        },
+        {
           "name": "Felix Bautista",
           "status": "60-Day-IL",
           "comment": "Manager Craig Albernaz said Monday that Bautista's (shoulder) return from the 60-day injured list isn't imminent, Matt Weyrich of The Baltimore Sun reports.",
@@ -9468,13 +9489,6 @@
           "position": null
         },
         {
-          "name": "Ryan Helsley",
-          "status": "60-Day-IL",
-          "comment": "Manager Craig Albernaz said Monday that Helsley (elbow) will throw live batting practice Tuesday or Wednesday, Jake Rill of MLB.com reports.",
-          "date": "2026-09-07T15:51Z",
-          "position": null
-        },
-        {
           "name": "Luis Robert Jr.",
           "status": "10-Day-IL",
           "comment": "The Orioles placed Robert on the 10-day injured list Sunday due to left hamstring discomfort.",
@@ -9482,24 +9496,10 @@
           "position": null
         },
         {
-          "name": "Christian Franklin",
-          "status": "10-Day-IL",
-          "comment": "The Orioles placed Franklin on the 10-day injured list Tuesday, retroactive to Aug. 31, due to left hand inflammation.",
-          "date": "2026-09-01T20:15Z",
-          "position": null
-        },
-        {
           "name": "Colin Selby",
           "status": "60-Day-IL",
           "comment": "Orioles president of baseball operations Mike Elias said Friday that Selby underwent right shoulder surgery Tuesday to repair his labrum and rotator cuff, Andy Kostka of TheBanner.com reports.",
           "date": "2026-07-31T20:48Z",
-          "position": null
-        },
-        {
-          "name": "Ryan Mountcastle",
-          "status": "60-Day-IL",
-          "comment": "The Orioles announced that Mountcastle (foot) suffered a \"significant\" oblique strain while warming up for his first rehab game and will now be out a couple more months, Jake Rill of MLB.com reports.",
-          "date": "2026-07-31T20:19Z",
           "position": null
         },
         {
@@ -9652,10 +9652,10 @@
           "gameDate": "2026-09-08T22:40:00Z",
           "dayNight": "night",
           "venue": "Comerica Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -9665,7 +9665,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Drew Anderson",
             "record": {
               "wins": 66,
@@ -9683,7 +9683,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Dean Kremer",
             "record": {
               "wins": 68,
@@ -10015,17 +10015,17 @@
       ],
       "injuries": [
         {
+          "name": "Austin Martin",
+          "status": "10-Day-IL",
+          "comment": "Martin (hamstring) will begin a rehab assignment with Triple-A Worcester on Tuesday, Aaron Gleeman of AaronGleeman.com reports.",
+          "date": "2026-09-08T19:38Z",
+          "position": null
+        },
+        {
           "name": "Byron Buxton",
           "status": "10-Day-IL",
           "comment": "The Twins placed Buxton on the 10-day injured list Sunday due to a right hip impingement.",
           "date": "2026-08-30T16:49Z",
-          "position": null
-        },
-        {
-          "name": "Austin Martin",
-          "status": "10-Day-IL",
-          "comment": "Twins manager Derek Shelton said that Martin sustained a left hamstring strain in the eighth inning of Sunday's 7-5 loss to the Phillies and will be sent in for an MRI, Aaron Gleeman of Aaron Gleeman.com reports.",
-          "date": "2026-08-17T17:08Z",
           "position": null
         },
         {
@@ -10231,7 +10231,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Cal Quantrill",
             "record": {
               "wins": 71,
               "losses": 73,
@@ -10292,7 +10292,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Cody Bradford",
             "record": {
               "wins": 71,
               "losses": 73,
@@ -10353,7 +10353,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Jacob deGrom",
             "record": {
               "wins": 71,
               "losses": 73,
@@ -12354,10 +12354,10 @@
       "gameDate": "2026-09-08T22:35:00Z",
       "dayNight": "night",
       "venue": "Oriole Park at Camden Yards",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 110,
         "name": "Baltimore Orioles",
@@ -12367,7 +12367,7 @@
         "fileCode": "bal",
         "logo": "https://www.mlbstatic.com/team-logos/110.svg",
         "color": "#DF4601",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Brandon Young",
         "record": {
           "wins": 70,
@@ -12385,7 +12385,7 @@
         "fileCode": "cle",
         "logo": "https://www.mlbstatic.com/team-logos/114.svg",
         "color": "#00385D",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Tanner Bibee",
         "record": {
           "wins": 73,
@@ -12412,10 +12412,10 @@
       "gameDate": "2026-09-08T22:40:00Z",
       "dayNight": "night",
       "venue": "Comerica Park",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 116,
         "name": "Detroit Tigers",
@@ -12425,7 +12425,7 @@
         "fileCode": "det",
         "logo": "https://www.mlbstatic.com/team-logos/116.svg",
         "color": "#0C2340",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Drew Anderson",
         "record": {
           "wins": 66,
@@ -12443,7 +12443,7 @@
         "fileCode": "min",
         "logo": "https://www.mlbstatic.com/team-logos/142.svg",
         "color": "#002B5C",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Dean Kremer",
         "record": {
           "wins": 68,
@@ -12470,10 +12470,10 @@
       "gameDate": "2026-09-08T22:45:00Z",
       "dayNight": "night",
       "venue": "Fenway Park",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 111,
         "name": "Boston Red Sox",
@@ -12483,7 +12483,7 @@
         "fileCode": "bos",
         "logo": "https://www.mlbstatic.com/team-logos/111.svg",
         "color": "#BD3039",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Patrick Sandoval",
         "record": {
           "wins": 80,
@@ -12501,7 +12501,7 @@
         "fileCode": "ana",
         "logo": "https://www.mlbstatic.com/team-logos/108.svg",
         "color": "#1D4ED8",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Reid Detmers",
         "record": {
           "wins": 54,
@@ -12528,10 +12528,10 @@
       "gameDate": "2026-09-08T23:05:00Z",
       "dayNight": "night",
       "venue": "Yankee Stadium",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 147,
         "name": "New York Yankees",
@@ -12541,7 +12541,7 @@
         "fileCode": "nyy",
         "logo": "https://www.mlbstatic.com/team-logos/147.svg",
         "color": "#0C2340",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Cam Schlittler",
         "record": {
           "wins": 81,
@@ -12559,7 +12559,7 @@
         "fileCode": "col",
         "logo": "https://www.mlbstatic.com/team-logos/115.svg",
         "color": "#1D4ED8",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Gabriel Hughes",
         "record": {
           "wins": 55,
@@ -12676,7 +12676,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/140.svg",
         "color": "#003278",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Cal Quantrill",
         "record": {
           "wins": 71,
           "losses": 73,
@@ -12850,7 +12850,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/140.svg",
         "color": "#003278",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Cody Bradford",
         "record": {
           "wins": 71,
           "losses": 73,
@@ -13082,7 +13082,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/140.svg",
         "color": "#003278",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Jacob deGrom",
         "record": {
           "wins": 71,
           "losses": 73,
