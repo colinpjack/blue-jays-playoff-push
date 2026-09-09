@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T07:40:58.962858-04:00",
+  "generatedAt": "2026-09-09T11:19:54.649450-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -4563,10 +4563,10 @@
           "gameDate": "2026-09-09T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -4576,7 +4576,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Keider Montero",
             "record": {
               "wins": 66,
@@ -4594,7 +4594,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Zebby Matthews",
             "record": {
               "wins": 69,
@@ -5411,10 +5411,10 @@
           "gameDate": "2026-09-09T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -5424,7 +5424,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Keider Montero",
             "record": {
               "wins": 66,
@@ -5442,7 +5442,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Zebby Matthews",
             "record": {
               "wins": 69,
@@ -7217,6 +7217,20 @@
       ],
       "injuries": [
         {
+          "name": "Tanner Houck",
+          "status": "60-Day-IL",
+          "comment": "Houck (elbow) allowed one run on two walks over two-thirds of an inning for Double-A Portland on Tuesday, Ian Browne of MLB.com reports.",
+          "date": "2026-09-09T12:09Z",
+          "position": null
+        },
+        {
+          "name": "Garrett Crochet",
+          "status": "60-Day-IL",
+          "comment": "Crochet (shoulder) threw 20 pitches consisting of fastballs and complementary offerings during a side session, Ian Browne of MLB.com reports.",
+          "date": "2026-09-09T12:02Z",
+          "position": null
+        },
+        {
           "name": "Willson Contreras",
           "status": "10-Day-IL",
           "comment": "Contreras (hamstring) took batting practice on the field at Fenway Park on Tuesday, Tim Healey of The Boston Globe reports.",
@@ -7249,20 +7263,6 @@
           "status": "10-Day-IL",
           "comment": "Boston placed Rafaela on the 10-day injured list Sunday due to a right quadriceps strain.",
           "date": "2026-09-06T14:41Z",
-          "position": null
-        },
-        {
-          "name": "Tanner Houck",
-          "status": "60-Day-IL",
-          "comment": "Houck (elbow) is expected to begin a rehab assignment at Double-A Portland on Tuesday, Ian Browne of MLB.com reports.",
-          "date": "2026-09-05T14:50Z",
-          "position": null
-        },
-        {
-          "name": "Garrett Crochet",
-          "status": "60-Day-IL",
-          "comment": "Crochet (shoulder) threw 16 pitches off a mound Friday, Ian Browne of MLB.com reports.",
-          "date": "2026-09-05T14:45Z",
           "position": null
         },
         {
@@ -9666,10 +9666,10 @@
           "gameDate": "2026-09-09T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -9679,7 +9679,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Keider Montero",
             "record": {
               "wins": 66,
@@ -9697,7 +9697,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Zebby Matthews",
             "record": {
               "wins": 69,
@@ -12286,10 +12286,10 @@
       "gameDate": "2026-09-09T17:10:00Z",
       "dayNight": "day",
       "venue": "Comerica Park",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 116,
         "name": "Detroit Tigers",
@@ -12299,7 +12299,7 @@
         "fileCode": "det",
         "logo": "https://www.mlbstatic.com/team-logos/116.svg",
         "color": "#0C2340",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Keider Montero",
         "record": {
           "wins": 66,
@@ -12317,7 +12317,7 @@
         "fileCode": "min",
         "logo": "https://www.mlbstatic.com/team-logos/142.svg",
         "color": "#002B5C",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Zebby Matthews",
         "record": {
           "wins": 69,
