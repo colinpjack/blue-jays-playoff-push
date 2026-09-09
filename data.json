@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T11:19:54.649450-04:00",
+  "generatedAt": "2026-09-09T14:45:43.991771-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -80,7 +80,7 @@
       "runs": 626
     },
     "momentum": 78,
-    "injuryCount": 13,
+    "injuryCount": 14,
     "weekAgo": {
       "wildCardRank": 5,
       "wildCardGamesBack": "1.5",
@@ -745,7 +745,7 @@
           "gameDate": "2026-09-09T22:45:00Z",
           "dayNight": "night",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -1169,10 +1169,10 @@
           "gameDate": "2026-09-09T19:05:00Z",
           "dayNight": "day",
           "venue": "Sutter Health Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 133,
             "name": "Athletics",
@@ -1182,7 +1182,7 @@
             "fileCode": "ath",
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Brady Basso",
             "record": {
               "wins": 58,
@@ -1200,7 +1200,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Braydon Fisher",
             "record": {
               "wins": 73,
@@ -2443,7 +2443,7 @@
           "gameDate": "2026-09-09T22:45:00Z",
           "dayNight": "night",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -2942,7 +2942,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Taj Bradley",
             "record": {
               "wins": 69,
               "losses": 76,
@@ -3291,10 +3291,10 @@
           "gameDate": "2026-09-09T19:05:00Z",
           "dayNight": "day",
           "venue": "Sutter Health Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 133,
             "name": "Athletics",
@@ -3304,7 +3304,7 @@
             "fileCode": "ath",
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Brady Basso",
             "record": {
               "wins": 58,
@@ -3322,7 +3322,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Braydon Fisher",
             "record": {
               "wins": 73,
@@ -3715,10 +3715,10 @@
           "gameDate": "2026-09-09T20:10:00Z",
           "dayNight": "day",
           "venue": "T-Mobile Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 136,
             "name": "Seattle Mariners",
@@ -3728,7 +3728,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Kade Anderson",
             "record": {
               "wins": 67,
@@ -3746,7 +3746,7 @@
             "fileCode": "tex",
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cody Bradford",
             "record": {
               "wins": 72,
@@ -4563,8 +4563,8 @@
           "gameDate": "2026-09-09T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "Warmup",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -4638,7 +4638,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Taj Bradley",
             "record": {
               "wins": 69,
               "losses": 76,
@@ -4987,10 +4987,10 @@
           "gameDate": "2026-09-09T20:10:00Z",
           "dayNight": "day",
           "venue": "T-Mobile Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 136,
             "name": "Seattle Mariners",
@@ -5000,7 +5000,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Kade Anderson",
             "record": {
               "wins": 67,
@@ -5018,7 +5018,7 @@
             "fileCode": "tex",
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cody Bradford",
             "record": {
               "wins": 72,
@@ -5411,8 +5411,8 @@
           "gameDate": "2026-09-09T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "Warmup",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -5486,7 +5486,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Framber Valdez",
             "record": {
               "wins": 66,
               "losses": 79,
@@ -5886,7 +5886,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Taj Bradley",
             "record": {
               "wins": 69,
               "losses": 76,
@@ -6854,7 +6854,7 @@
           "gameDate": "2026-09-09T22:45:00Z",
           "dayNight": "night",
           "venue": "Fenway Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -7511,7 +7511,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Taj Bradley",
             "record": {
               "wins": 69,
               "losses": 76,
@@ -7801,7 +7801,7 @@
         {
           "name": "Chase DeLauter",
           "status": "Day-To-Day",
-          "comment": "DeLauter (wrist) is absent from the lineup for Tuesday's tilt in Baltimore.",
+          "comment": "DeLauter (wrist) is absent from the lineup for Tuesday's game in Baltimore.",
           "date": "2026-09-08T19:45Z",
           "position": null
         },
@@ -7955,10 +7955,10 @@
           "gameDate": "2026-09-09T19:05:00Z",
           "dayNight": "day",
           "venue": "Sutter Health Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 133,
             "name": "Athletics",
@@ -7968,7 +7968,7 @@
             "fileCode": "ath",
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Brady Basso",
             "record": {
               "wins": 58,
@@ -7986,7 +7986,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Braydon Fisher",
             "record": {
               "wins": 73,
@@ -8318,6 +8318,13 @@
       ],
       "injuries": [
         {
+          "name": "George Springer",
+          "status": "Day-To-Day",
+          "comment": "Springer is not in Toronto's lineup for Tuesday's matchup with the A's.",
+          "date": "2026-09-09T18:27Z",
+          "position": null
+        },
+        {
           "name": "Anthony Santander",
           "status": "60-Day-IL",
           "comment": "Santander (shoulder) will begin a rehab assignment with Triple-A Buffalo on Wednesday, Arden Zwelling of Sportsnet.ca reports.",
@@ -8409,7 +8416,7 @@
           "position": null
         }
       ],
-      "injuryCount": 13,
+      "injuryCount": 14,
       "weekAgo": {
         "wildCardRank": 5,
         "wildCardGamesBack": "1.5",
@@ -8537,10 +8544,10 @@
           "gameDate": "2026-09-09T20:10:00Z",
           "dayNight": "day",
           "venue": "T-Mobile Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 136,
             "name": "Seattle Mariners",
@@ -8550,7 +8557,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Kade Anderson",
             "record": {
               "wins": 67,
@@ -8568,7 +8575,7 @@
             "fileCode": "tex",
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cody Bradford",
             "record": {
               "wins": 72,
@@ -9666,8 +9673,8 @@
           "gameDate": "2026-09-09T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "Warmup",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -9741,7 +9748,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Taj Bradley",
             "record": {
               "wins": 69,
               "losses": 76,
@@ -10213,10 +10220,10 @@
           "gameDate": "2026-09-09T20:10:00Z",
           "dayNight": "day",
           "venue": "T-Mobile Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 136,
             "name": "Seattle Mariners",
@@ -10226,7 +10233,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Kade Anderson",
             "record": {
               "wins": 67,
@@ -10244,7 +10251,7 @@
             "fileCode": "tex",
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cody Bradford",
             "record": {
               "wins": 72,
@@ -10665,10 +10672,10 @@
       "gameDate": "2026-09-09T19:05:00Z",
       "dayNight": "day",
       "venue": "Sutter Health Park",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 133,
         "name": "Athletics",
@@ -10678,7 +10685,7 @@
         "fileCode": "ath",
         "logo": "https://www.mlbstatic.com/team-logos/133.svg",
         "color": "#003831",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Brady Basso",
         "record": {
           "wins": 58,
@@ -10696,7 +10703,7 @@
         "fileCode": "tor",
         "logo": "https://www.mlbstatic.com/team-logos/141.svg",
         "color": "#134A8E",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Braydon Fisher",
         "record": {
           "wins": 73,
@@ -12286,8 +12293,8 @@
       "gameDate": "2026-09-09T17:10:00Z",
       "dayNight": "day",
       "venue": "Comerica Park",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
+      "status": "Warmup",
+      "abstractState": "Live",
       "inning": 1,
       "inningState": "Top",
       "home": {
@@ -12344,10 +12351,10 @@
       "gameDate": "2026-09-09T19:05:00Z",
       "dayNight": "day",
       "venue": "Sutter Health Park",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 133,
         "name": "Athletics",
@@ -12357,7 +12364,7 @@
         "fileCode": "ath",
         "logo": "https://www.mlbstatic.com/team-logos/133.svg",
         "color": "#003831",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Brady Basso",
         "record": {
           "wins": 58,
@@ -12375,7 +12382,7 @@
         "fileCode": "tor",
         "logo": "https://www.mlbstatic.com/team-logos/141.svg",
         "color": "#134A8E",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Braydon Fisher",
         "record": {
           "wins": 73,
@@ -12402,10 +12409,10 @@
       "gameDate": "2026-09-09T20:10:00Z",
       "dayNight": "day",
       "venue": "T-Mobile Park",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 136,
         "name": "Seattle Mariners",
@@ -12415,7 +12422,7 @@
         "fileCode": "sea",
         "logo": "https://www.mlbstatic.com/team-logos/136.svg",
         "color": "#0C2C56",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Kade Anderson",
         "record": {
           "wins": 67,
@@ -12433,7 +12440,7 @@
         "fileCode": "tex",
         "logo": "https://www.mlbstatic.com/team-logos/140.svg",
         "color": "#003278",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Cody Bradford",
         "record": {
           "wins": 72,
@@ -12518,7 +12525,7 @@
       "gameDate": "2026-09-09T22:45:00Z",
       "dayNight": "night",
       "venue": "Fenway Park",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
       "inning": null,
       "inningState": null,
@@ -12938,7 +12945,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/142.svg",
         "color": "#002B5C",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Taj Bradley",
         "record": {
           "wins": 69,
           "losses": 76,
@@ -13326,6 +13333,13 @@
     }
   ],
   "injuries": [
+    {
+      "name": "George Springer",
+      "status": "Day-To-Day",
+      "comment": "Springer is not in Toronto's lineup for Tuesday's matchup with the A's.",
+      "date": "2026-09-09T18:27Z",
+      "position": null
+    },
     {
       "name": "Anthony Santander",
       "status": "60-Day-IL",
@@ -14307,13 +14321,13 @@
     ]
   },
   "playoffOdds": {
-    "percent": 36.3,
+    "percent": 36.7,
     "sims": 5000,
-    "made": 1815,
+    "made": 1833,
     "gamesModeled": 159,
     "talent": 0.497,
     "method": "Monte Carlo of remaining American League games. Each game uses log5 win odds from Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag.",
-    "note": "36.3% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 159 remaining games involving AL clubs.",
+    "note": "36.7% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 159 remaining games involving AL clubs.",
     "gb": "1.0",
     "gamesLeft": 16
   },
