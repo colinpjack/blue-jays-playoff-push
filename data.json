@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T14:48:38.072883-04:00",
+  "generatedAt": "2026-09-14T18:26:38.481888-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -80,7 +80,7 @@
       "runs": 639
     },
     "momentum": 78,
-    "injuryCount": 13,
+    "injuryCount": 14,
     "weekAgo": {
       "wildCardRank": 4,
       "wildCardGamesBack": "1.0",
@@ -321,10 +321,10 @@
           "gameDate": "2026-09-14T23:40:00Z",
           "dayNight": "night",
           "venue": "Target Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -334,7 +334,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Dean Kremer",
             "record": {
               "wins": 70,
@@ -352,7 +352,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Will Warren",
             "record": {
               "wins": 86,
@@ -1169,10 +1169,10 @@
           "gameDate": "2026-09-14T23:07:00Z",
           "dayNight": "night",
           "venue": "Rogers Centre",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 141,
             "name": "Toronto Blue Jays",
@@ -1182,7 +1182,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 75,
@@ -1200,7 +1200,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Troy Melton",
             "record": {
               "wins": 70,
@@ -1323,7 +1323,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Keider Montero",
             "record": {
               "wins": 70,
               "losses": 79,
@@ -1593,10 +1593,10 @@
           "gameDate": "2026-09-14T23:10:00Z",
           "dayNight": "night",
           "venue": "Citi Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 121,
             "name": "New York Mets",
@@ -1606,7 +1606,7 @@
             "fileCode": "nym",
             "logo": "https://www.mlbstatic.com/team-logos/121.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jonah Tong",
             "record": {
               "wins": 69,
@@ -1624,7 +1624,7 @@
             "fileCode": "bal",
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Brandon Young",
             "record": {
               "wins": 72,
@@ -2019,10 +2019,10 @@
           "gameDate": "2026-09-14T23:40:00Z",
           "dayNight": "night",
           "venue": "Target Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -2032,7 +2032,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Dean Kremer",
             "record": {
               "wins": 70,
@@ -2050,7 +2050,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Will Warren",
             "record": {
               "wins": 86,
@@ -2867,10 +2867,10 @@
           "gameDate": "2026-09-14T22:40:00Z",
           "dayNight": "night",
           "venue": "Progressive Field",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "Warmup",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -2880,7 +2880,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Gavin Williams",
             "record": {
               "wins": 76,
@@ -2898,7 +2898,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Sean Newcomb",
             "record": {
               "wins": 76,
@@ -3291,10 +3291,10 @@
           "gameDate": "2026-09-14T23:07:00Z",
           "dayNight": "night",
           "venue": "Rogers Centre",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 141,
             "name": "Toronto Blue Jays",
@@ -3304,7 +3304,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 75,
@@ -3322,7 +3322,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Troy Melton",
             "record": {
               "wins": 70,
@@ -3445,7 +3445,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Keider Montero",
             "record": {
               "wins": 70,
               "losses": 79,
@@ -4139,10 +4139,10 @@
           "gameDate": "2026-09-14T23:10:00Z",
           "dayNight": "night",
           "venue": "Citi Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 121,
             "name": "New York Mets",
@@ -4152,7 +4152,7 @@
             "fileCode": "nym",
             "logo": "https://www.mlbstatic.com/team-logos/121.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jonah Tong",
             "record": {
               "wins": 69,
@@ -4170,7 +4170,7 @@
             "fileCode": "bal",
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Brandon Young",
             "record": {
               "wins": 72,
@@ -4563,10 +4563,10 @@
           "gameDate": "2026-09-14T23:40:00Z",
           "dayNight": "night",
           "venue": "Target Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -4576,7 +4576,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Dean Kremer",
             "record": {
               "wins": 70,
@@ -4594,7 +4594,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Will Warren",
             "record": {
               "wins": 86,
@@ -4987,10 +4987,10 @@
           "gameDate": "2026-09-14T23:07:00Z",
           "dayNight": "night",
           "venue": "Rogers Centre",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 141,
             "name": "Toronto Blue Jays",
@@ -5000,7 +5000,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 75,
@@ -5018,7 +5018,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Troy Melton",
             "record": {
               "wins": 70,
@@ -5141,7 +5141,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Keider Montero",
             "record": {
               "wins": 70,
               "losses": 79,
@@ -5411,10 +5411,10 @@
           "gameDate": "2026-09-15T01:38:00Z",
           "dayNight": "night",
           "venue": "Angel Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 108,
             "name": "Los Angeles Angels",
@@ -5424,7 +5424,7 @@
             "fileCode": "ana",
             "logo": "https://www.mlbstatic.com/team-logos/108.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Reid Detmers",
             "record": {
               "wins": 56,
@@ -5442,7 +5442,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Kade Anderson",
             "record": {
               "wins": 70,
@@ -6055,10 +6055,10 @@
           "gameDate": "2026-09-14T22:40:00Z",
           "dayNight": "night",
           "venue": "Progressive Field",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "Warmup",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -6068,7 +6068,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Gavin Williams",
             "record": {
               "wins": 76,
@@ -6086,7 +6086,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Sean Newcomb",
             "record": {
               "wins": 76,
@@ -6558,10 +6558,10 @@
           "gameDate": "2026-09-14T23:40:00Z",
           "dayNight": "night",
           "venue": "Target Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -6571,7 +6571,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Dean Kremer",
             "record": {
               "wins": 70,
@@ -6589,7 +6589,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Will Warren",
             "record": {
               "wins": 86,
@@ -6923,8 +6923,8 @@
         {
           "name": "Ryan Weathers",
           "status": "15-Day-IL",
-          "comment": "Weathers (forearm) is slated to throw off the mound early next week, Pete Caldera of The Bergen Record reports.",
-          "date": "2026-09-11T20:48Z",
+          "comment": "Weathers (forearm) will throw a bullpen session Tuesday, Meredith Marakovits of YES Network reports.",
+          "date": "2026-09-14T21:10Z",
           "position": null
         },
         {
@@ -7687,10 +7687,10 @@
           "gameDate": "2026-09-14T22:40:00Z",
           "dayNight": "night",
           "venue": "Progressive Field",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "Warmup",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -7700,7 +7700,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Gavin Williams",
             "record": {
               "wins": 76,
@@ -7718,7 +7718,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Sean Newcomb",
             "record": {
               "wins": 76,
@@ -8199,10 +8199,10 @@
           "gameDate": "2026-09-14T23:07:00Z",
           "dayNight": "night",
           "venue": "Rogers Centre",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 141,
             "name": "Toronto Blue Jays",
@@ -8212,7 +8212,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 75,
@@ -8230,7 +8230,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Troy Melton",
             "record": {
               "wins": 70,
@@ -8353,7 +8353,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Keider Montero",
             "record": {
               "wins": 70,
               "losses": 79,
@@ -8562,6 +8562,20 @@
       ],
       "injuries": [
         {
+          "name": "Shane Bieber",
+          "status": "15-Day-IL",
+          "comment": "Bieber (shoulder) will throw a side session off a mound Tuesday, Keegan Matheson of MLB.com reports.",
+          "date": "2026-09-14T20:29Z",
+          "position": null
+        },
+        {
+          "name": "Rudy Martin Jr.",
+          "status": "10-Day-IL",
+          "comment": "The Blue Jays selected Martin's contract from Triple-A Buffalo on Friday, Jeff Passan of ESPN.com reports.",
+          "date": "2026-09-14T19:31Z",
+          "position": null
+        },
+        {
           "name": "Trey Yesavage",
           "status": "15-Day-IL",
           "comment": "Manager John Schneider said Sunday that Yesavage (knee) is scheduled to make a rehab appearance Tuesday with Triple-A Buffalo, Ben Nicholson-Smith of Sportsnet.ca reports.",
@@ -8587,13 +8601,6 @@
           "status": "60-Day-IL",
           "comment": "Blue Jays manager John Schneider said Saturday that Corbin (shoulder) is a \"long shot\" to return from the 60-day injured list this season, Arden Zwelling of Sportsnet.ca reports.",
           "date": "2026-09-07T17:37Z",
-          "position": null
-        },
-        {
-          "name": "Shane Bieber",
-          "status": "15-Day-IL",
-          "comment": "Manager John Schneider said Saturday that he hopes Bieber (shoulder) will be cleared to throw off a mound sometime next week, Keegan Matheson of MLB.com reports.",
-          "date": "2026-09-05T21:37Z",
           "position": null
         },
         {
@@ -8653,7 +8660,7 @@
           "position": null
         }
       ],
-      "injuryCount": 13,
+      "injuryCount": 14,
       "weekAgo": {
         "wildCardRank": 4,
         "wildCardGamesBack": "1.0",
@@ -9342,10 +9349,10 @@
           "gameDate": "2026-09-14T23:10:00Z",
           "dayNight": "night",
           "venue": "Citi Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 121,
             "name": "New York Mets",
@@ -9355,7 +9362,7 @@
             "fileCode": "nym",
             "logo": "https://www.mlbstatic.com/team-logos/121.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jonah Tong",
             "record": {
               "wins": 69,
@@ -9373,7 +9380,7 @@
             "fileCode": "bal",
             "logo": "https://www.mlbstatic.com/team-logos/110.svg",
             "color": "#DF4601",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Brandon Young",
             "record": {
               "wins": 72,
@@ -9910,10 +9917,10 @@
           "gameDate": "2026-09-14T23:40:00Z",
           "dayNight": "night",
           "venue": "Target Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -9923,7 +9930,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Dean Kremer",
             "record": {
               "wins": 70,
@@ -9941,7 +9948,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Will Warren",
             "record": {
               "wins": 86,
@@ -10273,17 +10280,24 @@
       ],
       "injuries": [
         {
+          "name": "Trevor Larnach",
+          "status": "Day-To-Day",
+          "comment": "Larnach is dealing with left wrist soreness and will undergo an MRI to determine the severity of the injury, Aaron Gleeman of AaronGleeman.com reports.",
+          "date": "2026-09-14T21:13Z",
+          "position": null
+        },
+        {
           "name": "Royce Lewis",
           "status": "Day-To-Day",
-          "comment": "Lewis went 3-for-4 with a three-run home run, a double, a walk and an additional run scored in Tuesday's 15-2 rout of the Tigers.",
-          "date": "2026-09-13T20:21Z",
+          "comment": "Lewis (shoulder) is not in the lineup for Monday's game against the Yankees.",
+          "date": "2026-09-14T20:57Z",
           "position": null
         },
         {
           "name": "Kaelen Culpepper",
           "status": "Day-To-Day",
-          "comment": "Culpepper (shoulder) is out of the lineup for Sunday's game against the Guardians, Aaron Gleeman of AaronGleeman.com reports.",
-          "date": "2026-09-13T17:49Z",
+          "comment": "Culpepper (shoulder) is not in the lineup for Monday's game against the Yankees.",
+          "date": "2026-09-14T20:56Z",
           "position": null
         },
         {
@@ -10336,7 +10350,7 @@
           "position": null
         }
       ],
-      "injuryCount": 9,
+      "injuryCount": 10,
       "weekAgo": {
         "wildCardRank": 7,
         "wildCardGamesBack": "4.5",
@@ -10464,10 +10478,10 @@
           "gameDate": "2026-09-14T23:07:00Z",
           "dayNight": "night",
           "venue": "Rogers Centre",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 141,
             "name": "Toronto Blue Jays",
@@ -10477,7 +10491,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jos\u00e9 Soriano",
             "record": {
               "wins": 75,
@@ -10495,7 +10509,7 @@
             "fileCode": "det",
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Troy Melton",
             "record": {
               "wins": 70,
@@ -10618,7 +10632,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/116.svg",
             "color": "#0C2340",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Keider Montero",
             "record": {
               "wins": 70,
               "losses": 79,
@@ -10827,17 +10841,17 @@
       ],
       "injuries": [
         {
+          "name": "Colt Keith",
+          "status": "Day-To-Day",
+          "comment": "Keith was scratched from Monday's lineup against Toronto due to left thumb soreness.",
+          "date": "2026-09-14T21:37Z",
+          "position": null
+        },
+        {
           "name": "Justin Verlander",
           "status": "60-Day-IL",
           "comment": "Verlander (hamstring/hip) threw a mound session Saturday with hitters standing in, Jason Beck of MLB.com reports.",
           "date": "2026-09-12T15:34Z",
-          "position": null
-        },
-        {
-          "name": "Keider Montero",
-          "status": "paternity",
-          "comment": "Montero is traveling to his native Venezuela for the birth of his child, Chris McCosky of The Detroit News reports.",
-          "date": "2026-09-12T14:37Z",
           "position": null
         },
         {
@@ -11039,10 +11053,10 @@
           "gameDate": "2026-09-15T01:38:00Z",
           "dayNight": "night",
           "venue": "Angel Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 108,
             "name": "Los Angeles Angels",
@@ -11052,7 +11066,7 @@
             "fileCode": "ana",
             "logo": "https://www.mlbstatic.com/team-logos/108.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Reid Detmers",
             "record": {
               "wins": 56,
@@ -11070,7 +11084,7 @@
             "fileCode": "sea",
             "logo": "https://www.mlbstatic.com/team-logos/136.svg",
             "color": "#0C2C56",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Kade Anderson",
             "record": {
               "wins": 70,
@@ -11491,10 +11505,10 @@
       "gameDate": "2026-09-14T23:07:00Z",
       "dayNight": "night",
       "venue": "Rogers Centre",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 141,
         "name": "Toronto Blue Jays",
@@ -11504,7 +11518,7 @@
         "fileCode": "tor",
         "logo": "https://www.mlbstatic.com/team-logos/141.svg",
         "color": "#134A8E",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Jos\u00e9 Soriano",
         "record": {
           "wins": 75,
@@ -11522,7 +11536,7 @@
         "fileCode": "det",
         "logo": "https://www.mlbstatic.com/team-logos/116.svg",
         "color": "#0C2340",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Troy Melton",
         "record": {
           "wins": 70,
@@ -11649,7 +11663,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/116.svg",
         "color": "#0C2340",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Keider Montero",
         "record": {
           "wins": 70,
           "losses": 79,
@@ -11670,7 +11684,11 @@
       },
       "result": null,
       "seriesGameNumber": 3,
-      "gamesInSeries": 3
+      "gamesInSeries": 3,
+      "homeWinPct": 50.7,
+      "awayWinPct": 49.3,
+      "helpsTorPct": 50.7,
+      "wantWinnerId": 141
     },
     {
       "gamePk": 822847,
@@ -12864,10 +12882,10 @@
       "gameDate": "2026-09-14T22:40:00Z",
       "dayNight": "night",
       "venue": "Progressive Field",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "status": "Warmup",
+      "abstractState": "Live",
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 114,
         "name": "Cleveland Guardians",
@@ -12877,7 +12895,7 @@
         "fileCode": "cle",
         "logo": "https://www.mlbstatic.com/team-logos/114.svg",
         "color": "#00385D",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Gavin Williams",
         "record": {
           "wins": 76,
@@ -12895,7 +12913,7 @@
         "fileCode": "cws",
         "logo": "https://www.mlbstatic.com/team-logos/145.svg",
         "color": "#27251F",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Sean Newcomb",
         "record": {
           "wins": 76,
@@ -12922,10 +12940,10 @@
       "gameDate": "2026-09-14T23:07:00Z",
       "dayNight": "night",
       "venue": "Rogers Centre",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 141,
         "name": "Toronto Blue Jays",
@@ -12935,7 +12953,7 @@
         "fileCode": "tor",
         "logo": "https://www.mlbstatic.com/team-logos/141.svg",
         "color": "#134A8E",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Jos\u00e9 Soriano",
         "record": {
           "wins": 75,
@@ -12953,7 +12971,7 @@
         "fileCode": "det",
         "logo": "https://www.mlbstatic.com/team-logos/116.svg",
         "color": "#0C2340",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Troy Melton",
         "record": {
           "wins": 70,
@@ -12980,10 +12998,10 @@
       "gameDate": "2026-09-14T23:10:00Z",
       "dayNight": "night",
       "venue": "Citi Field",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 121,
         "name": "New York Mets",
@@ -12993,7 +13011,7 @@
         "fileCode": "nym",
         "logo": "https://www.mlbstatic.com/team-logos/121.svg",
         "color": "#1D4ED8",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Jonah Tong",
         "record": {
           "wins": 69,
@@ -13011,7 +13029,7 @@
         "fileCode": "bal",
         "logo": "https://www.mlbstatic.com/team-logos/110.svg",
         "color": "#DF4601",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Brandon Young",
         "record": {
           "wins": 72,
@@ -13038,10 +13056,10 @@
       "gameDate": "2026-09-14T23:40:00Z",
       "dayNight": "night",
       "venue": "Target Field",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 142,
         "name": "Minnesota Twins",
@@ -13051,7 +13069,7 @@
         "fileCode": "min",
         "logo": "https://www.mlbstatic.com/team-logos/142.svg",
         "color": "#002B5C",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Dean Kremer",
         "record": {
           "wins": 70,
@@ -13069,7 +13087,7 @@
         "fileCode": "nyy",
         "logo": "https://www.mlbstatic.com/team-logos/147.svg",
         "color": "#0C2340",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Will Warren",
         "record": {
           "wins": 86,
@@ -13085,9 +13103,9 @@
       "gamesInSeries": 3,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 34.5,
-      "awayWinPct": 65.5,
-      "helpsTorPct": 34.5,
+      "homeWinPct": 34.2,
+      "awayWinPct": 65.8,
+      "helpsTorPct": 34.2,
       "wantWinnerId": 142
     },
     {
@@ -13096,10 +13114,10 @@
       "gameDate": "2026-09-15T01:38:00Z",
       "dayNight": "night",
       "venue": "Angel Stadium",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 108,
         "name": "Los Angeles Angels",
@@ -13109,7 +13127,7 @@
         "fileCode": "ana",
         "logo": "https://www.mlbstatic.com/team-logos/108.svg",
         "color": "#1D4ED8",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Reid Detmers",
         "record": {
           "wins": 56,
@@ -13127,7 +13145,7 @@
         "fileCode": "sea",
         "logo": "https://www.mlbstatic.com/team-logos/136.svg",
         "color": "#0C2C56",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Kade Anderson",
         "record": {
           "wins": 70,
@@ -13375,9 +13393,9 @@
       "gamesInSeries": 3,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 34.5,
-      "awayWinPct": 65.5,
-      "helpsTorPct": 34.5,
+      "homeWinPct": 34.2,
+      "awayWinPct": 65.8,
+      "helpsTorPct": 34.2,
       "wantWinnerId": 142
     },
     {
@@ -13607,9 +13625,9 @@
       "gamesInSeries": 3,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 34.5,
-      "awayWinPct": 65.5,
-      "helpsTorPct": 34.5,
+      "homeWinPct": 34.2,
+      "awayWinPct": 65.8,
+      "helpsTorPct": 34.2,
       "wantWinnerId": 142
     },
     {
@@ -13650,7 +13668,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/116.svg",
         "color": "#0C2340",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Keider Montero",
         "record": {
           "wins": 70,
           "losses": 79,
@@ -13905,6 +13923,20 @@
   ],
   "injuries": [
     {
+      "name": "Shane Bieber",
+      "status": "15-Day-IL",
+      "comment": "Bieber (shoulder) will throw a side session off a mound Tuesday, Keegan Matheson of MLB.com reports.",
+      "date": "2026-09-14T20:29Z",
+      "position": null
+    },
+    {
+      "name": "Rudy Martin Jr.",
+      "status": "10-Day-IL",
+      "comment": "The Blue Jays selected Martin's contract from Triple-A Buffalo on Friday, Jeff Passan of ESPN.com reports.",
+      "date": "2026-09-14T19:31Z",
+      "position": null
+    },
+    {
       "name": "Trey Yesavage",
       "status": "15-Day-IL",
       "comment": "Manager John Schneider said Sunday that Yesavage (knee) is scheduled to make a rehab appearance Tuesday with Triple-A Buffalo, Ben Nicholson-Smith of Sportsnet.ca reports.",
@@ -13930,13 +13962,6 @@
       "status": "60-Day-IL",
       "comment": "Blue Jays manager John Schneider said Saturday that Corbin (shoulder) is a \"long shot\" to return from the 60-day injured list this season, Arden Zwelling of Sportsnet.ca reports.",
       "date": "2026-09-07T17:37Z",
-      "position": null
-    },
-    {
-      "name": "Shane Bieber",
-      "status": "15-Day-IL",
-      "comment": "Manager John Schneider said Saturday that he hopes Bieber (shoulder) will be cleared to throw off a mound sometime next week, Keegan Matheson of MLB.com reports.",
-      "date": "2026-09-05T21:37Z",
       "position": null
     },
     {
@@ -14316,6 +14341,25 @@
           "delta": 0.173,
           "direction": "up"
         }
+      },
+      {
+        "id": 676914,
+        "name": "Davis Schneider",
+        "position": "LF",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_180,q_auto:best/v1/people/676914/headshot/67/current",
+        "avg": ".142",
+        "obp": ".295",
+        "slg": ".274",
+        "ops": ".569",
+        "hr": 3,
+        "rbi": 12,
+        "sb": 1,
+        "hits": 16,
+        "ab": 113,
+        "pa": 140,
+        "games": 62,
+        "avgChange": null,
+        "trend": null
       },
       {
         "id": 807727,
@@ -14760,33 +14804,6 @@
           "delta": 0.28,
           "direction": "down"
         }
-      },
-      {
-        "id": 694357,
-        "name": "Ricky Tiedemann",
-        "position": "P",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_180,q_auto:best/v1/people/694357/headshot/67/current",
-        "era": "1.50",
-        "whip": "1.83",
-        "ip": "6.0",
-        "w": 0,
-        "l": 0,
-        "so": 8,
-        "sv": 0,
-        "hld": 1,
-        "gs": 0,
-        "g": 5,
-        "k9": "12.00",
-        "role": "RP",
-        "trend": {
-          "window": "L14",
-          "era": "0.00",
-          "whip": "2.08",
-          "ip": "4.1",
-          "so": 6,
-          "delta": -1.5,
-          "direction": "up"
-        }
       }
     ]
   },
@@ -14863,13 +14880,13 @@
     ]
   },
   "playoffOdds": {
-    "percent": 37.6,
+    "percent": 37.4,
     "sims": 5000,
-    "made": 1882,
+    "made": 1870,
     "gamesModeled": 114,
     "talent": 0.475,
     "method": "Monte Carlo of remaining American League games. Each game uses log5 win odds from Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag.",
-    "note": "37.6% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 114 remaining games involving AL clubs.",
+    "note": "37.4% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 114 remaining games involving AL clubs.",
     "gb": "1.0",
     "gamesLeft": 12
   },
