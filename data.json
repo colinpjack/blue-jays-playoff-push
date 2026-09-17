@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T07:37:39.781699-04:00",
+  "generatedAt": "2026-09-17T11:40:35.645945-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -150,10 +150,10 @@
           "gameDate": "2026-09-17T17:10:00Z",
           "dayNight": "day",
           "venue": "Tropicana Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 139,
             "name": "Tampa Bay Rays",
@@ -163,7 +163,7 @@
             "fileCode": "tb",
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Drew Rasmussen",
             "record": {
               "wins": 92,
@@ -181,7 +181,7 @@
             "fileCode": "ath",
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Jeffrey Springs",
             "record": {
               "wins": 61,
@@ -225,7 +225,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Ian Seymour",
             "record": {
               "wins": 92,
               "losses": 59,
@@ -820,7 +820,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Ian Seymour",
             "record": {
               "wins": 92,
               "losses": 59,
@@ -881,7 +881,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Freddy Peralta",
             "record": {
               "wins": 92,
               "losses": 59,
@@ -942,7 +942,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Griffin Jax",
             "record": {
               "wins": 92,
               "losses": 59,
@@ -2518,7 +2518,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Ian Seymour",
             "record": {
               "wins": 92,
               "losses": 59,
@@ -2579,7 +2579,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Freddy Peralta",
             "record": {
               "wins": 92,
               "losses": 59,
@@ -2640,7 +2640,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Griffin Jax",
             "record": {
               "wins": 92,
               "losses": 59,
@@ -5657,7 +5657,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/134.svg",
             "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Paul Skenes",
             "record": {
               "wins": 75,
               "losses": 77,
@@ -5675,7 +5675,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/118.svg",
             "color": "#004687",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Randy Dobnak",
             "record": {
               "wins": 67,
               "losses": 85,
@@ -6911,7 +6911,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Ian Seymour",
             "record": {
               "wins": 92,
               "losses": 59,
@@ -6972,7 +6972,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Freddy Peralta",
             "record": {
               "wins": 92,
               "losses": 59,
@@ -7033,7 +7033,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Griffin Jax",
             "record": {
               "wins": 92,
               "losses": 59,
@@ -10072,6 +10072,13 @@
       ],
       "injuries": [
         {
+          "name": "Kerry Carpenter",
+          "status": "10-Day-IL",
+          "comment": "The Tigers announced Friday that Carpenter (foot) has ramped up his running and hitting progression with the hope of returning from the injured list before the end of the season, MLB.com reports.",
+          "date": "2026-09-17T14:22Z",
+          "position": null
+        },
+        {
           "name": "Justin Verlander",
           "status": "60-Day-IL",
           "comment": "Verlander (hamstring/hip) threw a mound session Saturday with hitters standing in, Jason Beck of MLB.com reports.",
@@ -10097,13 +10104,6 @@
           "status": "60-Day-IL",
           "comment": "The Tigers transferred Vierling (adductor/heel) from the 10-day injured list to the 60-day IL on Sunday, Jason Beck of MLB.com reports.",
           "date": "2026-09-06T15:27Z",
-          "position": null
-        },
-        {
-          "name": "Kerry Carpenter",
-          "status": "10-Day-IL",
-          "comment": "Carpenter (foot) was on track to have his walking boot removed this past weekend, MLB.com reports.",
-          "date": "2026-08-31T16:25Z",
           "position": null
         },
         {
@@ -12150,7 +12150,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/139.svg",
         "color": "#092C5C",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Ian Seymour",
         "record": {
           "wins": 92,
           "losses": 59,
@@ -12498,7 +12498,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/139.svg",
         "color": "#092C5C",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Freddy Peralta",
         "record": {
           "wins": 92,
           "losses": 59,
@@ -12788,7 +12788,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/139.svg",
         "color": "#092C5C",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Griffin Jax",
         "record": {
           "wins": 92,
           "losses": 59,
