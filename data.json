@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T11:40:35.645945-04:00",
+  "generatedAt": "2026-09-17T15:19:23.813920-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -150,10 +150,10 @@
           "gameDate": "2026-09-17T17:10:00Z",
           "dayNight": "day",
           "venue": "Tropicana Field",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": 1,
-          "inningState": "Top",
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 7,
+          "inningState": "Bottom",
           "home": {
             "id": 139,
             "name": "Tampa Bay Rays",
@@ -163,7 +163,7 @@
             "fileCode": "tb",
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
-            "score": 0,
+            "score": 8,
             "probablePitcher": "Drew Rasmussen",
             "record": {
               "wins": 92,
@@ -181,7 +181,7 @@
             "fileCode": "ath",
             "logo": "https://www.mlbstatic.com/team-logos/133.svg",
             "color": "#003831",
-            "score": 0,
+            "score": 1,
             "probablePitcher": "Jeffrey Springs",
             "record": {
               "wins": 61,
@@ -243,7 +243,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Ranger Suarez",
             "record": {
               "wins": 82,
               "losses": 70,
@@ -838,7 +838,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Ranger Suarez",
             "record": {
               "wins": 82,
               "losses": 70,
@@ -2536,7 +2536,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Ranger Suarez",
             "record": {
               "wins": 82,
               "losses": 70,
@@ -5477,7 +5477,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/115.svg",
             "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Gabriel Hughes",
             "record": {
               "wins": 56,
               "losses": 96,
@@ -5596,7 +5596,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/117.svg",
             "color": "#002D62",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Miguel Ullola",
             "record": {
               "wins": 76,
               "losses": 76,
@@ -6929,7 +6929,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Ranger Suarez",
             "record": {
               "wins": 82,
               "losses": 70,
@@ -7199,6 +7199,13 @@
       ],
       "injuries": [
         {
+          "name": "Ceddanne Rafaela",
+          "status": "10-Day-IL",
+          "comment": "Rafaela (quadriceps) is with Triple-A Worcester on Thursday and will do some hitting off their Trajekt machine, Tommy Cassell of the Worcester Telegram &amp; Gazette reports.",
+          "date": "2026-09-17T17:38Z",
+          "position": null
+        },
+        {
           "name": "Tyron Guerrero",
           "status": "15-Day-IL",
           "comment": "Guerrero's (shoulder) stay on the injured list has been extended due to lower-back soreness, Chris Cotillo of MassLive.com reports.",
@@ -7259,13 +7266,6 @@
           "status": "60-Day-IL",
           "comment": "Crawford (forearm) is expected to remain on the injured list for the rest of the season, Jen McCaffrey of The Athletic reports.",
           "date": "2026-09-07T03:03Z",
-          "position": null
-        },
-        {
-          "name": "Ceddanne Rafaela",
-          "status": "10-Day-IL",
-          "comment": "Boston placed Rafaela on the 10-day injured list Sunday due to a right quadriceps strain.",
-          "date": "2026-09-06T14:41Z",
           "position": null
         },
         {
@@ -12168,7 +12168,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/111.svg",
         "color": "#BD3039",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Ranger Suarez",
         "record": {
           "wins": 82,
           "losses": 70,
