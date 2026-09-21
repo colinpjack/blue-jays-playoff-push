@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T15:40:24.272843-04:00",
+  "generatedAt": "2026-09-21T18:50:23.495299-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -1169,7 +1169,7 @@
           "gameDate": "2026-09-21T22:35:00Z",
           "dayNight": "night",
           "venue": "Oriole Park at Camden Yards",
-          "status": "Pre-Game",
+          "status": "Delayed Start",
           "abstractState": "Preview",
           "inning": 1,
           "inningState": "Top",
@@ -1593,7 +1593,7 @@
           "gameDate": "2026-09-21T22:35:00Z",
           "dayNight": "night",
           "venue": "Oriole Park at Camden Yards",
-          "status": "Pre-Game",
+          "status": "Delayed Start",
           "abstractState": "Preview",
           "inning": 1,
           "inningState": "Top",
@@ -3282,7 +3282,7 @@
           "gameDate": "2026-09-21T22:35:00Z",
           "dayNight": "night",
           "venue": "Oriole Park at Camden Yards",
-          "status": "Pre-Game",
+          "status": "Delayed Start",
           "abstractState": "Preview",
           "inning": 1,
           "inningState": "Top",
@@ -4121,7 +4121,7 @@
           "gameDate": "2026-09-21T22:35:00Z",
           "dayNight": "night",
           "venue": "Oriole Park at Camden Yards",
-          "status": "Pre-Game",
+          "status": "Delayed Start",
           "abstractState": "Preview",
           "inning": 1,
           "inningState": "Top",
@@ -4545,7 +4545,7 @@
           "gameDate": "2026-09-22T01:45:00Z",
           "dayNight": "night",
           "venue": "Oracle Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -4969,10 +4969,10 @@
           "gameDate": "2026-09-21T22:40:00Z",
           "dayNight": "night",
           "venue": "Comerica Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
-          "inningState": "Top",
+          "inningState": "Bottom",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -7961,7 +7961,7 @@
           "gameDate": "2026-09-21T22:35:00Z",
           "dayNight": "night",
           "venue": "Oriole Park at Camden Yards",
-          "status": "Pre-Game",
+          "status": "Delayed Start",
           "abstractState": "Preview",
           "inning": 1,
           "inningState": "Top",
@@ -8324,17 +8324,17 @@
       ],
       "injuries": [
         {
-          "name": "Vladimir Guerrero Jr.",
+          "name": "Dylan Cease",
           "status": "Day-To-Day",
-          "comment": "Guerrero was removed from Sunday's game against the Rangers due to lower-back tightness, Hazel Mae of Sportsnet reports.",
-          "date": "2026-09-20T20:09Z",
+          "comment": "Cease does not need surgery on his injured right shoulder, but his immediate availability is up in the air, Hazel Mae of Sportsnet reports.",
+          "date": "2026-09-21T20:29Z",
           "position": null
         },
         {
-          "name": "Dylan Cease",
+          "name": "Vladimir Guerrero Jr.",
           "status": "Day-To-Day",
-          "comment": "Cease underwent an MRI on his shoulder Saturday and won't make his scheduled start Wednesday against the Orioles, Hazel Mae of Sportsnet reports.",
-          "date": "2026-09-20T16:40Z",
+          "comment": "Guerrero (back) is absent from the lineup for Monday's game in Baltimore.",
+          "date": "2026-09-21T19:47Z",
           "position": null
         },
         {
@@ -9074,7 +9074,7 @@
           "gameDate": "2026-09-21T22:35:00Z",
           "dayNight": "night",
           "venue": "Oriole Park at Camden Yards",
-          "status": "Pre-Game",
+          "status": "Delayed Start",
           "abstractState": "Preview",
           "inning": 1,
           "inningState": "Top",
@@ -9437,6 +9437,13 @@
       ],
       "injuries": [
         {
+          "name": "Jackson Holliday",
+          "status": "10-Day-IL",
+          "comment": "Orioles manager Craig Albernaz said Monday that it's unlikely Holliday (wrist) will return this season, Jake Rill of MLB.com reports.",
+          "date": "2026-09-21T19:57Z",
+          "position": null
+        },
+        {
           "name": "Tyler O'Neill",
           "status": "60-Day-IL",
           "comment": "Manager Craig Albernaz said Monday that O'Neill's shoulder isn't responding to rehab the way they'd hoped, and he's dealing with a \"significant\" injury, Jake Rill of MLB.com reports.",
@@ -9448,13 +9455,6 @@
           "status": "60-Day-IL",
           "comment": "President of baseball operations Mike Elias said Saturday that Helsley (elbow) will be shut down for the remainder of the season, Andy Kostka of TheBanner.com reports.",
           "date": "2026-09-19T17:08Z",
-          "position": null
-        },
-        {
-          "name": "Jackson Holliday",
-          "status": "10-Day-IL",
-          "comment": "Holliday (undisclosed) isn't in the lineup for Wednesday's game against the Mets, Andy Kostka of TheBanner.com reports.",
-          "date": "2026-09-16T22:48Z",
           "position": null
         },
         {
@@ -9635,7 +9635,7 @@
           "gameDate": "2026-09-22T01:45:00Z",
           "dayNight": "night",
           "venue": "Oracle Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -10138,11 +10138,11 @@
         "wins": 73,
         "losses": 83,
         "saves": 31,
-        "strikeOuts": 1253,
+        "strikeOuts": 1254,
         "baseOnBalls": 493,
-        "inningsPitched": "1380.0",
+        "inningsPitched": "1381.0",
         "strikeoutsPer9Inn": "8.17",
-        "walksPer9Inn": "3.22",
+        "walksPer9Inn": "3.21",
         "homeRunsPer9": "1.04",
         "holds": 70,
         "blownSaves": 32,
@@ -10150,37 +10150,37 @@
         "runs": 629
       },
       "hittingL10": {
-        "avg": ".280",
-        "obp": ".382",
-        "slg": ".442",
-        "ops": ".824",
-        "runs": 56,
-        "hits": 95,
-        "homeRuns": 9,
-        "rbi": 51,
-        "stolenBases": 7,
-        "strikeOuts": 79,
-        "baseOnBalls": 52,
-        "babip": ".337"
+        "avg": ".288",
+        "obp": ".386",
+        "slg": ".436",
+        "ops": ".822",
+        "runs": 50,
+        "hits": 90,
+        "homeRuns": 7,
+        "rbi": 46,
+        "stolenBases": 5,
+        "strikeOuts": 74,
+        "baseOnBalls": 47,
+        "babip": ".353"
       },
       "pitchingL10": {
-        "era": "3.56",
-        "whip": "1.29",
-        "wins": 6,
+        "era": "3.81",
+        "whip": "1.27",
+        "wins": 5,
         "losses": 4,
-        "saves": 3,
-        "strikeOuts": 82,
-        "baseOnBalls": 35,
-        "inningsPitched": "86.0",
-        "strikeoutsPer9Inn": "8.58",
-        "walksPer9Inn": "3.66",
-        "homeRunsPer9": "0.84",
+        "saves": 2,
+        "strikeOuts": 78,
+        "baseOnBalls": 33,
+        "inningsPitched": "78.0",
+        "strikeoutsPer9Inn": "9.00",
+        "walksPer9Inn": "3.81",
+        "homeRunsPer9": "0.92",
         "holds": 0,
         "blownSaves": 1,
-        "winPercentage": ".600",
-        "runs": 43
+        "winPercentage": ".556",
+        "runs": 41
       },
-      "runDifferentialL10": 13,
+      "runDifferentialL10": 9,
       "momentum": 47,
       "nextGames": [
         {
@@ -10189,10 +10189,10 @@
           "gameDate": "2026-09-21T22:40:00Z",
           "dayNight": "night",
           "venue": "Comerica Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "In Progress",
+          "abstractState": "Live",
           "inning": 1,
-          "inningState": "Top",
+          "inningState": "Bottom",
           "home": {
             "id": 116,
             "name": "Detroit Tigers",
@@ -10552,17 +10552,24 @@
       ],
       "injuries": [
         {
-          "name": "Justin Verlander",
-          "status": "60-Day-IL",
-          "comment": "Verlander (hamstring/hip) is scheduled to be reinstated from the 60-day injured list to start Saturday against the Pirates, Jeff Seidel of the Detroit Free Press reports.",
-          "date": "2026-09-21T17:57Z",
+          "name": "Colt Keith",
+          "status": "10-Day-IL",
+          "comment": "The Tigers placed Keith on the 10-day injured list Monday with a left thumb sprain.",
+          "date": "2026-09-21T22:19Z",
           "position": null
         },
         {
           "name": "Troy Melton",
-          "status": "Day-To-Day",
-          "comment": "Melton exited Sunday's 8-1 loss to the White Sox in the fourth inning with right arm discomfort, Jason Beck of MLB.com reports.",
-          "date": "2026-09-21T01:26Z",
+          "status": "15-Day-IL",
+          "comment": "The Tigers placed Melton on the 15-day injured list Monday with right arm fatigue.",
+          "date": "2026-09-21T22:13Z",
+          "position": null
+        },
+        {
+          "name": "Justin Verlander",
+          "status": "60-Day-IL",
+          "comment": "Verlander (hamstring/hip) is scheduled to be reinstated from the 60-day injured list to start Saturday against the Pirates, Jeff Seidel of the Detroit Free Press reports.",
+          "date": "2026-09-21T17:57Z",
           "position": null
         },
         {
@@ -10643,7 +10650,7 @@
           "position": null
         }
       ],
-      "injuryCount": 13,
+      "injuryCount": 14,
       "weekAgo": {
         "wildCardRank": 7,
         "wildCardGamesBack": "4.5",
@@ -10662,7 +10669,7 @@
       "gameDate": "2026-09-21T22:35:00Z",
       "dayNight": "night",
       "venue": "Oriole Park at Camden Yards",
-      "status": "Pre-Game",
+      "status": "Delayed Start",
       "abstractState": "Preview",
       "inning": 1,
       "inningState": "Top",
@@ -11665,7 +11672,7 @@
       "gameDate": "2026-09-21T22:35:00Z",
       "dayNight": "night",
       "venue": "Oriole Park at Camden Yards",
-      "status": "Pre-Game",
+      "status": "Delayed Start",
       "abstractState": "Preview",
       "inning": 1,
       "inningState": "Top",
@@ -11723,10 +11730,10 @@
       "gameDate": "2026-09-21T22:40:00Z",
       "dayNight": "night",
       "venue": "Comerica Park",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
+      "status": "In Progress",
+      "abstractState": "Live",
       "inning": 1,
-      "inningState": "Top",
+      "inningState": "Bottom",
       "home": {
         "id": 116,
         "name": "Detroit Tigers",
@@ -11781,7 +11788,7 @@
       "gameDate": "2026-09-22T01:45:00Z",
       "dayNight": "night",
       "venue": "Oracle Park",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
       "inning": null,
       "inningState": null,
@@ -12706,17 +12713,17 @@
   ],
   "injuries": [
     {
-      "name": "Vladimir Guerrero Jr.",
+      "name": "Dylan Cease",
       "status": "Day-To-Day",
-      "comment": "Guerrero was removed from Sunday's game against the Rangers due to lower-back tightness, Hazel Mae of Sportsnet reports.",
-      "date": "2026-09-20T20:09Z",
+      "comment": "Cease does not need surgery on his injured right shoulder, but his immediate availability is up in the air, Hazel Mae of Sportsnet reports.",
+      "date": "2026-09-21T20:29Z",
       "position": null
     },
     {
-      "name": "Dylan Cease",
+      "name": "Vladimir Guerrero Jr.",
       "status": "Day-To-Day",
-      "comment": "Cease underwent an MRI on his shoulder Saturday and won't make his scheduled start Wednesday against the Orioles, Hazel Mae of Sportsnet reports.",
-      "date": "2026-09-20T16:40Z",
+      "comment": "Guerrero (back) is absent from the lineup for Monday's game in Baltimore.",
+      "date": "2026-09-21T19:47Z",
       "position": null
     },
     {
