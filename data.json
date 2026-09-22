@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T08:33:34.726159-04:00",
+  "generatedAt": "2026-09-22T13:19:31.371953-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -150,10 +150,10 @@
           "gameDate": "2026-09-22T17:05:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Bottom",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -163,7 +163,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Carlos Rod\u00f3n",
             "record": {
               "wins": 89,
@@ -181,7 +181,7 @@
             "fileCode": "tb",
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Nick Martinez",
             "record": {
               "wins": 95,
@@ -321,10 +321,10 @@
           "gameDate": "2026-09-22T17:05:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Bottom",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -334,7 +334,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Carlos Rod\u00f3n",
             "record": {
               "wins": 89,
@@ -352,7 +352,7 @@
             "fileCode": "tb",
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Nick Martinez",
             "record": {
               "wins": 95,
@@ -475,7 +475,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Ian Seymour",
             "record": {
               "wins": 95,
               "losses": 60,
@@ -536,7 +536,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Freddy Peralta",
             "record": {
               "wins": 95,
               "losses": 60,
@@ -1897,10 +1897,10 @@
           "gameDate": "2026-09-22T17:05:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Bottom",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -1910,7 +1910,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Carlos Rod\u00f3n",
             "record": {
               "wins": 89,
@@ -1928,7 +1928,7 @@
             "fileCode": "tb",
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Nick Martinez",
             "record": {
               "wins": 95,
@@ -2051,7 +2051,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Ian Seymour",
             "record": {
               "wins": 95,
               "losses": 60,
@@ -2112,7 +2112,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Freddy Peralta",
             "record": {
               "wins": 95,
               "losses": 60,
@@ -4333,7 +4333,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/120.svg",
             "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": "Jackson Kent",
+            "probablePitcher": "Riley Cornelio",
             "record": {
               "wins": 73,
               "losses": 84,
@@ -5927,13 +5927,13 @@
       },
       "pitching": {
         "era": "3.22",
-        "whip": "1.17",
+        "whip": "1.16",
         "wins": 89,
         "losses": 66,
         "saves": 44,
-        "strikeOuts": 1390,
+        "strikeOuts": 1392,
         "baseOnBalls": 466,
-        "inningsPitched": "1387.1",
+        "inningsPitched": "1388.1",
         "strikeoutsPer9Inn": "9.02",
         "walksPer9Inn": "3.02",
         "homeRunsPer9": "1.03",
@@ -5943,37 +5943,37 @@
         "runs": 576
       },
       "hittingL10": {
-        "avg": ".249",
-        "obp": ".310",
-        "slg": ".438",
-        "ops": ".748",
-        "runs": 56,
-        "hits": 87,
-        "homeRuns": 19,
-        "rbi": 55,
-        "stolenBases": 9,
-        "strikeOuts": 80,
-        "baseOnBalls": 32,
-        "babip": ".269"
+        "avg": ".240",
+        "obp": ".298",
+        "slg": ".423",
+        "ops": ".721",
+        "runs": 46,
+        "hits": 76,
+        "homeRuns": 17,
+        "rbi": 45,
+        "stolenBases": 6,
+        "strikeOuts": 75,
+        "baseOnBalls": 27,
+        "babip": ".260"
       },
       "pitchingL10": {
-        "era": "3.35",
-        "whip": "1.23",
-        "wins": 6,
+        "era": "3.46",
+        "whip": "1.19",
+        "wins": 5,
         "losses": 4,
         "saves": 3,
-        "strikeOuts": 89,
-        "baseOnBalls": 32,
-        "inningsPitched": "91.1",
-        "strikeoutsPer9Inn": "8.77",
-        "walksPer9Inn": "3.15",
-        "homeRunsPer9": "1.28",
-        "holds": 5,
+        "strikeOuts": 79,
+        "baseOnBalls": 27,
+        "inningsPitched": "83.1",
+        "strikeoutsPer9Inn": "8.53",
+        "walksPer9Inn": "2.92",
+        "homeRunsPer9": "1.30",
+        "holds": 3,
         "blownSaves": 1,
-        "winPercentage": ".600",
-        "runs": 43
+        "winPercentage": ".556",
+        "runs": 40
       },
-      "runDifferentialL10": 13,
+      "runDifferentialL10": 6,
       "momentum": 71,
       "nextGames": [
         {
@@ -5982,10 +5982,10 @@
           "gameDate": "2026-09-22T17:05:00Z",
           "dayNight": "day",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Bottom",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -5995,7 +5995,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Carlos Rod\u00f3n",
             "record": {
               "wins": 89,
@@ -6013,7 +6013,7 @@
             "fileCode": "tb",
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Nick Martinez",
             "record": {
               "wins": 95,
@@ -6136,7 +6136,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Ian Seymour",
             "record": {
               "wins": 95,
               "losses": 60,
@@ -6197,7 +6197,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Freddy Peralta",
             "record": {
               "wins": 95,
               "losses": 60,
@@ -6345,24 +6345,31 @@
       ],
       "injuries": [
         {
-          "name": "Trent Grisham",
+          "name": "Aaron Judge",
           "status": "10-Day-IL",
-          "comment": "Manager Aaron Boone said Sunday that Grisham (hamstring) isn't expected to come off the injured list before the end of the regular season but could return for the playoffs, Bryan Hoch of MLB.com reports.",
-          "date": "2026-09-20T20:17Z",
+          "comment": "Yankees manager Aaron Boone said Tuesday that the does not anticipate Judge (calf) being ready for the wild-card series next week, Bryan Hoch of MLB.com reports.",
+          "date": "2026-09-22T15:57Z",
+          "position": null
+        },
+        {
+          "name": "Clarke Schmidt",
+          "status": "Day-To-Day",
+          "comment": "Manager Aaron Boone said Tuesday that Clarke underwent testing on his right biceps and is \"in a pretty good spot,\" Bryan Hoch of MLB.com reports.",
+          "date": "2026-09-22T15:49Z",
           "position": null
         },
         {
           "name": "Jazz Chisholm Jr.",
           "status": "10-Day-IL",
-          "comment": "Manager Aaron Boone said Sunday that Chisholm (thumb) could be reinstated from the injured list as early as Tuesday, Gary Phillips of the New York Daily News reports.",
-          "date": "2026-09-20T18:59Z",
+          "comment": "Chisholm (thumb) said Tuesday that he will be activated from the 10-day injured list before the second game of the doubleheader versus the Rays, Chris Kirschner of The Athletic reports.",
+          "date": "2026-09-22T15:19Z",
           "position": null
         },
         {
-          "name": "Aaron Judge",
+          "name": "Trent Grisham",
           "status": "10-Day-IL",
-          "comment": "Judge said Saturday that he didn't know the grade of his calf strain, Gary Phillips of the New York Daily News reports. \"I gotta talk to the trainers and figure that out,\" Judge said.",
-          "date": "2026-09-20T00:47Z",
+          "comment": "Manager Aaron Boone said Sunday that Grisham (hamstring) isn't expected to come off the injured list before the end of the regular season but could return for the playoffs, Bryan Hoch of MLB.com reports.",
+          "date": "2026-09-20T20:17Z",
           "position": null
         },
         {
@@ -6388,13 +6395,13 @@
         },
         {
           "name": "Giancarlo Stanton",
-          "status": "60-Day-IL",
+          "status": "60-Day IL",
           "comment": "The Yankees transferred Stanton (calf) to the 60-day injured list Tuesday.",
           "date": "2026-08-25T18:38Z",
           "position": null
         }
       ],
-      "injuryCount": 7,
+      "injuryCount": 8,
       "weekAgo": {
         "wildCardRank": 1,
         "wildCardGamesBack": "+11.5",
@@ -6914,7 +6921,7 @@
         },
         {
           "name": "Johan Oviedo",
-          "status": "60-Day-IL",
+          "status": "60-Day IL",
           "comment": "Ovideo (elbow) allowed one run on two hits and one walk while striking out four for Triple-A Worcester on Thursday.",
           "date": "2026-09-18T12:57Z",
           "position": null
@@ -8497,7 +8504,7 @@
         },
         {
           "name": "Anthony Santander",
-          "status": "60-Day-IL",
+          "status": "60-Day IL",
           "comment": "Santander (shoulder/back) is scheduled to play in the outfield for Triple-A Buffalo on Friday, Arden Zwelling of Sportsnet.ca reports.",
           "date": "2026-09-18T21:55Z",
           "position": null
@@ -8546,7 +8553,7 @@
         },
         {
           "name": "Yimi Garcia",
-          "status": "60-Day-IL",
+          "status": "60-Day IL",
           "comment": "Garcia (elbow/neck/biceps) underwent thoracic outlet surgery Thursday and will miss the rest of the season, Arden Zwelling of Sportsnet.ca reports.",
           "date": "2026-08-26T17:56Z",
           "position": null
@@ -8560,7 +8567,7 @@
         },
         {
           "name": "Luis Urias",
-          "status": "10-Day-IL",
+          "status": "10-Day IL",
           "comment": "The Blue Jays announced Monday that Urias (quadriceps) will be shut down for the next two weeks, Ben Nicholson-Smith of Sportsnet.ca reports.",
           "date": "2026-08-10T20:51Z",
           "position": null
@@ -9039,21 +9046,21 @@
         },
         {
           "name": "Ryan Helsley",
-          "status": "60-Day-IL",
+          "status": "60-Day IL",
           "comment": "President of baseball operations Mike Elias said Saturday that Helsley (elbow) will be shut down for the remainder of the season, Andy Kostka of TheBanner.com reports.",
           "date": "2026-09-19T17:08Z",
           "position": null
         },
         {
           "name": "Kyle Bradish",
-          "status": "15-Day-IL",
+          "status": "15-Day IL",
           "comment": "Bradish was diagnosed with a sports hernia Wednesday, Jake Rill of MLB.com reports.",
           "date": "2026-09-16T22:05Z",
           "position": null
         },
         {
           "name": "Blaze Alexander",
-          "status": "10-Day-IL",
+          "status": "10-Day IL",
           "comment": "The Orioles placed Alexander on the 10-day injured list Wednesday with low-back discomfort.",
           "date": "2026-09-09T20:49Z",
           "position": null
@@ -9074,7 +9081,7 @@
         },
         {
           "name": "Colin Selby",
-          "status": "60-Day-IL",
+          "status": "60-Day IL",
           "comment": "Orioles president of baseball operations Mike Elias said Friday that Selby underwent right shoulder surgery Tuesday to repair his labrum and rotator cuff, Andy Kostka of TheBanner.com reports.",
           "date": "2026-07-31T20:48Z",
           "position": null
@@ -9254,7 +9261,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/120.svg",
             "color": "#1D4ED8",
             "score": null,
-            "probablePitcher": "Jackson Kent",
+            "probablePitcher": "Riley Cornelio",
             "record": {
               "wins": 73,
               "losses": 84,
@@ -10128,7 +10135,7 @@
         },
         {
           "name": "Matt Brash",
-          "status": "60-Day-IL",
+          "status": "60-Day IL",
           "comment": "Brash has been shut down from throwing for eight weeks after an MRI revealed more inflammation in his lat, Ryan Divish of The Seattle Times reports.",
           "date": "2026-09-05T00:34Z",
           "position": null
@@ -10149,7 +10156,7 @@
         },
         {
           "name": "Colt Emerson",
-          "status": "60-Day-IL",
+          "status": "60-Day IL",
           "comment": "The Mariners transferred Emerson (wrist) from the 10-day injured list to the 60-day IL on Monday.",
           "date": "2026-08-31T20:15Z",
           "position": null
@@ -10170,7 +10177,7 @@
         },
         {
           "name": "Cole Wilcox",
-          "status": "15-Day-IL",
+          "status": "15-day il",
           "comment": "Wilcox left Thursday's game versus the Tigers due to left oblique tightness.",
           "date": "2026-08-07T21:02Z",
           "position": null
@@ -11147,10 +11154,10 @@
       "gameDate": "2026-09-22T17:05:00Z",
       "dayNight": "day",
       "venue": "Yankee Stadium",
-      "status": "Scheduled",
-      "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "status": "In Progress",
+      "abstractState": "Live",
+      "inning": 1,
+      "inningState": "Bottom",
       "home": {
         "id": 147,
         "name": "New York Yankees",
@@ -11160,7 +11167,7 @@
         "fileCode": "nyy",
         "logo": "https://www.mlbstatic.com/team-logos/147.svg",
         "color": "#0C2340",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Carlos Rod\u00f3n",
         "record": {
           "wins": 89,
@@ -11178,7 +11185,7 @@
         "fileCode": "tb",
         "logo": "https://www.mlbstatic.com/team-logos/139.svg",
         "color": "#092C5C",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Nick Martinez",
         "record": {
           "wins": 95,
@@ -11194,9 +11201,9 @@
       "gamesInSeries": 4,
       "interest": "Need a loss",
       "note": "Root against NYY \u2014 they are holding a wild-card spot.",
-      "homeWinPct": 47.3,
-      "awayWinPct": 52.7,
-      "helpsTorPct": 52.7,
+      "homeWinPct": 47.0,
+      "awayWinPct": 53.0,
+      "helpsTorPct": 53.0,
       "wantWinnerId": 139
     },
     {
@@ -11295,7 +11302,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/120.svg",
         "color": "#1D4ED8",
         "score": null,
-        "probablePitcher": "Jackson Kent",
+        "probablePitcher": "Riley Cornelio",
         "record": {
           "wins": 73,
           "losses": 84,
@@ -11426,9 +11433,9 @@
       "gamesInSeries": 4,
       "interest": "Need a loss",
       "note": "Root against NYY \u2014 they are holding a wild-card spot.",
-      "homeWinPct": 47.3,
-      "awayWinPct": 52.7,
-      "helpsTorPct": 52.7,
+      "homeWinPct": 47.0,
+      "awayWinPct": 53.0,
+      "helpsTorPct": 53.0,
       "wantWinnerId": 139
     },
     {
@@ -11701,7 +11708,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/139.svg",
         "color": "#092C5C",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Ian Seymour",
         "record": {
           "wins": 95,
           "losses": 60,
@@ -11716,9 +11723,9 @@
       "gamesInSeries": 4,
       "interest": "Need a loss",
       "note": "Root against NYY \u2014 they are holding a wild-card spot.",
-      "homeWinPct": 47.3,
-      "awayWinPct": 52.7,
-      "helpsTorPct": 52.7,
+      "homeWinPct": 47.0,
+      "awayWinPct": 53.0,
+      "helpsTorPct": 53.0,
       "wantWinnerId": 139
     },
     {
@@ -12049,7 +12056,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/139.svg",
         "color": "#092C5C",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Freddy Peralta",
         "record": {
           "wins": 95,
           "losses": 60,
@@ -12064,9 +12071,9 @@
       "gamesInSeries": 4,
       "interest": "Need a loss",
       "note": "Root against NYY \u2014 they are holding a wild-card spot.",
-      "homeWinPct": 47.3,
-      "awayWinPct": 52.7,
-      "helpsTorPct": 52.7,
+      "homeWinPct": 47.0,
+      "awayWinPct": 53.0,
+      "helpsTorPct": 53.0,
       "wantWinnerId": 139
     },
     {
@@ -12210,7 +12217,7 @@
     },
     {
       "name": "Anthony Santander",
-      "status": "60-Day-IL",
+      "status": "60-Day IL",
       "comment": "Santander (shoulder/back) is scheduled to play in the outfield for Triple-A Buffalo on Friday, Arden Zwelling of Sportsnet.ca reports.",
       "date": "2026-09-18T21:55Z",
       "position": null
@@ -12259,7 +12266,7 @@
     },
     {
       "name": "Yimi Garcia",
-      "status": "60-Day-IL",
+      "status": "60-Day IL",
       "comment": "Garcia (elbow/neck/biceps) underwent thoracic outlet surgery Thursday and will miss the rest of the season, Arden Zwelling of Sportsnet.ca reports.",
       "date": "2026-08-26T17:56Z",
       "position": null
@@ -12273,7 +12280,7 @@
     },
     {
       "name": "Luis Urias",
-      "status": "10-Day-IL",
+      "status": "10-Day IL",
       "comment": "The Blue Jays announced Monday that Urias (quadriceps) will be shut down for the next two weeks, Ben Nicholson-Smith of Sportsnet.ca reports.",
       "date": "2026-08-10T20:51Z",
       "position": null
