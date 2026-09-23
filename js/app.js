@@ -118,6 +118,24 @@ function gbDisplay(value) {
   return String(value);
 }
 
+function isElimCode(value) {
+  return String(value || "").trim().toUpperCase() === "E" || String(value || "").trim().toUpperCase() === "ELIMINATED";
+}
+
+function isEliminated(data) {
+  if (data?.eliminated) return true;
+  const jays = data?.jays || {};
+  if (jays.clinched || jays.divisionLeader) return false;
+  return isElimCode(jays.eliminationNumber) && isElimCode(jays.wildCardEliminationNumber);
+}
+
+function renderConclusion(data) {
+  const out = isEliminated(data);
+  document.body.classList.toggle("season-over", out);
+  const banner = $("conclusion");
+  if (banner) banner.hidden = !out;
+}
+
 function renderTicker(data) {
   const jays = data.jays;
   const next = (data.schedule || [])[0];
@@ -130,10 +148,10 @@ function renderTicker(data) {
     `L10 ${jays.lastTen} · ${jays.streak}`,
     `RUN DIFF ${jays.runDifferential > 0 ? "+" : ""}${jays.runDifferential}`,
     nextText,
-    data.narrative.headline,
+    data.narrative?.headline,
     data.playoffOdds?.percent != null ? `PLAYOFF ODDS ${data.playoffOdds.percent}%` : "",
     data.magicNumber?.value != null ? `MAGIC NUMBER ${data.magicNumber.value}` : "",
-    "THE PUSH IS ON",
+    isEliminated(data) ? "MATHEMATICALLY ELIMINATED" : "THE PUSH IS ON",
     "UPDATED HOURLY",
   ].filter(Boolean);
   const line = parts.join("   •   ") + "   •   ";
@@ -142,7 +160,11 @@ function renderTicker(data) {
 
 function renderHero(data) {
   const jays = data.jays;
-  $("statusKicker").textContent = data.narrative.status === "in" ? "Holding a wild-card spot" : "American League wild-card chase";
+  $("statusKicker").textContent = data.narrative.status === "in"
+    ? "Holding a wild-card spot"
+    : data.narrative.status === "eliminated"
+      ? "Season closed"
+      : "American League wild-card chase";
   $("headline").textContent = data.narrative.headline;
   $("blurb").textContent = data.narrative.blurb;
   $("gbGiant").textContent = jays.wildCardGamesBack === "-" ? "0" : jays.wildCardGamesBack;
@@ -157,7 +179,9 @@ function renderHero(data) {
     ["Away", jays.away],
   ].map(([label, value]) => `<div class="chip"><span>${esc(label)}</span><strong>${esc(value)}</strong></div>`).join("");
   $("updatePill").textContent = `Updated ${relativeTime(data.generatedAt)}`;
-  $("seasonPill").textContent = `${data.season} AL wild card`;
+  $("seasonPill").textContent = isEliminated(data)
+    ? `${data.season} season over`
+    : `${data.season} AL wild card`;
   const odds = data.playoffOdds || {};
   const pct = odds.percent;
   $("oddsGiant").textContent = pct == null ? "—" : `${pct}%`;
@@ -632,6 +656,7 @@ async function boot() {
     if (!res.ok) throw new Error("Could not load data.json");
     const data = await res.json();
     renderTicker(data);
+    renderConclusion(data);
     renderHero(data);
     renderKpis(data);
     renderTrends(data);

@@ -126,6 +126,31 @@ body {
   padding: 18px 0 8px;
 }
 
+.conclusion {
+  margin: 12px 0 8px;
+  padding: 22px 24px 20px;
+  border: 1px solid rgba(227, 24, 55, 0.45);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(227, 24, 55, 0.28), rgba(7, 17, 31, 0.55) 55%, rgba(29, 79, 156, 0.2));
+  box-shadow: var(--shadow);
+}
+
+.conclusion .kicker {
+  margin: 0 0 8px;
+}
+
+.conclusion h2 {
+  margin: 0;
+}
+
+.conclusion .lede {
+  margin: 10px 0 0;
+  max-width: 46ch;
+  font-size: 18px;
+  color: var(--ink);
+}
+
 .brand {
   display: flex;
   align-items: center;

@@ -583,7 +583,25 @@ def playoff_magic(jays: dict, all_al: dict[int, dict], al_east: list[dict], wild
     }
 
 
+def is_elim_code(value) -> bool:
+    token = str(value or "").strip().upper()
+    return token in {"E", "ELIMINATED"}
+
+
+def eliminated_from_playoffs(jays: dict) -> bool:
+    """True once Toronto cannot win the East and cannot catch a wild card."""
+    if jays.get("clinched") or jays.get("divisionLeader"):
+        return False
+    return is_elim_code(jays.get("eliminationNumber")) and is_elim_code(jays.get("wildCardEliminationNumber"))
+
+
 def narrative_for(jays: dict) -> dict:
+    if eliminated_from_playoffs(jays):
+        return {
+            "status": "eliminated",
+            "headline": "See ya next season",
+            "blurb": "The Toronto Blue Jays have been mathematically eliminated from the MLB playoffs.",
+        }
     rank = jays.get("wildCardRank") or 99
     gb = jays.get("wildCardGamesBackNum")
     streak = jays.get("streak") or ""
@@ -1354,6 +1372,7 @@ def main() -> None:
         "season": season,
         "source": "MLB Stats API + ESPN injuries",
         "jays": jays,
+        "eliminated": eliminated_from_playoffs(jays),
         "narrative": narrative_for(jays),
         "alEast": al_east,
         "wildCard": wild_card[:10],
