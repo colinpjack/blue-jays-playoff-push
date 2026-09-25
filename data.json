@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T00:49:25.160897-04:00",
+  "generatedAt": "2026-09-25T06:08:50.118225-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -317,9 +317,70 @@
       "divisionLeader": false,
       "nextGames": [
         {
-          "gamePk": 823489,
+          "gamePk": 823491,
           "date": "2026-09-25",
           "gameDate": "2026-09-25T20:05:00Z",
+          "dayNight": "night",
+          "venue": "Yankee Stadium",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 92,
+              "losses": 67,
+              "ties": 0,
+              "pct": ".579"
+            }
+          },
+          "away": {
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601",
+            "score": null,
+            "probablePitcher": "Brandon Young",
+            "record": {
+              "wins": 78,
+              "losses": 81,
+              "ties": 0,
+              "pct": ".491"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 823489,
+          "date": "2026-09-25",
+          "gameDate": "2026-09-25T20:10:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
           "status": "Scheduled",
@@ -375,67 +436,6 @@
           },
           "result": null,
           "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 823491,
-          "date": "2026-09-25",
-          "gameDate": "2026-09-25T20:10:00Z",
-          "dayNight": "night",
-          "venue": "Yankee Stadium",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 147,
-            "name": "New York Yankees",
-            "teamName": "Yankees",
-            "location": "Bronx",
-            "abbr": "NYY",
-            "fileCode": "nyy",
-            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 92,
-              "losses": 67,
-              "ties": 0,
-              "pct": ".579"
-            }
-          },
-          "away": {
-            "id": 110,
-            "name": "Baltimore Orioles",
-            "teamName": "Orioles",
-            "location": "Baltimore",
-            "abbr": "BAL",
-            "fileCode": "bal",
-            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-            "color": "#DF4601",
-            "score": null,
-            "probablePitcher": "Brandon Young",
-            "record": {
-              "wins": 78,
-              "losses": 81,
-              "ties": 0,
-              "pct": ".491"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 110,
-            "name": "Baltimore Orioles",
-            "teamName": "Orioles",
-            "location": "Baltimore",
-            "abbr": "BAL",
-            "fileCode": "bal",
-            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-            "color": "#DF4601"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
           "gamesInSeries": 3
         },
         {
@@ -760,7 +760,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Alec Gamboa",
             "record": {
               "wins": 85,
               "losses": 74,
@@ -982,9 +982,70 @@
       "divisionLeader": false,
       "nextGames": [
         {
-          "gamePk": 823489,
+          "gamePk": 823491,
           "date": "2026-09-25",
           "gameDate": "2026-09-25T20:05:00Z",
+          "dayNight": "night",
+          "venue": "Yankee Stadium",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 92,
+              "losses": 67,
+              "ties": 0,
+              "pct": ".579"
+            }
+          },
+          "away": {
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601",
+            "score": null,
+            "probablePitcher": "Brandon Young",
+            "record": {
+              "wins": 78,
+              "losses": 81,
+              "ties": 0,
+              "pct": ".491"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 823489,
+          "date": "2026-09-25",
+          "gameDate": "2026-09-25T20:10:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
           "status": "Scheduled",
@@ -1040,67 +1101,6 @@
           },
           "result": null,
           "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 823491,
-          "date": "2026-09-25",
-          "gameDate": "2026-09-25T20:10:00Z",
-          "dayNight": "night",
-          "venue": "Yankee Stadium",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 147,
-            "name": "New York Yankees",
-            "teamName": "Yankees",
-            "location": "Bronx",
-            "abbr": "NYY",
-            "fileCode": "nyy",
-            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 92,
-              "losses": 67,
-              "ties": 0,
-              "pct": ".579"
-            }
-          },
-          "away": {
-            "id": 110,
-            "name": "Baltimore Orioles",
-            "teamName": "Orioles",
-            "location": "Baltimore",
-            "abbr": "BAL",
-            "fileCode": "bal",
-            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-            "color": "#DF4601",
-            "score": null,
-            "probablePitcher": "Brandon Young",
-            "record": {
-              "wins": 78,
-              "losses": 81,
-              "ties": 0,
-              "pct": ".491"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 147,
-            "name": "New York Yankees",
-            "teamName": "Yankees",
-            "location": "Bronx",
-            "abbr": "NYY",
-            "fileCode": "nyy",
-            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
-            "color": "#0C2340"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
           "gamesInSeries": 3
         },
         {
@@ -1466,9 +1466,70 @@
       "divisionLeader": false,
       "nextGames": [
         {
-          "gamePk": 823489,
+          "gamePk": 823491,
           "date": "2026-09-25",
           "gameDate": "2026-09-25T20:05:00Z",
+          "dayNight": "night",
+          "venue": "Yankee Stadium",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 92,
+              "losses": 67,
+              "ties": 0,
+              "pct": ".579"
+            }
+          },
+          "away": {
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601",
+            "score": null,
+            "probablePitcher": "Brandon Young",
+            "record": {
+              "wins": 78,
+              "losses": 81,
+              "ties": 0,
+              "pct": ".491"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 823489,
+          "date": "2026-09-25",
+          "gameDate": "2026-09-25T20:10:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
           "status": "Scheduled",
@@ -1524,67 +1585,6 @@
           },
           "result": null,
           "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 823491,
-          "date": "2026-09-25",
-          "gameDate": "2026-09-25T20:10:00Z",
-          "dayNight": "night",
-          "venue": "Yankee Stadium",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 147,
-            "name": "New York Yankees",
-            "teamName": "Yankees",
-            "location": "Bronx",
-            "abbr": "NYY",
-            "fileCode": "nyy",
-            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 92,
-              "losses": 67,
-              "ties": 0,
-              "pct": ".579"
-            }
-          },
-          "away": {
-            "id": 110,
-            "name": "Baltimore Orioles",
-            "teamName": "Orioles",
-            "location": "Baltimore",
-            "abbr": "BAL",
-            "fileCode": "bal",
-            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-            "color": "#DF4601",
-            "score": null,
-            "probablePitcher": "Brandon Young",
-            "record": {
-              "wins": 78,
-              "losses": 81,
-              "ties": 0,
-              "pct": ".491"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 110,
-            "name": "Baltimore Orioles",
-            "teamName": "Orioles",
-            "location": "Baltimore",
-            "abbr": "BAL",
-            "fileCode": "bal",
-            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-            "color": "#DF4601"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
           "gamesInSeries": 3
         },
         {
@@ -1909,7 +1909,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Alec Gamboa",
             "record": {
               "wins": 85,
               "losses": 74,
@@ -2613,9 +2613,70 @@
       "divisionLeader": false,
       "nextGames": [
         {
-          "gamePk": 823489,
+          "gamePk": 823491,
           "date": "2026-09-25",
           "gameDate": "2026-09-25T20:05:00Z",
+          "dayNight": "night",
+          "venue": "Yankee Stadium",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 92,
+              "losses": 67,
+              "ties": 0,
+              "pct": ".579"
+            }
+          },
+          "away": {
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601",
+            "score": null,
+            "probablePitcher": "Brandon Young",
+            "record": {
+              "wins": 78,
+              "losses": 81,
+              "ties": 0,
+              "pct": ".491"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 823489,
+          "date": "2026-09-25",
+          "gameDate": "2026-09-25T20:10:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
           "status": "Scheduled",
@@ -2671,67 +2732,6 @@
           },
           "result": null,
           "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 823491,
-          "date": "2026-09-25",
-          "gameDate": "2026-09-25T20:10:00Z",
-          "dayNight": "night",
-          "venue": "Yankee Stadium",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 147,
-            "name": "New York Yankees",
-            "teamName": "Yankees",
-            "location": "Bronx",
-            "abbr": "NYY",
-            "fileCode": "nyy",
-            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 92,
-              "losses": 67,
-              "ties": 0,
-              "pct": ".579"
-            }
-          },
-          "away": {
-            "id": 110,
-            "name": "Baltimore Orioles",
-            "teamName": "Orioles",
-            "location": "Baltimore",
-            "abbr": "BAL",
-            "fileCode": "bal",
-            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-            "color": "#DF4601",
-            "score": null,
-            "probablePitcher": "Brandon Young",
-            "record": {
-              "wins": 78,
-              "losses": 81,
-              "ties": 0,
-              "pct": ".491"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 147,
-            "name": "New York Yankees",
-            "teamName": "Yankees",
-            "location": "Bronx",
-            "abbr": "NYY",
-            "fileCode": "nyy",
-            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
-            "color": "#0C2340"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
           "gamesInSeries": 3
         },
         {
@@ -4297,9 +4297,70 @@
       "momentum": 85,
       "nextGames": [
         {
-          "gamePk": 823489,
+          "gamePk": 823491,
           "date": "2026-09-25",
           "gameDate": "2026-09-25T20:05:00Z",
+          "dayNight": "night",
+          "venue": "Yankee Stadium",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 92,
+              "losses": 67,
+              "ties": 0,
+              "pct": ".579"
+            }
+          },
+          "away": {
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601",
+            "score": null,
+            "probablePitcher": "Brandon Young",
+            "record": {
+              "wins": 78,
+              "losses": 81,
+              "ties": 0,
+              "pct": ".491"
+            }
+          },
+          "isHome": true,
+          "opponent": {
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 823489,
+          "date": "2026-09-25",
+          "gameDate": "2026-09-25T20:10:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
           "status": "Scheduled",
@@ -4355,67 +4416,6 @@
           },
           "result": null,
           "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 823491,
-          "date": "2026-09-25",
-          "gameDate": "2026-09-25T20:10:00Z",
-          "dayNight": "night",
-          "venue": "Yankee Stadium",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 147,
-            "name": "New York Yankees",
-            "teamName": "Yankees",
-            "location": "Bronx",
-            "abbr": "NYY",
-            "fileCode": "nyy",
-            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 92,
-              "losses": 67,
-              "ties": 0,
-              "pct": ".579"
-            }
-          },
-          "away": {
-            "id": 110,
-            "name": "Baltimore Orioles",
-            "teamName": "Orioles",
-            "location": "Baltimore",
-            "abbr": "BAL",
-            "fileCode": "bal",
-            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-            "color": "#DF4601",
-            "score": null,
-            "probablePitcher": "Brandon Young",
-            "record": {
-              "wins": 78,
-              "losses": 81,
-              "ties": 0,
-              "pct": ".491"
-            }
-          },
-          "isHome": true,
-          "opponent": {
-            "id": 110,
-            "name": "Baltimore Orioles",
-            "teamName": "Orioles",
-            "location": "Baltimore",
-            "abbr": "BAL",
-            "fileCode": "bal",
-            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-            "color": "#DF4601"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
           "gamesInSeries": 3
         },
         {
@@ -4856,7 +4856,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Alec Gamboa",
             "record": {
               "wins": 85,
               "losses": 74,
@@ -5971,9 +5971,70 @@
       "momentum": 50,
       "nextGames": [
         {
-          "gamePk": 823489,
+          "gamePk": 823491,
           "date": "2026-09-25",
           "gameDate": "2026-09-25T20:05:00Z",
+          "dayNight": "night",
+          "venue": "Yankee Stadium",
+          "status": "Scheduled",
+          "abstractState": "Preview",
+          "inning": null,
+          "inningState": null,
+          "home": {
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340",
+            "score": null,
+            "probablePitcher": null,
+            "record": {
+              "wins": 92,
+              "losses": 67,
+              "ties": 0,
+              "pct": ".579"
+            }
+          },
+          "away": {
+            "id": 110,
+            "name": "Baltimore Orioles",
+            "teamName": "Orioles",
+            "location": "Baltimore",
+            "abbr": "BAL",
+            "fileCode": "bal",
+            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+            "color": "#DF4601",
+            "score": null,
+            "probablePitcher": "Brandon Young",
+            "record": {
+              "wins": 78,
+              "losses": 81,
+              "ties": 0,
+              "pct": ".491"
+            }
+          },
+          "isHome": false,
+          "opponent": {
+            "id": 147,
+            "name": "New York Yankees",
+            "teamName": "Yankees",
+            "location": "Bronx",
+            "abbr": "NYY",
+            "fileCode": "nyy",
+            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+            "color": "#0C2340"
+          },
+          "result": null,
+          "seriesGameNumber": 1,
+          "gamesInSeries": 3
+        },
+        {
+          "gamePk": 823489,
+          "date": "2026-09-25",
+          "gameDate": "2026-09-25T20:10:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
           "status": "Scheduled",
@@ -6029,67 +6090,6 @@
           },
           "result": null,
           "seriesGameNumber": 1,
-          "gamesInSeries": 3
-        },
-        {
-          "gamePk": 823491,
-          "date": "2026-09-25",
-          "gameDate": "2026-09-25T20:10:00Z",
-          "dayNight": "night",
-          "venue": "Yankee Stadium",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
-          "home": {
-            "id": 147,
-            "name": "New York Yankees",
-            "teamName": "Yankees",
-            "location": "Bronx",
-            "abbr": "NYY",
-            "fileCode": "nyy",
-            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
-            "color": "#0C2340",
-            "score": null,
-            "probablePitcher": null,
-            "record": {
-              "wins": 92,
-              "losses": 67,
-              "ties": 0,
-              "pct": ".579"
-            }
-          },
-          "away": {
-            "id": 110,
-            "name": "Baltimore Orioles",
-            "teamName": "Orioles",
-            "location": "Baltimore",
-            "abbr": "BAL",
-            "fileCode": "bal",
-            "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-            "color": "#DF4601",
-            "score": null,
-            "probablePitcher": "Brandon Young",
-            "record": {
-              "wins": 78,
-              "losses": 81,
-              "ties": 0,
-              "pct": ".491"
-            }
-          },
-          "isHome": false,
-          "opponent": {
-            "id": 147,
-            "name": "New York Yankees",
-            "teamName": "Yankees",
-            "location": "Bronx",
-            "abbr": "NYY",
-            "fileCode": "nyy",
-            "logo": "https://www.mlbstatic.com/team-logos/147.svg",
-            "color": "#0C2340"
-          },
-          "result": null,
-          "seriesGameNumber": 2,
           "gamesInSeries": 3
         },
         {
@@ -8264,7 +8264,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/111.svg",
         "color": "#BD3039",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Alec Gamboa",
         "record": {
           "wins": 85,
           "losses": 74,
@@ -8303,9 +8303,67 @@
       "wantWinnerId": 112
     },
     {
-      "gamePk": 823489,
+      "gamePk": 823491,
       "date": "2026-09-25",
       "gameDate": "2026-09-25T20:05:00Z",
+      "dayNight": "night",
+      "venue": "Yankee Stadium",
+      "status": "Scheduled",
+      "abstractState": "Preview",
+      "inning": null,
+      "inningState": null,
+      "home": {
+        "id": 147,
+        "name": "New York Yankees",
+        "teamName": "Yankees",
+        "location": "Bronx",
+        "abbr": "NYY",
+        "fileCode": "nyy",
+        "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+        "color": "#0C2340",
+        "score": null,
+        "probablePitcher": null,
+        "record": {
+          "wins": 92,
+          "losses": 67,
+          "ties": 0,
+          "pct": ".579"
+        }
+      },
+      "away": {
+        "id": 110,
+        "name": "Baltimore Orioles",
+        "teamName": "Orioles",
+        "location": "Baltimore",
+        "abbr": "BAL",
+        "fileCode": "bal",
+        "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+        "color": "#DF4601",
+        "score": null,
+        "probablePitcher": "Brandon Young",
+        "record": {
+          "wins": 78,
+          "losses": 81,
+          "ties": 0,
+          "pct": ".491"
+        }
+      },
+      "isHome": null,
+      "opponent": null,
+      "result": null,
+      "seriesGameNumber": 1,
+      "gamesInSeries": 3,
+      "interest": "Race game",
+      "note": "Bubble clash \u2014 one of these clubs has to lose.",
+      "homeWinPct": 62.6,
+      "awayWinPct": 37.4,
+      "helpsTorPct": 37.4,
+      "wantWinnerId": 110
+    },
+    {
+      "gamePk": 823489,
+      "date": "2026-09-25",
+      "gameDate": "2026-09-25T20:10:00Z",
       "dayNight": "night",
       "venue": "Yankee Stadium",
       "status": "Scheduled",
@@ -8352,64 +8410,6 @@
       "opponent": null,
       "result": null,
       "seriesGameNumber": 1,
-      "gamesInSeries": 3,
-      "interest": "Race game",
-      "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 62.6,
-      "awayWinPct": 37.4,
-      "helpsTorPct": 37.4,
-      "wantWinnerId": 110
-    },
-    {
-      "gamePk": 823491,
-      "date": "2026-09-25",
-      "gameDate": "2026-09-25T20:10:00Z",
-      "dayNight": "night",
-      "venue": "Yankee Stadium",
-      "status": "Scheduled",
-      "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
-      "home": {
-        "id": 147,
-        "name": "New York Yankees",
-        "teamName": "Yankees",
-        "location": "Bronx",
-        "abbr": "NYY",
-        "fileCode": "nyy",
-        "logo": "https://www.mlbstatic.com/team-logos/147.svg",
-        "color": "#0C2340",
-        "score": null,
-        "probablePitcher": null,
-        "record": {
-          "wins": 92,
-          "losses": 67,
-          "ties": 0,
-          "pct": ".579"
-        }
-      },
-      "away": {
-        "id": 110,
-        "name": "Baltimore Orioles",
-        "teamName": "Orioles",
-        "location": "Baltimore",
-        "abbr": "BAL",
-        "fileCode": "bal",
-        "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-        "color": "#DF4601",
-        "score": null,
-        "probablePitcher": "Brandon Young",
-        "record": {
-          "wins": 78,
-          "losses": 81,
-          "ties": 0,
-          "pct": ".491"
-        }
-      },
-      "isHome": null,
-      "opponent": null,
-      "result": null,
-      "seriesGameNumber": 2,
       "gamesInSeries": 3,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
