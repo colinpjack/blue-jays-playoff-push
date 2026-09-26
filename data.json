@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T11:07:36.601664-04:00",
+  "generatedAt": "2026-09-26T14:40:38.608765-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -80,7 +80,7 @@
       "runs": 688
     },
     "momentum": 16,
-    "injuryCount": 15,
+    "injuryCount": 14,
     "weekAgo": {
       "wildCardRank": 5,
       "wildCardGamesBack": "3.0",
@@ -1045,10 +1045,10 @@
           "gameDate": "2026-09-26T19:07:00Z",
           "dayNight": "day",
           "venue": "Rogers Centre",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "Warmup",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 141,
             "name": "Toronto Blue Jays",
@@ -1058,7 +1058,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Trey Yesavage",
             "record": {
               "wins": 78,
@@ -1076,7 +1076,7 @@
             "fileCode": "cin",
             "logo": "https://www.mlbstatic.com/team-logos/113.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Rhett Lowder",
             "record": {
               "wins": 74,
@@ -1831,7 +1831,7 @@
           "gameDate": "2026-09-26T23:10:00Z",
           "dayNight": "night",
           "venue": "Rate Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -2011,10 +2011,10 @@
           "gameDate": "2026-09-26T20:10:00Z",
           "dayNight": "day",
           "venue": "Target Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -2024,7 +2024,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Bailey Ober",
             "record": {
               "wins": 76,
@@ -2042,7 +2042,7 @@
             "fileCode": "tex",
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Nathan Eovaldi",
             "record": {
               "wins": 79,
@@ -2301,10 +2301,10 @@
           "gameDate": "2026-09-26T19:07:00Z",
           "dayNight": "day",
           "venue": "Rogers Centre",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "Warmup",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 141,
             "name": "Toronto Blue Jays",
@@ -2314,7 +2314,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Trey Yesavage",
             "record": {
               "wins": 78,
@@ -2332,7 +2332,7 @@
             "fileCode": "cin",
             "logo": "https://www.mlbstatic.com/team-logos/113.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Rhett Lowder",
             "record": {
               "wins": 74,
@@ -2481,10 +2481,10 @@
           "gameDate": "2026-09-26T20:10:00Z",
           "dayNight": "day",
           "venue": "Target Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -2494,7 +2494,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Bailey Ober",
             "record": {
               "wins": 76,
@@ -2512,7 +2512,7 @@
             "fileCode": "tex",
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Nathan Eovaldi",
             "record": {
               "wins": 79,
@@ -2661,9 +2661,9 @@
           "gameDate": "2026-09-26T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": 1,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 5,
           "inningState": "Top",
           "home": {
             "id": 116,
@@ -2692,7 +2692,7 @@
             "fileCode": "pit",
             "logo": "https://www.mlbstatic.com/team-logos/134.svg",
             "color": "#1D4ED8",
-            "score": 0,
+            "score": 1,
             "probablePitcher": "Kirby Yates",
             "record": {
               "wins": 81,
@@ -3241,7 +3241,7 @@
           "gameDate": "2026-09-26T23:10:00Z",
           "dayNight": "night",
           "venue": "Rate Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -4385,7 +4385,7 @@
           "gameDate": "2026-09-26T23:10:00Z",
           "dayNight": "night",
           "venue": "Rate Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -4504,6 +4504,13 @@
       ],
       "injuries": [
         {
+          "name": "Jake Rogers",
+          "status": "paternity",
+          "comment": "The White Sox placed Rogers on the paternity list Saturday.",
+          "date": "2026-09-26T17:15Z",
+          "position": null
+        },
+        {
           "name": "Chase Meidroth",
           "status": "Day-To-Day",
           "comment": "Meidroth is out of the starting lineup for Friday's game against the Rockies due to left hamstring discomfort, James Fegan of the Chicago Sun-Times reports.",
@@ -4567,7 +4574,7 @@
           "position": null
         }
       ],
-      "injuryCount": 9,
+      "injuryCount": 10,
       "weekAgo": {
         "wildCardRank": 3,
         "wildCardGamesBack": "-",
@@ -4695,10 +4702,10 @@
           "gameDate": "2026-09-26T20:10:00Z",
           "dayNight": "day",
           "venue": "Target Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -4708,7 +4715,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Bailey Ober",
             "record": {
               "wins": 76,
@@ -4726,7 +4733,7 @@
             "fileCode": "tex",
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Nathan Eovaldi",
             "record": {
               "wins": 79,
@@ -5266,10 +5273,10 @@
           "gameDate": "2026-09-26T19:07:00Z",
           "dayNight": "day",
           "venue": "Rogers Centre",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "Warmup",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 141,
             "name": "Toronto Blue Jays",
@@ -5279,7 +5286,7 @@
             "fileCode": "tor",
             "logo": "https://www.mlbstatic.com/team-logos/141.svg",
             "color": "#134A8E",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Trey Yesavage",
             "record": {
               "wins": 78,
@@ -5297,7 +5304,7 @@
             "fileCode": "cin",
             "logo": "https://www.mlbstatic.com/team-logos/113.svg",
             "color": "#1D4ED8",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Rhett Lowder",
             "record": {
               "wins": 74,
@@ -5392,13 +5399,6 @@
           "position": null
         },
         {
-          "name": "Brett Bateman",
-          "status": "Day-To-Day",
-          "comment": "Bateman (hip) is expected to return to the starting lineup Saturday against the Reds, Arden Zwelling of Sportsnet.ca reports.",
-          "date": "2026-09-25T20:58Z",
-          "position": null
-        },
-        {
           "name": "Anthony Santander",
           "status": "60-Day-IL",
           "comment": "Santander (shoulder) will not be returning to the Blue Jays this season, Arden Zwelling of Sportsnet.ca reports.",
@@ -5490,7 +5490,7 @@
           "position": null
         }
       ],
-      "injuryCount": 15,
+      "injuryCount": 14,
       "weekAgo": {
         "wildCardRank": 5,
         "wildCardGamesBack": "3.0",
@@ -5618,10 +5618,10 @@
           "gameDate": "2026-09-26T20:10:00Z",
           "dayNight": "day",
           "venue": "Target Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 142,
             "name": "Minnesota Twins",
@@ -5631,7 +5631,7 @@
             "fileCode": "min",
             "logo": "https://www.mlbstatic.com/team-logos/142.svg",
             "color": "#002B5C",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Bailey Ober",
             "record": {
               "wins": 76,
@@ -5649,7 +5649,7 @@
             "fileCode": "tex",
             "logo": "https://www.mlbstatic.com/team-logos/140.svg",
             "color": "#003278",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Nathan Eovaldi",
             "record": {
               "wins": 79,
@@ -5737,17 +5737,17 @@
       ],
       "injuries": [
         {
+          "name": "Jeff Hoffman",
+          "status": "15-Day-IL",
+          "comment": "Hoffman allowed a run on two walks and struck out one in a hitless inning to earn the save in Tuesday's 3-2 win over the Giants.",
+          "date": "2026-09-26T16:14Z",
+          "position": null
+        },
+        {
           "name": "Trevor Larnach",
           "status": "10-Day-IL",
           "comment": "The Twins placed Larnach on the 10-day injured list Friday with left wrist soreness, Aaron Gleeman of AaronGleeman.com reports.",
           "date": "2026-09-18T20:40Z",
-          "position": null
-        },
-        {
-          "name": "Kaelen Culpepper",
-          "status": "10-Day-IL",
-          "comment": "The Twins placed Culpepper on the 10-day injured list Wednesday with a left hamstring strain.",
-          "date": "2026-09-16T16:05Z",
           "position": null
         },
         {
@@ -5863,63 +5863,63 @@
         "slg": ".400",
         "ops": ".720",
         "runs": 717,
-        "hits": 1302,
+        "hits": 1306,
         "homeRuns": 178,
         "rbi": 677,
         "stolenBases": 57,
-        "strikeOuts": 1386,
-        "baseOnBalls": 581,
+        "strikeOuts": 1393,
+        "baseOnBalls": 582,
         "babip": ".290"
       },
       "pitching": {
-        "era": "3.67",
+        "era": "3.66",
         "whip": "1.22",
         "wins": 75,
         "losses": 85,
         "saves": 32,
-        "strikeOuts": 1294,
-        "baseOnBalls": 503,
-        "inningsPitched": "1416.0",
-        "strikeoutsPer9Inn": "8.22",
-        "walksPer9Inn": "3.20",
-        "homeRunsPer9": "1.04",
+        "strikeOuts": 1298,
+        "baseOnBalls": 504,
+        "inningsPitched": "1420.0",
+        "strikeoutsPer9Inn": "8.23",
+        "walksPer9Inn": "3.19",
+        "homeRunsPer9": "1.05",
         "holds": 71,
         "blownSaves": 32,
         "winPercentage": ".469",
-        "runs": 645
+        "runs": 646
       },
       "hittingL10": {
-        "avg": ".271",
-        "obp": ".377",
-        "slg": ".426",
-        "ops": ".803",
-        "runs": 45,
-        "hits": 92,
-        "homeRuns": 9,
-        "rbi": 37,
-        "stolenBases": 3,
-        "strikeOuts": 84,
-        "baseOnBalls": 53,
-        "babip": ".333"
+        "avg": ".268",
+        "obp": ".371",
+        "slg": ".408",
+        "ops": ".779",
+        "runs": 35,
+        "hits": 86,
+        "homeRuns": 7,
+        "rbi": 29,
+        "stolenBases": 2,
+        "strikeOuts": 83,
+        "baseOnBalls": 46,
+        "babip": ".339"
       },
       "pitchingL10": {
-        "era": "3.77",
+        "era": "4.00",
         "whip": "1.16",
-        "wins": 4,
+        "wins": 3,
         "losses": 6,
         "saves": 2,
-        "strikeOuts": 91,
-        "baseOnBalls": 34,
-        "inningsPitched": "86.0",
-        "strikeoutsPer9Inn": "9.52",
+        "strikeOuts": 89,
+        "baseOnBalls": 32,
+        "inningsPitched": "81.0",
+        "strikeoutsPer9Inn": "9.89",
         "walksPer9Inn": "3.56",
-        "homeRunsPer9": "0.94",
+        "homeRunsPer9": "1.11",
         "holds": 1,
         "blownSaves": 0,
-        "winPercentage": ".400",
+        "winPercentage": ".333",
         "runs": 44
       },
-      "runDifferentialL10": 1,
+      "runDifferentialL10": -9,
       "momentum": 46,
       "nextGames": [
         {
@@ -5928,9 +5928,9 @@
           "gameDate": "2026-09-26T17:10:00Z",
           "dayNight": "day",
           "venue": "Comerica Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": 1,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 5,
           "inningState": "Top",
           "home": {
             "id": 116,
@@ -5959,7 +5959,7 @@
             "fileCode": "pit",
             "logo": "https://www.mlbstatic.com/team-logos/134.svg",
             "color": "#1D4ED8",
-            "score": 0,
+            "score": 1,
             "probablePitcher": "Kirby Yates",
             "record": {
               "wins": 81,
@@ -6047,6 +6047,13 @@
       ],
       "injuries": [
         {
+          "name": "Kerry Carpenter",
+          "status": "60-Day-IL",
+          "comment": "The Tigers announced Friday that Carpenter (foot) has ramped up his running and hitting progression with the hope of returning from the injured list before the end of the season, MLB.com reports.",
+          "date": "2026-09-26T15:33Z",
+          "position": null
+        },
+        {
           "name": "Burch Smith",
           "status": "60-Day-IL",
           "comment": "Smith underwent arthroscopic surgery on his right shoulder Aug. 31, Chris McCosky of The Detroit News reports.",
@@ -6082,24 +6089,10 @@
           "position": null
         },
         {
-          "name": "Justin Verlander",
-          "status": "60-Day-IL",
-          "comment": "Verlander (hamstring/hip) is scheduled to be reinstated from the 60-day injured list to start Saturday against the Pirates, Jeff Seidel of the Detroit Free Press reports.",
-          "date": "2026-09-21T17:57Z",
-          "position": null
-        },
-        {
           "name": "Kyle Finnegan",
           "status": "15-Day-IL",
           "comment": "The Tigers placed Finnegan on the 15-day injured list Thursday, retroactive to Wednesday, with left groin inflammation.",
           "date": "2026-09-17T23:04Z",
-          "position": null
-        },
-        {
-          "name": "Kerry Carpenter",
-          "status": "10-Day-IL",
-          "comment": "The Tigers announced Friday that Carpenter (foot) has ramped up his running and hitting progression with the hope of returning from the injured list before the end of the season, MLB.com reports.",
-          "date": "2026-09-17T14:22Z",
           "position": null
         },
         {
@@ -6145,7 +6138,7 @@
           "position": null
         }
       ],
-      "injuryCount": 14,
+      "injuryCount": 13,
       "weekAgo": {
         "wildCardRank": 7,
         "wildCardGamesBack": "6.0",
@@ -6164,10 +6157,10 @@
       "gameDate": "2026-09-26T19:07:00Z",
       "dayNight": "day",
       "venue": "Rogers Centre",
-      "status": "Scheduled",
-      "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "status": "Warmup",
+      "abstractState": "Live",
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 141,
         "name": "Toronto Blue Jays",
@@ -6177,7 +6170,7 @@
         "fileCode": "tor",
         "logo": "https://www.mlbstatic.com/team-logos/141.svg",
         "color": "#134A8E",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Trey Yesavage",
         "record": {
           "wins": 78,
@@ -6195,7 +6188,7 @@
         "fileCode": "cin",
         "logo": "https://www.mlbstatic.com/team-logos/113.svg",
         "color": "#1D4ED8",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Rhett Lowder",
         "record": {
           "wins": 74,
@@ -6915,9 +6908,9 @@
       "gameDate": "2026-09-26T17:10:00Z",
       "dayNight": "day",
       "venue": "Comerica Park",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
-      "inning": 1,
+      "status": "In Progress",
+      "abstractState": "Live",
+      "inning": 5,
       "inningState": "Top",
       "home": {
         "id": 116,
@@ -6946,7 +6939,7 @@
         "fileCode": "pit",
         "logo": "https://www.mlbstatic.com/team-logos/134.svg",
         "color": "#1D4ED8",
-        "score": 0,
+        "score": 1,
         "probablePitcher": "Kirby Yates",
         "record": {
           "wins": 81,
@@ -6973,10 +6966,10 @@
       "gameDate": "2026-09-26T19:07:00Z",
       "dayNight": "day",
       "venue": "Rogers Centre",
-      "status": "Scheduled",
-      "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "status": "Warmup",
+      "abstractState": "Live",
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 141,
         "name": "Toronto Blue Jays",
@@ -6986,7 +6979,7 @@
         "fileCode": "tor",
         "logo": "https://www.mlbstatic.com/team-logos/141.svg",
         "color": "#134A8E",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Trey Yesavage",
         "record": {
           "wins": 78,
@@ -7004,7 +6997,7 @@
         "fileCode": "cin",
         "logo": "https://www.mlbstatic.com/team-logos/113.svg",
         "color": "#1D4ED8",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Rhett Lowder",
         "record": {
           "wins": 74,
@@ -7031,10 +7024,10 @@
       "gameDate": "2026-09-26T20:10:00Z",
       "dayNight": "day",
       "venue": "Target Field",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 142,
         "name": "Minnesota Twins",
@@ -7044,7 +7037,7 @@
         "fileCode": "min",
         "logo": "https://www.mlbstatic.com/team-logos/142.svg",
         "color": "#002B5C",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Bailey Ober",
         "record": {
           "wins": 76,
@@ -7062,7 +7055,7 @@
         "fileCode": "tex",
         "logo": "https://www.mlbstatic.com/team-logos/140.svg",
         "color": "#003278",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Nathan Eovaldi",
         "record": {
           "wins": 79,
@@ -7089,7 +7082,7 @@
       "gameDate": "2026-09-26T23:10:00Z",
       "dayNight": "night",
       "venue": "Rate Field",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
       "inning": null,
       "inningState": null,
@@ -7136,9 +7129,9 @@
       "gamesInSeries": 3,
       "interest": "Need a loss",
       "note": "Root against CWS \u2014 they are holding a wild-card spot.",
-      "homeWinPct": 71.6,
-      "awayWinPct": 28.4,
-      "helpsTorPct": 28.4,
+      "homeWinPct": 71.3,
+      "awayWinPct": 28.7,
+      "helpsTorPct": 28.7,
       "wantWinnerId": 115
     },
     {
@@ -7310,9 +7303,9 @@
       "gamesInSeries": 3,
       "interest": "Need a loss",
       "note": "Root against CWS \u2014 they are holding a wild-card spot.",
-      "homeWinPct": 71.6,
-      "awayWinPct": 28.4,
-      "helpsTorPct": 28.4,
+      "homeWinPct": 71.3,
+      "awayWinPct": 28.7,
+      "helpsTorPct": 28.7,
       "wantWinnerId": 115
     },
     {
@@ -7670,13 +7663,6 @@
       "status": "15-Day-IL",
       "comment": "Cease (shoulder) said Friday that he anticipates having a relatively normal offseason, Arden Zwelling of Sportsnet.ca reports.",
       "date": "2026-09-25T21:03Z",
-      "position": null
-    },
-    {
-      "name": "Brett Bateman",
-      "status": "Day-To-Day",
-      "comment": "Bateman (hip) is expected to return to the starting lineup Saturday against the Reds, Arden Zwelling of Sportsnet.ca reports.",
-      "date": "2026-09-25T20:58Z",
       "position": null
     },
     {
