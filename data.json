@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T10:13:03.618255-04:00",
+  "generatedAt": "2026-09-29T15:32:50.586371-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -322,7 +322,7 @@
           "gameDate": "2026-09-30T00:00:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -563,7 +563,7 @@
           "gameDate": "2026-09-30T00:00:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -920,7 +920,7 @@
           "gameDate": "2026-09-30T00:00:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -1161,7 +1161,7 @@
           "gameDate": "2026-09-30T00:00:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -1402,10 +1402,10 @@
           "gameDate": "2026-09-29T21:00:00Z",
           "dayNight": "day",
           "venue": "Daikin Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 117,
             "name": "Houston Astros",
@@ -1415,7 +1415,7 @@
             "fileCode": "hou",
             "logo": "https://www.mlbstatic.com/team-logos/117.svg",
             "color": "#002D62",
-            "score": null,
+            "score": 0,
             "probablePitcher": "AJ Blubaugh",
             "record": {
               "wins": 0,
@@ -1433,7 +1433,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Hagen Smith",
             "record": {
               "wins": 0,
@@ -1477,7 +1477,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/117.svg",
             "color": "#002D62",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Hunter Brown",
             "record": {
               "wins": 0,
               "losses": 0,
@@ -2082,10 +2082,10 @@
           "gameDate": "2026-09-29T21:00:00Z",
           "dayNight": "day",
           "venue": "Daikin Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 117,
             "name": "Houston Astros",
@@ -2095,7 +2095,7 @@
             "fileCode": "hou",
             "logo": "https://www.mlbstatic.com/team-logos/117.svg",
             "color": "#002D62",
-            "score": null,
+            "score": 0,
             "probablePitcher": "AJ Blubaugh",
             "record": {
               "wins": 0,
@@ -2113,7 +2113,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Hagen Smith",
             "record": {
               "wins": 0,
@@ -2157,7 +2157,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/117.svg",
             "color": "#002D62",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Hunter Brown",
             "record": {
               "wins": 0,
               "losses": 0,
@@ -2402,7 +2402,7 @@
           "gameDate": "2026-09-30T00:00:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -2582,9 +2582,16 @@
       ],
       "injuries": [
         {
+          "name": "Ryan Weathers",
+          "status": "15-Day-IL",
+          "comment": "Weathers (forearm) is not on the Yankees' AL Wild Card Series roster versus the Red Sox, Brendan Kuty of The Athletic reports.",
+          "date": "2026-09-29T15:28Z",
+          "position": null
+        },
+        {
           "name": "Aaron Judge",
           "status": "10-Day-IL",
-          "comment": "Judge (calf) is not on the Yankees' wild-card series roster against the Red Sox, Jack Curry of YES Network reports.",
+          "comment": "Judge (calf) is not on the Yankees' roster for their AL Wild Card Series against the Red Sox, Jack Curry of YES Network reports.",
           "date": "2026-09-29T14:02Z",
           "position": null
         },
@@ -2596,24 +2603,10 @@
           "position": null
         },
         {
-          "name": "Ryan Weathers",
-          "status": "15-Day-IL",
-          "comment": "Weathers (forearm) will throw a live batting practice session Friday, Greg Joyce of the New York Post reports.",
-          "date": "2026-09-25T16:59Z",
-          "position": null
-        },
-        {
           "name": "Clarke Schmidt",
           "status": "15-Day-IL",
           "comment": "Schmidt could be shut down for the season if he's unable to pitch Thursday, MLB.com reports.",
           "date": "2026-09-24T19:38Z",
-          "position": null
-        },
-        {
-          "name": "Trent Grisham",
-          "status": "10-Day-IL",
-          "comment": "Grisham (hamstring) took part in live batting practice Wednesday, MLB.com reports.",
-          "date": "2026-09-24T06:06Z",
           "position": null
         },
         {
@@ -2624,7 +2617,7 @@
           "position": null
         }
       ],
-      "injuryCount": 6,
+      "injuryCount": 5,
       "weekAgo": {
         "wildCardRank": 1,
         "wildCardGamesBack": "+9.0",
@@ -2752,7 +2745,7 @@
           "gameDate": "2026-09-30T00:00:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
           "inning": null,
           "inningState": null,
@@ -2932,10 +2925,10 @@
       ],
       "injuries": [
         {
-          "name": "Garrett Crochet",
+          "name": "Justin Slaten",
           "status": "60-Day-IL",
-          "comment": "Red Sox manager Chad Tracy said Monday that the team has yet to decide whether Crochet (lat) will be include on the American League Wild Card series roster versus the Yankees, Gabrielle Starr of the Boston Herald reports.",
-          "date": "2026-09-28T17:01Z",
+          "comment": "The Red Sox transferred Slaten (elbow) to the 60-day injured list Tuesday, Gabrielle Starr of the Boston Herald reports.",
+          "date": "2026-09-29T14:32Z",
           "position": null
         },
         {
@@ -2974,17 +2967,17 @@
           "position": null
         },
         {
-          "name": "Justin Slaten",
-          "status": "15-Day-IL",
-          "comment": "Interim manager Chad Tracy said Tuesday that Slaten (elbow) will not return from the injured list this season, Chris Cotillo of MassLive.com reports.",
-          "date": "2026-09-15T23:02Z",
-          "position": null
-        },
-        {
           "name": "Anthony Seigler",
           "status": "10-Day-IL",
           "comment": "The Red Sox placed Seigler on the 10-day injured list Sunday due to right wrist inflammation.",
           "date": "2026-09-13T17:41Z",
+          "position": null
+        },
+        {
+          "name": "Kristian Campbell",
+          "status": "Day-To-Day",
+          "comment": "Campbell was placed on the 7-day injured list at Triple-A Worcester on Thursday with a left foot contusion, Chris Cotillo of MassLive.com reports.",
+          "date": "2026-09-10T20:43Z",
           "position": null
         },
         {
@@ -3151,10 +3144,10 @@
           "gameDate": "2026-09-29T21:00:00Z",
           "dayNight": "day",
           "venue": "Daikin Park",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 117,
             "name": "Houston Astros",
@@ -3164,7 +3157,7 @@
             "fileCode": "hou",
             "logo": "https://www.mlbstatic.com/team-logos/117.svg",
             "color": "#002D62",
-            "score": null,
+            "score": 0,
             "probablePitcher": "AJ Blubaugh",
             "record": {
               "wins": 0,
@@ -3182,7 +3175,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Hagen Smith",
             "record": {
               "wins": 0,
@@ -3226,7 +3219,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/117.svg",
             "color": "#002D62",
             "score": null,
-            "probablePitcher": null,
+            "probablePitcher": "Hunter Brown",
             "record": {
               "wins": 0,
               "losses": 0,
@@ -3331,13 +3324,6 @@
       ],
       "injuries": [
         {
-          "name": "Chase Meidroth",
-          "status": "Day-To-Day",
-          "comment": "Meidroth (hamstring) isn't in the lineup for Saturday's game against the Rockies.",
-          "date": "2026-09-26T20:34Z",
-          "position": null
-        },
-        {
           "name": "Jake Rogers",
           "status": "paternity",
           "comment": "The White Sox placed Rogers on the paternity list Saturday.",
@@ -3401,7 +3387,7 @@
           "position": null
         }
       ],
-      "injuryCount": 10,
+      "injuryCount": 9,
       "weekAgo": {
         "wildCardRank": 3,
         "wildCardGamesBack": "-",
@@ -3789,6 +3775,13 @@
           "position": null
         },
         {
+          "name": "Reed Trimble",
+          "status": "Day-To-Day",
+          "comment": "Triple-A Norfolk placed Trimble on the 7-day injured list Friday due to right hamstring discomfort, Andy Kostka of TheBanner.com reports.",
+          "date": "2026-08-17T16:48Z",
+          "position": null
+        },
+        {
           "name": "Colin Selby",
           "status": "60-Day-IL",
           "comment": "Orioles president of baseball operations Mike Elias said Friday that Selby underwent right shoulder surgery Tuesday to repair his labrum and rotator cuff, Andy Kostka of TheBanner.com reports.",
@@ -3801,9 +3794,16 @@
           "comment": "Akin (elbow) underwent Tommy John surgery Wednesday, Jake Rill of MLB.com  reports.",
           "date": "2026-07-15T20:40Z",
           "position": null
+        },
+        {
+          "name": "Cameron Foster",
+          "status": "Day-To-Day",
+          "comment": "Foster was removed from an appearance at Triple-A Norfolk on Thursday due to right shoulder discomfort, Roch Kubatko of MASNSports.com reports.",
+          "date": "2026-05-28T20:38Z",
+          "position": null
         }
       ],
-      "injuryCount": 11,
+      "injuryCount": 13,
       "weekAgo": {
         "wildCardRank": 6,
         "wildCardGamesBack": "5.0",
@@ -4406,6 +4406,13 @@
           "position": null
         },
         {
+          "name": "Jake Miller",
+          "status": "Day-To-Day",
+          "comment": "Double-A Erie placed Miller on its 7-day injured list Sunday due to an unspecified issue.",
+          "date": "2026-07-13T02:17Z",
+          "position": null
+        },
+        {
           "name": "Trey Sweeney",
           "status": "60-Day-IL",
           "comment": "Sweeney will undergo season-ending shoulder surgery this week, Cody Stavenhagen of The Athletic reports.",
@@ -4420,7 +4427,7 @@
           "position": null
         }
       ],
-      "injuryCount": 12,
+      "injuryCount": 13,
       "weekAgo": {
         "wildCardRank": 8,
         "wildCardGamesBack": "7.5",
@@ -5058,10 +5065,10 @@
       "gameDate": "2026-09-29T21:00:00Z",
       "dayNight": "day",
       "venue": "Daikin Park",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 117,
         "name": "Houston Astros",
@@ -5071,7 +5078,7 @@
         "fileCode": "hou",
         "logo": "https://www.mlbstatic.com/team-logos/117.svg",
         "color": "#002D62",
-        "score": null,
+        "score": 0,
         "probablePitcher": "AJ Blubaugh",
         "record": {
           "wins": 0,
@@ -5089,7 +5096,7 @@
         "fileCode": "cws",
         "logo": "https://www.mlbstatic.com/team-logos/145.svg",
         "color": "#27251F",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Hagen Smith",
         "record": {
           "wins": 0,
@@ -5105,9 +5112,9 @@
       "gamesInSeries": 3,
       "interest": "Need a loss",
       "note": "Root against CWS \u2014 they are holding a wild-card spot.",
-      "homeWinPct": 48.6,
-      "awayWinPct": 51.4,
-      "helpsTorPct": 48.6,
+      "homeWinPct": 48.3,
+      "awayWinPct": 51.7,
+      "helpsTorPct": 48.3,
       "wantWinnerId": 117
     },
     {
@@ -5116,7 +5123,7 @@
       "gameDate": "2026-09-30T00:00:00Z",
       "dayNight": "night",
       "venue": "Yankee Stadium",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
       "inning": null,
       "inningState": null,
@@ -5163,9 +5170,9 @@
       "gamesInSeries": 3,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 58.6,
-      "awayWinPct": 41.4,
-      "helpsTorPct": 41.4,
+      "homeWinPct": 58.8,
+      "awayWinPct": 41.2,
+      "helpsTorPct": 41.2,
       "wantWinnerId": 111
     },
     {
@@ -5188,7 +5195,7 @@
         "logo": "https://www.mlbstatic.com/team-logos/117.svg",
         "color": "#002D62",
         "score": null,
-        "probablePitcher": null,
+        "probablePitcher": "Hunter Brown",
         "record": {
           "wins": 0,
           "losses": 0,
@@ -5221,9 +5228,9 @@
       "gamesInSeries": 3,
       "interest": "Need a loss",
       "note": "Root against CWS \u2014 they are holding a wild-card spot.",
-      "homeWinPct": 48.6,
-      "awayWinPct": 51.4,
-      "helpsTorPct": 48.6,
+      "homeWinPct": 48.3,
+      "awayWinPct": 51.7,
+      "helpsTorPct": 48.3,
       "wantWinnerId": 117
     },
     {
@@ -5279,9 +5286,9 @@
       "gamesInSeries": 3,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 58.6,
-      "awayWinPct": 41.4,
-      "helpsTorPct": 41.4,
+      "homeWinPct": 58.8,
+      "awayWinPct": 41.2,
+      "helpsTorPct": 41.2,
       "wantWinnerId": 111
     },
     {
@@ -5337,9 +5344,9 @@
       "gamesInSeries": 3,
       "interest": "Need a loss",
       "note": "Root against CWS \u2014 they are holding a wild-card spot.",
-      "homeWinPct": 48.6,
-      "awayWinPct": 51.4,
-      "helpsTorPct": 48.6,
+      "homeWinPct": 48.3,
+      "awayWinPct": 51.7,
+      "helpsTorPct": 48.3,
       "wantWinnerId": 117
     },
     {
@@ -5395,9 +5402,9 @@
       "gamesInSeries": 3,
       "interest": "Race game",
       "note": "Bubble clash \u2014 one of these clubs has to lose.",
-      "homeWinPct": 58.6,
-      "awayWinPct": 41.4,
-      "helpsTorPct": 41.4,
+      "homeWinPct": 58.8,
+      "awayWinPct": 41.2,
+      "helpsTorPct": 41.2,
       "wantWinnerId": 111
     }
   ],
@@ -5502,7 +5509,7 @@
     }
   ],
   "roster": {
-    "count": 28,
+    "count": 39,
     "asOf": "2026-09-29"
   },
   "leaders": {
@@ -5813,6 +5820,33 @@
         }
       },
       {
+        "id": 682818,
+        "name": "Yohendrick Pi\u00f1ango",
+        "position": "LF",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_180,q_auto:best/v1/people/682818/headshot/67/current",
+        "avg": ".260",
+        "obp": ".306",
+        "slg": ".396",
+        "ops": ".702",
+        "hr": 5,
+        "rbi": 20,
+        "sb": 0,
+        "hits": 44,
+        "ab": 169,
+        "pa": 180,
+        "games": 58,
+        "avgChange": null,
+        "trend": {
+          "window": "L10",
+          "avg": ".222",
+          "ops": ".535",
+          "hr": 0,
+          "pa": 29,
+          "delta": -0.167,
+          "direction": "down"
+        }
+      },
+      {
         "id": 676914,
         "name": "Davis Schneider",
         "position": "LF",
@@ -5939,9 +5973,63 @@
           "delta": -0.132,
           "direction": "down"
         }
+      },
+      {
+        "id": 649966,
+        "name": "Luis Ur\u00edas",
+        "position": "2B",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_180,q_auto:best/v1/people/649966/headshot/67/current",
+        "avg": ".250",
+        "obp": ".322",
+        "slg": ".481",
+        "ops": ".803",
+        "hr": 3,
+        "rbi": 8,
+        "sb": 0,
+        "hits": 13,
+        "ab": 52,
+        "pa": 59,
+        "games": 26,
+        "avgChange": null,
+        "trend": {
+          "window": "L10",
+          "avg": ".227",
+          "ops": ".763",
+          "hr": 1,
+          "pa": 26,
+          "delta": -0.04,
+          "direction": "down"
+        }
       }
     ],
     "pitching": [
+      {
+        "id": 656302,
+        "name": "Dylan Cease",
+        "position": "P",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_180,q_auto:best/v1/people/656302/headshot/67/current",
+        "era": "2.40",
+        "whip": "1.10",
+        "ip": "169.0",
+        "w": 11,
+        "l": 6,
+        "so": 239,
+        "sv": 0,
+        "hld": 0,
+        "gs": 29,
+        "g": 29,
+        "k9": "12.73",
+        "role": "SP",
+        "trend": {
+          "window": "L14",
+          "era": "3.38",
+          "whip": "3.38",
+          "ip": "2.2",
+          "so": 3,
+          "delta": 0.98,
+          "direction": "down"
+        }
+      },
       {
         "id": 702056,
         "name": "Trey Yesavage",
@@ -5995,6 +6083,25 @@
           "delta": -2.56,
           "direction": "up"
         }
+      },
+      {
+        "id": 669456,
+        "name": "Shane Bieber",
+        "position": "P",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_180,q_auto:best/v1/people/669456/headshot/67/current",
+        "era": "4.37",
+        "whip": "1.42",
+        "ip": "55.2",
+        "w": 5,
+        "l": 2,
+        "so": 44,
+        "sv": 0,
+        "hld": 0,
+        "gs": 11,
+        "g": 11,
+        "k9": "7.11",
+        "role": "SP",
+        "trend": null
       },
       {
         "id": 667755,
@@ -6186,6 +6293,33 @@
         }
       },
       {
+        "id": 689149,
+        "name": "Chad Dallas",
+        "position": "P",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_180,q_auto:best/v1/people/689149/headshot/67/current",
+        "era": "5.02",
+        "whip": "1.47",
+        "ip": "14.1",
+        "w": 2,
+        "l": 1,
+        "so": 17,
+        "sv": 0,
+        "hld": 2,
+        "gs": 0,
+        "g": 6,
+        "k9": "10.67",
+        "role": "RP",
+        "trend": {
+          "window": "L14",
+          "era": "2.25",
+          "whip": "1.25",
+          "ip": "4.0",
+          "so": 7,
+          "delta": -2.77,
+          "direction": "up"
+        }
+      },
+      {
         "id": 623149,
         "name": "Paul Sewald",
         "position": "P",
@@ -6213,31 +6347,50 @@
         }
       },
       {
-        "id": 689149,
-        "name": "Chad Dallas",
+        "id": 669310,
+        "name": "CJ Van Eyk",
         "position": "P",
-        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_180,q_auto:best/v1/people/689149/headshot/67/current",
-        "era": "5.02",
-        "whip": "1.47",
-        "ip": "14.1",
-        "w": 2,
-        "l": 1,
-        "so": 17,
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_180,q_auto:best/v1/people/669310/headshot/67/current",
+        "era": "5.40",
+        "whip": "1.46",
+        "ip": "11.2",
+        "w": 0,
+        "l": 2,
+        "so": 3,
         "sv": 0,
-        "hld": 2,
-        "gs": 0,
-        "g": 6,
-        "k9": "10.67",
+        "hld": 0,
+        "gs": 1,
+        "g": 5,
+        "k9": "2.31",
         "role": "RP",
         "trend": {
           "window": "L14",
-          "era": "2.25",
-          "whip": "1.25",
-          "ip": "4.0",
-          "so": 7,
-          "delta": -2.77,
-          "direction": "up"
+          "era": "7.20",
+          "whip": "0.80",
+          "ip": "5.0",
+          "so": 2,
+          "delta": 1.8,
+          "direction": "down"
         }
+      },
+      {
+        "id": 592791,
+        "name": "Jameson Taillon",
+        "position": "P",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_180,q_auto:best/v1/people/592791/headshot/67/current",
+        "era": "3.60",
+        "whip": "1.40",
+        "ip": "10.0",
+        "w": 0,
+        "l": 0,
+        "so": 8,
+        "sv": 0,
+        "hld": 0,
+        "gs": 3,
+        "g": 3,
+        "k9": "7.20",
+        "role": "RP",
+        "trend": null
       },
       {
         "id": 695445,
@@ -6289,6 +6442,52 @@
           "whip": "0.58",
           "ip": "8.2",
           "so": 11,
+          "delta": 0.0,
+          "direction": "flat"
+        }
+      },
+      {
+        "id": 694357,
+        "name": "Ricky Tiedemann",
+        "position": "P",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_180,q_auto:best/v1/people/694357/headshot/67/current",
+        "era": "1.50",
+        "whip": "1.83",
+        "ip": "6.0",
+        "w": 0,
+        "l": 0,
+        "so": 8,
+        "sv": 0,
+        "hld": 1,
+        "gs": 0,
+        "g": 5,
+        "k9": "12.00",
+        "role": "RP",
+        "trend": null
+      },
+      {
+        "id": 692064,
+        "name": "Jos\u00e9 Rodr\u00edguez",
+        "position": "P",
+        "headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_180,q_auto:best/v1/people/692064/headshot/67/current",
+        "era": "0.00",
+        "whip": "0.64",
+        "ip": "4.2",
+        "w": 0,
+        "l": 0,
+        "so": 5,
+        "sv": 0,
+        "hld": 1,
+        "gs": 0,
+        "g": 4,
+        "k9": "9.64",
+        "role": "RP",
+        "trend": {
+          "window": "L14",
+          "era": "0.00",
+          "whip": "0.64",
+          "ip": "4.2",
+          "so": 5,
           "delta": 0.0,
           "direction": "flat"
         }
