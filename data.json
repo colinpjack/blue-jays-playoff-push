@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T15:32:50.586371-04:00",
+  "generatedAt": "2026-09-29T19:13:58.374361-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -80,7 +80,7 @@
       "runs": 694
     },
     "momentum": 22,
-    "injuryCount": 14,
+    "injuryCount": 13,
     "weekAgo": {
       "wildCardRank": 5,
       "wildCardGamesBack": "4.0",
@@ -148,8 +148,8 @@
         {
           "gamePk": 849835,
           "date": "2026-10-03",
-          "gameDate": "2026-10-03T07:33:00Z",
-          "dayNight": "day",
+          "gameDate": "2026-10-03T22:30:00Z",
+          "dayNight": "night",
           "venue": "Tropicana Field",
           "status": "Scheduled",
           "abstractState": "Preview",
@@ -209,8 +209,8 @@
         {
           "gamePk": 849839,
           "date": "2026-10-05",
-          "gameDate": "2026-10-05T07:33:00Z",
-          "dayNight": "day",
+          "gameDate": "2026-10-06T00:00:00Z",
+          "dayNight": "night",
           "venue": "Tropicana Field",
           "status": "Scheduled",
           "abstractState": "Preview",
@@ -324,8 +324,8 @@
           "venue": "Yankee Stadium",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -335,7 +335,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cam Schlittler",
             "record": {
               "wins": 0,
@@ -353,7 +353,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 0,
@@ -565,8 +565,8 @@
           "venue": "Yankee Stadium",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -576,7 +576,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cam Schlittler",
             "record": {
               "wins": 0,
@@ -594,7 +594,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 0,
@@ -922,8 +922,8 @@
           "venue": "Yankee Stadium",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -933,7 +933,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cam Schlittler",
             "record": {
               "wins": 0,
@@ -951,7 +951,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 0,
@@ -1163,8 +1163,8 @@
           "venue": "Yankee Stadium",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -1174,7 +1174,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cam Schlittler",
             "record": {
               "wins": 0,
@@ -1192,7 +1192,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 0,
@@ -1402,10 +1402,10 @@
           "gameDate": "2026-09-29T21:00:00Z",
           "dayNight": "day",
           "venue": "Daikin Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": 1,
-          "inningState": "Top",
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 6,
+          "inningState": "Bottom",
           "home": {
             "id": 117,
             "name": "Houston Astros",
@@ -1415,7 +1415,7 @@
             "fileCode": "hou",
             "logo": "https://www.mlbstatic.com/team-logos/117.svg",
             "color": "#002D62",
-            "score": 0,
+            "score": 2,
             "probablePitcher": "AJ Blubaugh",
             "record": {
               "wins": 0,
@@ -1433,7 +1433,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": 0,
+            "score": 5,
             "probablePitcher": "Hagen Smith",
             "record": {
               "wins": 0,
@@ -2082,10 +2082,10 @@
           "gameDate": "2026-09-29T21:00:00Z",
           "dayNight": "day",
           "venue": "Daikin Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": 1,
-          "inningState": "Top",
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 6,
+          "inningState": "Bottom",
           "home": {
             "id": 117,
             "name": "Houston Astros",
@@ -2095,7 +2095,7 @@
             "fileCode": "hou",
             "logo": "https://www.mlbstatic.com/team-logos/117.svg",
             "color": "#002D62",
-            "score": 0,
+            "score": 2,
             "probablePitcher": "AJ Blubaugh",
             "record": {
               "wins": 0,
@@ -2113,7 +2113,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": 0,
+            "score": 5,
             "probablePitcher": "Hagen Smith",
             "record": {
               "wins": 0,
@@ -2404,8 +2404,8 @@
           "venue": "Yankee Stadium",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -2415,7 +2415,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cam Schlittler",
             "record": {
               "wins": 0,
@@ -2433,7 +2433,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 0,
@@ -2747,8 +2747,8 @@
           "venue": "Yankee Stadium",
           "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 147,
             "name": "New York Yankees",
@@ -2758,7 +2758,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cam Schlittler",
             "record": {
               "wins": 0,
@@ -2776,7 +2776,7 @@
             "fileCode": "bos",
             "logo": "https://www.mlbstatic.com/team-logos/111.svg",
             "color": "#BD3039",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Payton Tolle",
             "record": {
               "wins": 0,
@@ -2925,6 +2925,20 @@
       ],
       "injuries": [
         {
+          "name": "Mickey Gasper",
+          "status": "10-Day-IL",
+          "comment": "Gasper will undergo surgery Friday to repair a torn right biceps, Rob Bradford of WEEI.com reports.",
+          "date": "2026-09-29T20:44Z",
+          "position": null
+        },
+        {
+          "name": "Romy Gonzalez",
+          "status": "Day-To-Day",
+          "comment": "The Red Sox optioned Gonzalez to Triple-A Worcester on Tuesday, Chris Henrique of BostonSportsJournal.com reports",
+          "date": "2026-09-29T20:31Z",
+          "position": null
+        },
+        {
           "name": "Justin Slaten",
           "status": "60-Day-IL",
           "comment": "The Red Sox transferred Slaten (elbow) to the 60-day injured list Tuesday, Gabrielle Starr of the Boston Herald reports.",
@@ -2943,13 +2957,6 @@
           "status": "15-Day-IL",
           "comment": "The Red Sox placed Guerrero on the 15-day injured list Sunday, retroactive to Sept. 24, with a right shoulder strain.",
           "date": "2026-09-27T17:11Z",
-          "position": null
-        },
-        {
-          "name": "Mickey Gasper",
-          "status": "10-Day-IL",
-          "comment": "The Red Sox placed Gasper on the 10-day injured list Sunday, retroactive to Sept. 26, with a right biceps strain.",
-          "date": "2026-09-27T17:02Z",
           "position": null
         },
         {
@@ -3016,7 +3023,7 @@
           "position": null
         }
       ],
-      "injuryCount": 13,
+      "injuryCount": 14,
       "weekAgo": {
         "wildCardRank": 2,
         "wildCardGamesBack": "+3.0",
@@ -3144,10 +3151,10 @@
           "gameDate": "2026-09-29T21:00:00Z",
           "dayNight": "day",
           "venue": "Daikin Park",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": 1,
-          "inningState": "Top",
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 6,
+          "inningState": "Bottom",
           "home": {
             "id": 117,
             "name": "Houston Astros",
@@ -3157,7 +3164,7 @@
             "fileCode": "hou",
             "logo": "https://www.mlbstatic.com/team-logos/117.svg",
             "color": "#002D62",
-            "score": 0,
+            "score": 2,
             "probablePitcher": "AJ Blubaugh",
             "record": {
               "wins": 0,
@@ -3175,7 +3182,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": 0,
+            "score": 5,
             "probablePitcher": "Hagen Smith",
             "record": {
               "wins": 0,
@@ -3997,13 +4004,6 @@
           "position": null
         },
         {
-          "name": "Luis Urias",
-          "status": "10-Day-IL",
-          "comment": "The Blue Jays announced Monday that Urias (quadriceps) will be shut down for the next two weeks, Ben Nicholson-Smith of Sportsnet.ca reports.",
-          "date": "2026-08-10T20:51Z",
-          "position": null
-        },
-        {
           "name": "Addison Barger",
           "status": "60-Day-IL",
           "comment": "Barger is expected to be sidelined six months following surgery Monday to repair his right elbow UCL, Shi Davidi of Sportsnet.ca reports.",
@@ -4025,7 +4025,7 @@
           "position": null
         }
       ],
-      "injuryCount": 14,
+      "injuryCount": 13,
       "weekAgo": {
         "wildCardRank": 5,
         "wildCardGamesBack": "4.0",
@@ -5065,10 +5065,10 @@
       "gameDate": "2026-09-29T21:00:00Z",
       "dayNight": "day",
       "venue": "Daikin Park",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
-      "inning": 1,
-      "inningState": "Top",
+      "status": "In Progress",
+      "abstractState": "Live",
+      "inning": 6,
+      "inningState": "Bottom",
       "home": {
         "id": 117,
         "name": "Houston Astros",
@@ -5078,7 +5078,7 @@
         "fileCode": "hou",
         "logo": "https://www.mlbstatic.com/team-logos/117.svg",
         "color": "#002D62",
-        "score": 0,
+        "score": 2,
         "probablePitcher": "AJ Blubaugh",
         "record": {
           "wins": 0,
@@ -5096,7 +5096,7 @@
         "fileCode": "cws",
         "logo": "https://www.mlbstatic.com/team-logos/145.svg",
         "color": "#27251F",
-        "score": 0,
+        "score": 5,
         "probablePitcher": "Hagen Smith",
         "record": {
           "wins": 0,
@@ -5125,8 +5125,8 @@
       "venue": "Yankee Stadium",
       "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 147,
         "name": "New York Yankees",
@@ -5136,7 +5136,7 @@
         "fileCode": "nyy",
         "logo": "https://www.mlbstatic.com/team-logos/147.svg",
         "color": "#0C2340",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Cam Schlittler",
         "record": {
           "wins": 0,
@@ -5154,7 +5154,7 @@
         "fileCode": "bos",
         "logo": "https://www.mlbstatic.com/team-logos/111.svg",
         "color": "#BD3039",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Payton Tolle",
         "record": {
           "wins": 0,
@@ -5477,13 +5477,6 @@
       "status": "60-Day-IL",
       "comment": "The Blue Jays recalled Bloss from Triple-A Buffalo on Wednesday and placed him on the 60-day injured list while he recovers from a right teres major strain, Arden Zwelling of Sportsnet.ca reports.",
       "date": "2026-08-12T19:38Z",
-      "position": null
-    },
-    {
-      "name": "Luis Urias",
-      "status": "10-Day-IL",
-      "comment": "The Blue Jays announced Monday that Urias (quadriceps) will be shut down for the next two weeks, Ben Nicholson-Smith of Sportsnet.ca reports.",
-      "date": "2026-08-10T20:51Z",
       "position": null
     },
     {
