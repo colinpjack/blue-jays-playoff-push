@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T16:46:02.869301-04:00",
+  "generatedAt": "2026-09-30T20:12:15.144792-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -322,8 +322,8 @@
           "gameDate": "2026-10-01T00:00:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "Warmup",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -502,8 +502,8 @@
           "gameDate": "2026-10-01T00:00:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "Warmup",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -798,8 +798,8 @@
           "gameDate": "2026-10-01T00:00:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "Warmup",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -978,8 +978,8 @@
           "gameDate": "2026-10-01T00:00:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "Warmup",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -1158,10 +1158,10 @@
           "gameDate": "2026-09-30T21:00:00Z",
           "dayNight": "day",
           "venue": "Daikin Park",
-          "status": "Warmup",
+          "status": "In Progress",
           "abstractState": "Live",
-          "inning": 1,
-          "inningState": "Top",
+          "inning": 9,
+          "inningState": "Bottom",
           "home": {
             "id": 117,
             "name": "Houston Astros",
@@ -1171,7 +1171,7 @@
             "fileCode": "hou",
             "logo": "https://www.mlbstatic.com/team-logos/117.svg",
             "color": "#002D62",
-            "score": 0,
+            "score": 3,
             "probablePitcher": "Hunter Brown",
             "record": {
               "wins": 0,
@@ -1189,7 +1189,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": 0,
+            "score": 7,
             "probablePitcher": "Sean Burke",
             "record": {
               "wins": 1,
@@ -1777,10 +1777,10 @@
           "gameDate": "2026-09-30T21:00:00Z",
           "dayNight": "day",
           "venue": "Daikin Park",
-          "status": "Warmup",
+          "status": "In Progress",
           "abstractState": "Live",
-          "inning": 1,
-          "inningState": "Top",
+          "inning": 9,
+          "inningState": "Bottom",
           "home": {
             "id": 117,
             "name": "Houston Astros",
@@ -1790,7 +1790,7 @@
             "fileCode": "hou",
             "logo": "https://www.mlbstatic.com/team-logos/117.svg",
             "color": "#002D62",
-            "score": 0,
+            "score": 3,
             "probablePitcher": "Hunter Brown",
             "record": {
               "wins": 0,
@@ -1808,7 +1808,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": 0,
+            "score": 7,
             "probablePitcher": "Sean Burke",
             "record": {
               "wins": 1,
@@ -2036,8 +2036,8 @@
           "gameDate": "2026-10-01T00:00:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "Warmup",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -2155,6 +2155,13 @@
       ],
       "injuries": [
         {
+          "name": "Clarke Schmidt",
+          "status": "15-Day-IL",
+          "comment": "Manager Aaron Boone said Wednesday that Schmidt (biceps) will be shut down for the rest of the season, Gary Phillips of the New York Daily News reports.",
+          "date": "2026-09-30T22:22Z",
+          "position": null
+        },
+        {
           "name": "Ryan Weathers",
           "status": "15-Day-IL",
           "comment": "Weathers (forearm) is not on the Yankees' AL Wild Card Series roster versus the Red Sox, Brendan Kuty of The Athletic reports.",
@@ -2173,13 +2180,6 @@
           "status": "60-Day-IL",
           "comment": "The Yankees transferred Cruz (elbow) to the 60-day injured list Friday.",
           "date": "2026-09-25T23:17Z",
-          "position": null
-        },
-        {
-          "name": "Clarke Schmidt",
-          "status": "15-Day-IL",
-          "comment": "Schmidt could be shut down for the season if he's unable to pitch Thursday, MLB.com reports.",
-          "date": "2026-09-24T19:38Z",
           "position": null
         },
         {
@@ -2318,8 +2318,8 @@
           "gameDate": "2026-10-01T00:00:00Z",
           "dayNight": "night",
           "venue": "Yankee Stadium",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
+          "status": "Warmup",
+          "abstractState": "Live",
           "inning": 1,
           "inningState": "Top",
           "home": {
@@ -2439,8 +2439,8 @@
         {
           "name": "Roman Anthony",
           "status": "Out",
-          "comment": "Anthony (hand) is not in the lineup Wednesday for Game 2 of the wild-card series versus the Yankees.",
-          "date": "2026-09-30T20:33Z",
+          "comment": "Anthony will be removed from Boston's wild-card series roster after an MRI showed an aggravation of his previous right hand injury, as well as multiple new strains, Chris Cotillo of MassLive.com reports.",
+          "date": "2026-09-30T20:42Z",
           "position": null
         },
         {
@@ -2476,13 +2476,6 @@
           "status": "15-Day-IL",
           "comment": "The Red Sox placed Guerrero on the 15-day injured list Sunday, retroactive to Sept. 24, with a right shoulder strain.",
           "date": "2026-09-27T17:11Z",
-          "position": null
-        },
-        {
-          "name": "Curtis Mead",
-          "status": "10-Day-IL",
-          "comment": "Red Sox manager Chad Tracy indicated Tuesday that Mead (wrist) is a long shot to be available for the postseason, Chris Cotillo of MassLive.com reports.",
-          "date": "2026-09-23T13:20Z",
           "position": null
         },
         {
@@ -2542,7 +2535,7 @@
           "position": null
         }
       ],
-      "injuryCount": 15,
+      "injuryCount": 14,
       "weekAgo": {
         "wildCardRank": 2,
         "wildCardGamesBack": "+4.0",
@@ -2670,10 +2663,10 @@
           "gameDate": "2026-09-30T21:00:00Z",
           "dayNight": "day",
           "venue": "Daikin Park",
-          "status": "Warmup",
+          "status": "In Progress",
           "abstractState": "Live",
-          "inning": 1,
-          "inningState": "Top",
+          "inning": 9,
+          "inningState": "Bottom",
           "home": {
             "id": 117,
             "name": "Houston Astros",
@@ -2683,7 +2676,7 @@
             "fileCode": "hou",
             "logo": "https://www.mlbstatic.com/team-logos/117.svg",
             "color": "#002D62",
-            "score": 0,
+            "score": 3,
             "probablePitcher": "Hunter Brown",
             "record": {
               "wins": 0,
@@ -2701,7 +2694,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": 0,
+            "score": 7,
             "probablePitcher": "Sean Burke",
             "record": {
               "wins": 1,
@@ -4523,10 +4516,10 @@
       "gameDate": "2026-09-30T21:00:00Z",
       "dayNight": "day",
       "venue": "Daikin Park",
-      "status": "Warmup",
+      "status": "In Progress",
       "abstractState": "Live",
-      "inning": 1,
-      "inningState": "Top",
+      "inning": 9,
+      "inningState": "Bottom",
       "home": {
         "id": 117,
         "name": "Houston Astros",
@@ -4536,7 +4529,7 @@
         "fileCode": "hou",
         "logo": "https://www.mlbstatic.com/team-logos/117.svg",
         "color": "#002D62",
-        "score": 0,
+        "score": 3,
         "probablePitcher": "Hunter Brown",
         "record": {
           "wins": 0,
@@ -4554,7 +4547,7 @@
         "fileCode": "cws",
         "logo": "https://www.mlbstatic.com/team-logos/145.svg",
         "color": "#27251F",
-        "score": 0,
+        "score": 7,
         "probablePitcher": "Sean Burke",
         "record": {
           "wins": 1,
@@ -4581,8 +4574,8 @@
       "gameDate": "2026-10-01T00:00:00Z",
       "dayNight": "night",
       "venue": "Yankee Stadium",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
+      "status": "Warmup",
+      "abstractState": "Live",
       "inning": 1,
       "inningState": "Top",
       "home": {
