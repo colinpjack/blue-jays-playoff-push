@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T05:25:57.535466-04:00",
+  "generatedAt": "2026-10-05T14:46:25.584988-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -666,10 +666,10 @@
           "gameDate": "2026-10-05T21:00:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -679,7 +679,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Gavin Williams",
             "record": {
               "wins": 0,
@@ -697,7 +697,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Anthony Kay",
             "record": {
               "wins": 1,
@@ -1152,10 +1152,10 @@
           "gameDate": "2026-10-05T21:00:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -1165,7 +1165,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Gavin Williams",
             "record": {
               "wins": 0,
@@ -1183,7 +1183,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Anthony Kay",
             "record": {
               "wins": 1,
@@ -1542,6 +1542,13 @@
       "nextGames": [],
       "injuries": [
         {
+          "name": "Roman Anthony",
+          "status": "Out",
+          "comment": "Red Sox chief baseball officer Craig Breslow said Monday that Anthony is not expected to require surgery on his injured right hand, Chris Cotillo of MassLive.com reports.",
+          "date": "2026-10-05T15:25Z",
+          "position": null
+        },
+        {
           "name": "Tyron Guerrero",
           "status": "Out",
           "comment": "The Red Sox placed Guerrero on the 15-day injured list Sunday, retroactive to Sept. 24, with a right shoulder strain.",
@@ -1560,13 +1567,6 @@
           "status": "Out",
           "comment": "Gasper is expected to be sidelined 4-to-6 month after undergoing distal right biceps tendon surgery Friday, Tim Healey of The Boston Globe reports.",
           "date": "2026-10-02T21:42Z",
-          "position": null
-        },
-        {
-          "name": "Roman Anthony",
-          "status": "Out",
-          "comment": "Anthony will be removed from Boston's wild-card series roster after an MRI showed an aggravation of his previous right hand injury, as well as multiple new strains, Chris Cotillo of MassLive.com reports.",
-          "date": "2026-09-30T20:42Z",
           "position": null
         },
         {
@@ -1745,10 +1745,10 @@
           "gameDate": "2026-10-05T21:00:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Scheduled",
+          "status": "Pre-Game",
           "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "inning": 1,
+          "inningState": "Top",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -1758,7 +1758,7 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Gavin Williams",
             "record": {
               "wins": 0,
@@ -1776,7 +1776,7 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Anthony Kay",
             "record": {
               "wins": 1,
@@ -3300,10 +3300,10 @@
       "gameDate": "2026-10-05T21:00:00Z",
       "dayNight": "day",
       "venue": "Progressive Field",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "inning": 1,
+      "inningState": "Top",
       "home": {
         "id": 114,
         "name": "Cleveland Guardians",
@@ -3313,7 +3313,7 @@
         "fileCode": "cle",
         "logo": "https://www.mlbstatic.com/team-logos/114.svg",
         "color": "#00385D",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Gavin Williams",
         "record": {
           "wins": 0,
@@ -3331,7 +3331,7 @@
         "fileCode": "cws",
         "logo": "https://www.mlbstatic.com/team-logos/145.svg",
         "color": "#27251F",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Anthony Kay",
         "record": {
           "wins": 1,
