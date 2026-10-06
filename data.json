@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:46:25.584988-04:00",
+  "generatedAt": "2026-10-05T20:24:28.473751-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -142,10 +142,10 @@
           "gameDate": "2026-10-06T00:00:00Z",
           "dayNight": "night",
           "venue": "Tropicana Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Bottom",
           "home": {
             "id": 139,
             "name": "Tampa Bay Rays",
@@ -155,7 +155,7 @@
             "fileCode": "tb",
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
-            "score": null,
+            "score": 1,
             "probablePitcher": "Freddy Peralta",
             "record": {
               "wins": 1,
@@ -173,7 +173,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cam Schlittler",
             "record": {
               "wins": 0,
@@ -252,10 +252,10 @@
           "gameDate": "2026-10-06T00:00:00Z",
           "dayNight": "night",
           "venue": "Tropicana Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Bottom",
           "home": {
             "id": 139,
             "name": "Tampa Bay Rays",
@@ -265,7 +265,7 @@
             "fileCode": "tb",
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
-            "score": null,
+            "score": 1,
             "probablePitcher": "Freddy Peralta",
             "record": {
               "wins": 1,
@@ -283,7 +283,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cam Schlittler",
             "record": {
               "wins": 0,
@@ -508,10 +508,10 @@
           "gameDate": "2026-10-06T00:00:00Z",
           "dayNight": "night",
           "venue": "Tropicana Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Bottom",
           "home": {
             "id": 139,
             "name": "Tampa Bay Rays",
@@ -521,7 +521,7 @@
             "fileCode": "tb",
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
-            "score": null,
+            "score": 1,
             "probablePitcher": "Freddy Peralta",
             "record": {
               "wins": 1,
@@ -539,7 +539,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cam Schlittler",
             "record": {
               "wins": 0,
@@ -666,10 +666,10 @@
           "gameDate": "2026-10-05T21:00:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": 1,
-          "inningState": "Top",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Bottom",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -679,11 +679,11 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": 0,
+            "score": 3,
             "probablePitcher": "Gavin Williams",
             "record": {
               "wins": 0,
-              "losses": 1,
+              "losses": 2,
               "ties": 0,
               "pct": ".000"
             }
@@ -697,10 +697,10 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": 0,
+            "score": 4,
             "probablePitcher": "Anthony Kay",
             "record": {
-              "wins": 1,
+              "wins": 2,
               "losses": 0,
               "ties": 0,
               "pct": "1.000"
@@ -717,7 +717,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D"
           },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 2,
           "gamesInSeries": 5
         }
@@ -1152,10 +1152,10 @@
           "gameDate": "2026-10-05T21:00:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": 1,
-          "inningState": "Top",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Bottom",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -1165,11 +1165,11 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": 0,
+            "score": 3,
             "probablePitcher": "Gavin Williams",
             "record": {
               "wins": 0,
-              "losses": 1,
+              "losses": 2,
               "ties": 0,
               "pct": ".000"
             }
@@ -1183,10 +1183,10 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": 0,
+            "score": 4,
             "probablePitcher": "Anthony Kay",
             "record": {
-              "wins": 1,
+              "wins": 2,
               "losses": 0,
               "ties": 0,
               "pct": "1.000"
@@ -1203,7 +1203,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D"
           },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 2,
           "gamesInSeries": 5
         }
@@ -1341,10 +1341,10 @@
           "gameDate": "2026-10-06T00:00:00Z",
           "dayNight": "night",
           "venue": "Tropicana Field",
-          "status": "Scheduled",
-          "abstractState": "Preview",
-          "inning": null,
-          "inningState": null,
+          "status": "In Progress",
+          "abstractState": "Live",
+          "inning": 1,
+          "inningState": "Bottom",
           "home": {
             "id": 139,
             "name": "Tampa Bay Rays",
@@ -1354,7 +1354,7 @@
             "fileCode": "tb",
             "logo": "https://www.mlbstatic.com/team-logos/139.svg",
             "color": "#092C5C",
-            "score": null,
+            "score": 1,
             "probablePitcher": "Freddy Peralta",
             "record": {
               "wins": 1,
@@ -1372,7 +1372,7 @@
             "fileCode": "nyy",
             "logo": "https://www.mlbstatic.com/team-logos/147.svg",
             "color": "#0C2340",
-            "score": null,
+            "score": 0,
             "probablePitcher": "Cam Schlittler",
             "record": {
               "wins": 0,
@@ -1745,10 +1745,10 @@
           "gameDate": "2026-10-05T21:00:00Z",
           "dayNight": "day",
           "venue": "Progressive Field",
-          "status": "Pre-Game",
-          "abstractState": "Preview",
-          "inning": 1,
-          "inningState": "Top",
+          "status": "Final",
+          "abstractState": "Final",
+          "inning": 9,
+          "inningState": "Bottom",
           "home": {
             "id": 114,
             "name": "Cleveland Guardians",
@@ -1758,11 +1758,11 @@
             "fileCode": "cle",
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D",
-            "score": 0,
+            "score": 3,
             "probablePitcher": "Gavin Williams",
             "record": {
               "wins": 0,
-              "losses": 1,
+              "losses": 2,
               "ties": 0,
               "pct": ".000"
             }
@@ -1776,10 +1776,10 @@
             "fileCode": "cws",
             "logo": "https://www.mlbstatic.com/team-logos/145.svg",
             "color": "#27251F",
-            "score": 0,
+            "score": 4,
             "probablePitcher": "Anthony Kay",
             "record": {
-              "wins": 1,
+              "wins": 2,
               "losses": 0,
               "ties": 0,
               "pct": "1.000"
@@ -1796,7 +1796,7 @@
             "logo": "https://www.mlbstatic.com/team-logos/114.svg",
             "color": "#00385D"
           },
-          "result": null,
+          "result": "W",
           "seriesGameNumber": 2,
           "gamesInSeries": 5
         }
@@ -3300,10 +3300,10 @@
       "gameDate": "2026-10-05T21:00:00Z",
       "dayNight": "day",
       "venue": "Progressive Field",
-      "status": "Pre-Game",
-      "abstractState": "Preview",
-      "inning": 1,
-      "inningState": "Top",
+      "status": "Final",
+      "abstractState": "Final",
+      "inning": 9,
+      "inningState": "Bottom",
       "home": {
         "id": 114,
         "name": "Cleveland Guardians",
@@ -3313,11 +3313,11 @@
         "fileCode": "cle",
         "logo": "https://www.mlbstatic.com/team-logos/114.svg",
         "color": "#00385D",
-        "score": 0,
+        "score": 3,
         "probablePitcher": "Gavin Williams",
         "record": {
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
           "pct": ".000"
         }
@@ -3331,10 +3331,10 @@
         "fileCode": "cws",
         "logo": "https://www.mlbstatic.com/team-logos/145.svg",
         "color": "#27251F",
-        "score": 0,
+        "score": 4,
         "probablePitcher": "Anthony Kay",
         "record": {
-          "wins": 1,
+          "wins": 2,
           "losses": 0,
           "ties": 0,
           "pct": "1.000"
@@ -3358,10 +3358,10 @@
       "gameDate": "2026-10-06T00:00:00Z",
       "dayNight": "night",
       "venue": "Tropicana Field",
-      "status": "Scheduled",
-      "abstractState": "Preview",
-      "inning": null,
-      "inningState": null,
+      "status": "In Progress",
+      "abstractState": "Live",
+      "inning": 1,
+      "inningState": "Bottom",
       "home": {
         "id": 139,
         "name": "Tampa Bay Rays",
@@ -3371,7 +3371,7 @@
         "fileCode": "tb",
         "logo": "https://www.mlbstatic.com/team-logos/139.svg",
         "color": "#092C5C",
-        "score": null,
+        "score": 1,
         "probablePitcher": "Freddy Peralta",
         "record": {
           "wins": 1,
@@ -3389,7 +3389,7 @@
         "fileCode": "nyy",
         "logo": "https://www.mlbstatic.com/team-logos/147.svg",
         "color": "#0C2340",
-        "score": null,
+        "score": 0,
         "probablePitcher": "Cam Schlittler",
         "record": {
           "wins": 0,
@@ -4596,10 +4596,10 @@
     "percent": 0.0,
     "sims": 5000,
     "made": 0,
-    "gamesModeled": 2,
+    "gamesModeled": 1,
     "talent": 0.417,
     "method": "Monte Carlo of remaining American League games. Each game uses log5 win odds from Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag.",
-    "note": "0.0% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 2 remaining games involving AL clubs.",
+    "note": "0.0% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 1 remaining games involving AL clubs.",
     "gb": "5.0",
     "gamesLeft": 0
   },
