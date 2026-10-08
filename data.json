@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T21:21:12.529333-04:00",
+  "generatedAt": "2026-10-08T03:46:41.513392-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -2433,128 +2433,6 @@
   "schedule": [],
   "recent": [
     {
-      "gamePk": 824785,
-      "date": "2026-09-23",
-      "gameDate": "2026-09-23T17:35:00Z",
-      "dayNight": "day",
-      "venue": "Oriole Park at Camden Yards",
-      "status": "Final",
-      "abstractState": "Final",
-      "inning": 9,
-      "inningState": "Top",
-      "home": {
-        "id": 110,
-        "name": "Baltimore Orioles",
-        "teamName": "Orioles",
-        "location": "Baltimore",
-        "abbr": "BAL",
-        "fileCode": "bal",
-        "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-        "color": "#DF4601",
-        "score": 4,
-        "probablePitcher": "Chris Bassitt",
-        "record": {
-          "wins": 77,
-          "losses": 81,
-          "ties": 0,
-          "pct": ".487"
-        }
-      },
-      "away": {
-        "id": 141,
-        "name": "Toronto Blue Jays",
-        "teamName": "Blue Jays",
-        "location": "Toronto",
-        "abbr": "TOR",
-        "fileCode": "tor",
-        "logo": "https://www.mlbstatic.com/team-logos/141.svg",
-        "color": "#134A8E",
-        "score": 2,
-        "probablePitcher": "Max Scherzer",
-        "record": {
-          "wins": 77,
-          "losses": 81,
-          "ties": 0,
-          "pct": ".487"
-        }
-      },
-      "isHome": false,
-      "opponent": {
-        "id": 110,
-        "name": "Baltimore Orioles",
-        "teamName": "Orioles",
-        "location": "Baltimore",
-        "abbr": "BAL",
-        "fileCode": "bal",
-        "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-        "color": "#DF4601"
-      },
-      "result": "L",
-      "seriesGameNumber": 2,
-      "gamesInSeries": 3
-    },
-    {
-      "gamePk": 824784,
-      "date": "2026-09-23",
-      "gameDate": "2026-09-23T22:35:00Z",
-      "dayNight": "night",
-      "venue": "Oriole Park at Camden Yards",
-      "status": "Final",
-      "abstractState": "Final",
-      "inning": 9,
-      "inningState": "Top",
-      "home": {
-        "id": 110,
-        "name": "Baltimore Orioles",
-        "teamName": "Orioles",
-        "location": "Baltimore",
-        "abbr": "BAL",
-        "fileCode": "bal",
-        "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-        "color": "#DF4601",
-        "score": 4,
-        "probablePitcher": "Trey Gibson",
-        "record": {
-          "wins": 78,
-          "losses": 81,
-          "ties": 0,
-          "pct": ".491"
-        }
-      },
-      "away": {
-        "id": 141,
-        "name": "Toronto Blue Jays",
-        "teamName": "Blue Jays",
-        "location": "Toronto",
-        "abbr": "TOR",
-        "fileCode": "tor",
-        "logo": "https://www.mlbstatic.com/team-logos/141.svg",
-        "color": "#134A8E",
-        "score": 2,
-        "probablePitcher": "CJ Van Eyk",
-        "record": {
-          "wins": 77,
-          "losses": 82,
-          "ties": 0,
-          "pct": ".484"
-        }
-      },
-      "isHome": false,
-      "opponent": {
-        "id": 110,
-        "name": "Baltimore Orioles",
-        "teamName": "Orioles",
-        "location": "Baltimore",
-        "abbr": "BAL",
-        "fileCode": "bal",
-        "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-        "color": "#DF4601"
-      },
-      "result": "L",
-      "seriesGameNumber": 3,
-      "gamesInSeries": 3
-    },
-    {
       "gamePk": 822760,
       "date": "2026-09-25",
       "gameDate": "2026-09-25T23:07:00Z",
@@ -2840,7 +2718,7 @@
   ],
   "roster": {
     "count": 39,
-    "asOf": "2026-10-07"
+    "asOf": "2026-10-08"
   },
   "leaders": {
     "hitting": [
@@ -3398,11 +3276,11 @@
         "role": "SP",
         "trend": {
           "window": "L14",
-          "era": "3.75",
-          "whip": "1.17",
-          "ip": "12.0",
-          "so": 14,
-          "delta": -1.99,
+          "era": "1.29",
+          "whip": "1.00",
+          "ip": "7.0",
+          "so": 7,
+          "delta": -4.45,
           "direction": "up"
         }
       },
@@ -3607,9 +3485,9 @@
         "trend": {
           "window": "L14",
           "era": "0.00",
-          "whip": "1.00",
-          "ip": "2.0",
-          "so": 2,
+          "whip": "0.00",
+          "ip": "1.0",
+          "so": 1,
           "delta": -6.35,
           "direction": "up"
         }
@@ -3680,8 +3558,8 @@
         "trend": {
           "window": "L14",
           "era": "0.00",
-          "whip": "0.50",
-          "ip": "2.0",
+          "whip": "1.00",
+          "ip": "1.0",
           "so": 0,
           "delta": -0.63,
           "direction": "up"
@@ -3704,15 +3582,7 @@
         "g": 5,
         "k9": "2.31",
         "role": "RP",
-        "trend": {
-          "window": "L14",
-          "era": "7.20",
-          "whip": "0.80",
-          "ip": "5.0",
-          "so": 2,
-          "delta": 1.8,
-          "direction": "down"
-        }
+        "trend": null
       },
       {
         "id": 592791,
@@ -3750,15 +3620,7 @@
         "g": 8,
         "k9": "4.66",
         "role": "RP",
-        "trend": {
-          "window": "L14",
-          "era": "0.00",
-          "whip": "0.00",
-          "ip": "1.2",
-          "so": 3,
-          "delta": -6.52,
-          "direction": "up"
-        }
+        "trend": null
       },
       {
         "id": 676454,
@@ -3780,8 +3642,8 @@
         "trend": {
           "window": "L14",
           "era": "0.00",
-          "whip": "0.60",
-          "ip": "3.1",
+          "whip": "0.50",
+          "ip": "2.0",
           "so": 3,
           "delta": 0.0,
           "direction": "flat"
@@ -3823,15 +3685,7 @@
         "g": 4,
         "k9": "9.64",
         "role": "RP",
-        "trend": {
-          "window": "L14",
-          "era": "0.00",
-          "whip": "0.00",
-          "ip": "1.0",
-          "so": 2,
-          "delta": 0.0,
-          "direction": "flat"
-        }
+        "trend": null
       },
       {
         "id": 804619,
@@ -3868,22 +3722,22 @@
     "gbDelta": null,
     "rankDelta": null,
     "last14": {
-      "ops": ".653",
-      "avg": ".222",
-      "runs": 16,
-      "homeRuns": 3,
-      "era": "3.56",
-      "whip": "1.09",
+      "ops": ".695",
+      "avg": ".220",
+      "runs": 12,
+      "homeRuns": 2,
+      "era": "3.00",
+      "whip": "1.22",
       "wins": 2,
-      "losses": 3
+      "losses": 1
     },
     "last10": {
-      "record": "2-3",
-      "runDifferential": -3
+      "record": "2-1",
+      "runDifferential": 1
     },
-    "opsDelta": -0.038,
-    "eraDelta": -0.34,
-    "opsDirection": "down",
+    "opsDelta": 0.004,
+    "eraDelta": -0.9,
+    "opsDirection": "flat",
     "eraDirection": "up",
     "cards": [
       {
@@ -3900,26 +3754,26 @@
       },
       {
         "label": "Last 14 days",
-        "value": "2-3",
+        "value": "2-1",
         "detail": "Record over the past two weeks",
-        "direction": "down"
+        "direction": "up"
       },
       {
         "label": "L10 run diff",
-        "value": "-3",
-        "detail": "2-3 in the last 10",
-        "direction": "down"
+        "value": "+1",
+        "detail": "2-1 in the last 10",
+        "direction": "up"
       },
       {
         "label": "Offense (14d)",
-        "value": ".653",
+        "value": ".695",
         "detail": "Season OPS .691",
-        "direction": "down",
+        "direction": "flat",
         "stat": "OPS"
       },
       {
         "label": "Staff ERA (14d)",
-        "value": "3.56",
+        "value": "3.00",
         "detail": "Season ERA 3.90",
         "direction": "up",
         "stat": "ERA"
@@ -3966,8 +3820,8 @@
     {
       "label": "Run Diff",
       "value": "-46",
-      "hint": "L10 margin -3",
-      "trend": "down"
+      "hint": "L10 margin +1",
+      "trend": "up"
     },
     {
       "label": "WC Elim #",
