@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T05:54:27.285342-04:00",
+  "generatedAt": "2026-10-30T12:40:17.290029-04:00",
   "season": 2026,
   "source": "MLB Stats API + ESPN injuries",
   "jays": {
@@ -80,7 +80,7 @@
       "runs": 694
     },
     "momentum": 22,
-    "injuryCount": 10
+    "injuryCount": 7
   },
   "eliminated": true,
   "narrative": {
@@ -1547,13 +1547,6 @@
           "position": null
         },
         {
-          "name": "Cal Quantrill",
-          "status": "60-Day-IL",
-          "comment": "The Rangers placed Quantrill (lat) on the 60-day injured list Tuesday.",
-          "date": "2026-09-22T23:15Z",
-          "position": null
-        },
-        {
           "name": "Jack Leiter",
           "status": "60-Day-IL",
           "comment": "Leiter (ankle/biceps) threw a bullpen session at Globe Life Field on Sunday, Kennedi Landry of MLB.com reports.",
@@ -1580,16 +1573,9 @@
           "comment": "The Rangers placed Corniell on the 15-day injured list Tuesday with an elbow injury, Jeff Wilson of AllDLLS.com reports.",
           "date": "2026-07-30T01:57Z",
           "position": null
-        },
-        {
-          "name": "Jalen Beeks",
-          "status": "60-Day-IL",
-          "comment": "The Rangers transferred Beeks (forearm) to the 60-day injured list Tuesday.",
-          "date": "2026-07-21T23:05Z",
-          "position": null
         }
       ],
-      "injuryCount": 7
+      "injuryCount": 5
     },
     {
       "id": 110,
@@ -1896,13 +1882,6 @@
       "nextGames": [],
       "injuries": [
         {
-          "name": "Jameson Taillon",
-          "status": "Out",
-          "comment": "Taillon was scheduled to undergo flexor tendon surgery with Dr. Keith Meister on Oct. 5, Shi Davidi of Sportsnet.ca reports.",
-          "date": "2026-10-23T20:37Z",
-          "position": null
-        },
-        {
           "name": "Anthony Santander",
           "status": "60-Day-IL",
           "comment": "Santander (shoulder) will not be returning to the Blue Jays this season, Arden Zwelling of Sportsnet.ca reports.",
@@ -1917,24 +1896,10 @@
           "position": null
         },
         {
-          "name": "Patrick Corbin",
-          "status": "60-Day-IL",
-          "comment": "Blue Jays manager John Schneider said Saturday that Corbin (shoulder) is a \"long shot\" to return from the 60-day injured list this season, Arden Zwelling of Sportsnet.ca reports.",
-          "date": "2026-09-07T17:37Z",
-          "position": null
-        },
-        {
           "name": "Jonatan Clase",
           "status": "60-Day-IL",
           "comment": "The Blue Jays transferred Clase (foot) to the 60-day injured list Thursday, Shi Davidi of Sportsnet.ca reports.",
           "date": "2026-08-27T21:43Z",
-          "position": null
-        },
-        {
-          "name": "Yimi Garcia",
-          "status": "60-Day-IL",
-          "comment": "Garcia (elbow/neck/biceps) underwent thoracic outlet surgery Thursday and will miss the rest of the season, Arden Zwelling of Sportsnet.ca reports.",
-          "date": "2026-08-26T17:56Z",
           "position": null
         },
         {
@@ -1966,7 +1931,7 @@
           "position": null
         }
       ],
-      "injuryCount": 10
+      "injuryCount": 7
     },
     {
       "id": 142,
@@ -2273,13 +2238,6 @@
           "position": null
         },
         {
-          "name": "Burch Smith",
-          "status": "60-Day-IL",
-          "comment": "Smith underwent arthroscopic surgery on his right shoulder Aug. 31, Chris McCosky of The Detroit News reports.",
-          "date": "2026-09-25T17:26Z",
-          "position": null
-        },
-        {
           "name": "Parker Meadows",
           "status": "60-Day-IL",
           "comment": "The Tigers announced Sept. 18 that Meadows (arm) has been taking part in a hitting progression at the team's spring training facility in Florida, MLB.com reports.",
@@ -2329,7 +2287,7 @@
           "position": null
         }
       ],
-      "injuryCount": 10
+      "injuryCount": 9
     }
   ],
   "schedule": [],
@@ -2342,13 +2300,6 @@
   },
   "rooting": [],
   "injuries": [
-    {
-      "name": "Jameson Taillon",
-      "status": "Out",
-      "comment": "Taillon was scheduled to undergo flexor tendon surgery with Dr. Keith Meister on Oct. 5, Shi Davidi of Sportsnet.ca reports.",
-      "date": "2026-10-23T20:37Z",
-      "position": null
-    },
     {
       "name": "Anthony Santander",
       "status": "60-Day-IL",
@@ -2364,24 +2315,10 @@
       "position": null
     },
     {
-      "name": "Patrick Corbin",
-      "status": "60-Day-IL",
-      "comment": "Blue Jays manager John Schneider said Saturday that Corbin (shoulder) is a \"long shot\" to return from the 60-day injured list this season, Arden Zwelling of Sportsnet.ca reports.",
-      "date": "2026-09-07T17:37Z",
-      "position": null
-    },
-    {
       "name": "Jonatan Clase",
       "status": "60-Day-IL",
       "comment": "The Blue Jays transferred Clase (foot) to the 60-day injured list Thursday, Shi Davidi of Sportsnet.ca reports.",
       "date": "2026-08-27T21:43Z",
-      "position": null
-    },
-    {
-      "name": "Yimi Garcia",
-      "status": "60-Day-IL",
-      "comment": "Garcia (elbow/neck/biceps) underwent thoracic outlet surgery Thursday and will miss the rest of the season, Arden Zwelling of Sportsnet.ca reports.",
-      "date": "2026-08-26T17:56Z",
       "position": null
     },
     {
@@ -3193,7 +3130,7 @@
     "sims": 5000,
     "made": 0,
     "gamesModeled": 0,
-    "talent": 0.444,
+    "talent": 0.45,
     "method": "Monte Carlo of remaining American League games. Each game uses log5 win odds from Pythagorean record, season record, last-10 form, home-field advantage, and injured-list drag.",
     "note": "0.0% of 5,000 sims have Toronto as a division winner or one of the three AL wild cards. Models 0 remaining games involving AL clubs.",
     "gb": "5.0",
